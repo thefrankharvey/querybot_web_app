@@ -1,5 +1,4 @@
-import { auth, currentUser } from "@clerk/nextjs/server";
-import { getWriterEmail } from "@/lib/wqh-history-auth";
+import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import {
   fetchSmartMatchProjects,
@@ -11,20 +10,9 @@ export async function GET() {
   if (!userId)
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const user = await currentUser();
-  if (!user || user.id !== userId)
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  const email = getWriterEmail(user);
-  if (!email) {
-    return NextResponse.json(
-      { error: "Unable to resolve current user email" },
-      { status: 422 },
-    );
-  }
-
   try {
     return NextResponse.json(
-      { projects: await fetchSmartMatchProjects(email) },
+      { projects: await fetchSmartMatchProjects(userId) },
       {
         headers: { "Cache-Control": "private, no-store" },
       },

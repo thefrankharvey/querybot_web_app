@@ -32,7 +32,6 @@ import {
   isQueryDashColumnId,
   QueryDashColumnId,
 } from "../components/kanban-config";
-import { isSameProjectScope } from "@/app/utils/project-scope";
 import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
 
 interface MoveCardOptions {
@@ -66,6 +65,7 @@ export interface QueryDashState {
   isLoading: boolean;
   isEmpty: boolean;
   offerMadeCelebrationNonce: number;
+  dashboardProjectId?: string;
   activeProjectName: string | null;
   activeWriterProjectId: string | null;
   isDeletingProject: boolean;
@@ -293,10 +293,18 @@ export function QueryDashProvider({
   projectName?: string | null;
   writerProjectId?: string | null;
 }) {
-  const { addAgent, isLoading, refetch, removeProject } = useProfileContext();
+  const { addAgent, isLoading, refetch, projects, forgetProject } =
+    useProfileContext();
   const router = useRouter();
-  const rawActiveProjectName = projectName;
-  const activeWriterProjectId = writerProjectId?.trim() || null;
+  const currentProject = projects.find(
+    (project) => project.id === dashboardProjectId,
+  );
+  const rawActiveProjectName = currentProject?.project_name ?? projectName;
+  const activeWriterProjectId =
+    (currentProject
+      ? currentProject.writer_project_id
+      : writerProjectId
+    )?.trim() || null;
   const activeProjectName = rawActiveProjectName
     ? normalizeProjectName(rawActiveProjectName)
     : null;
@@ -306,9 +314,10 @@ export function QueryDashProvider({
   const [isDeletingProject, setIsDeletingProject] = useState(false);
 
   const visibleCards = useMemo(
-    () => dashboardProjectId
-      ? cards.filter((card) => card.dashboardProjectId === dashboardProjectId)
-      : cards,
+    () =>
+      dashboardProjectId
+        ? cards.filter((card) => card.dashboardProjectId === dashboardProjectId)
+        : cards,
     [cards, dashboardProjectId],
   );
 
@@ -628,6 +637,7 @@ export function QueryDashProvider({
           : FIRST_COLUMN_ID,
         updated_date: getActivityDateForUpdate(initialUpdates),
         query_letter_ready: false,
+        dashboard_project_id: dashboardProjectId,
         project_name: activeProjectName ?? DEFAULT_PROJECT_NAME,
         writer_project_id: activeWriterProjectId,
       };
@@ -683,7 +693,13 @@ export function QueryDashProvider({
         return null;
       }
     },
-    [activeProjectName, activeWriterProjectId, addAgent, refetch],
+    [
+      activeProjectName,
+      activeWriterProjectId,
+      dashboardProjectId,
+      addAgent,
+      refetch,
+    ],
   );
 
   const removeRowsByIds = useCallback(
@@ -703,6 +719,7 @@ export function QueryDashProvider({
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
+            dashboardProjectId,
             projectName: activeProjectName,
             writerProjectId: activeWriterProjectId,
             rowIds: uniqueRowIds,
@@ -768,86 +785,39 @@ export function QueryDashProvider({
         };
       }
     },
-    [activeProjectName, activeWriterProjectId, refetch],
+    [activeProjectName, activeWriterProjectId, dashboardProjectId, refetch],
   );
 
   const deleteActiveProject = useCallback(async () => {
-    const projectName = activeProjectName;
-
-    if (!projectName) {
-      return false;
-    }
-
+    if (!dashboardProjectId) return false;
     setIsDeletingProject(true);
     try {
-      const response = await fetch("/api/agent-matches/delete-project", {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          projectName,
-          writerProjectId: activeWriterProjectId,
-        }),
-      });
-
+      const response = await fetch(
+        `/api/dashboard-projects/${dashboardProjectId}`,
+        { method: "DELETE" },
+      );
       if (!response.ok) {
-        let errorMessage = "Failed to delete project";
-        try {
-          const errorData = (await response.json()) as { error?: string };
-          if (errorData?.error) {
-            errorMessage = errorData.error;
-          }
-        } catch {
-          // Ignore parse errors and use fallback message.
-        }
-        throw new Error(errorMessage);
+        const body = await response.json().catch(() => null);
+        throw new Error(body?.error || "Failed to delete project");
       }
-
-      setCards((prevCards) =>
-        prevCards.filter(
-          (card) =>
-            !isSameProjectScope(
-              {
-                projectName: card.projectName,
-                writerProjectId: card.writerProjectId,
-              },
-              { projectName, writerProjectId: activeWriterProjectId },
-            ),
+      setCards((previous) =>
+        previous.filter(
+          (card) => card.dashboardProjectId !== dashboardProjectId,
         ),
       );
-      removeProject(projectName, activeWriterProjectId);
-
-      toast.success("Project deleted", {
-        description: "Saved agents for this project were removed.",
-      });
-
-      try {
-        await refetch();
-      } catch {
-        // The local cache has already been updated; the next profile load can refresh.
-      }
-
+      await forgetProject(dashboardProjectId);
+      toast.success("Project and its saved agents deleted.");
       router.replace("/home");
       return true;
     } catch (error) {
-      toast.error("Failed to delete project", {
-        description:
-          error instanceof Error
-            ? error.message
-            : "Please try again in a moment.",
-      });
+      toast.error(
+        error instanceof Error ? error.message : "Failed to delete project",
+      );
       return false;
     } finally {
       setIsDeletingProject(false);
     }
-  }, [
-    activeProjectName,
-    activeWriterProjectId,
-    refetch,
-    removeProject,
-    router,
-  ]);
+  }, [dashboardProjectId, forgetProject, router]);
 
   const setNotes = useCallback(
     (cardId: string, notes: string) => {
@@ -907,6 +877,7 @@ export function QueryDashProvider({
       isEmpty:
         !isLoading && !isHydratingFromServer && visibleCards.length === 0,
       offerMadeCelebrationNonce,
+      dashboardProjectId,
       activeProjectName,
       activeWriterProjectId,
       isDeletingProject,
@@ -930,6 +901,7 @@ export function QueryDashProvider({
       isLoading,
       isHydratingFromServer,
       offerMadeCelebrationNonce,
+      dashboardProjectId,
       activeProjectName,
       activeWriterProjectId,
       isDeletingProject,

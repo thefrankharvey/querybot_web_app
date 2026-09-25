@@ -27,25 +27,7 @@ const ProjectName = ({
   selectedProject: SmartMatchProjectReference | null;
   onProjectSelect: (project: SmartMatchProjectReference | null) => void;
 }) => {
-  const options =
-    selectedProject &&
-    !projects.some(
-      (project) =>
-        project.projectName.trim().toLowerCase() ===
-        selectedProject.projectName.trim().toLowerCase(),
-    )
-      ? [
-          ...projects,
-          {
-            ...selectedProject,
-            key: selectedProject.writerProjectId
-              ? `writer:${selectedProject.writerProjectId}`
-              : `name:${selectedProject.projectName.trim().toLowerCase()}`,
-            label: selectedProject.projectName,
-            savedAgentCount: 0,
-          },
-        ]
-      : projects;
+  const options = projects;
   const matchingProjects = options.filter(
     (project) =>
       project.projectName.toLowerCase() ===

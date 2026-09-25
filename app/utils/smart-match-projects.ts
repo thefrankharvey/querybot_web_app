@@ -1,5 +1,6 @@
 export type SmartMatchProjectReference = {
   projectName: string;
+  dashboardProjectId?: string;
   writerProjectId: string | null;
 };
 
@@ -13,24 +14,16 @@ const nameKey = (name: string) => name.trim().toLowerCase();
 
 export function buildSmartMatchProjectOptions(
   savedProjects: (SmartMatchProjectReference & { savedAgentCount: number })[],
-  writerProjects: SmartMatchProjectReference[],
 ): SmartMatchProjectOption[] {
   const projects = new Map<string, SmartMatchProjectOption>();
 
-  // Saved dashboard projects own the save destination, including legacy projects
-  // with no Smart Match history ID. Search history must not replace that scope.
-  const savedNames = new Set(
-    savedProjects.map((project) => nameKey(project.projectName)),
-  );
-  for (const project of [
-    ...writerProjects.filter(
-      (project) => !savedNames.has(nameKey(project.projectName)),
-    ),
-    ...savedProjects,
-  ]) {
-    const key = project.writerProjectId
-      ? `writer:${project.writerProjectId}`
-      : `name:${nameKey(project.projectName)}`;
+  // Only persisted dashboards are choices; searches alone never create one.
+  for (const project of savedProjects) {
+    const key = project.dashboardProjectId
+      ? `dashboard:${project.dashboardProjectId}`
+      : project.writerProjectId
+        ? `writer:${project.writerProjectId}`
+        : `name:${nameKey(project.projectName)}`;
     projects.set(key, {
       ...project,
       key,
@@ -89,6 +82,9 @@ export function resolveSmartMatchProject(
       (project) => project.writerProjectId === selectedProject.writerProjectId,
     );
     return {
+      ...(selectedMatch?.dashboardProjectId
+        ? { dashboardProjectId: selectedMatch.dashboardProjectId }
+        : {}),
       projectName: selectedMatch?.projectName ?? trimmedName,
       writerProjectId: selectedProject.writerProjectId,
     };
@@ -102,6 +98,9 @@ export function resolveSmartMatchProject(
   }
 
   return {
+    ...(matches[0]?.dashboardProjectId
+      ? { dashboardProjectId: matches[0].dashboardProjectId }
+      : {}),
     projectName: matches[0]?.projectName ?? trimmedName,
     writerProjectId:
       matches.find((project) => project.writerProjectId)?.writerProjectId ??

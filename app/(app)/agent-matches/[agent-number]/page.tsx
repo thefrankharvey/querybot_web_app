@@ -9,9 +9,7 @@ import {
   capitalizeFirstCharacter,
 } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
-import {
-  AgentMatch,
-} from "@/app/(app)/context/agent-matches-context";
+import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
@@ -100,6 +98,8 @@ const AgentProfile = () => {
       query_tracker: agent.querytracker || null,
       pub_marketplace: agent.pubmarketplace || null,
       match_score: agent.normalized_score || null,
+      dashboard_project_id:
+        matchesContext.formData?.save_project?.dashboardProjectId,
       project_name: matchesContext.projectName || null,
       writer_project_id: matchesContext.writerProjectId,
     };

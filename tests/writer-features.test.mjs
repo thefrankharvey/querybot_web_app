@@ -54,7 +54,7 @@ function historyAuth(key = "test-server-credential") {
     process: { env: { WQH_HISTORY_API_KEY: key } },
   });
 }
-function renderHome({ isSubscribed = false, agentsList = fixtureRows(), isLoading = false } = {}) {
+function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects, isLoading = false } = {}) {
   const React = require("react");
   const { renderToStaticMarkup } = require("react-dom/server");
   const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
@@ -75,7 +75,7 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), isLoadin
     "next/dynamic": () => () => null,
     "@clerk/nextjs": { useUser: () => ({ user: null }) },
     "@/app/hooks/use-clerk-user": { useClerkUser: () => ({ isSubscribed, isLoading: false }) },
-    "../context/profile-context": { useProfileContext: () => ({ agentsList, isLoading, refetch: () => {} }) },
+    "../context/profile-context": { useProfileContext: () => ({ agentsList, projectSummaries: summaries.buildProjectDashboardSummaries(agentsList, projects), isLoading, refetch: () => {} }) },
     "@/app/ui-primitives/spinner": { Spinner: () => React.createElement("div", { role: "status" }, "Loading") },
     "./components/button-bar": () => null,
     "./components/free-user": () => React.createElement("div", null, "Free account getting started"),
@@ -611,10 +611,10 @@ function renderProjectPicker(projectNames, restoredProjectName, currentName = re
   }));
 }
 
-test("restore selects its project in the dropdown even when absent from existing options", () => {
+test("restore does not add an unsaved or deleted project to the dropdown", () => {
   for (const existing of [[], ["NEW STUFF"]]) {
     const html = renderProjectPicker(existing, "Cool Finance");
-    assert.match(html, /<option value="name:cool finance" selected="">Cool Finance<\/option>/);
+    assert.doesNotMatch(html, /<option[^>]*>Cool Finance<\/option>/);
   }
 });
 
@@ -741,4 +741,15 @@ test("search-result dashboard links use the saved project's persistent ID", () =
   assert.equal(summaries.getProjectDashboardHref(fixtureRows(), "Same title", "project-a"), `/projects/${dashboardIds.a}/dashboard`);
   assert.equal(summaries.getProjectDashboardHref(fixtureRows(), "Same title", null), `/projects/${dashboardIds.old}/dashboard`);
   assert.equal(summaries.getProjectDashboardHref([], "Not saved", null), undefined);
+});
+
+
+test("Home shows empty persistent projects for free and subscribed accounts", () => {
+  for (const isSubscribed of [false, true]) {
+    const html = renderHome({ isSubscribed, agentsList: [], projects: [{ id: dashboardIds.old, project_name: "Empty book", writer_project_id: null }] });
+    assert.match(html, /Empty book/);
+    assert.match(html, /No saved agents yet/);
+    assert.ok(html.includes(`/projects/${dashboardIds.old}/dashboard`));
+    assert.doesNotMatch(html, /Free account getting started/);
+  }
 });

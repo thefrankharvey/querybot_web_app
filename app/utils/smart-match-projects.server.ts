@@ -1,11 +1,6 @@
 import "server-only";
 
-import { getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
-import { getWqhApiUrl } from "@/lib/config";
-import {
-  getStoredWriterProjectId,
-  getStoredWriterProjectName,
-} from "./smart-match-restore";
+import { createServerSupabase } from "@/app/api/supabase/server";
 import {
   resolveSmartMatchProject,
   type SmartMatchProjectReference,
@@ -21,48 +16,26 @@ export class SmartMatchProjectError extends Error {
 }
 
 export async function fetchSmartMatchProjects(
-  email: string,
+  userId: string,
 ): Promise<SmartMatchProjectReference[]> {
-  const headers = getWqhHistoryHeaders();
-  if (!headers)
-    throw new SmartMatchProjectError(
-      "Smart Match service is not configured",
-      503,
-    );
-  try {
-    const query = new URLSearchParams({ email: email.trim() });
-    const response = await fetch(
-      `${getWqhApiUrl().replace(/\/$/, "")}/get-writer-projects?${query}`,
-      { headers, cache: "no-store", signal: AbortSignal.timeout(30000) },
-    );
-    const body = await response.json();
-    if (
-      !response.ok ||
-      body?.status !== "success" ||
-      !Array.isArray(body.writer_projects)
-    ) {
-      throw new Error("Invalid writer projects response");
-    }
-    return body.writer_projects.flatMap((project: unknown) => {
-      if (!project || typeof project !== "object" || Array.isArray(project))
-        return [];
-      const row = project as Record<string, unknown>;
-      const writerProjectId = getStoredWriterProjectId(row);
-      const projectName = getStoredWriterProjectName(row);
-      return writerProjectId && projectName && !row.deleted_at
-        ? [{ writerProjectId, projectName }]
-        : [];
-    });
-  } catch {
+  const { data, error } = await createServerSupabase()
+    .from("dashboard_projects")
+    .select("id,project_name,writer_project_id")
+    .eq("user_id", userId);
+  if (error)
     throw new SmartMatchProjectError(
       "Unable to check existing projects. Please try again.",
       502,
     );
-  }
+  return (data ?? []).map((project) => ({
+    dashboardProjectId: project.id,
+    projectName: project.project_name,
+    writerProjectId: project.writer_project_id,
+  }));
 }
 
 export async function resolveSmartMatchWriterProjectId(input: {
-  email: string;
+  userId: string;
   writerProjectId: unknown;
   projectName: unknown;
 }) {
@@ -76,7 +49,7 @@ export async function resolveSmartMatchWriterProjectId(input: {
   if (typeof input.projectName !== "string" || !input.projectName.trim())
     return null;
 
-  const projects = await fetchSmartMatchProjects(input.email);
+  const projects = await fetchSmartMatchProjects(input.userId);
   try {
     return resolveSmartMatchProject(input.projectName, null, projects)
       .writerProjectId;

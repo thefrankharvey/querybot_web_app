@@ -3,10 +3,8 @@ import {
   isQueryDashColumnId,
   type QueryDashColumnId,
 } from "@/app/(app)/query-dashboard/components/kanban-config";
-import type { AgentMatch } from "@/app/types";
-import {
-  getProjectDashboardHrefById,
-} from "@/app/utils/project-dashboard-route";
+import type { AgentMatch, DashboardProject } from "@/app/types";
+import { getProjectDashboardHrefById } from "@/app/utils/project-dashboard-route";
 import { getProjectScope } from "@/app/utils/project-scope";
 
 const FALLBACK_COLUMN_ID = QUERY_DASH_COLUMNS[0].id;
@@ -52,10 +50,13 @@ export function getProjectDashboardHref(
   writerProjectId?: string | null,
 ) {
   const scope = getProjectScope({ projectName, writerProjectId }).key;
-  const saved = agentsList?.find((agent) => getProjectScope({
-    projectName: agent.project_name,
-    writerProjectId: agent.writer_project_id,
-  }).key === scope);
+  const saved = agentsList?.find(
+    (agent) =>
+      getProjectScope({
+        projectName: agent.project_name,
+        writerProjectId: agent.writer_project_id,
+      }).key === scope,
+  );
   return saved?.dashboard_project_id
     ? getProjectDashboardHrefById(saved.dashboard_project_id)
     : undefined;
@@ -144,18 +145,37 @@ export function getWriterProjectIdForProjectName(
 
 export function buildProjectDashboardSummaries(
   agentsList: AgentMatch[] | undefined,
+  projects?: DashboardProject[],
 ): ProjectDashboardSummary[] {
   const summariesByProject = new Map<string, ProjectDashboardSummaryWithSort>();
 
+  for (const project of projects ?? []) {
+    summariesByProject.set(
+      project.id,
+      createProjectSummaryAccumulator(
+        project.id,
+        project.project_name,
+        project.writer_project_id,
+      ),
+    );
+  }
+
   for (const agent of agentsList ?? []) {
+    if (projects && !summariesByProject.has(agent.dashboard_project_id ?? ""))
+      continue;
     const agentProjectName = normalizeProjectName(agent.project_name);
     const writerProjectId = getWriterProjectId(agent.writer_project_id);
     const summaryKey = agent.dashboard_project_id;
-    if (!summaryKey) throw new Error("Saved project is missing its dashboard ID");
+    if (!summaryKey)
+      throw new Error("Saved project is missing its dashboard ID");
     const columnId = getNormalizedQueryDashColumnId(agent.column_name);
     const currentSummary =
       summariesByProject.get(summaryKey) ??
-      createProjectSummaryAccumulator(summaryKey, agentProjectName, writerProjectId);
+      createProjectSummaryAccumulator(
+        summaryKey,
+        agentProjectName,
+        writerProjectId,
+      );
 
     currentSummary.savedAgentCount += 1;
     currentSummary.countsByColumn[columnId] += 1;

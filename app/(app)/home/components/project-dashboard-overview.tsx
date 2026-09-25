@@ -1,21 +1,16 @@
 "use client";
 
-import { useMemo } from "react";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, FolderOpen, Users } from "lucide-react";
-import type { AgentMatch } from "@/app/types";
 import {
   QUERY_DASH_COLUMNS,
   type QueryDashColumnId,
 } from "@/app/(app)/query-dashboard/components/kanban-config";
-import {
-  buildProjectDashboardSummaries,
-  type ProjectDashboardSummary,
-} from "@/app/utils/project-dashboard-summary";
+import { type ProjectDashboardSummary } from "@/app/utils/project-dashboard-summary";
 import AnimatedCount from "./animated-count";
 
 export interface ProjectDashboardOverviewProps {
-  agentsList: AgentMatch[] | undefined;
+  projectSummaries: ProjectDashboardSummary[];
 }
 
 const STATUS_CHIP_LABELS: Record<QueryDashColumnId, string> = {
@@ -33,13 +28,8 @@ const ACTIVITY_DATE_FORMATTER = new Intl.DateTimeFormat("en", {
 });
 
 export default function ProjectDashboardOverview({
-  agentsList,
+  projectSummaries,
 }: ProjectDashboardOverviewProps) {
-  const projectSummaries = useMemo(
-    () => buildProjectDashboardSummaries(agentsList),
-    [agentsList],
-  );
-
   if (projectSummaries.length === 0) return null;
 
   return (
@@ -90,7 +80,9 @@ function ProjectDashboardCard({
           <p className="mt-2 flex items-center gap-1.5 text-xs font-semibold text-accent/58">
             <CalendarDays className="size-4 shrink-0" />
             <span className="min-w-0 truncate">
-              {summary.lastActivityLabel} {activityDate}
+              {summary.savedAgentCount > 0
+                ? `${summary.lastActivityLabel} ${activityDate}`
+                : "No saved agents yet"}
             </span>
           </p>
         </div>

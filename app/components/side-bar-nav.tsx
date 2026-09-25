@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React from "react";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { cn } from "@/app/utils";
@@ -16,7 +16,6 @@ import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { BrandLockup } from "./brand-lockup";
 import { Separator } from "@/app/ui-primitives/separator";
-import { getProjectNavigationItemsFromAgentMatches } from "@/app/utils/project-dashboard-summary";
 import {
   Accordion,
   AccordionContent,
@@ -27,12 +26,8 @@ import {
 export const SideBarNav = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { agentsList } = useProfileContext();
+  const { projectSummaries: projects } = useProfileContext();
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
-
-  const projects = useMemo(() => {
-    return getProjectNavigationItemsFromAgentMatches(agentsList);
-  }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
     ? searchParams.get("project")

@@ -141,6 +141,12 @@ export interface BlogPostingJsonLd {
   mainEntityOfPage?: JsonLdWebPage;
 }
 
+export type DashboardProject = {
+  id: string;
+  project_name: string;
+  writer_project_id: string | null;
+};
+
 export type AgentMatch = {
   id: string;
   user_id: string;
@@ -186,6 +192,7 @@ export interface SaveAgentPayload {
   offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
+  dashboard_project_id?: string | null;
   project_name?: string | null;
   writer_project_id?: string | null;
 }

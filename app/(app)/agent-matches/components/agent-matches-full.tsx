@@ -143,7 +143,9 @@ export const AgentMatchesFull = ({
         typeof data.writer_project_id === "string" &&
         data.writer_project_id.trim()
       ) {
-        saveWriterProjectId(getSmartMatchSaveProjectId(formData ?? {}, data.writer_project_id));
+        saveWriterProjectId(
+          getSmartMatchSaveProjectId(formData ?? {}, data.writer_project_id),
+        );
         if (formData)
           saveFormData({
             ...formData,
@@ -239,6 +241,7 @@ export const AgentMatchesFull = ({
   const handleSaveAgent = (payload: SaveAgentPayload) => {
     saveAgent({
       ...payload,
+      dashboard_project_id: formData?.save_project?.dashboardProjectId,
       project_name: projectName || null,
       writer_project_id: writerProjectId,
     });
@@ -247,6 +250,7 @@ export const AgentMatchesFull = ({
   const handleSaveAllAgents = () => {
     const payloads = matches.map((agent) => ({
       ...mapAgentToPayload(agent),
+      dashboard_project_id: formData?.save_project?.dashboardProjectId,
       project_name: projectName || null,
       writer_project_id: writerProjectId,
     }));
@@ -275,7 +279,11 @@ export const AgentMatchesFull = ({
         projectName={activeProjectName}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
-            ? getProjectDashboardHref(agentsList, activeProjectName, writerProjectId)
+            ? getProjectDashboardHref(
+                agentsList,
+                activeProjectName,
+                writerProjectId,
+              )
             : undefined
         }
         onWalkthroughActiveChange={onWalkthroughActiveChange}

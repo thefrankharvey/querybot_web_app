@@ -24,6 +24,7 @@ const CREATE_FIELDS = [
   "query_letter_ready",
   "project_name",
   "writer_project_id",
+  "dashboard_project_id",
 ] as const;
 
 type CreateField = (typeof CREATE_FIELDS)[number];
@@ -54,15 +55,27 @@ export async function GET() {
   }
 
   const supabase = createServerSupabase();
-  const { data, error } = await supabase
-    .from(AGENT_MATCHES_TABLE)
-    .select("*")
-    .eq("user_id", userId)
-    .order("created_at", { ascending: false });
-
-  if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  return NextResponse.json({ agent_matches: data ?? [] });
+  const [agents, projects] = await Promise.all([
+    supabase
+      .from(AGENT_MATCHES_TABLE)
+      .select("*")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false }),
+    supabase
+      .from("dashboard_projects")
+      .select("id,project_name,writer_project_id")
+      .eq("user_id", userId)
+      .order("project_name"),
+  ]);
+  if (agents.error || projects.error)
+    return NextResponse.json(
+      { error: "Unable to load your projects" },
+      { status: 500 },
+    );
+  return NextResponse.json(
+    { agent_matches: agents.data ?? [], projects: projects.data ?? [] },
+    { headers: { "Cache-Control": "private, no-store" } },
+  );
 }
 
 export async function POST(req: Request) {
@@ -119,6 +132,14 @@ export async function POST(req: Request) {
     .select("*"); // return inserted rows
 
   if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
+    return NextResponse.json(
+      {
+        error:
+          error.code === "23503"
+            ? "This project no longer exists. Choose a project and search again."
+            : error.message,
+      },
+      { status: error.code === "23503" ? 409 : 400 },
+    );
   return NextResponse.json({ created: data }, { status: 201 });
 }

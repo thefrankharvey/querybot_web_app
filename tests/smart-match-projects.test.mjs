@@ -118,7 +118,13 @@ test("older saved projects retain their save scope when search history has an ID
 });
 
 test("projects with no saved agents can be reused and genuinely new names stay new", () => {
-  const options = buildSmartMatchProjectOptions([], [original]);
+  const options = buildSmartMatchProjectOptions([
+    {
+      ...original,
+      savedAgentCount: 0,
+      dashboardProjectId: "dashboard-original",
+    },
+  ]);
   assert.equal(
     resolveSmartMatchProject("Cool Finance", null, options).writerProjectId,
     "original-book",
@@ -215,6 +221,32 @@ function createApi({
   lookupStatus = 200,
 } = {}) {
   const calls = [];
+  const store = {
+    createServerSupabase: () => ({
+      from: (table) => {
+        assert.equal(table, "dashboard_projects");
+        return {
+          select: () => ({
+            eq: async (key, value) => {
+              assert.equal(key, "user_id");
+              assert.equal(value, userId);
+              calls.push({ lookup: true });
+              return {
+                data: projects.map((project) => ({
+                  id:
+                    project.dashboardProjectId ??
+                    `dashboard-${project.writerProjectId}`,
+                  project_name: project.projectName,
+                  writer_project_id: project.writerProjectId,
+                })),
+                error: lookupStatus === 200 ? null : { message: "Unavailable" },
+              };
+            },
+          }),
+        };
+      },
+    }),
+  };
   const fetch = async (url, init) => {
     calls.push({ url, init });
     if (url.includes("/get-writer-projects?")) {
@@ -248,6 +280,7 @@ function createApi({
     "app/utils/smart-match-projects.server.ts",
     {
       "server-only": {},
+      "@/app/api/supabase/server": store,
       "@/lib/config": config,
       "@/lib/wqh-history-auth": historyAuth,
       "./smart-match-projects": projectUtils,
@@ -303,10 +336,7 @@ for (const tier of ["paid", "free"]) {
       .POST(searchRequest({ project_name: " cool finance " }));
     assert.equal(response.status, 200);
     assert.equal(api.calls.length, 2);
-    assert.equal(
-      new URL(api.calls[0].url).searchParams.get("email"),
-      "writer+test@example.test",
-    );
+    assert.equal(api.calls[0].lookup, true);
     const forwarded = JSON.parse(api.calls[1].init.body);
     assert.equal(forwarded.writer_project_id, "original-book");
     assert.equal(forwarded.genre, "finance");
@@ -361,16 +391,15 @@ for (const tier of ["paid", "free"]) {
   });
 }
 
-test("project choices come from the signed-in user's writer projects", async () => {
+test("project choices come from the signed-in user's persisted dashboards", async () => {
   const api = createApi();
   const response = await api.projectsRoute().GET();
   assert.equal(response.status, 200);
   assert.equal(response.headers.get("Cache-Control"), "private, no-store");
-  assert.deepEqual((await response.json()).projects, [original]);
-  assert.equal(
-    new URL(api.calls[0].url).searchParams.get("email"),
-    "writer+test@example.test",
-  );
+  assert.deepEqual((await response.json()).projects, [
+    { ...original, dashboardProjectId: "dashboard-original-book" },
+  ]);
+  assert.equal(api.calls[0].lookup, true);
 });
 
 test("project choices require authentication", async () => {
@@ -484,3 +513,10 @@ for (const storedId of [null, "original-book", "legacy-dashboard"]) {
     );
   });
 }
+
+test("search-only names and restored searches are not added to project choices", () => {
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(buildSmartMatchProjectOptions([], [original]))),
+    [],
+  );
+});

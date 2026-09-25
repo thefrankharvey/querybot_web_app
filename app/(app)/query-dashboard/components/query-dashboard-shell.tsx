@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Confetti from "react-confetti";
 import { Columns3, LayoutDashboard, Table2 } from "lucide-react";
 
+import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
 import { ButtonGroup } from "@/app/ui-primitives/button-group";
 import { cn } from "@/app/utils";
@@ -31,8 +32,13 @@ const CONFETTI_DURATION_MS = 10000;
 type DashboardView = "table" | "board";
 
 function QueryDashboardContent() {
-  const { offerMadeCelebrationNonce, isEmpty, isLoading, activeProjectName } =
-    useQueryDashContext();
+  const {
+    offerMadeCelebrationNonce,
+    isEmpty,
+    isLoading,
+    activeProjectName,
+    dashboardProjectId,
+  } = useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
   const [dashboardView, setDashboardView] = useState<DashboardView>("table");
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -128,6 +134,21 @@ function QueryDashboardContent() {
           </ButtonGroup>
         </div>
       ) : null}
+      {isEmpty && (
+        <div
+          className="flex flex-wrap items-center justify-between gap-3 px-4 pt-5"
+          role="status"
+        >
+          <p>No saved agents yet. Your project is ready when you are.</p>
+          <Button asChild variant="outline" size="sm">
+            <Link
+              href={`/smart-match?project=${encodeURIComponent(dashboardProjectId ?? "")}`}
+            >
+              Find agents for this project
+            </Link>
+          </Button>
+        </div>
+      )}
       {dashboardView === "table" ? (
         <div className="flex min-h-0 flex-1 flex-col px-4 pb-4 pt-4">
           <QueryDashboardTable />

@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/app/ui-primitives/button";
 import { useAgentMatches, FormData } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import { validateQuery, formatComps } from "@/app/utils";
 import Comps from "./components/comps";
 import Themes from "./components/themes";
@@ -22,7 +22,6 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
-import { buildProjectDashboardSummaries } from "@/app/utils/project-dashboard-summary";
 import {
   buildSmartMatchProjectOptions,
   resolveSmartMatchProject,
@@ -64,20 +63,12 @@ const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const { createOrSelectTrait, traitOptions, traitsError } =
     useSmartMatchTraits();
-  const { agentsList, isLoading: isLoadingSavedProjects } = useProfileContext();
-  const projectsQuery = useQuery({
-    queryKey: ["smart-match-projects", user?.id],
-    enabled: Boolean(user?.id),
-    queryFn: async () => {
-      const response = await fetch("/api/smart-match/projects", {
-        cache: "no-store",
-      });
-      const data = await response.json();
-      if (!response.ok)
-        throw new Error(data.error || "Unable to load projects");
-      return data.projects as SmartMatchProjectReference[];
-    },
-  });
+  const {
+    projectSummaries,
+    isLoading: isLoadingSavedProjects,
+    isError: projectsError,
+    refetch,
+  } = useProfileContext();
   const {
     saveMatches,
     saveFormData,
@@ -111,13 +102,29 @@ const SmartMatch = () => {
     non_fiction: false,
   });
   const projectOptions = useMemo(
-    () =>
-      buildSmartMatchProjectOptions(
-        buildProjectDashboardSummaries(agentsList),
-        projectsQuery.data ?? [],
-      ),
-    [agentsList, projectsQuery.data],
+    () => buildSmartMatchProjectOptions(projectSummaries),
+    [projectSummaries],
   );
+
+  const hasSelectedRequestedProject = useRef(false);
+  useEffect(() => {
+    if (isLoadingSavedProjects || hasSelectedRequestedProject.current) return;
+    const projectId = new URLSearchParams(window.location.search).get(
+      "project",
+    );
+    if (!projectId) return;
+    hasSelectedRequestedProject.current = true;
+    const project = projectOptions.find(
+      (option) => option.dashboardProjectId === projectId,
+    );
+    if (project) {
+      setSelectedProjectReference(project);
+      setForm((previous) => ({
+        ...previous,
+        project_name: project.projectName,
+      }));
+    }
+  }, [isLoadingSavedProjects, projectOptions]);
 
   const getWriterProjectIdFromResponse = (data: unknown) => {
     if (!data || typeof data !== "object") return null;
@@ -217,12 +224,17 @@ const SmartMatch = () => {
         );
       }
 
-      setForm(data.form);
       const restoredWriterProjectId = data.writer_project_id?.trim();
-      setSelectedProjectReference({
-        projectName: data.form.project_name,
-        writerProjectId: restoredWriterProjectId || null,
+      const existing = projectOptions.find(
+        (project) =>
+          restoredWriterProjectId &&
+          project.writerProjectId === restoredWriterProjectId,
+      );
+      setForm({
+        ...data.form,
+        project_name: existing?.projectName ?? data.form.project_name,
       });
+      setSelectedProjectReference(existing ?? null);
       toast.success("Previous Smart Match search restored.");
 
       window.requestAnimationFrame(() => {
@@ -243,11 +255,7 @@ const SmartMatch = () => {
     e.preventDefault();
 
     setApiMessage("");
-    if (
-      isLoadingSavedProjects ||
-      projectsQuery.isPending ||
-      projectsQuery.isError
-    ) {
+    if (isLoadingSavedProjects || projectsError) {
       setApiMessage(
         "Please wait for your existing projects to load, or try loading them again.",
       );
@@ -398,7 +406,7 @@ const SmartMatch = () => {
                 selectedProject={selectedProjectReference}
                 onProjectSelect={setSelectedProjectReference}
               />
-              {projectsQuery.isError && (
+              {projectsError && (
                 <div
                   role="alert"
                   className="flex w-full items-center gap-3 text-sm"
@@ -407,7 +415,7 @@ const SmartMatch = () => {
                   <Button
                     type="button"
                     variant="outline"
-                    onClick={() => projectsQuery.refetch()}
+                    onClick={() => refetch()}
                   >
                     Try again
                   </Button>
@@ -455,11 +463,7 @@ const SmartMatch = () => {
               <div className="mt-12 flex w-full justify-center">
                 <Button
                   type="submit"
-                  disabled={
-                    isLoadingSavedProjects ||
-                    projectsQuery.isPending ||
-                    projectsQuery.isError
-                  }
+                  disabled={isLoadingSavedProjects || projectsError}
                   className="w-full text-lg font-semibold md:w-1/2"
                 >
                   Search for Agents

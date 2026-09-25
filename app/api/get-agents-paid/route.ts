@@ -3,7 +3,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { getWriterEmail, getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
 
-import { resolveSmartMatchWriterProjectId, SmartMatchProjectError } from "@/app/utils/smart-match-projects.server";
+import {
+  resolveSmartMatchWriterProjectId,
+  SmartMatchProjectError,
+} from "@/app/utils/smart-match-projects.server";
 
 // Define the structure of the payload
 export interface GetAgentsPaidPayload {
@@ -67,7 +70,7 @@ export async function POST(req: NextRequest) {
           ? jsonData.project_name
           : undefined,
       writer_project_id: await resolveSmartMatchWriterProjectId({
-        email,
+        userId,
         writerProjectId: jsonData.writer_project_id,
         projectName: jsonData.project_name,
       }),
@@ -109,7 +112,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
     if (error instanceof SmartMatchProjectError) {
-      return NextResponse.json({ error: error.message }, { status: error.status });
+      return NextResponse.json(
+        { error: error.message },
+        { status: error.status },
+      );
     }
     console.error("============== API Error ==============", error);
     return NextResponse.json(

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { cn } from "../utils";
 import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
@@ -15,7 +15,6 @@ import {
 } from "lucide-react";
 import { useProfileContext } from "../(app)/context/profile-context";
 import { Separator } from "@/app/ui-primitives/separator";
-import { getProjectNavigationItemsFromAgentMatches } from "@/app/utils/project-dashboard-summary";
 import {
   Accordion,
   AccordionContent,
@@ -26,13 +25,9 @@ import {
 export const AppHamburger = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { agentsList } = useProfileContext();
+  const { projectSummaries: projects } = useProfileContext();
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
-
-  const projects = useMemo(() => {
-    return getProjectNavigationItemsFromAgentMatches(agentsList);
-  }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
     ? searchParams.get("project")

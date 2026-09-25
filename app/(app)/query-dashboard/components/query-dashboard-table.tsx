@@ -739,7 +739,8 @@ export function QueryDashboardTable() {
                 <AlertDialogDescription>
                   This will remove {selectedPersistedRows.length} selected
                   dashboard row
-                  {selectedPersistedRows.length === 1 ? "" : "s"}.
+                  {selectedPersistedRows.length === 1 ? "" : "s"}. Your project
+                  will remain, even if you remove all rows.
                 </AlertDialogDescription>
               </AlertDialogHeader>
               <AlertDialogFooter>

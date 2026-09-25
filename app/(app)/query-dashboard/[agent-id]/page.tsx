@@ -78,6 +78,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
       query_tracker: displayedRecord.query_tracker,
       pub_marketplace: displayedRecord.pub_marketplace,
       match_score: displayedRecord.match_score,
+      dashboard_project_id: displayedRecord.dashboard_project_id,
       project_name: displayedRecord.project_name,
       writer_project_id: displayedRecord.writer_project_id,
     });

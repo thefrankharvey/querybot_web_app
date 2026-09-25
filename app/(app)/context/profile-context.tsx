@@ -5,24 +5,38 @@ import React, {
   useContext,
   useEffect,
   useRef,
+  useMemo,
   useState,
 } from "react";
 import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
-import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
+import {
+  AgentMatch,
+  DashboardProject,
+  SaveAgentPayload,
+  SaveAgentResponse,
+} from "@/app/types";
 import { toast } from "sonner";
 import { getProjectScope, isSameProjectScope } from "@/app/utils/project-scope";
+
+import {
+  buildProjectDashboardSummaries,
+  type ProjectDashboardSummary,
+} from "@/app/utils/project-dashboard-summary";
 
 // Context type definition
 interface ProfileContextType {
   agentsList: AgentMatch[] | undefined;
+  projects: DashboardProject[];
+  projectSummaries: ProjectDashboardSummary[];
+  updateProject: (project: DashboardProject) => Promise<void>;
+  forgetProject: (projectId: string) => Promise<void>;
   isLoading: boolean;
   isFetching: boolean;
   isError: boolean;
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => Promise<void>;
-  removeProject: (projectName: string, writerProjectId?: string | null) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
   saveAllAgents: (
@@ -42,6 +56,73 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const [isSavingAll, setIsSavingAll] = useState(false);
 
   const agentsList = data?.agent_matches;
+  const projects = useMemo(() => data?.projects ?? [], [data?.projects]);
+  const projectSummaries = useMemo(
+    () => buildProjectDashboardSummaries(agentsList, projects),
+    [agentsList, projects],
+  );
+  type ProfileData = {
+    agent_matches: AgentMatch[];
+    projects: DashboardProject[];
+  };
+  const updateProject = async (project: DashboardProject) => {
+    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
+    queryClient.setQueryData(
+      ["agent-matches"],
+      (old: ProfileData | undefined) =>
+        old
+          ? {
+              ...old,
+              projects: old.projects.map((item) =>
+                item.id === project.id ? project : item,
+              ),
+              agent_matches: old.agent_matches.map((agent) =>
+                agent.dashboard_project_id === project.id
+                  ? { ...agent, project_name: project.project_name }
+                  : agent,
+              ),
+            }
+          : old,
+    );
+  };
+  const forgetProject = async (projectId: string) => {
+    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
+    queryClient.setQueryData(
+      ["agent-matches"],
+      (old: ProfileData | undefined) =>
+        old
+          ? {
+              ...old,
+              projects: old.projects.filter(
+                (project) => project.id !== projectId,
+              ),
+              agent_matches: old.agent_matches.filter(
+                (agent) => agent.dashboard_project_id !== projectId,
+              ),
+            }
+          : old,
+    );
+  };
+
+  // Attach the permanent dashboard ID for older callers and fresh search results.
+  const withProject = (payload: SaveAgentPayload): SaveAgentPayload => {
+    if (payload.dashboard_project_id) return payload;
+    const matches = projects.filter((project) =>
+      isSameProjectScope(
+        {
+          projectName: project.project_name,
+          writerProjectId: project.writer_project_id,
+        },
+        {
+          projectName: payload.project_name,
+          writerProjectId: payload.writer_project_id,
+        },
+      ),
+    );
+    return matches.length === 1
+      ? { ...payload, dashboard_project_id: matches[0].id }
+      : payload;
+  };
 
   const hasRunBackfillRef = useRef(false);
   useEffect(() => {
@@ -80,31 +161,6 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     );
   };
 
-  const removeProject = (
-    projectName: string,
-    writerProjectId?: string | null,
-  ) => {
-    queryClient.setQueryData(
-      ["agent-matches"],
-      (oldData: { agent_matches: AgentMatch[] } | undefined) => {
-        if (!oldData) return oldData;
-        return {
-          ...oldData,
-          agent_matches: oldData.agent_matches.filter(
-            (agent) =>
-              !isSameProjectScope(
-                {
-                  projectName: agent.project_name,
-                  writerProjectId: agent.writer_project_id,
-                },
-                { projectName, writerProjectId },
-              ),
-          ),
-        };
-      },
-    );
-  };
-
   const addAgent = (agent: AgentMatch) => {
     queryClient.setQueryData(
       ["agent-matches"],
@@ -128,7 +184,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(payload),
+        body: JSON.stringify(withProject(payload)),
       });
 
       if (!response.ok) {
@@ -199,7 +255,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(newAgents),
+        body: JSON.stringify(newAgents.map(withProject)),
       });
 
       if (!response.ok) {
@@ -246,6 +302,10 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
   const value: ProfileContextType = {
     agentsList,
+    projects,
+    projectSummaries,
+    updateProject,
+    forgetProject,
     isLoading,
     isFetching,
     isError,
@@ -253,7 +313,6 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     refetch,
     addAgent,
     removeAgent,
-    removeProject,
     saveAgent,
     saveAllAgents,
     savingAgentId,

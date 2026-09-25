@@ -7,6 +7,7 @@ import { AGENT_MATCHES_TABLE } from "@/app/constants";
 const MAX_DELETE_ROWS = 200;
 
 type DeleteRowsPayload = {
+  dashboardProjectId?: unknown;
   projectName?: unknown;
   writerProjectId?: unknown;
   rowIds?: unknown;
@@ -60,7 +61,15 @@ export async function DELETE(req: Request) {
     typeof payload.writerProjectId === "string"
       ? payload.writerProjectId.trim()
       : "";
-  if (writerProjectId)
+  if (
+    typeof payload.dashboardProjectId === "string" &&
+    payload.dashboardProjectId
+  )
+    deleteQuery = deleteQuery.eq(
+      "dashboard_project_id",
+      payload.dashboardProjectId,
+    );
+  else if (writerProjectId)
     deleteQuery = deleteQuery.eq("writer_project_id", writerProjectId);
   else if (projectName)
     deleteQuery = deleteQuery

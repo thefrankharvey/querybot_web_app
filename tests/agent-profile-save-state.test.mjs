@@ -81,6 +81,7 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
       useState: (value) => [value, () => {}],
       useRef: (value) => ({ current: value }),
       useEffect: () => {},
+      useMemo: (calculate) => calculate(),
     },
     "@tanstack/react-query": { useQueryClient: () => client },
     "@/app/hooks/use-fetch-agents-list": {
@@ -89,6 +90,9 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
       }),
     },
     "@/app/utils/project-scope": scope,
+    "@/app/utils/project-dashboard-summary": {
+      buildProjectDashboardSummaries: () => [],
+    },
     sonner: { toast: {} },
   });
   const profile = ProfileProvider({ children: null }).props.value;

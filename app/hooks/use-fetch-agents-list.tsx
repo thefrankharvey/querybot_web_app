@@ -1,8 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { AgentMatch } from "../types";
+import { AgentMatch, DashboardProject } from "../types";
 
 type FetchAgentsListResponse = {
   agent_matches: AgentMatch[];
+  projects: DashboardProject[];
 };
 
 export const useFetchAgentsList = () => {
