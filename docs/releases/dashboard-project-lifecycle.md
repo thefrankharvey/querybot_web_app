@@ -28,13 +28,18 @@ of recreating it. New searches can still create a project on a subsequent save.
 
 The current local worktree uses the shared production Supabase database
 `wqh-user-api` (`octakuamyrqlkllxoffj`), so this migration is a production database
-change even when the web app runs on localhost. It has not been applied by this
-branch.
+change even when the web app runs on localhost. The migration was applied to this
+database on September 25, 2026. Both functions are available through the Data API.
+The installation preserved all 55 dashboard projects and 776 saved-agent records.
 
 ## Verification
 
 `node --test tests/*.test.mjs` includes PostgreSQL-backed lifecycle tests for
 empty-project retention, save reuse, rename stability, stale saves, deletion,
-account isolation, invalid/conflicting names, and transaction rollback. UI checks
-cover the local empty-project card and rename/delete dialogs. Real project data
-is not changed by these UI checks.
+account isolation, invalid/conflicting names, and transaction rollback. All 76
+tests passed before merging. UI checks cover the local empty-project card, inline
+name editor, delete confirmation, and input selection styling. The live database
+also passed a rename/delete smoke check using a temporary project inside a
+rolled-back transaction. No temporary project or user-data changes were retained.
+Server-role Data API calls to both functions returned HTTP 200 for a missing
+project, confirming that the app can reach the installed functions.
