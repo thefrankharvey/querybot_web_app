@@ -649,6 +649,47 @@ test("choosing another project after restore replaces the selected project", () 
   assert.doesNotMatch(html, /value="Cool Finance" selected/);
 });
 
+function dashboardPage(getProjectProfileRouteData) {
+  return load("app/(app)/projects/[projectId]/dashboard/page.tsx", {
+    "next/navigation": {
+      notFound: () => { throw new Error("NOT_FOUND"); },
+      redirect: () => { throw new Error("REDIRECT"); },
+    },
+    "@/app/(app)/query-dashboard/components/query-dashboard-shell": {
+      QueryDashboardShell: () => null,
+    },
+    "@/app/utils/project-profile-data": { getProjectProfileRouteData },
+    "@/app/utils/project-profile": profile,
+  }).default;
+}
+
+test("Home name-based dashboard links open directly without a project-history lookup", async () => {
+  const page = dashboardPage(() => assert.fail("legacy dashboard must not require project history"));
+  for (const name of ["Cool Finance", "NEW STUFF", "100% / progress"]) {
+    const url = profile.getProjectDashboardHrefFromName(name);
+    // Next decodes the dynamic path segment once before passing params.
+    const projectId = decodeURIComponent(url.split("/")[2]);
+    const result = await page({ params: Promise.resolve({ projectId }) });
+    assert.equal(result.props.projectName, name);
+    assert.equal(result.props.writerProjectId, null);
+  }
+});
+
+test("an empty name-based dashboard link is still not found", async () => {
+  const page = dashboardPage(() => assert.fail("must not look up blank project names"));
+  await assert.rejects(page({ params: Promise.resolve({ projectId: "name: " }) }), /NOT_FOUND/);
+});
+
+test("canonical dashboard links retain the account-scoped lookup", async () => {
+  let requestedId;
+  const page = dashboardPage(async (id) => {
+    requestedId = id;
+    return null;
+  });
+  await assert.rejects(page({ params: Promise.resolve({ projectId: "private-project-id" }) }), /NOT_FOUND/);
+  assert.equal(requestedId, "private-project-id");
+});
+
 test("trait selection preserves known values and normalizes custom values", () => {
   assert.equal(
     traits.sanitizeTraitValue("genre", "Women’s Fiction"),

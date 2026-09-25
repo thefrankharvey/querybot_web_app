@@ -91,7 +91,7 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 40 focused tests passed, including restored project selection, free-account restoration, Home project
+- All 43 focused tests passed, including name-based dashboard links, restored project selection, free-account restoration, Home project
   cards, server authentication, and protection against browser-supplied account
   identities.
 - Lint passed for all changed TypeScript files.
@@ -121,6 +121,12 @@ Home project cards are available to free and subscribed accounts. Projects appea
 after at least one agent is saved, with links to their individual dashboards.
 Free accounts with no saved agents still see the existing getting-started screen.
 Dashboard styling and loading spinners have no subscription gate.
+
+Name-based dashboard links (`/projects/name:…/dashboard`, URL-encoded in links)
+open the existing dashboard directly. They do not depend on a server-side
+project-profile/history lookup. Dashboard records still come from the signed-in
+user's saved-agent API and use the exact legacy project scope. Canonical project
+ID links retain their account-scoped server lookup.
 
 ## Backend authentication rollout
 

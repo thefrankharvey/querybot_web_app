@@ -10,6 +10,22 @@ export default async function ProjectDashboardPage({
   params: Promise<{ projectId: string }>;
 }) {
   const { projectId } = await params;
+
+  // Name-based links already identify the legacy dashboard. Its client data
+  // comes from the signed-in user's saved records, not writer-project history.
+  if (projectId.startsWith("name:")) {
+    const projectName = projectId.slice(5).trim();
+    if (!projectName) notFound();
+
+    return (
+      <QueryDashboardShell
+        key={`name:${projectName}`}
+        projectName={projectName}
+        writerProjectId={null}
+      />
+    );
+  }
+
   const routeData = await getProjectProfileRouteData(projectId);
 
   if (!routeData) {
