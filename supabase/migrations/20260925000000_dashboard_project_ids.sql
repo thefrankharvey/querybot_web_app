@@ -26,7 +26,7 @@ set search_path = public, pg_temp
 as $$
 declare
   project_title text := coalesce(nullif(btrim(new.project_name), ''), 'Untitled Project');
-  writer_id text := nullif(btrim(new.writer_project_id), '');
+  writer_id text := nullif(btrim(new.writer_project_id::text), '');
   project_scope text;
 begin
   project_scope := case when writer_id is not null
@@ -37,7 +37,7 @@ begin
   if tg_op = 'UPDATE' then
     if old.dashboard_project_id is not null
        and old.user_id = new.user_id
-       and nullif(btrim(old.writer_project_id), '') is not distinct from writer_id
+       and nullif(btrim(old.writer_project_id::text), '') is not distinct from writer_id
        and old.project_name is distinct from new.project_name then
       update public.dashboard_projects
         set scope_key = project_scope, project_name = project_title

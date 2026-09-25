@@ -14,7 +14,7 @@ begin
       and rel.relname = 'agent_matches'
       and con.contype = 'u'
       and (
-        select array_agg(att.attname order by keys.ordinality)
+        select array_agg(att.attname::text order by keys.ordinality)
         from unnest(con.conkey) with ordinality as keys(attnum, ordinality)
         join pg_attribute att
           on att.attrelid = con.conrelid
@@ -39,7 +39,7 @@ begin
         where con.conindid = ind.indexrelid
       )
       and (
-        select array_agg(att.attname order by keys.ordinality)
+        select array_agg(att.attname::text order by keys.ordinality)
         from unnest(ind.indkey) with ordinality as keys(attnum, ordinality)
         join pg_attribute att
           on att.attrelid = ind.indrelid
@@ -49,6 +49,9 @@ begin
     execute format('drop index if exists public.%I', index_record.relname);
   end loop;
 end $$;
+
+-- Production used an expression index for the former account-wide limit.
+drop index if exists public.agent_matches_user_index_unique;
 
 create unique index if not exists agent_matches_user_agent_project_scope_idx
 on public.agent_matches (

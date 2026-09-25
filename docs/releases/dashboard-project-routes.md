@@ -15,3 +15,9 @@ Apply the database migration before deploying this code. The existing web releas
 ## Verification
 
 `node --test tests/*.test.mjs` runs PostgreSQL migration/trigger tests plus account isolation, canonical links, CRUD, Smart Match restore, and trait tests. PGlite is a development-only dependency used to run PostgreSQL locally. The migration test verifies existing data is unchanged and separately tests future saves, duplicate titles, rename stability, ownership, and deleting/re-saving.
+
+## Production database applied on September 25, 2026
+
+Applied both migrations to `wqh-user-api` (`octakuamyrqlkllxoffj`). Production uses a UUID `writer_project_id` column, so the assignment trigger explicitly casts it to text when computing the saved-project scope. The prerequisite migration also removes the production expression index `agent_matches_user_index_unique`, replacing the former account-wide limit with the project-scoped index.
+
+Post-migration verification found 783 saved records across 54 dashboard projects, with zero missing project IDs and zero owner mismatches. The transaction's full-record comparison passed, preserving all pre-existing field values. Cool Finance retains two saved agents; NEW STUFF retains five. Supabase REST also returned project IDs for all seven records. RLS is enabled on the new project table. Web merge/deployment remains pending.
