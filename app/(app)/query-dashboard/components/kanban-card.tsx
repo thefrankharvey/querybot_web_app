@@ -75,6 +75,7 @@ export interface KanbanCardData {
   fitRating: FitRating;
   projectName: string;
   writerProjectId?: string | null;
+  dashboardProjectId?: string | null;
   notes: string;
 }
 

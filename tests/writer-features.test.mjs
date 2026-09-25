@@ -45,7 +45,7 @@ const constants = {
 const scope = load("app/utils/project-scope.ts", {
   "@/app/constants": constants,
 });
-const profile = load("app/utils/project-profile.ts", {
+const profile = load("app/utils/project-dashboard-route.ts", {
   "@/app/constants": constants,
 });
 const restore = load("app/utils/smart-match-restore.ts");
@@ -60,7 +60,7 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), isLoadin
   const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
   const summaries = load("app/utils/project-dashboard-summary.ts", {
     "@/app/(app)/query-dashboard/components/kanban-config": columns,
-    "@/app/utils/project-profile": profile,
+    "@/app/utils/project-dashboard-route": profile,
     "@/app/utils/project-scope": scope,
   });
   const overview = load("app/(app)/home/components/project-dashboard-overview.tsx", {
@@ -89,8 +89,8 @@ for (const isSubscribed of [false, true]) {
   test(`Home shows saved project cards for ${isSubscribed ? "subscribed" : "free"} accounts`, () => {
     const html = renderHome({ isSubscribed });
     assert.match(html, /My Projects/);
-    assert.match(html, /href="\/projects\/project-a\/dashboard"/);
-    assert.match(html, /href="\/projects\/project-b\/dashboard"/);
+    assert.ok(html.includes(`/projects/${dashboardIds.a}/dashboard`));
+    assert.ok(html.includes(`/projects/${dashboardIds.b}/dashboard`));
     assert.match(html, /Saved Agents/);
   });
 }
@@ -176,9 +176,16 @@ function store(rows) {
   }
   return { state, client: { from: () => new Query() } };
 }
+const dashboardIds = {
+  a: "11111111-1111-4111-8111-111111111111",
+  b: "22222222-2222-4222-8222-222222222222",
+  old: "33333333-3333-4333-8333-333333333333",
+  other: "44444444-4444-4444-8444-444444444444",
+};
 const fixtureRows = () => [
   {
     id: "row-a",
+    dashboard_project_id: dashboardIds.a,
     user_id: "writer-a",
     index_id: "same-agent",
     writer_project_id: "project-a",
@@ -187,6 +194,7 @@ const fixtureRows = () => [
   },
   {
     id: "row-b",
+    dashboard_project_id: dashboardIds.b,
     user_id: "writer-a",
     index_id: "same-agent",
     writer_project_id: "project-b",
@@ -195,6 +203,7 @@ const fixtureRows = () => [
   },
   {
     id: "row-legacy",
+    dashboard_project_id: dashboardIds.old,
     user_id: "writer-a",
     index_id: "same-agent",
     writer_project_id: null,
@@ -203,6 +212,7 @@ const fixtureRows = () => [
   },
   {
     id: "row-other",
+    dashboard_project_id: dashboardIds.other,
     user_id: "writer-b",
     index_id: "same-agent",
     writer_project_id: "project-a",
@@ -230,7 +240,7 @@ function baseMocks(db, userId = "writer-a") {
     },
     "@/app/api/supabase/server": { createServerSupabase: () => db.client },
     "@/app/utils/project-scope": scope,
-    "@/app/utils/project-profile": profile,
+    "@/app/utils/project-dashboard-route": profile,
     "@/lib/wqh-history-auth": historyAuth(),
     "@/lib/config": {
       getWqhApiUrl: () => "https://api.example.test",
@@ -301,6 +311,7 @@ test("record routes reject cross-account access, missing auth, and protected ide
   }
   for (const body of [
     { writer_project_id: "project-b" },
+    { dashboard_project_id: dashboardIds.other },
     { user_id: "writer-b" },
     { project_name: "Other" },
     { notes: 42 },
@@ -331,48 +342,31 @@ test("legacy agent-ID mutation refuses an ambiguous multi-project match", async 
   assert.equal(result.status, 409);
   assert.equal(db.state.writes, 0);
 });
-function projectData(db, projects) {
-  const mocks = baseMocks(db);
-  return load("app/utils/project-profile-data.ts", mocks, {
-    fetch: async (url, options) => {
-      assert.equal(new URL(url).searchParams.get("email"), "writer@example.test");
-      assert.equal(options.headers.Authorization, "Bearer test-server-credential");
-      return Response.json({ status: "success", writer_projects: projects });
-    },
+test("dashboard IDs resolve only within the signed-in account, including projects without search history", async () => {
+  const rows = fixtureRows().map(row => ({ ...row, id: row.dashboard_project_id }));
+  const data = load("app/utils/project-dashboard-data.ts", baseMocks(store(rows)), {
+    fetch: () => assert.fail("dashboard must not need search history"),
   });
-}
-test("dashboard reads isolate canonical, legacy, and duplicate-name project scopes", async () => {
-  const db = store(fixtureRows());
-  const projects = ["a", "b"].map((id) => ({
-    id: `project-${id}`,
-    user_id: "writer-a",
-    project_name: "Same title",
-    genre: "fantasy",
-  }));
-  const data = projectData(db, projects);
-  const canonical = await data.getProjectProfileRouteData("project-a");
-  assert.equal(canonical.profile.writerProjectId, "project-a");
-  assert.equal(canonical.profile.matchCount, 1);
-  const legacy = await data.getProjectProfileRouteData("name:Same title");
-  assert.equal(legacy.profile.writerProjectId, null);
-  assert.equal(legacy.profile.matchCount, 1);
-  const rows = data.getSavedAgentRowsForRoute({
-    project: projects[0],
-    routeProjectId: "project-a",
-    rows: fixtureRows().filter((r) => r.user_id === "writer-a"),
-  });
-  assert.deepEqual(
-    plain(rows).map((r) => r.id),
-    ["row-a"],
-  );
+  for (const id of [dashboardIds.a, dashboardIds.b, dashboardIds.old]) {
+    assert.equal((await data.getDashboardProject(id)).id, id);
+  }
+  assert.equal(await data.getDashboardProject(dashboardIds.other), null);
+  assert.equal(await data.getDashboardProject("name:Same title"), null);
+  assert.equal(await data.getDashboardProject("Same title"), null);
 });
-test("legacy route encoding round-trips literal percent signs and slash-containing names", () => {
-  assert.equal(
-    profile.getProjectProfileHref("100% / progress"),
-    "/projects/name%3A100%25%20%2F%20progress",
-  );
-  assert.equal(profile.normalizeRouteProjectId("100%20"), "100%20");
+
+test("dashboard rejects signed-out access", async () => {
+  const data = load("app/utils/project-dashboard-data.ts", baseMocks(store([]), null));
+  assert.equal(await data.getDashboardProject(dashboardIds.a), null);
 });
+
+test("dashboard reports database failures instead of returning a false 404", async () => {
+  const db = { client: { from() { return this; }, select() { return this; }, eq() { return this; },
+    maybeSingle: async () => ({ data: null, error: { message: "Unavailable" } }) } };
+  const data = load("app/utils/project-dashboard-data.ts", baseMocks(db));
+  await assert.rejects(data.getDashboardProject(dashboardIds.a), /Unable to load/);
+});
+
 test("restore selects most recent project and normalizes persisted traits and comps", () => {
   const projects = [
     { id: "old", updated_at: "2026-01-01" },
@@ -591,25 +585,6 @@ test("writer email falls back to the Clerk account email when primary email is u
   assert.equal(historyAuth().getWriterEmail({}), null);
 });
 
-test("dashboard rejects a mismatched Clerk account before reading projects", async () => {
-  const mocks = baseMocks(store(fixtureRows()));
-  mocks["@clerk/nextjs/server"].currentUser = async () => ({ id: "writer-b", primaryEmailAddress: { emailAddress: "other@example.test" } });
-  const data = load("app/utils/project-profile-data.ts", mocks, {
-    fetch: () => assert.fail("must not read history for a mismatched account"),
-  });
-  assert.equal(await data.getProjectProfileRouteData("project-a"), null);
-});
-
-test("dashboard retains saved-agent fallback without sending unauthenticated history requests", async () => {
-  const data = load("app/utils/project-profile-data.ts", {
-    ...baseMocks(store(fixtureRows())),
-    "@/lib/wqh-history-auth": historyAuth(""),
-  }, { fetch: () => assert.fail("must not call history without a credential") });
-  const result = await data.getProjectProfileRouteData("project-a");
-  assert.equal(result.source, "saved-agents-fallback");
-  assert.equal(result.profile.matchCount, 1);
-});
-
 function renderProjectPicker(projectNames, restoredProjectName, currentName = restoredProjectName) {
   const React = require("react");
   const { renderToStaticMarkup } = require("react-dom/server");
@@ -649,45 +624,27 @@ test("choosing another project after restore replaces the selected project", () 
   assert.doesNotMatch(html, /value="Cool Finance" selected/);
 });
 
-function dashboardPage(getProjectProfileRouteData) {
+function dashboardPage(getDashboardProject) {
   return load("app/(app)/projects/[projectId]/dashboard/page.tsx", {
-    "next/navigation": {
-      notFound: () => { throw new Error("NOT_FOUND"); },
-      redirect: () => { throw new Error("REDIRECT"); },
-    },
-    "@/app/(app)/query-dashboard/components/query-dashboard-shell": {
-      QueryDashboardShell: () => null,
-    },
-    "@/app/utils/project-profile-data": { getProjectProfileRouteData },
-    "@/app/utils/project-profile": profile,
+    "next/navigation": { notFound: () => { throw new Error("NOT_FOUND"); } },
+    "@/app/(app)/query-dashboard/components/query-dashboard-shell": { QueryDashboardShell: () => null },
+    "@/app/utils/project-dashboard-data": { getDashboardProject },
   }).default;
 }
 
-test("Home name-based dashboard links open directly without a project-history lookup", async () => {
-  const page = dashboardPage(() => assert.fail("legacy dashboard must not require project history"));
-  for (const name of ["Cool Finance", "NEW STUFF", "100% / progress"]) {
-    const url = profile.getProjectDashboardHrefFromName(name);
-    // Next decodes the dynamic path segment once before passing params.
-    const projectId = decodeURIComponent(url.split("/")[2]);
-    const result = await page({ params: Promise.resolve({ projectId }) });
-    assert.equal(result.props.projectName, name);
-    assert.equal(result.props.writerProjectId, null);
+test("dashboard renders the persisted project ID and its saved-record scope", async () => {
+  const page = dashboardPage(async id => ({ id, project_name: "Cool Finance", writer_project_id: null }));
+  const result = await page({ params: Promise.resolve({ projectId: dashboardIds.old }) });
+  assert.equal(result.props.dashboardProjectId, dashboardIds.old);
+  assert.equal(result.props.projectName, "Cool Finance");
+  assert.equal(result.props.writerProjectId, null);
+});
+
+test("dashboard has no name-route bypass or redirect", async () => {
+  const page = dashboardPage(async () => null);
+  for (const projectId of ["name:Cool Finance", "Cool Finance", dashboardIds.other]) {
+    await assert.rejects(page({ params: Promise.resolve({ projectId }) }), /NOT_FOUND/);
   }
-});
-
-test("an empty name-based dashboard link is still not found", async () => {
-  const page = dashboardPage(() => assert.fail("must not look up blank project names"));
-  await assert.rejects(page({ params: Promise.resolve({ projectId: "name: " }) }), /NOT_FOUND/);
-});
-
-test("canonical dashboard links retain the account-scoped lookup", async () => {
-  let requestedId;
-  const page = dashboardPage(async (id) => {
-    requestedId = id;
-    return null;
-  });
-  await assert.rejects(page({ params: Promise.resolve({ projectId: "private-project-id" }) }), /NOT_FOUND/);
-  assert.equal(requestedId, "private-project-id");
 });
 
 test("trait selection preserves known values and normalizes custom values", () => {
@@ -754,7 +711,7 @@ test("project navigation opens separate dashboards directly", () => {
   const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
   const summaries = load("app/utils/project-dashboard-summary.ts", {
     "@/app/(app)/query-dashboard/components/kanban-config": columns,
-    "@/app/utils/project-profile": profile,
+    "@/app/utils/project-dashboard-route": profile,
     "@/app/utils/project-scope": scope,
   });
   const items = plain(
@@ -763,25 +720,19 @@ test("project navigation opens separate dashboards directly", () => {
     ),
   );
   assert.deepEqual(items.map((item) => item.href).sort(), [
-    "/projects/name%3ASame%20title/dashboard",
-    "/projects/project-a/dashboard",
-    "/projects/project-b/dashboard",
+    `/projects/${dashboardIds.a}/dashboard`,
+    `/projects/${dashboardIds.b}/dashboard`,
+    `/projects/${dashboardIds.old}/dashboard`,
   ]);
 });
 
-test("old project links redirect to the dashboard instead of an editor", async () => {
-  const page = load("app/(app)/projects/[projectId]/page.tsx", {
-    "@/app/utils/project-profile": profile,
-    "next/navigation": {
-      redirect: (url) => {
-        throw new Error(url);
-      },
-    },
+test("search-result dashboard links use the saved project's persistent ID", () => {
+  const summaries = load("app/utils/project-dashboard-summary.ts", {
+    "@/app/(app)/query-dashboard/components/kanban-config": load("app/(app)/query-dashboard/components/kanban-config.ts"),
+    "@/app/utils/project-dashboard-route": profile,
+    "@/app/utils/project-scope": scope,
   });
-  for (const id of ["project-a", "name:100% / progress"]) {
-    await assert.rejects(
-      page.default({ params: Promise.resolve({ projectId: id }) }),
-      { message: profile.getProjectDashboardHrefById(id) },
-    );
-  }
+  assert.equal(summaries.getProjectDashboardHref(fixtureRows(), "Same title", "project-a"), `/projects/${dashboardIds.a}/dashboard`);
+  assert.equal(summaries.getProjectDashboardHref(fixtureRows(), "Same title", null), `/projects/${dashboardIds.old}/dashboard`);
+  assert.equal(summaries.getProjectDashboardHref([], "Not saved", null), undefined);
 });

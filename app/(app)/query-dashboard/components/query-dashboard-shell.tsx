@@ -152,15 +152,18 @@ function QueryDashboardContent() {
 }
 
 export function QueryDashboardShell({
+  dashboardProjectId,
   projectName,
   writerProjectId,
 }: {
+  dashboardProjectId?: string;
   projectName?: string | null;
   writerProjectId?: string | null;
 }) {
   return (
     <Suspense fallback={<ProjectDashboardLoading />}>
       <QueryDashProvider
+        dashboardProjectId={dashboardProjectId}
         projectName={projectName}
         writerProjectId={writerProjectId}
       >

@@ -9,7 +9,7 @@ import {
   useState,
 } from "react";
 import { arrayMove } from "@dnd-kit/sortable";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import type {
   AgentMatch,
@@ -277,23 +277,25 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     fitRating,
     projectName: normalizeProjectName(agent.project_name),
     writerProjectId: agent.writer_project_id ?? null,
+    dashboardProjectId: agent.dashboard_project_id ?? null,
     notes: agent.notes ?? "",
   };
 }
 
 export function QueryDashProvider({
+  dashboardProjectId,
   children,
   projectName,
   writerProjectId,
 }: {
   children: React.ReactNode;
+  dashboardProjectId?: string;
   projectName?: string | null;
   writerProjectId?: string | null;
 }) {
   const { addAgent, isLoading, refetch, removeProject } = useProfileContext();
-  const searchParams = useSearchParams();
   const router = useRouter();
-  const rawActiveProjectName = projectName ?? searchParams.get("project");
+  const rawActiveProjectName = projectName;
   const activeWriterProjectId = writerProjectId?.trim() || null;
   const activeProjectName = rawActiveProjectName
     ? normalizeProjectName(rawActiveProjectName)
@@ -304,22 +306,10 @@ export function QueryDashProvider({
   const [isDeletingProject, setIsDeletingProject] = useState(false);
 
   const visibleCards = useMemo(
-    () =>
-      activeProjectName
-        ? cards.filter((card) =>
-            isSameProjectScope(
-              {
-                projectName: card.projectName,
-                writerProjectId: card.writerProjectId,
-              },
-              {
-                projectName: activeProjectName,
-                writerProjectId: activeWriterProjectId,
-              },
-            ),
-          )
-        : cards,
-    [cards, activeProjectName, activeWriterProjectId],
+    () => dashboardProjectId
+      ? cards.filter((card) => card.dashboardProjectId === dashboardProjectId)
+      : cards,
+    [cards, dashboardProjectId],
   );
 
   useEffect(() => {
