@@ -1,21 +1,12 @@
 "use client";
 
-import { useState } from "react";
-import { Pencil, X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Check, Pencil, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Button } from "@/app/ui-primitives/button";
 import { Input } from "@/app/ui-primitives/input";
-import { Field, FieldLabel } from "@/app/ui-primitives/field";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogFooter,
-  DialogTrigger,
-} from "@/app/ui-primitives/dialog";
+import { cn } from "@/app/utils";
 import {
   AlertDialog,
   AlertDialogTrigger,
@@ -49,10 +40,41 @@ export function ProjectDashboardTitle({
   const [name, setName] = useState(projectName);
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+  const editButtonRef = useRef<HTMLButtonElement>(null);
+  const restoreFocusRef = useRef(false);
 
-  async function rename(event: React.FormEvent) {
-    event.preventDefault();
-    if (isSaving || !name.trim()) return;
+  useEffect(() => {
+    if (isEditing) {
+      inputRef.current?.focus();
+      inputRef.current?.select();
+    }
+  }, [isEditing]);
+
+  useEffect(() => {
+    if (!isEditing && !isSaving && restoreFocusRef.current) {
+      editButtonRef.current?.focus();
+      restoreFocusRef.current = false;
+    }
+  }, [isEditing, isSaving]);
+
+  function finishEditing() {
+    restoreFocusRef.current = true;
+    setIsEditing(false);
+    setError("");
+  }
+
+  async function rename() {
+    if (isSaving) return;
+    if (!name.trim()) {
+      setError("Enter a project name.");
+      inputRef.current?.focus();
+      return;
+    }
+    if (name.trim() === projectName) {
+      finishEditing();
+      return;
+    }
     setIsSaving(true);
     setError("");
     try {
@@ -89,7 +111,7 @@ export function ProjectDashboardTitle({
           },
         });
       }
-      setIsEditing(false);
+      finishEditing();
       toast.success("Project renamed.");
       router.refresh();
     } catch (error) {
@@ -102,94 +124,118 @@ export function ProjectDashboardTitle({
   }
 
   return (
-    <span className="flex min-w-0 items-center gap-1">
-      <span className="min-w-0 break-words">
-        {projectName || "Query Dashboard"}
+    <span className="relative flex min-w-0 items-center gap-1">
+      <span className="relative min-w-0" data-invalid={Boolean(error)}>
+        <span
+          aria-hidden={isEditing}
+          title={projectName}
+          className={cn(
+            "block truncate border border-transparent px-1.5 transition-opacity duration-200 ease-in-out motion-reduce:transition-none",
+            isEditing ? "opacity-0" : "opacity-100",
+          )}
+        >
+          {projectName || "Query Dashboard"}
+        </span>
+        {dashboardProjectId && (
+          <Input
+            ref={inputRef}
+            id="dashboard-project-name"
+            aria-label="Project name"
+            className={cn(
+              "absolute inset-0 h-full rounded-md border-accent bg-white px-1.5 py-0 shadow-none transition-opacity duration-200 ease-in-out focus-visible:border-accent focus-visible:ring-0 motion-reduce:transition-none",
+              isEditing ? "opacity-100" : "pointer-events-none opacity-0",
+            )}
+            style={{ font: "inherit", letterSpacing: "inherit" }}
+            value={name}
+            onChange={(event) => {
+              setName(event.target.value);
+              setError("");
+            }}
+            onKeyDown={(event) => {
+              if (event.nativeEvent.isComposing) return;
+              if (event.key === "Enter") {
+                event.preventDefault();
+                void rename();
+              } else if (event.key === "Escape" && !isSaving) {
+                event.preventDefault();
+                finishEditing();
+              }
+            }}
+            maxLength={120}
+            required
+            inert={!isEditing}
+            tabIndex={isEditing ? 0 : -1}
+            readOnly={isSaving}
+            aria-hidden={!isEditing}
+            aria-busy={isSaving}
+            aria-invalid={Boolean(error)}
+            aria-describedby={error ? "project-name-error" : "project-name-help"}
+          />
+        )}
       </span>
       {dashboardProjectId && (
         <>
-          <Dialog
-            open={isEditing}
-            onOpenChange={(open) => {
-              if (isSaving) return;
-              setIsEditing(open);
-              if (open) {
+          <span id="project-name-help" className="sr-only">
+            Press Enter to save or Escape to cancel.
+          </span>
+          <Button
+            ref={editButtonRef}
+            type="button"
+            variant="ghost"
+            size="icon"
+            className="relative hover:bg-accent/10 focus-visible:bg-accent/10 motion-reduce:transition-none"
+            aria-label={isEditing ? "Save project name" : "Rename project"}
+            title={isEditing ? "Save project name" : "Rename project"}
+            disabled={isSaving || isDeletingProject}
+            onClick={() => {
+              if (isEditing) {
+                void rename();
+              } else {
                 setName(projectName);
                 setError("");
+                setIsEditing(true);
               }
             }}
           >
-            <DialogTrigger asChild>
-              <Button
-                variant="ghost"
-                size="icon"
-                aria-label="Rename project"
-                title="Rename project"
-              >
-                <Pencil />
-              </Button>
-            </DialogTrigger>
-            <DialogContent>
-              <DialogHeader>
-                <DialogTitle>Rename project</DialogTitle>
-                <DialogDescription>
-                  Update the name everywhere this project appears.
-                </DialogDescription>
-              </DialogHeader>
-              <form onSubmit={rename} className="flex flex-col gap-4">
-                <Field data-invalid={Boolean(error)}>
-                  <FieldLabel htmlFor="dashboard-project-name">
-                    Project name
-                  </FieldLabel>
-                  <Input
-                    id="dashboard-project-name"
-                    value={name}
-                    onChange={(event) => setName(event.target.value)}
-                    maxLength={120}
-                    required
-                    autoFocus
-                    disabled={isSaving}
-                    aria-invalid={Boolean(error)}
-                    aria-describedby={error ? "project-name-error" : undefined}
-                  />
-                  {error && (
-                    <p
-                      id="project-name-error"
-                      role="alert"
-                      className="text-sm text-destructive"
-                    >
-                      {error}
-                    </p>
-                  )}
-                </Field>
-                <DialogFooter>
-                  <Button
-                    type="button"
-                    variant="outline"
-                    disabled={isSaving}
-                    onClick={() => setIsEditing(false)}
-                  >
-                    Cancel
-                  </Button>
-                  <Button type="submit" disabled={isSaving || !name.trim()}>
-                    {isSaving ? "Saving..." : "Save name"}
-                  </Button>
-                </DialogFooter>
-              </form>
-            </DialogContent>
-          </Dialog>
+            <span
+              aria-hidden="true"
+              className={cn(
+                "absolute transition-opacity duration-200 motion-reduce:transition-none",
+                isEditing ? "opacity-0" : "opacity-100",
+              )}
+            >
+              <Pencil />
+            </span>
+            <span
+              aria-hidden="true"
+              className={cn(
+                "absolute transition-opacity duration-200 motion-reduce:transition-none",
+                isEditing ? "opacity-100" : "opacity-0",
+              )}
+            >
+              <Check />
+            </span>
+          </Button>
           <AlertDialog
             open={isConfirmingDelete}
             onOpenChange={(open) => {
-              if (!isDeletingProject) setIsConfirmingDelete(open);
+              if (!isDeletingProject && !isEditing) setIsConfirmingDelete(open);
             }}
           >
             <AlertDialogTrigger asChild>
               <Button
                 variant="ghost"
                 size="icon"
-                aria-label="Delete project"
-                title="Delete project"
+                className="hover:bg-accent/10 focus-visible:bg-accent/10 motion-reduce:transition-none"
+                aria-label={isEditing ? "Cancel rename" : "Delete project"}
+                title={isEditing ? "Cancel rename" : "Delete project"}
+                disabled={isSaving || isDeletingProject}
+                onClick={(event) => {
+                  if (isEditing) {
+                    event.preventDefault();
+                    finishEditing();
+                  }
+                }}
               >
                 <X />
               </Button>
@@ -221,6 +267,15 @@ export function ProjectDashboardTitle({
               </AlertDialogFooter>
             </AlertDialogContent>
           </AlertDialog>
+          {error && (
+            <span
+              id="project-name-error"
+              role="alert"
+              className="absolute top-full left-1.5 mt-1 font-sans text-sm font-normal text-destructive"
+            >
+              {error}
+            </span>
+          )}
         </>
       )}
     </span>
