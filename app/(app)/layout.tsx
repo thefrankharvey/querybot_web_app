@@ -23,8 +23,8 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   return (
     <ProfileProvider>
-      <AgencyHistoryProvider>
       <AgentMatchesProvider>
+      <AgencyHistoryProvider>
         <div className="app-layout-shell ambient-page min-h-screen pt-2">
           <div className="ambient-orb-top" />
           <div className="app-layout-mobile-header ambient-page-shell flex items-center justify-between py-4 px-4 md:hidden z-50">
@@ -44,8 +44,8 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           </div>
         </div>
         <Footer />
-      </AgentMatchesProvider>
       </AgencyHistoryProvider>
+      </AgentMatchesProvider>
     </ProfileProvider>
   );
 }

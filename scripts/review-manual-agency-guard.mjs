@@ -31,7 +31,7 @@ const projects = [
 const template = [
   {
     id: uuid(10),
-    name: "Alex Oak (submitted)",
+    name: "Alex Oak",
     index_id: uuid(100),
     agency: "Oak Literary Agency",
     agency_url: "https://oak.example",
@@ -40,7 +40,7 @@ const template = [
   },
   {
     id: uuid(11),
-    name: "Blair Oak (candidate)",
+    name: "Blair Oak",
     index_id: uuid(101),
     agency: "Oak Literary Agency",
     agency_url: "https://oak.example",
@@ -48,7 +48,7 @@ const template = [
   },
   {
     id: uuid(12),
-    name: "Casey Oak (other project)",
+    name: "Casey Oak",
     index_id: uuid(102),
     agency: "Oak Literary Agency",
     agency_url: "https://oak.example",
@@ -57,20 +57,20 @@ const template = [
   },
   {
     id: uuid(13),
-    name: "Devon Oak (possible match)",
+    name: "Devon Oak",
     index_id: "manual:devon",
     agency_url: "https://oak.example/submissions",
     column_name: "agents-to-research",
   },
   {
     id: uuid(14),
-    name: "Ellis (unknown agency)",
+    name: "Ellis",
     index_id: "manual:ellis",
     column_name: "agents-to-research",
   },
   {
     id: uuid(15),
-    name: "Finley (different identity)",
+    name: "Finley",
     index_id: uuid(105),
     agency: "Oak Literary Agency",
     agency_url: "https://oak.example",
@@ -78,14 +78,14 @@ const template = [
   },
   {
     id: uuid(16),
-    name: "Gale (shared host)",
+    name: "Gale",
     index_id: "manual:gale",
     agency_url: "https://agency.querymanager.com",
     column_name: "submitted-query",
   },
   {
     id: uuid(17),
-    name: "Harper (shared host candidate)",
+    name: "Harper",
     index_id: "manual:harper",
     agency_url: "https://agency.querymanager.com",
     column_name: "agents-to-research",

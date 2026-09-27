@@ -38,6 +38,7 @@ interface ProfileContextType {
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => Promise<void>;
+  removeAgents: (agentIds: string[]) => Promise<void>;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
   saveAllAgents: (
@@ -146,7 +147,8 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     })();
   }, [agentsList, refetch]);
 
-  const removeAgent = async (agentId: string) => {
+  const removeAgents = async (agentIds: string[]) => {
+    const removed = new Set(agentIds);
     // A pending refresh must not restore the row after a successful deletion.
     await queryClient.cancelQueries({ queryKey: ["agent-matches", user?.id] });
     queryClient.setQueryData(
@@ -156,12 +158,14 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         return {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
-            (agent) => agent.id !== agentId,
+            (agent) => !removed.has(agent.id),
           ),
         };
       },
     );
   };
+
+  const removeAgent = (agentId: string) => removeAgents([agentId]);
 
   const addAgent = (agent: AgentMatch) => {
     queryClient.setQueryData(
@@ -174,6 +178,16 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         };
       },
     );
+  };
+
+  const rememberSavedAgents = async (created: AgentMatch[]) => {
+    await queryClient.cancelQueries({ queryKey: ["agent-matches", user?.id] });
+    queryClient.setQueryData(["agent-matches", user?.id], (old: ProfileData | undefined) => {
+      if (!old) return old;
+      const saved = new Map(old.agent_matches.map((agent) => [agent.id, agent]));
+      created.forEach((agent) => saved.set(agent.id, agent));
+      return { ...old, agent_matches: [...saved.values()] };
+    });
   };
 
   const saveAgent = async (
@@ -196,6 +210,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       const result = (await response.json()) as SaveAgentResponse;
 
+      await rememberSavedAgents(result.created);
       await refetch();
 
       toast.success("Agent saved successfully!", {
@@ -267,6 +282,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       const result = (await response.json()) as SaveAgentResponse;
 
+      await rememberSavedAgents(result.created);
       await refetch();
 
       const skippedCount = payloads.length - newAgents.length;
@@ -315,6 +331,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     refetch,
     addAgent,
     removeAgent,
+    removeAgents,
     saveAgent,
     saveAllAgents,
     savingAgentId,

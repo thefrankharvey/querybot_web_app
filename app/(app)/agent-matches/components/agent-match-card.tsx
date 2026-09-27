@@ -118,9 +118,10 @@ export const AgentMatchCard = ({
               isLoading={isLoading}
               className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
             >
-              <h2 className="text-xl font-bold capitalize text-accent">
-                {agent.name}
-              </h2>
+              <div className="flex items-center gap-1">
+                <h2 className="text-xl font-bold capitalize text-accent">{agent.name}</h2>
+                {!isDisabled && <DiscoveryAgencyGuard agent={agent} />}
+              </div>
             </Skeleton>
             <div>
               {!isSubscribed && isDisabled ? (
@@ -205,7 +206,6 @@ export const AgentMatchCard = ({
               </p>
             </Skeleton>
           </div>
-          {!isDisabled && <DiscoveryAgencyGuard agent={agent} indicator />}
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold cursor-pointer">
               Country:

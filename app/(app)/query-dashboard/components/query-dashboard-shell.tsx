@@ -1,6 +1,5 @@
 "use client";
 
-import { SavedHistoryRecord } from "@/app/components/query-safety/saved-history-record";
 import { Suspense, useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Confetti from "react-confetti";
@@ -98,7 +97,6 @@ function QueryDashboardContent() {
 
   return (
     <div className="query-dashboard-page ambient-page flex h-full min-h-0 flex-col py-0 md:py-6">
-      <SavedHistoryRecord dashboardProjectId={dashboardProjectId} />
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
           <Confetti

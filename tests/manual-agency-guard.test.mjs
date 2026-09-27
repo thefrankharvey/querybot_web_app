@@ -59,148 +59,124 @@ function loader(mocks = {}, globals = {}) {
 }
 const load = loader();
 const pure = load("app/utils/query-safety/agency-guard.ts");
-const { buildAgencyGuard, resolveAgencyMatch, querySentDay } = pure;
-const id = (number) =>
-  `00000000-0000-4000-8000-${String(number).padStart(12, "0")}`;
+const { indexSavedAgencies, findSavedAgencyMatches, resolveAgencyMatch } = pure;
+const id = (n) => `00000000-0000-4000-8000-${String(n).padStart(12, "0")}`;
 const projectA = id(1),
   projectB = id(2),
   projectOtherUser = id(3);
-const agencyA = id(800),
-  agencyB = id(801);
+const canonical = {
+  agencyId: id(800),
+  agencyName: "Oak",
+  agencyUrl: "https://oak.example",
+};
 const row = (overrides = {}) => ({
   id: id(10),
   user_id: "owner",
   dashboard_project_id: projectA,
-  project_name: "Same name",
-  name: "Agent A",
-  agency: "Oak Literary Agency",
-  agency_url: "https://oak.example",
+  project_name: "Project A",
+  name: "Alex",
   index_id: id(100),
-  column_name: "submitted-query",
-  query_sent_date: "2026-09-01",
+  agency: "Oak",
+  agency_url: "https://oak.example",
+  column_name: "agents-to-research",
   ...overrides,
 });
-const input = { dashboardProjectId: projectA, candidateRecordId: id(11) };
-const canonical = {
-  agencyId: agencyA,
-  agencyName: "Oak",
-  agencyUrl: "https://oak.example",
-};
-const fallback = {
-  agencyName: "Oak Literary Agency",
-  agencyUrl: "https://oak.example",
-};
+const saved = (overrides = {}) => ({
+  ...row(),
+  identity: canonical,
+  ...overrides,
+});
+const response = (records, identities = {}) => ({
+  contractVersion: pure.CONTRACT_VERSION,
+  enabled: true,
+  records,
+  identities,
+});
+const matches = (
+  records,
+  candidate = { indexId: id(999) },
+  identities = { [id(999)]: canonical },
+) =>
+  findSavedAgencyMatches(
+    indexSavedAgencies(response(records, identities)),
+    candidate,
+  );
 
-test("canonical active same-project manual history warns and excludes only the candidate row", () => {
-  const result = buildAgencyGuard(input, canonical, [
-    row({ identity: canonical }),
-    row({ id: id(11), identity: canonical }),
+test("all saved stages count, group by stable project IDs, and exclude the current agent across projects", () => {
+  const result = matches([
+    saved(),
+    saved({
+      id: id(11),
+      index_id: id(101),
+      name: "Blair",
+      column_name: "rejected",
+    }),
+    saved({
+      id: id(12),
+      index_id: id(102),
+      name: "Casey",
+      dashboard_project_id: projectB,
+      project_name: "Project B",
+      column_name: "offer-made",
+    }),
+    saved({
+      id: id(13),
+      index_id: id(999),
+      name: "Current agent",
+      dashboard_project_id: projectB,
+    }),
   ]);
-  assert.equal(result.status, "warning");
-  assert.equal(result.records.length, 1);
-  assert.equal(result.counts.sameProjectActive, 1);
-  assert.equal(result.agency.confidence, "high");
-  assert.equal(result.records[0].querySentOn, "2026-09-01");
+  assert.equal(result.projects.length, 2);
+  assert.equal(result.projects[0].agents.join(", "), "Alex, Blair");
+  assert.equal(result.projects[1].agents.join(", "), "Casey");
+  assert.equal(result.hasFallback, false);
 });
-for (const column_name of ["rejected", "offer-made"])
-  test(`${column_name} is informational even with a fallback match`, () => {
-    const result = buildAgencyGuard(input, fallback, [row({ column_name })]);
-    assert.equal(result.status, "history");
-    assert.equal(result.counts.sameProjectActive, 0);
-    assert.equal(result.counts.sameProjectTerminal, 1);
-  });
-test("other projects and same-agent duplicates stay separate despite identical project names and renames", () => {
-  const rows = [
-    row({ id: id(11), identity: canonical }),
-    row({ dashboard_project_id: projectB, identity: canonical }),
-  ];
-  const basic = buildAgencyGuard(input, canonical, rows);
-  assert.equal(basic.records.length, 0);
-  assert.equal(basic.counts.otherProjectActive, null);
-  const expanded = buildAgencyGuard(
-    { ...input, includeAllProjects: true },
-    canonical,
-    rows,
-  );
-  assert.equal(expanded.status, "history");
-  assert.equal(expanded.counts.otherProjectActive, 1);
-  rows[1].project_name = "Renamed";
-  assert.equal(
-    buildAgencyGuard({ ...input, includeAllProjects: true }, canonical, rows)
-      .records[0].sameProject,
-    false,
-  );
+test("same-named projects remain distinct, repeated saves of one agent are deduplicated within each project", () => {
+  const result = matches([
+    saved(),
+    saved({ id: id(11) }),
+    saved({ id: id(12), dashboard_project_id: projectB }),
+  ]);
+  assert.equal(result.projects.length, 2);
+  assert.equal(result.projects[0].agents.length, 1);
 });
-test("contradictory canonical IDs never fall back to a matching name or domain", () => {
+test("different canonical IDs do not match through a common name or domain", () => {
   assert.equal(
-    resolveAgencyMatch(canonical, { ...canonical, agencyId: agencyB }),
+    resolveAgencyMatch(canonical, { ...canonical, agencyId: id(801) }),
     "none",
   );
-});
-test("canonical and fallback matches both remain visible, each with its own evidence", () => {
-  const result = buildAgencyGuard(input, canonical, [
-    row({ identity: canonical }),
-    row({ id: id(12) }),
-  ]);
-  assert.equal(result.records.length, 2);
-  assert.equal(result.records[1].matchMethod, "domain");
-});
-test("manual URL-only rows participate and fallback never claims high confidence", () => {
-  const result = buildAgencyGuard(
-    input,
-    { agencyUrl: "https://www.oak.example/submissions" },
-    [row({ agency: null, index_id: null })],
-  );
-  assert.equal(result.status, "possible_match");
-  assert.equal(result.agency.confidence, "fallback");
-});
-for (const host of [
-  "querymanager.com",
-  "agent.querymanager.com",
-  "www.querytracker.net",
-  "agency.submittable.com",
-  "docs.google.com",
-  "www.instagram.com",
-  "x.com",
-])
-  test(`shared host ${host} cannot identify an agency`, () => {
-    assert.equal(
-      resolveAgencyMatch(
-        { agencyUrl: `https://${host}/a` },
-        { agencyUrl: `https://${host}/b` },
-      ),
-      "none",
-    );
-  });
-test("normalization accepts only http/https and matches normalized names conservatively", () => {
-  assert.equal(pure.normalizeAgencyDomain("ftp://oak.example"), null);
   assert.equal(
-    resolveAgencyMatch(
-      { agencyName: "Oak & Elm Literary Agency" },
-      { agencyName: "OAK and ELM" },
-    ),
-    "normalized_name",
-  );
-});
-test("missing identity and incomplete history cannot become clear", () => {
-  assert.equal(buildAgencyGuard(input, {}, []).status, "unknown");
-  assert.equal(buildAgencyGuard(input, fallback, [], false).status, "unknown");
-});
-test("research without a valid query date is excluded; submitted without a date stays undated", () => {
-  assert.equal(
-    buildAgencyGuard(input, fallback, [
-      row({ column_name: "agents-to-research", query_sent_date: null }),
-    ]).records.length,
+    matches([saved({ identity: { ...canonical, agencyId: id(801) } })]).projects
+      .length,
     0,
   );
-  const result = buildAgencyGuard(input, fallback, [
-    row({ query_sent_date: null }),
-  ]);
-  assert.equal(result.records[0].stage, "active");
-  assert.equal(result.records[0].querySentOn, null);
-  assert.equal(querySentDay("2026-02-30"), null);
-  assert.equal(querySentDay("not-a-date"), null);
-  assert.equal(querySentDay("2026-09-01Tgarbage"), null);
+});
+test("domain/name fallback is identified, shared hosts and missing identity never match", () => {
+  assert.equal(
+    matches([
+      saved({ identity: { agencyUrl: "https://www.oak.example/submissions" } }),
+    ]).hasFallback,
+    true,
+  );
+  assert.equal(
+    matches([saved({ identity: { agencyName: "Oak Literary Agency" } })])
+      .hasFallback,
+    true,
+  );
+  const shared = { agencyUrl: "https://agency.querymanager.com" };
+  assert.equal(resolveAgencyMatch(shared, shared), "none");
+  assert.equal(resolveAgencyMatch({}, {}), "none");
+  assert.equal(pure.normalizeAgencyDomain("javascript:alert(1)"), null);
+});
+test("deleting the last other agent removes the warning; deleted candidates cannot use stale props", () => {
+  const current = saved({ id: id(11), index_id: id(101), name: "Blair" });
+  const candidate = { recordId: current.id };
+  assert.equal(matches([saved(), current], candidate).projects.length, 1);
+  assert.equal(matches([current], candidate).projects.length, 0);
+  assert.equal(
+    matches([saved()], { ...candidate, agencyName: "Oak" }).projects.length,
+    0,
+  );
 });
 function database(rows, { failure = false, cap = 1000 } = {}) {
   const projects = [
@@ -257,17 +233,18 @@ function database(rows, { failure = false, cap = 1000 } = {}) {
     },
   };
 }
+
 function harness({
   userId = "owner",
-  subscribed = false,
   enabled = true,
   limited = false,
   rows = [row()],
   identities = new Map(),
-  ...dbOptions
+  ...options
 } = {}) {
-  const db = database(rows, dbOptions);
-  const modules = loader(
+  const db = database(rows, options);
+  let catalogIds;
+  const route = loader(
     {
       "@clerk/nextjs/server": { auth: async () => ({ userId }) },
       "next/server": {
@@ -275,17 +252,11 @@ function harness({
       },
       "@/app/api/supabase/server": { createServerSupabase: () => db },
       "@/app/constants": { AGENT_MATCHES_TABLE: "agent_matches" },
-      "@/lib/clerk-utils": {
-        clerkClient: {
-          users: {
-            getUser: async () => ({
-              publicMetadata: { isSubscribed: subscribed },
-            }),
-          },
-        },
-      },
       "@/app/utils/query-safety/agency-identity.server": {
-        fetchAgencyIdentities: async () => identities,
+        fetchAgencyIdentities: async (ids) => {
+          catalogIds = ids;
+          return identities;
+        },
       },
       "@/app/utils/query-safety/rate-limit.server": {
         checkAgencyHistoryRateLimit: () => !limited,
@@ -296,187 +267,143 @@ function harness({
         env: enabled ? { QUERY_SAFETY_AGENCY_HISTORY_ENABLED: "true" } : {},
       },
     },
-  );
-  const route = modules("app/api/query-safety/agency-guard/route.ts");
+  )("app/api/query-safety/agency-guard/route.ts");
   return {
     db,
-    config: modules("app/api/query-safety/config/route.ts"),
-    request: async (
-      body = {
-        dashboardProjectId: projectA,
-        candidateAgencyName: "Oak Literary Agency",
-      },
-    ) => {
-      const response = await route.POST(
+    catalogIds: () => catalogIds,
+    request: async (body = { candidateIds: [] }) => {
+      const result = await route.POST(
         new Request("https://local/api/query-safety/agency-guard", {
           method: "POST",
           body: JSON.stringify(body),
         }),
       );
-      assert.equal(response.headers.get("cache-control"), "private, no-store");
-      return { response, body: await response.json() };
+      assert.equal(result.headers.get("cache-control"), "private, no-store");
+      return { result, body: await result.json() };
     },
   };
 }
-test("anonymous, disabled and rate-limited requests never read saved data", async () => {
-  for (const [opts, status, code] of [
-    [{ userId: null }, 401, "UNAUTHORIZED"],
-    [{ enabled: false }, 404, "FEATURE_DISABLED"],
-    [{ limited: true }, 429, "RATE_LIMITED"],
+test("unauthenticated, disabled and rate limited checks do not read private records", async () => {
+  for (const [options, status] of [
+    [{ userId: null }, 401],
+    [{ enabled: false }, 200],
+    [{ limited: true }, 429],
   ]) {
-    const h = harness(opts),
-      result = await h.request();
-    assert.equal(result.response.status, status);
-    assert.equal(result.body.code, code);
+    const h = harness(options);
+    const { result, body } = await h.request();
+    assert.equal(result.status, status);
     assert.equal(h.db.calls.length, 0);
+    if (options.enabled === false) assert.equal(body.enabled, false);
   }
 });
-test("strict manual contract rejects spoofed identity, bad IDs, thread fields and invalid types", async () => {
-  for (const fields of [
-    { agency_id: agencyA },
-    { candidateAgencyId: agencyA },
-    { threadId: id(9) },
-    { dashboardProjectId: "name" },
-    { candidateRecordId: "manual-id" },
-    { candidateIndexId: "x".repeat(201) },
-    { candidateAgencyName: "x".repeat(201) },
-    { candidateAgencyUrl: "javascript:alert(1)" },
-    { includeAllProjects: "true" },
-    { candidateIndexId: null },
+test("batch input rejects ownership/identity spoofing, oversized batches, malformed IDs and old per-agent contracts", async () => {
+  for (const body of [
+    { candidateIds: [], userId: "other" },
+    { candidateIds: ["manual:one"] },
+    { candidateIds: Array(1001).fill(id(1)) },
+    { dashboardProjectId: projectA },
+    { candidateIds: [], agencyId: id(800) },
+    null,
   ]) {
     const h = harness();
-    const result = await h.request({ dashboardProjectId: projectA, ...fields });
-    assert.equal(result.body.code, "INVALID_PAYLOAD");
+    assert.equal((await h.request(body)).result.status, 400);
     assert.equal(h.db.calls.length, 0);
   }
-  assert.equal(
-    (
-      await harness().request({
-        dashboardProjectId: projectA,
-        candidateIndexId: "opaque/manual:42",
-      })
-    ).response.status,
-    200,
-  );
 });
-test("missing, cross-user and mismatched row/project identifiers share one generic 404", async () => {
+test("every account gets all owned projects and every stage, never another account's records", async () => {
   const h = harness({
     rows: [
       row(),
       row({
-        id: id(99),
-        user_id: "other",
-        dashboard_project_id: projectOtherUser,
+        id: id(11),
+        index_id: id(101),
+        dashboard_project_id: projectB,
+        column_name: "rejected",
       }),
+      row({ id: id(12), user_id: "other" }),
     ],
+    identities: new Map([[id(100), canonical]]),
   });
-  for (const payload of [
-    { dashboardProjectId: projectOtherUser },
-    { dashboardProjectId: id(987) },
-    { dashboardProjectId: projectA, candidateRecordId: id(99) },
-    { dashboardProjectId: projectB, candidateRecordId: id(10) },
-    {
-      dashboardProjectId: projectA,
-      candidateRecordId: id(10),
-      candidateIndexId: "contradiction",
-    },
-  ]) {
-    const result = await h.request(payload);
-    assert.equal(result.response.status, 404);
-    assert.equal(result.body.code, "NOT_FOUND");
-    assert.equal(result.body.error, "Saved project or agent not found.");
-  }
-});
-test("saved candidate identity is derived from the owned row, ignoring spoofed names and URLs", async () => {
-  const h = harness({ rows: [row({ id: id(11) }), row()] });
-  const result = await h.request({
-    ...input,
-    candidateAgencyName: "Another agency",
-    candidateAgencyUrl: "https://attacker.example",
-  });
-  assert.equal(result.body.records.length, 1);
-  assert.equal(result.body.agency.displayName, "Oak Literary Agency");
-});
-test("expanded history is checked using server subscription metadata and never leaks other users", async () => {
-  const rows = [
-    row(),
-    row({ id: id(12), dashboard_project_id: projectB }),
-    row({
-      id: id(13),
-      user_id: "other",
-      dashboard_project_id: projectOtherUser,
-    }),
-  ];
-  const basic = await harness({ rows }).request();
-  assert.equal(basic.body.counts.otherProjectActive, null);
-  assert.equal(basic.body.records.length, 1);
-  const payload = {
-    dashboardProjectId: projectA,
-    candidateAgencyName: "Oak Literary Agency",
-    includeAllProjects: true,
-  };
-  assert.equal(
-    (await harness({ rows }).request(payload)).body.code,
-    "CAPABILITY_REQUIRED",
-  );
-  const paid = await harness({ rows, subscribed: true }).request(payload);
-  assert.equal(paid.body.records.length, 2);
-  assert.equal(paid.body.counts.otherProjectActive, 1);
-});
-test("pagination exhausts history even when the database cap is smaller than the requested page", async () => {
-  const rows = Array.from({ length: 1250 }, (_, i) =>
-    row({
-      id: id(i + 2000),
-      agency: i === 1249 ? "Oak" : "Different",
-      agency_url: null,
-    }),
-  );
-  const result = await harness({ rows, cap: 200 }).request();
-  assert.equal(result.body.records.length, 1);
-  assert.equal(result.body.coverage.historyComplete, true);
-});
-test("protective history bound suppresses clear", async () => {
-  const rows = Array.from({ length: 10001 }, (_, i) =>
-    row({ id: id(i + 2000), agency: "Other", agency_url: null }),
-  );
-  const result = await harness({ rows }).request();
-  assert.equal(result.body.status, "unknown");
-  assert.equal(result.body.coverage.historyComplete, false);
-});
-test("history outages are retryable 503s and do not report clear", async () => {
-  const result = await harness({ failure: true }).request();
-  assert.equal(result.response.status, 503);
-  assert.equal(result.body.code, "HISTORY_UNAVAILABLE");
-});
-test("canonical lookup can produce the strongest warning without storing identities", async () => {
-  const h = harness({
-    rows: [row()],
-    identities: new Map([
-      [id(100), canonical],
-      [id(101), canonical],
-    ]),
-  });
-  const result = await h.request({
-    dashboardProjectId: projectA,
-    candidateIndexId: id(101),
-  });
-  assert.equal(result.body.status, "warning");
-});
-test("config capability responses align with the default-off flag and server metadata", async () => {
-  for (const opts of [
-    { enabled: false },
-    { subscribed: false },
-    { subscribed: true },
-  ]) {
-    const response = await harness(opts).config.GET();
-    const body = await response.json();
-    assert.equal(body.agencyHistory, opts.enabled !== false);
-    assert.equal(
-      body.capabilities.allProjectsAgencyHistory,
-      opts.enabled !== false && opts.subscribed === true,
+  const { result, body } = await h.request({ candidateIds: [id(999)] });
+  assert.equal(result.status, 200);
+  assert.equal(body.records.length, 2);
+  assert.equal(body.records[0].identity.agencyId, canonical.agencyId);
+  assert.ok(h.catalogIds().includes(id(999)));
+  for (const call of h.db.calls)
+    assert.ok(
+      call.predicates.some(
+        ([key, value]) => key === "user_id" && value === "owner",
+      ),
     );
-    assert.equal(response.headers.get("cache-control"), "private, no-store");
-  }
+  assert.equal(body.records[0].column_name, undefined);
+  assert.equal(body.records[0].user_id, undefined);
+});
+test("batch scans all pages even with a lower database cap and fails on incomplete/error reads", async () => {
+  const rows = Array.from({ length: 5 }, (_, i) => row({ id: id(i + 10) }));
+  const h = harness({ rows, cap: 2 });
+  assert.equal((await h.request()).body.records.length, 5);
+  assert.equal(h.db.calls.length, 4);
+  assert.equal((await harness({ failure: true }).request()).result.status, 503);
+  const tooMany = Array.from({ length: 10001 }, (_, i) =>
+    row({ id: id(i + 10) }),
+  );
+  assert.equal((await harness({ rows: tooMany }).request()).result.status, 503);
+});
+test("one provider check is keyed by account, navigation and successful saved changes, but not query stage", () => {
+  const React = require("react");
+  const effects = [];
+  let options,
+    userId = "owner",
+    path = "/projects/a/dashboard",
+    rows = [row()],
+    discovery = [];
+  const client = { cancelQueries() {}, removeQueries() {} };
+  const Provider = loader({
+    react: {
+      ...React,
+      useMemo: (fn) => fn(),
+      useEffect: (fn) => effects.push(fn),
+    },
+    "@clerk/nextjs": { useUser: () => ({ user: { id: userId } }) },
+    "next/navigation": { usePathname: () => path },
+    "@tanstack/react-query": {
+      useQuery: (value) => {
+        options = value;
+        return {};
+      },
+      useQueryClient: () => client,
+    },
+    "@/app/(app)/context/profile-context": {
+      useProfileContext: () => ({ agentsList: rows }),
+    },
+    "@/app/(app)/context/agent-matches-context": {
+      useAgentMatches: () => ({ matches: discovery }),
+    },
+  })(
+    "app/components/query-safety/agency-history-provider.tsx",
+  ).AgencyHistoryProvider;
+  const render = () => {
+    Provider({ children: null });
+    return JSON.stringify(options.queryKey);
+  };
+  const original = render();
+  assert.equal(options.enabled, true);
+  assert.equal(options.gcTime, 0);
+  assert.equal(options.refetchOnMount, "always");
+  rows = [{ ...rows[0], column_name: "rejected" }];
+  assert.equal(render(), original);
+  rows = [];
+  assert.notEqual(render(), original);
+  rows = [row()];
+  userId = "other";
+  assert.notEqual(render(), original);
+  userId = "owner";
+  path = "/agent-matches";
+  discovery = [{ agent_id: id(777) }, { agent_id: id(778) }];
+  assert.ok(render().includes(id(777)));
+  rows = undefined;
+  render();
+  assert.equal(options.enabled, false);
 });
 test("identity adapter batches, deduplicates, rejects injected identities and limits concurrency", async () => {
   let active = 0,
@@ -498,14 +425,17 @@ test("identity adapter batches, deduplicates, rejects injected identities and li
             ...batch.map((agent_id) => ({
               agent_id,
               agency_identity: {
-                agency_id: agencyA,
+                agency_id: canonical.agencyId,
                 agency_name: "Oak",
                 agency_url: null,
               },
             })),
             {
               agent_id: id(99999),
-              agency_identity: { agency_id: agencyA, agency_name: "Injected" },
+              agency_identity: {
+                agency_id: canonical.agencyId,
+                agency_name: "Injected",
+              },
             },
           ],
         });
@@ -534,7 +464,8 @@ test("identity timeout falls back without failing manual history", async () => {
     },
   )("app/utils/query-safety/agency-identity.server.ts");
   assert.equal((await adapter.fetchAgencyIdentities([id(100)])).size, 0);
-  assert.equal((await harness().request()).body.status, "possible_match");
+  const { body } = await harness().request();
+  assert.equal(body.records[0].identity.agencyName, "Oak");
 });
 test("rate limiting expires and accounts have independent budgets", () => {
   const rate = load("app/utils/query-safety/rate-limit.server.ts");
@@ -545,174 +476,116 @@ test("rate limiting expires and accounts have independent budgets", () => {
   assert.equal(rate.checkAgencyHistoryRateLimit("one", 60001), true);
 });
 
-test("details request keys include account, dashboard, candidate, expansion and contract, and stay disabled until opened", () => {
-  let options;
-  const hook = loader({
-    "@clerk/nextjs": { useUser: () => ({ user: { id: "owner" } }) },
-    "@tanstack/react-query": {
-      useQuery: (value) => {
-        options = value;
-        return value;
-      },
-    },
-  })("app/hooks/use-agency-guard.ts");
-  hook.useAgencyGuard(input, false);
-  assert.equal(options.enabled, false);
-  assert.equal(options.gcTime, 0);
-  const key = JSON.stringify(options.queryKey);
-  for (const fragment of ["owner", projectA, id(11), "manual-agency-guard-v1"])
-    assert.ok(key.includes(fragment));
-  hook.useAgencyGuard({ ...input, includeAllProjects: true }, true);
-  assert.equal(options.enabled, true);
-  assert.notEqual(JSON.stringify(options.queryKey), key);
-});
-test("only successful persisted cache changes invalidate history; account cleanup cancels and removes private data", async () => {
-  const React = require("react");
-  const { QueryClient } = require("@tanstack/react-query");
-  const client = new QueryClient();
-  const effects = [];
-  const historyKey = [
-    "manual-agency-history",
-    "owner",
-    "manual-agency-guard-v1",
-    input,
-  ];
-  const otherKey = [
-    "manual-agency-history",
-    "other",
-    "manual-agency-guard-v1",
-    input,
-  ];
-  client.setQueryData(historyKey, { status: "clear" });
-  client.setQueryData(otherKey, { status: "clear" });
-  const Provider = loader({
-    react: { ...React, useEffect: (callback) => effects.push(callback) },
-    "@clerk/nextjs": { useUser: () => ({ user: { id: "owner" } }) },
-    "@tanstack/react-query": {
-      useQuery: () => ({ data: { agencyHistory: true } }),
-      useQueryClient: () => client,
-    },
-  })(
-    "app/components/query-safety/agency-history-provider.tsx",
-  ).AgencyHistoryProvider;
-  Provider({ children: null });
-  const cleanup = effects[0]();
-  await client
-    .fetchQuery({
-      queryKey: ["agent-matches", "owner"],
-      queryFn: () => {
-        throw new Error("save failed");
-      },
-      retry: false,
-    })
-    .catch(() => {});
-  assert.equal(client.getQueryState(historyKey).isInvalidated, false);
-  client.setQueryData(["agent-matches", "other"], { agent_matches: [] });
-  assert.equal(client.getQueryState(historyKey).isInvalidated, false);
-  client.setQueryData(["agent-matches", "owner"], {
-    agent_matches: [row({ column_name: "rejected" })],
-  });
-  await new Promise((resolve) => setTimeout(resolve, 0));
-  assert.equal(client.getQueryState(historyKey).isInvalidated, true);
-  assert.equal(client.getQueryState(otherKey).isInvalidated, false);
-  cleanup();
-  assert.equal(client.getQueryData(historyKey), undefined);
-  assert.ok(client.getQueryData(otherKey));
-  client.clear();
-});
-test("UI renders fallback, undated, terminal, missing, loading and error states without stale clear copy", () => {
-  const React = require("react");
-  const { renderToStaticMarkup } = require("react-dom/server");
-  function render({
-    result,
-    enabled = true,
-    isError = false,
-    isFetching = false,
-    project = projectA,
-  } = {}) {
-    const component = loader({
-      "@/app/(app)/context/profile-context": {
-        useProfileContext: () => ({ agentsList: [row()] }),
-      },
-      "./agency-history-provider": {
-        useAgencyHistoryConfig: () => ({
-          agencyHistory: enabled,
-          capabilities: { allProjectsAgencyHistory: true },
-        }),
-      },
-      "@/app/hooks/use-agency-guard": {
-        useAgencyGuard: () => ({
-          data: result,
-          isError,
-          isFetching,
-          error: new Error("Unable to load agency history. Try again."),
-          refetch() {},
-        }),
-      },
-      "next/link": ({ children, ...props }) =>
-        React.createElement("a", props, children),
-      "@/app/utils": { cn: (...classes) => classes.filter(Boolean).join(" ") },
-    })("app/components/query-safety/agency-guard.tsx");
-    return renderToStaticMarkup(
-      React.createElement(component.AgencyGuard, {
-        candidate: { ...input, dashboardProjectId: project },
-        defaultOpen: true,
-      }),
-    );
-  }
-  const result = buildAgencyGuard(input, fallback, [
-    row({ query_sent_date: null }),
-  ]);
-  const html = render({ result });
-  assert.match(html, /Possible agency match/);
-  assert.match(html, /date missing/);
-  assert.match(html, /official domain/);
-  assert.match(html, /Include my other projects/);
-  assert.doesNotMatch(html, /Safe to|Approved|You cannot query/);
-  const error = render({
-    result: buildAgencyGuard(input, fallback, []),
-    isError: true,
-  });
-  assert.match(error, /History unavailable/);
-  assert.doesNotMatch(error, /No matching history/);
-  assert.match(render({ result, isFetching: true }), /Checking saved history/);
-  assert.match(
-    render({ result: buildAgencyGuard(input, {}, []) }),
-    /Unable to determine agency history/,
-  );
-  assert.match(
-    render({ project: null }),
-    /after this project has saved agents/,
-  );
-  assert.equal(render({ enabled: false }), "");
-});
-
 test("direct dashboard loads wait for Clerk and rehydrate when the account resolves", async () => {
   const React = require("react");
-  let user = null, agentsList, isError = false, stateIndex = 0, effectIndex = 0;
-  const states = [], previousDeps = [], effects = [];
+  let user = null,
+    agentsList,
+    isError = false,
+    stateIndex = 0,
+    effectIndex = 0;
+  const states = [],
+    previousDeps = [],
+    effects = [];
   const refetch = async () => ({ data: { agent_matches: [row()] } });
   const Provider = loader({
-    react: { ...React,
-      useState: (initial) => { const slot = stateIndex++; if (!(slot in states)) states[slot] = initial; return [states[slot], (value) => { states[slot] = typeof value === "function" ? value(states[slot]) : value; }]; },
-      useCallback: (callback) => callback, useMemo: (callback) => callback(),
-      useEffect: (callback, deps) => { const slot = effectIndex++; if (!previousDeps[slot] || deps.some((value, i) => value !== previousDeps[slot][i])) effects.push(callback); previousDeps[slot] = deps; },
+    react: {
+      ...React,
+      useState: (initial) => {
+        const slot = stateIndex++;
+        if (!(slot in states)) states[slot] = initial;
+        return [
+          states[slot],
+          (value) => {
+            states[slot] =
+              typeof value === "function" ? value(states[slot]) : value;
+          },
+        ];
+      },
+      useCallback: (callback) => callback,
+      useMemo: (callback) => callback(),
+      useEffect: (callback, deps) => {
+        const slot = effectIndex++;
+        if (
+          !previousDeps[slot] ||
+          deps.some((value, i) => value !== previousDeps[slot][i])
+        )
+          effects.push(callback);
+        previousDeps[slot] = deps;
+      },
     },
     "@clerk/nextjs": { useUser: () => ({ user }) },
     "next/navigation": { useRouter: () => ({ push() {} }) },
-    "@/app/(app)/context/profile-context": { useProfileContext: () => ({ agentsList, isError, refetch, projects: [], isLoading: false }) },
-    "@/app/components/fit-rating-badge": { getFitRatingFromScore: () => "neutral" },
+    "@/app/(app)/context/profile-context": {
+      useProfileContext: () => ({
+        agentsList,
+        isError,
+        refetch,
+        projects: [],
+        isLoading: false,
+      }),
+    },
+    "@/app/components/fit-rating-badge": {
+      getFitRatingFromScore: () => "neutral",
+    },
     "@/app/constants": { DEFAULT_PROJECT_NAME: "Untitled Project" },
-    "@/app/utils/project-dashboard-summary": { normalizeProjectName: (name) => name },
-  })("app/(app)/query-dashboard/context/query-dash-context.tsx").QueryDashProvider;
-  function render() { stateIndex = 0; effectIndex = 0; return Provider({ children: null, dashboardProjectId: projectA }).props.value; }
-  render(); effects.splice(0).forEach((effect) => effect());
+    "@/app/utils/project-dashboard-summary": {
+      normalizeProjectName: (name) => name,
+    },
+  })(
+    "app/(app)/query-dashboard/context/query-dash-context.tsx",
+  ).QueryDashProvider;
+  function render() {
+    stateIndex = 0;
+    effectIndex = 0;
+    return Provider({ children: null, dashboardProjectId: projectA }).props
+      .value;
+  }
+  render();
+  effects.splice(0).forEach((effect) => effect());
   assert.equal(render().isLoading, true);
-  user = { id: "owner" }; render(); effects.splice(0).forEach((effect) => effect());
+  user = { id: "owner" };
+  render();
+  effects.splice(0).forEach((effect) => effect());
   assert.equal(render().isLoading, true);
-  isError = true; assert.equal(render().hasLoadError, true); assert.equal(render().isLoading, false);
-  isError = false; agentsList = [row()]; render(); effects.splice(0).forEach((effect) => effect());
-  const state = render(); assert.equal(state.visibleCards.length, 1); assert.equal(state.isLoading, false);
-  user = null; render(); effects.splice(0).forEach((effect) => effect());
+  isError = true;
+  assert.equal(render().hasLoadError, true);
+  assert.equal(render().isLoading, false);
+  isError = false;
+  agentsList = [row()];
+  render();
+  effects.splice(0).forEach((effect) => effect());
+  const state = render();
+  assert.equal(state.visibleCards.length, 1);
+  assert.equal(state.isLoading, false);
+  user = null;
+  render();
+  effects.splice(0).forEach((effect) => effect());
   assert.equal(render().visibleCards.length, 0);
+});
+
+test("successful bulk removals and saves update the shared cache even if a follow-up read fails", async () => {
+  const React = require("react");
+  const { QueryClient } = require("@tanstack/react-query");
+  const client = new QueryClient();
+  const key = ["agent-matches", "owner"];
+  const original = row();
+  client.setQueryData(key, { agent_matches: [original], projects: [] });
+  let succeed = true;
+  const created = row({ id: id(555), index_id: id(556), name: "New agent" });
+  const Provider = loader({
+    react: { ...React, useMemo: (fn) => fn(), useState: (value) => [value, () => {}], useRef: () => ({current: false}), useEffect: () => {} },
+    "@clerk/nextjs": {useUser: () => ({user:{id:"owner"}})},
+    "@tanstack/react-query": {useQueryClient: () => client},
+    "@/app/hooks/use-fetch-agents-list": {useFetchAgentsList: () => ({ data:client.getQueryData(key), refetch:async () => ({isError:true}) })},
+    "sonner": {toast:{success(){},error(){}}},
+  }, {fetch:async () => Response.json(succeed ? {created:[created]} : {error:"Failed"}, {status:succeed?201:500})})("app/(app)/context/profile-context.tsx").ProfileProvider;
+  const value = Provider({children:null}).props.value;
+  await value.saveAgent({name:"New agent", index_id:id(556)});
+  assert.equal(client.getQueryData(key).agent_matches.length,2);
+  await value.removeAgents([original.id,created.id]);
+  assert.equal(client.getQueryData(key).agent_matches.length,0);
+  succeed=false;
+  await value.saveAgent({name:"Failed"});
+  assert.equal(client.getQueryData(key).agent_matches.length,0);
+  client.clear();
 });

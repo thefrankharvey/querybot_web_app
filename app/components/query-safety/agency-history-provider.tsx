@@ -1,67 +1,108 @@
 "use client";
-import { createContext, useContext, useEffect, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  type ReactNode,
+} from "react";
 import { useUser } from "@clerk/nextjs";
+import { usePathname } from "next/navigation";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { AGENCY_HISTORY_KEY } from "@/app/hooks/use-agency-guard";
+import { useProfileContext } from "@/app/(app)/context/profile-context";
+import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
+import { isDashboardProjectId } from "@/app/utils/project-dashboard-route";
+import {
+  CONTRACT_VERSION,
+  indexSavedAgencies,
+  type SavedAgencyIndex,
+  type SavedAgencyResponse,
+} from "@/app/utils/query-safety/agency-guard";
 
-type Config = {
-  agencyHistory: boolean;
-  capabilities: {
-    sameProjectAgencyGuard: boolean;
-    allProjectsAgencyHistory: boolean;
-  };
-};
-const Context = createContext<Config | undefined>(undefined);
+export const AGENCY_MATCHES_KEY = "saved-agency-matches";
+const Context = createContext<SavedAgencyIndex | undefined>(undefined);
 export function AgencyHistoryProvider({ children }: { children: ReactNode }) {
   const { user } = useUser();
   const userId = user?.id;
+  const pathname = usePathname();
+  const { agentsList } = useProfileContext();
+  const { matches } = useAgentMatches();
   const client = useQueryClient();
-  const config = useQuery<Config>({
-    queryKey: ["agency-history-config", userId],
-    enabled: !!userId,
-    staleTime: 60000,
+  const candidateIds = useMemo(
+    () =>
+      pathname.startsWith("/agent-matches")
+        ? [
+            ...new Set(
+              matches
+                .map((agent) => agent.agent_id)
+                .filter((id): id is string => !!id && isDashboardProjectId(id)),
+            ),
+          ]
+            .sort()
+            .slice(0, 1000)
+        : [],
+    [matches, pathname],
+  );
+  // The profile cache changes after successful persistence. Only matching fields matter;
+  // stage/date edits do not need a new agency lookup. Changed keys cancel obsolete reads.
+  const savedRevision = useMemo(
+    () =>
+      JSON.stringify(
+        agentsList?.map((row) => [
+          row.id,
+          row.index_id,
+          row.dashboard_project_id,
+          row.project_name,
+          row.name,
+          row.agency,
+          row.agency_url,
+        ]).sort((a, b) => (a[0] ?? "").localeCompare(b[0] ?? "")),
+      ),
+    [agentsList],
+  );
+  const query = useQuery<SavedAgencyResponse>({
+    queryKey: [
+      AGENCY_MATCHES_KEY,
+      userId,
+      CONTRACT_VERSION,
+      pathname,
+      candidateIds,
+      savedRevision,
+    ],
+    enabled: !!userId && agentsList !== undefined,
+    staleTime: 0,
     gcTime: 0,
     retry: false,
+    refetchOnMount: "always",
     queryFn: async ({ signal }) => {
-      const response = await fetch("/api/query-safety/config", {
+      const response = await fetch("/api/query-safety/agency-guard", {
+        method: "POST",
         cache: "no-store",
         signal,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ candidateIds }),
       });
-      if (!response.ok) throw new Error("Agency history unavailable");
+      if (!response.ok)
+        throw new Error("Saved agency matches are unavailable.");
       return response.json();
     },
   });
-  useEffect(() => {
-    const unsubscribe = client.getQueryCache().subscribe((event) => {
-      // The saved-agent cache changes only after persistence or a successful server read.
-      if (
-        event.type === "updated" &&
-        event.action.type === "success" &&
-        event.query.queryKey[0] === "agent-matches" &&
-        event.query.queryKey[1] === userId
-      ) {
-        void client
-          .cancelQueries({ queryKey: [AGENCY_HISTORY_KEY, userId] })
-          .then(() =>
-            client.invalidateQueries({
-              queryKey: [AGENCY_HISTORY_KEY, userId],
-            }),
-          );
-      }
-    });
-    return () => {
-      unsubscribe();
-      void client.cancelQueries({ queryKey: [AGENCY_HISTORY_KEY, userId] });
-      client.removeQueries({ queryKey: [AGENCY_HISTORY_KEY, userId] });
-      client.removeQueries({ queryKey: ["agency-history-config", userId] });
-    };
-  }, [client, userId]);
-  return (
-    <Context.Provider value={userId ? config.data : undefined}>
-      {children}
-    </Context.Provider>
+  useEffect(
+    () => () => {
+      void client.cancelQueries({ queryKey: [AGENCY_MATCHES_KEY, userId] });
+      client.removeQueries({ queryKey: [AGENCY_MATCHES_KEY, userId] });
+    },
+    [client, userId],
   );
+  const index = useMemo(
+    () =>
+      userId && !query.isError && query.data?.enabled
+        ? indexSavedAgencies(query.data)
+        : undefined,
+    [userId, query.data, query.isError],
+  );
+  return <Context.Provider value={index}>{children}</Context.Provider>;
 }
-export function useAgencyHistoryConfig() {
+export function useSavedAgencyIndex() {
   return useContext(Context);
 }

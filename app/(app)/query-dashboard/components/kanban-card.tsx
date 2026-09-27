@@ -1,6 +1,6 @@
 "use client";
 
-import { AgencyHistoryButton } from "@/app/components/query-safety/agency-guard";
+import { AgencyWarning } from "@/app/components/query-safety/agency-guard";
 import type { CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
@@ -165,6 +165,7 @@ export function KanbanCard({
     <>
       {/* Agent Name */}
       <div className="flex items-center justify-between">
+        <div className="flex min-w-0 items-center gap-1">
         <p
           className={cn(
             "truncate text-sm font-semibold capitalize text-accent",
@@ -173,6 +174,8 @@ export function KanbanCard({
         >
           {card.name}
         </p>
+        {!isDragOverlay && <AgencyWarning candidate={{ recordId: card.id }} />}
+        </div>
         {useDragHandle ? (
           <div
             {...attributes}
@@ -198,9 +201,6 @@ export function KanbanCard({
           {card.agency}
         </p>
       )}
-      {!isDragOverlay && <div onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()} onKeyDown={(event) => event.stopPropagation()}>
-        <AgencyHistoryButton candidate={{ dashboardProjectId: card.dashboardProjectId, candidateRecordId: card.id }} />
-      </div>}
       {timingText && (
         <div className="mt-4">
           <p className="text-xs font-semibold text-accent cursor-pointer">

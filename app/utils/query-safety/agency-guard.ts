@@ -1,70 +1,31 @@
-import { getProjectDashboardHrefById } from "@/app/utils/project-dashboard-route";
-
-export const CONTRACT_VERSION = "manual-agency-guard-v1" as const;
+export const CONTRACT_VERSION = "saved-agency-matches-v2" as const;
 export type AgencyIdentity = {
   agencyId?: string | null;
   agencyName?: string | null;
   agencyUrl?: string | null;
 };
-export type AgencyGuardInput = {
-  dashboardProjectId: string;
-  candidateRecordId?: string;
-  candidateIndexId?: string;
-  candidateAgencyName?: string;
-  candidateAgencyUrl?: string;
-  includeAllProjects?: boolean;
-};
-export type ManualHistoryRow = {
+export type SavedAgencyRecord = {
   id: string;
-  dashboard_project_id?: string | null;
-  project_name?: string | null;
+  dashboard_project_id: string;
+  project_name: string;
   name: string;
   index_id?: string | null;
-  agency?: string | null;
-  agency_url?: string | null;
-  column_name?: string | null;
-  query_sent_date?: string | null;
-  // Only populated by the server's reviewed catalog lookup, never a browser payload.
-  identity?: AgencyIdentity;
+  identity: AgencyIdentity;
+};
+export type SavedAgencyResponse = {
+  contractVersion: typeof CONTRACT_VERSION;
+  enabled: boolean;
+  records: SavedAgencyRecord[];
+  identities: Record<string, AgencyIdentity>;
+};
+export type AgencyCandidate = {
+  recordId?: string;
+  indexId?: string;
+  agencyName?: string | null;
+  agencyUrl?: string | null;
 };
 export type MatchMethod =
   "canonical_id" | "domain" | "normalized_name" | "none";
-export type ManualStage =
-  "active" | "requested" | "rejected" | "offer" | "unknown_sent";
-export type ManualAgencyGuardResponse = {
-  contractVersion: typeof CONTRACT_VERSION;
-  dashboardProjectId: string;
-  evidenceSource: "manual_saved_records";
-  status: "clear" | "history" | "warning" | "possible_match" | "unknown";
-  agency: {
-    id: string | null;
-    displayName: string | null;
-    matchMethod: MatchMethod;
-    confidence: "high" | "fallback" | "unknown";
-  };
-  coverage: {
-    historyComplete: boolean;
-    identitySource: "canonical" | "fallback" | "unavailable";
-  };
-  counts: {
-    sameProjectActive: number;
-    sameProjectTerminal: number;
-    otherProjectActive: number | null;
-    otherProjectTerminal: number | null;
-  };
-  records: Array<{
-    recordId: string;
-    dashboardProjectId: string;
-    projectName: string;
-    agentName: string;
-    stage: ManualStage;
-    querySentOn: string | null;
-    sameProject: boolean;
-    evidenceSource: "manual";
-    href: string;
-    matchMethod: Exclude<MatchMethod, "none">;
-  }>;
-};
 const SHARED_HOSTS = [
   "querymanager.com",
   "querytracker.net",
@@ -133,133 +94,80 @@ export function resolveAgencyMatch(
     ? "normalized_name"
     : "none";
 }
-export function querySentDay(value?: string | null): string | null {
-  if (!value || !/^\d{4}-\d{2}-\d{2}(?:$|T)/.test(value)) return null;
-  if (value.length > 10 && !Number.isFinite(Date.parse(value))) return null;
-  const day = value.slice(0, 10);
-  const date = new Date(`${day}T00:00:00Z`);
-  return Number.isFinite(date.getTime()) &&
-    date.toISOString().slice(0, 10) === day
-    ? day
-    : null;
+
+function identityKeys(identity: AgencyIdentity) {
+  return [
+    identity.agencyId ? `id:${identity.agencyId}` : null,
+    normalizeAgencyDomain(identity.agencyUrl)
+      ? `domain:${normalizeAgencyDomain(identity.agencyUrl)}`
+      : null,
+    normalizeAgencyName(identity.agencyName)
+      ? `name:${normalizeAgencyName(identity.agencyName)}`
+      : null,
+  ].filter((key): key is string => key !== null);
 }
-export function classifyManualStage(row: ManualHistoryRow): ManualStage | null {
-  switch (row.column_name) {
-    case "submitted-query":
-      return "active";
-    case "pages-requested":
-      return "requested";
-    case "rejected":
-      return "rejected";
-    case "offer-made":
-      return "offer";
-    default:
-      return querySentDay(row.query_sent_date) ? "unknown_sent" : null;
+// Build once per successful batch, not once per rendered card.
+export function indexSavedAgencies(data: SavedAgencyResponse) {
+  const records = new Map(data.records.map((row) => [row.id, row]));
+  const agencies = new Map<string, SavedAgencyRecord[]>();
+  for (const row of data.records) {
+    for (const key of identityKeys(row.identity)) {
+      const group = agencies.get(key) ?? [];
+      group.push(row);
+      agencies.set(key, group);
+    }
   }
+  return { records, agencies, identities: data.identities };
 }
-export function rowIdentity(row: ManualHistoryRow): AgencyIdentity {
-  return row.identity ?? { agencyName: row.agency, agencyUrl: row.agency_url };
-}
-export function buildAgencyGuard(
-  input: AgencyGuardInput,
-  candidate: AgencyIdentity,
-  history: readonly ManualHistoryRow[],
-  historyComplete = true,
-): ManualAgencyGuardResponse {
-  const hasIdentity = !!(
-    candidate.agencyId ||
-    normalizeAgencyDomain(candidate.agencyUrl) ||
-    normalizeAgencyName(candidate.agencyName)
-  );
-  const matches = history.flatMap((row) => {
-    if (row.id === input.candidateRecordId || !row.dashboard_project_id)
-      return [];
-    const sameProject = row.dashboard_project_id === input.dashboardProjectId;
-    if (!sameProject && !input.includeAllProjects) return [];
-    const stage = classifyManualStage(row);
-    const matchMethod = resolveAgencyMatch(candidate, rowIdentity(row));
-    if (!stage || matchMethod === "none") return [];
-    return [
-      {
-        recordId: row.id,
-        dashboardProjectId: row.dashboard_project_id,
-        projectName: row.project_name || "Untitled Project",
-        agentName: row.name,
-        stage,
-        querySentOn: querySentDay(row.query_sent_date),
-        sameProject,
-        evidenceSource: "manual" as const,
-        href: `${getProjectDashboardHrefById(row.dashboard_project_id)}?record=${encodeURIComponent(row.id)}`,
-        matchMethod,
-      },
-    ];
-  });
-  const terminal = (stage: ManualStage) =>
-    stage === "offer" || stage === "rejected";
-  matches.sort(
-    (a, b) =>
-      Number(b.sameProject) - Number(a.sameProject) ||
-      Number(terminal(a.stage)) - Number(terminal(b.stage)) ||
-      (b.querySentOn ?? "").localeCompare(a.querySentOn ?? "") ||
-      a.recordId.localeCompare(b.recordId),
-  );
-  const count = (same: boolean, closed: boolean) =>
-    matches.filter(
-      (row) => row.sameProject === same && terminal(row.stage) === closed,
-    ).length;
-  const warning = matches.some(
-    (row) =>
-      row.sameProject &&
-      !terminal(row.stage) &&
-      row.matchMethod === "canonical_id",
-  );
-  const possibleActive = matches.some(
-    (row) => !terminal(row.stage) && row.matchMethod !== "canonical_id",
-  );
-  const matchMethod =
-    (["canonical_id", "domain", "normalized_name"] as const).find((method) =>
-      matches.some((row) => row.matchMethod === method),
-    ) ?? "none";
+export type SavedAgencyIndex = ReturnType<typeof indexSavedAgencies>;
+export function findSavedAgencyMatches(
+  index: SavedAgencyIndex,
+  candidate: AgencyCandidate,
+) {
+  const saved = candidate.recordId
+    ? index.records.get(candidate.recordId)
+    : undefined;
+  // A deleted row must not fall back to stale discovery props.
+  if (candidate.recordId && !saved) return { projects: [], hasFallback: false };
+  const agentId = saved?.index_id ?? candidate.indexId;
+  const identity = saved?.identity ??
+    index.identities[agentId?.toLowerCase() ?? ""] ?? {
+      agencyName: candidate.agencyName,
+      agencyUrl: candidate.agencyUrl,
+    };
+  const possible = new Map<string, SavedAgencyRecord>();
+  for (const key of identityKeys(identity)) {
+    for (const row of index.agencies.get(key) ?? []) possible.set(row.id, row);
+  }
+  const projects = new Map<
+    string,
+    { id: string; name: string; agents: Map<string, string> }
+  >();
+  let hasFallback = false;
+  for (const row of possible.values()) {
+    if (
+      row.id === candidate.recordId ||
+      (agentId && row.index_id?.toLowerCase() === agentId.toLowerCase())
+    )
+      continue;
+    const method = resolveAgencyMatch(identity, row.identity);
+    if (method === "none") continue;
+    hasFallback ||= method !== "canonical_id";
+    const project = projects.get(row.dashboard_project_id) ?? {
+      id: row.dashboard_project_id,
+      name: row.project_name || "Untitled Project",
+      agents: new Map<string, string>(),
+    };
+    project.agents.set(row.index_id?.toLowerCase() || row.id, row.name);
+    projects.set(project.id, project);
+  }
   return {
-    contractVersion: CONTRACT_VERSION,
-    dashboardProjectId: input.dashboardProjectId,
-    evidenceSource: "manual_saved_records",
-    status: warning
-      ? "warning"
-      : possibleActive
-        ? "possible_match"
-        : matches.length
-          ? "history"
-          : !hasIdentity || !historyComplete
-            ? "unknown"
-            : "clear",
-    agency: {
-      id: candidate.agencyId ?? null,
-      displayName: candidate.agencyName?.trim() || null,
-      matchMethod,
-      confidence:
-        matchMethod === "canonical_id"
-          ? "high"
-          : matchMethod !== "none"
-            ? "fallback"
-            : "unknown",
-    },
-    coverage: {
-      historyComplete,
-      identitySource: candidate.agencyId
-        ? "canonical"
-        : hasIdentity
-          ? "fallback"
-          : "unavailable",
-    },
-    counts: {
-      sameProjectActive: count(true, false),
-      sameProjectTerminal: count(true, true),
-      otherProjectActive: input.includeAllProjects ? count(false, false) : null,
-      otherProjectTerminal: input.includeAllProjects
-        ? count(false, true)
-        : null,
-    },
-    records: matches,
+    hasFallback,
+    projects: [...projects.values()]
+      .sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
+      .map((project) => ({
+        ...project,
+        agents: [...project.agents.values()].sort((a, b) => a.localeCompare(b)),
+      })),
   };
 }

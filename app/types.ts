@@ -219,6 +219,7 @@ export interface SaveAgentResponse {
     offer_date?: string | null;
     notes?: string | null;
     query_letter_ready?: boolean | null;
+    dashboard_project_id?: string | null;
     project_name?: string | null;
     writer_project_id?: string | null;
     created_at: string; // ISO timestamp

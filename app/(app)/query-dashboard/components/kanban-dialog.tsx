@@ -1,6 +1,6 @@
 "use client";
 
-import { AgencyGuard } from "@/app/components/query-safety/agency-guard";
+import { AgencyWarning } from "@/app/components/query-safety/agency-guard";
 import { useEffect, useState } from "react";
 import {
   Dialog,
@@ -161,7 +161,10 @@ export function KanbanDialog({
         <div className="mt-[-16px]">
           <div className="flex md:flex-row flex-col gap-6 justify-between mt-0">
             <div className="flex flex-col gap-1">
-              <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
+              <div className="flex items-center gap-1">
+                <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
+                <AgencyWarning candidate={{ recordId: card.id }} />
+              </div>
               <DialogDescription className="text-sm">
                 {card.agency}
               </DialogDescription>
@@ -220,7 +223,6 @@ export function KanbanDialog({
         </div>
 
         <KanbanLinkButtons card={card} />
-        <AgencyGuard candidate={{ dashboardProjectId: card.dashboardProjectId, candidateRecordId: card.id }} />
 
         <div className="flex flex-col gap-6">
           <div className="flex md:flex-row flex-col gap-4">

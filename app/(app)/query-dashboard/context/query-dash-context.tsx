@@ -297,7 +297,7 @@ export function QueryDashProvider({
 }) {
   const { user } = useUser();
   const userId = user?.id;
-  const { agentsList, addAgent, isLoading, isError, refetch, projects, forgetProject } =
+  const { agentsList, addAgent, removeAgents, isLoading, isError, refetch, projects, forgetProject } =
     useProfileContext();
   const router = useRouter();
   const currentProject = projects.find(
@@ -726,6 +726,8 @@ export function QueryDashProvider({
         const deletedRowIdSet = new Set(deletedRowIds);
         const failedCount = uniqueRowIds.length - deletedRowIds.length;
 
+        await removeAgents(deletedRowIds);
+
         setCards((prevCards) =>
           prevCards.filter((card) => !deletedRowIdSet.has(card.id)),
         );
@@ -764,7 +766,7 @@ export function QueryDashProvider({
         };
       }
     },
-    [activeProjectName, activeWriterProjectId, dashboardProjectId, refetch],
+    [activeProjectName, activeWriterProjectId, dashboardProjectId, refetch, removeAgents],
   );
 
   const deleteActiveProject = useCallback(async () => {

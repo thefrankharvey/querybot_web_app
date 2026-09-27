@@ -142,7 +142,10 @@ const AgentProfile = () => {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex flex-col gap-2">
-              <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+              <div className="flex items-center gap-1">
+                <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+                {(agentIndex < 6 || isSubscribed) && <DiscoveryAgencyGuard agent={agent} />}
+              </div>
               {agent.status && agent.status !== "closed" && (
                 <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
                   Open to Submissions
@@ -172,7 +175,6 @@ const AgentProfile = () => {
               )}
             </div>
           </div>
-          {(agentIndex < 6 || isSubscribed) && <DiscoveryAgencyGuard agent={agent} />}
           <AgentContactDetails
             agent={agent}
             isSubscribed={agentIndex < 6 || isSubscribed}

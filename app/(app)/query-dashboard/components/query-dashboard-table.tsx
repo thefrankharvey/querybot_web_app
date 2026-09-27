@@ -1,7 +1,6 @@
 "use client";
 
-import { AgencyHistoryButton } from "@/app/components/query-safety/agency-guard";
-import { useAgencyHistoryConfig } from "@/app/components/query-safety/agency-history-provider";
+import { AgencyWarning } from "@/app/components/query-safety/agency-guard";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
@@ -369,10 +368,8 @@ function FitRatingEditor({
 }
 
 export function QueryDashboardTable() {
-  const agencyConfig = useAgencyHistoryConfig();
   const {
     activeProjectName,
-    dashboardProjectId,
     createManualRow,
     isLoading,
     removeRowsByIds,
@@ -482,15 +479,12 @@ export function QueryDashboardTable() {
         resizable: true,
         width: 220,
         renderCell: ({ row }) => (
-          <span className="block truncate font-semibold capitalize">
-            {row.name}
-          </span>
+          <div className="flex h-full min-w-0 items-center gap-1">
+            <span className="truncate font-semibold capitalize">{row.name}</span>
+            {!row.isPlaceholder && <AgencyWarning candidate={{ recordId: row.id }} />}
+          </div>
         ),
       },
-      ...(agencyConfig?.agencyHistory ? [{
-        key: "agencyHistory", name: "Agency history", width: 240, editable: false,
-        renderCell: ({ row }: { row: DashboardTableRow }) => row.isPlaceholder ? null : <AgencyHistoryButton candidate={{ dashboardProjectId, candidateRecordId: row.id }} />,
-      }] : []),
       {
         key: "fitRating",
         name: getProjectDashboardExportColumnHeader("fitRating"),
@@ -583,7 +577,7 @@ export function QueryDashboardTable() {
         renderEditCell: textEditor,
       },
     ],
-    [agencyConfig?.agencyHistory, dashboardProjectId],
+    [],
   );
   const handleRowsChange = useCallback(
     (
