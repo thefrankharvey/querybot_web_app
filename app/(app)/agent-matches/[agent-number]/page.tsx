@@ -1,5 +1,7 @@
 "use client";
 
+import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
+
 import { useParams } from "next/navigation";
 import { ArrowLeft, Heart } from "lucide-react";
 import Link from "next/link";
@@ -170,6 +172,7 @@ const AgentProfile = () => {
               )}
             </div>
           </div>
+          {(agentIndex < 6 || isSubscribed) && <DiscoveryAgencyGuard agent={agent} />}
           <AgentContactDetails
             agent={agent}
             isSubscribed={agentIndex < 6 || isSubscribed}

@@ -1,5 +1,7 @@
 "use client";
 
+import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
+
 import React from "react";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import Link from "next/link";
@@ -203,6 +205,7 @@ export const AgentMatchCard = ({
               </p>
             </Skeleton>
           </div>
+          {!isDisabled && <DiscoveryAgencyGuard agent={agent} indicator />}
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold cursor-pointer">
               Country:

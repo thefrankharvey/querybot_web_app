@@ -1,5 +1,6 @@
 "use client";
 
+import { useUser } from "@clerk/nextjs";
 import React, {
   createContext,
   useContext,
@@ -49,6 +50,7 @@ interface ProfileContextType {
 const ProfileContext = createContext<ProfileContextType | null>(null);
 
 export function ProfileProvider({ children }: { children: React.ReactNode }) {
+  const { user } = useUser();
   const { data, isLoading, isFetching, isError, error, refetch } =
     useFetchAgentsList();
   const queryClient = useQueryClient();
@@ -66,9 +68,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     projects: DashboardProject[];
   };
   const updateProject = async (project: DashboardProject) => {
-    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
+    await queryClient.cancelQueries({ queryKey: ["agent-matches", user?.id] });
     queryClient.setQueryData(
-      ["agent-matches"],
+      ["agent-matches", user?.id],
       (old: ProfileData | undefined) =>
         old
           ? {
@@ -86,9 +88,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     );
   };
   const forgetProject = async (projectId: string) => {
-    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
+    await queryClient.cancelQueries({ queryKey: ["agent-matches", user?.id] });
     queryClient.setQueryData(
-      ["agent-matches"],
+      ["agent-matches", user?.id],
       (old: ProfileData | undefined) =>
         old
           ? {
@@ -146,9 +148,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
   const removeAgent = async (agentId: string) => {
     // A pending refresh must not restore the row after a successful deletion.
-    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
+    await queryClient.cancelQueries({ queryKey: ["agent-matches", user?.id] });
     queryClient.setQueryData(
-      ["agent-matches"],
+      ["agent-matches", user?.id],
       (oldData: { agent_matches: AgentMatch[] } | undefined) => {
         if (!oldData) return oldData;
         return {
@@ -163,7 +165,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
   const addAgent = (agent: AgentMatch) => {
     queryClient.setQueryData(
-      ["agent-matches"],
+      ["agent-matches", user?.id],
       (oldData: { agent_matches: AgentMatch[] } | undefined) => {
         if (!oldData) return oldData;
         return {

@@ -1,3 +1,4 @@
+import { AgencyHistoryProvider } from "@/app/components/query-safety/agency-history-provider";
 import { auth } from "@clerk/nextjs/server";
 import Hamburger from "../components/hamburger";
 import { SideBarNav } from "../components/side-bar-nav";
@@ -22,6 +23,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   return (
     <ProfileProvider>
+      <AgencyHistoryProvider>
       <AgentMatchesProvider>
         <div className="app-layout-shell ambient-page min-h-screen pt-2">
           <div className="ambient-orb-top" />
@@ -43,6 +45,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
         </div>
         <Footer />
       </AgentMatchesProvider>
+      </AgencyHistoryProvider>
     </ProfileProvider>
   );
 }

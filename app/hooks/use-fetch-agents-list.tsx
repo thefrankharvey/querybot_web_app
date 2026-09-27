@@ -1,3 +1,4 @@
+import { useUser } from "@clerk/nextjs";
 import { useQuery } from "@tanstack/react-query";
 import { AgentMatch, DashboardProject } from "../types";
 
@@ -7,8 +8,11 @@ type FetchAgentsListResponse = {
 };
 
 export const useFetchAgentsList = () => {
+  const { user } = useUser();
   return useQuery({
-    queryKey: ["agent-matches"],
+    queryKey: ["agent-matches", user?.id],
+    enabled: !!user?.id,
+    gcTime: 0,
     queryFn: async ({ signal }) => {
       const response = await fetch("/api/agent-matches", {
         method: "GET",

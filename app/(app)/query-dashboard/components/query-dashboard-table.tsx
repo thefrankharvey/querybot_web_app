@@ -1,5 +1,8 @@
 "use client";
 
+import { AgencyHistoryButton } from "@/app/components/query-safety/agency-guard";
+import { useAgencyHistoryConfig } from "@/app/components/query-safety/agency-history-provider";
+
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import {
@@ -366,8 +369,10 @@ function FitRatingEditor({
 }
 
 export function QueryDashboardTable() {
+  const agencyConfig = useAgencyHistoryConfig();
   const {
     activeProjectName,
+    dashboardProjectId,
     createManualRow,
     isLoading,
     removeRowsByIds,
@@ -482,6 +487,10 @@ export function QueryDashboardTable() {
           </span>
         ),
       },
+      ...(agencyConfig?.agencyHistory ? [{
+        key: "agencyHistory", name: "Agency history", width: 240, editable: false,
+        renderCell: ({ row }: { row: DashboardTableRow }) => row.isPlaceholder ? null : <AgencyHistoryButton candidate={{ dashboardProjectId, candidateRecordId: row.id }} />,
+      }] : []),
       {
         key: "fitRating",
         name: getProjectDashboardExportColumnHeader("fitRating"),
@@ -574,7 +583,7 @@ export function QueryDashboardTable() {
         renderEditCell: textEditor,
       },
     ],
-    [],
+    [agencyConfig?.agencyHistory, dashboardProjectId],
   );
   const handleRowsChange = useCallback(
     (

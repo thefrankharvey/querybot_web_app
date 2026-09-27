@@ -62,13 +62,13 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
   const client = new QueryClient({
     defaultOptions: { queries: { retry: false } },
   });
-  client.setQueryData(["agent-matches"], {
+  client.setQueryData(["agent-matches", "owner"], {
     agent_matches: [first, otherProject],
   });
   let finishRefresh;
   const refresh = client
     .fetchQuery({
-      queryKey: ["agent-matches"],
+      queryKey: ["agent-matches", "owner"],
       queryFn: () =>
         new Promise((resolveRefresh) => {
           finishRefresh = resolveRefresh;
@@ -83,10 +83,11 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
       useEffect: () => {},
       useMemo: (calculate) => calculate(),
     },
+    "@clerk/nextjs": { useUser: () => ({ user: { id: "owner" } }) },
     "@tanstack/react-query": { useQueryClient: () => client },
     "@/app/hooks/use-fetch-agents-list": {
       useFetchAgentsList: () => ({
-        data: client.getQueryData(["agent-matches"]),
+        data: client.getQueryData(["agent-matches", "owner"]),
       }),
     },
     "@/app/utils/project-scope": scope,
@@ -101,7 +102,7 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
   await refresh;
   assert.deepEqual(
     client
-      .getQueryData(["agent-matches"])
+      .getQueryData(["agent-matches", "owner"])
       .agent_matches.map((agent) => agent.id),
     [otherProject.id],
   );

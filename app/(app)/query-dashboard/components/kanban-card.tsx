@@ -1,5 +1,6 @@
 "use client";
 
+import { AgencyHistoryButton } from "@/app/components/query-safety/agency-guard";
 import type { CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
@@ -197,6 +198,9 @@ export function KanbanCard({
           {card.agency}
         </p>
       )}
+      {!isDragOverlay && <div onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()} onKeyDown={(event) => event.stopPropagation()}>
+        <AgencyHistoryButton candidate={{ dashboardProjectId: card.dashboardProjectId, candidateRecordId: card.id }} />
+      </div>}
       {timingText && (
         <div className="mt-4">
           <p className="text-xs font-semibold text-accent cursor-pointer">

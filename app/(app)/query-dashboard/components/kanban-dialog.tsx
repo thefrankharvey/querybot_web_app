@@ -1,5 +1,6 @@
 "use client";
 
+import { AgencyGuard } from "@/app/components/query-safety/agency-guard";
 import { useEffect, useState } from "react";
 import {
   Dialog,
@@ -219,6 +220,7 @@ export function KanbanDialog({
         </div>
 
         <KanbanLinkButtons card={card} />
+        <AgencyGuard candidate={{ dashboardProjectId: card.dashboardProjectId, candidateRecordId: card.id }} />
 
         <div className="flex flex-col gap-6">
           <div className="flex md:flex-row flex-col gap-4">

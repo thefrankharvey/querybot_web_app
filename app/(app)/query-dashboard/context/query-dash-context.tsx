@@ -402,6 +402,8 @@ export function QueryDashProvider({
           }
           throw new Error(errorMessage);
         }
+        // Refresh persisted history only after the update has succeeded.
+        await refetch();
       } catch (error) {
         toast.error("Failed to sync agent update", {
           description:
@@ -411,7 +413,7 @@ export function QueryDashProvider({
         });
       }
     },
-    [cards],
+    [cards, refetch],
   );
 
   const moveCard = useCallback(
