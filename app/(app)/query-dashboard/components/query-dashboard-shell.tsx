@@ -37,6 +37,7 @@ function QueryDashboardContent() {
     offerMadeCelebrationNonce,
     isEmpty,
     isLoading,
+    hasLoadError,
     activeProjectName,
     dashboardProjectId,
   } = useQueryDashContext();
@@ -87,6 +88,12 @@ function QueryDashboardContent() {
     };
   }, [dashboardView]);
 
+  if (hasLoadError) return (
+    <div role="alert" className="flex flex-col items-start gap-3 p-4">
+      <p>Unable to load your saved records. Please try again.</p>
+      <Button type="button" variant="outline" onClick={() => window.location.reload()}>Reload dashboard</Button>
+    </div>
+  );
   if (isLoading) return <ProjectDashboardLoading />;
 
   return (

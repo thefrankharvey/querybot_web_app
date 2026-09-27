@@ -200,6 +200,7 @@ test("research without a valid query date is excluded; submitted without a date 
   assert.equal(result.records[0].querySentOn, null);
   assert.equal(querySentDay("2026-02-30"), null);
   assert.equal(querySentDay("not-a-date"), null);
+  assert.equal(querySentDay("2026-09-01Tgarbage"), null);
 });
 function database(rows, { failure = false, cap = 1000 } = {}) {
   const projects = [
@@ -684,4 +685,34 @@ test("UI renders fallback, undated, terminal, missing, loading and error states 
     /after this project has saved agents/,
   );
   assert.equal(render({ enabled: false }), "");
+});
+
+test("direct dashboard loads wait for Clerk and rehydrate when the account resolves", async () => {
+  const React = require("react");
+  let user = null, agentsList, isError = false, stateIndex = 0, effectIndex = 0;
+  const states = [], previousDeps = [], effects = [];
+  const refetch = async () => ({ data: { agent_matches: [row()] } });
+  const Provider = loader({
+    react: { ...React,
+      useState: (initial) => { const slot = stateIndex++; if (!(slot in states)) states[slot] = initial; return [states[slot], (value) => { states[slot] = typeof value === "function" ? value(states[slot]) : value; }]; },
+      useCallback: (callback) => callback, useMemo: (callback) => callback(),
+      useEffect: (callback, deps) => { const slot = effectIndex++; if (!previousDeps[slot] || deps.some((value, i) => value !== previousDeps[slot][i])) effects.push(callback); previousDeps[slot] = deps; },
+    },
+    "@clerk/nextjs": { useUser: () => ({ user }) },
+    "next/navigation": { useRouter: () => ({ push() {} }) },
+    "@/app/(app)/context/profile-context": { useProfileContext: () => ({ agentsList, isError, refetch, projects: [], isLoading: false }) },
+    "@/app/components/fit-rating-badge": { getFitRatingFromScore: () => "neutral" },
+    "@/app/constants": { DEFAULT_PROJECT_NAME: "Untitled Project" },
+    "@/app/utils/project-dashboard-summary": { normalizeProjectName: (name) => name },
+  })("app/(app)/query-dashboard/context/query-dash-context.tsx").QueryDashProvider;
+  function render() { stateIndex = 0; effectIndex = 0; return Provider({ children: null, dashboardProjectId: projectA }).props.value; }
+  render(); effects.splice(0).forEach((effect) => effect());
+  assert.equal(render().isLoading, true);
+  user = { id: "owner" }; render(); effects.splice(0).forEach((effect) => effect());
+  assert.equal(render().isLoading, true);
+  isError = true; assert.equal(render().hasLoadError, true); assert.equal(render().isLoading, false);
+  isError = false; agentsList = [row()]; render(); effects.splice(0).forEach((effect) => effect());
+  const state = render(); assert.equal(state.visibleCards.length, 1); assert.equal(state.isLoading, false);
+  user = null; render(); effects.splice(0).forEach((effect) => effect());
+  assert.equal(render().visibleCards.length, 0);
 });

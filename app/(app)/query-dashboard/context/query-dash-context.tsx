@@ -8,6 +8,7 @@ import {
   useMemo,
   useState,
 } from "react";
+import { useUser } from "@clerk/nextjs";
 import { arrayMove } from "@dnd-kit/sortable";
 import { useRouter } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
@@ -64,6 +65,7 @@ export interface QueryDashState {
   visibleCards: KanbanCardData[];
   isLoading: boolean;
   isEmpty: boolean;
+  hasLoadError: boolean;
   offerMadeCelebrationNonce: number;
   dashboardProjectId?: string;
   activeProjectName: string | null;
@@ -293,7 +295,9 @@ export function QueryDashProvider({
   projectName?: string | null;
   writerProjectId?: string | null;
 }) {
-  const { addAgent, isLoading, refetch, projects, forgetProject } =
+  const { user } = useUser();
+  const userId = user?.id;
+  const { agentsList, addAgent, isLoading, isError, refetch, projects, forgetProject } =
     useProfileContext();
   const router = useRouter();
   const currentProject = projects.find(
@@ -322,46 +326,19 @@ export function QueryDashProvider({
   );
 
   useEffect(() => {
-    let isMounted = true;
-
-    const hydrateFromFreshServerData = async () => {
+    // Hydrate from the account-scoped query's committed result. A child effect
+    // cannot safely refetch while the parent's query observer is changing keys.
+    if (!userId || !agentsList) {
+      setCards([]);
       setIsHydratingFromServer(true);
-
-      try {
-        const result = await refetch();
-        if (!isMounted) return;
-
-        const freshAgents = result.data?.agent_matches ?? [];
-        const mergedFromAgents = freshAgents.map(mapAgentToCard);
-
-        setCards((prevCards) =>
-          mergeCardsPreservingOrder({
-            previousCards: prevCards,
-            mergedFromAgents,
-          }),
-        );
-      } catch (error) {
-        if (!isMounted) return;
-
-        toast.warning("Unable to refresh query dashboard", {
-          description:
-            error instanceof Error
-              ? error.message
-              : "Showing your current board state until data is available.",
-        });
-      } finally {
-        if (isMounted) {
-          setIsHydratingFromServer(false);
-        }
-      }
-    };
-
-    void hydrateFromFreshServerData();
-
-    return () => {
-      isMounted = false;
-    };
-  }, [refetch]);
+      return;
+    }
+    const mergedFromAgents = agentsList.map(mapAgentToCard);
+    setCards((previousCards) =>
+      mergeCardsPreservingOrder({ previousCards, mergedFromAgents }),
+    );
+    setIsHydratingFromServer(false);
+  }, [agentsList, userId]);
 
   const persistCardUpdate = useCallback(
     async (
@@ -875,9 +852,10 @@ export function QueryDashProvider({
     () => ({
       cards,
       visibleCards,
-      isLoading: isLoading || isHydratingFromServer,
+      isLoading: !isError && (isLoading || isHydratingFromServer),
+      hasLoadError: !!isError && !agentsList,
       isEmpty:
-        !isLoading && !isHydratingFromServer && visibleCards.length === 0,
+        !isError && !isLoading && !isHydratingFromServer && visibleCards.length === 0,
       offerMadeCelebrationNonce,
       dashboardProjectId,
       activeProjectName,
@@ -901,6 +879,8 @@ export function QueryDashProvider({
       cards,
       visibleCards,
       isLoading,
+      isError,
+      agentsList,
       isHydratingFromServer,
       offerMadeCelebrationNonce,
       dashboardProjectId,

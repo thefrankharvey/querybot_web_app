@@ -136,9 +136,9 @@ Deploy with the flag off, then enable deliberately. Rollback requires only disab
 ## Verification record
 
 - Main baseline: all 76 existing tests passed.
-- Branch: all 109 tests passed, including 33 new behavior tests for identity, stages, validation,
+- Branch: all 110 tests passed, including 34 new behavior tests for identity, stages, validation,
   ownership, capabilities, pagination, bounded coverage, catalog batching/timeouts, UI states,
-  query keys, successful-only invalidation, and account cleanup.
+  query keys, successful-only invalidation, account cleanup, and direct-load account hydration.
 - Changed TS/TSX ESLint passed with zero warnings/errors; exact-main baseline was also clean
   for the modified existing files.
 - Separate TypeScript check: 3,087 diagnostics, identical to the exact-main baseline; all are
@@ -167,3 +167,7 @@ Still pending before release approval: full Smart Match restoration/save/browser
 against an isolated real database and catalog; a second actual free account; end-to-end
 real-database date/delete/rename/export checks. Their ownership, persistence/lifecycle,
 capability, and guard semantics have automated coverage but are not claimed as live acceptance.
+
+A direct-reload browser check found and fixed a query-observer startup race after account-scoping
+the cache. Dashboard hydration now follows committed saved-row results; initial loading errors
+show an explicit retry state. Direct reload was rechecked with all seven project-A rows visible.

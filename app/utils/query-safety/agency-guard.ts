@@ -135,6 +135,7 @@ export function resolveAgencyMatch(
 }
 export function querySentDay(value?: string | null): string | null {
   if (!value || !/^\d{4}-\d{2}-\d{2}(?:$|T)/.test(value)) return null;
+  if (value.length > 10 && !Number.isFinite(Date.parse(value))) return null;
   const day = value.slice(0, 10);
   const date = new Date(`${day}T00:00:00Z`);
   return Number.isFinite(date.getTime()) &&
