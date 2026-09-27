@@ -3,6 +3,7 @@
 import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
 
 import React from "react";
+import { useAgencySaveConfirmation } from "@/app/components/query-safety/agency-save-confirmation";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import Link from "next/link";
 import {
@@ -50,6 +51,11 @@ export const AgentMatchCard = ({
   projectName?: string;
 }) => {
   const { agentsList } = useProfileContext();
+  const { requestSave, isChecking, confirmation } = useAgencySaveConfirmation({
+    indexId: agent.agent_id,
+    agencyName: agent.agency,
+    agencyUrl: agent.website,
+  });
   const isDisabled = index >= 6 && !isSubscribed;
   const fitRating = getFitRatingFromScore(agent.normalized_score);
   const agentMatchSkeletonClass =
@@ -79,10 +85,10 @@ export const AgentMatchCard = ({
     savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
   const currentProjectName = projectName?.trim() || DEFAULT_PROJECT_NAME;
 
-  const handleSaveClick = (e: React.MouseEvent) => {
+  const handleSaveClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     e.stopPropagation();
-    if (onSaveAgent && !isAlreadySaved) {
+    if (onSaveAgent && !isAlreadySaved && !savingAgentId && !isDisabled) {
       const payload: SaveAgentPayload = {
         name: agent.name,
         email: agent.email || null,
@@ -93,7 +99,7 @@ export const AgentMatchCard = ({
         pub_marketplace: agent.pubmarketplace || null,
         match_score: agent.normalized_score || null,
       };
-      onSaveAgent(payload);
+      requestSave(() => onSaveAgent(payload), e.currentTarget);
     }
   };
 
@@ -119,7 +125,9 @@ export const AgentMatchCard = ({
               className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
             >
               <div className="flex items-center gap-1">
-                <h2 className="text-xl font-bold capitalize text-accent">{agent.name}</h2>
+                <h2 className="text-xl font-bold capitalize text-accent">
+                  {agent.name}
+                </h2>
                 {!isDisabled && <DiscoveryAgencyGuard agent={agent} />}
               </div>
             </Skeleton>
@@ -148,21 +156,25 @@ export const AgentMatchCard = ({
                   </span>
                 </TooltipComponent>
               ) : (
-                <div onClick={handleSaveClick}>
-                  <TooltipComponent
-                    className="w-full"
-                    contentClass="text-left w-[200px]"
-                    content={`Save agent to your ${currentProjectName} dashboard`}
+                <TooltipComponent
+                  asChild
+                  className="inline-flex disabled:opacity-50"
+                  contentClass="text-left w-[200px]"
+                  content={`Save agent to your ${currentProjectName} dashboard`}
+                >
+                  <button
+                    type="button"
+                    aria-label={`Save ${agent.name}`}
+                    onClick={handleSaveClick}
+                    disabled={!!savingAgentId || isChecking}
                   >
-                    <div className="flex items-center justify-center gap-2">
-                      {savingAgentId === agent.agent_id ? (
-                        <Spinner className="w-7 h-7 text-accent" />
-                      ) : (
-                        <Heart className="w-7 h-7 text-accent" />
-                      )}
-                    </div>
-                  </TooltipComponent>
-                </div>
+                    {savingAgentId === agent.agent_id ? (
+                      <Spinner className="w-7 h-7 text-accent" />
+                    ) : (
+                      <Heart className="w-7 h-7 text-accent" />
+                    )}
+                  </button>
+                </TooltipComponent>
               )}
             </div>
           </div>
@@ -336,6 +348,7 @@ export const AgentMatchCard = ({
           )}
         </div>
       </Link>
+      {confirmation}
     </div>
   );
 };

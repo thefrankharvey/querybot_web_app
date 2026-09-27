@@ -589,3 +589,122 @@ test("successful bulk removals and saves update the shared cache even if a follo
   assert.equal(client.getQueryData(key).agent_matches.length,0);
   client.clear();
 });
+
+function saveConfirmationHarness(initialCheck) {
+  const React = require("react");
+  let check = initialCheck;
+  let state = false;
+  let refIndex = 0;
+  const refs = [];
+  const primitives = Object.fromEntries(
+    [
+      "AlertDialog",
+      "AlertDialogAction",
+      "AlertDialogCancel",
+      "AlertDialogContent",
+      "AlertDialogDescription",
+      "AlertDialogFooter",
+      "AlertDialogHeader",
+      "AlertDialogTitle",
+    ].map((name) => [name, name]),
+  );
+  const hook = loader({
+    react: {
+      ...React,
+      useState: () => [
+        state,
+        (value) => {
+          state = value;
+        },
+      ],
+      useRef: (value) =>
+        refs[refIndex++] ?? (refs[refIndex - 1] = { current: value }),
+    },
+    "@/app/ui-primitives/alert-dialog": primitives,
+    "@/app/components/query-safety/agency-history-provider": {
+      useSavedAgencyCheck: () => check,
+    },
+  })(
+    "app/components/query-safety/agency-save-confirmation.tsx",
+  ).useAgencySaveConfirmation;
+  const candidate = { indexId: id(999) };
+  function render() {
+    refIndex = 0;
+    return hook(candidate);
+  }
+  function find(element, type) {
+    if (element?.type === type) return element;
+    return React.Children.toArray(element?.props?.children)
+      .map((child) => find(child, type))
+      .find(Boolean);
+  }
+  return {
+    render,
+    find,
+    setCheck(value) {
+      check = value;
+    },
+  };
+}
+
+test("save confirmation cancels without writing, restores focus, and confirms only once", () => {
+  const harness = saveConfirmationHarness({
+    index: indexSavedAgencies(response([saved()], { [id(999)]: canonical })),
+    isChecking: false,
+  });
+  let saves = 0,
+    focuses = 0;
+  const trigger = {
+    focus() {
+      focuses++;
+    },
+  };
+  harness.render().requestSave(() => saves++, trigger);
+  let view = harness.render();
+  assert.equal(view.confirmation.props.open, true);
+  assert.equal(saves, 0);
+  view.confirmation.props.onOpenChange(false);
+  view = harness.render();
+  assert.equal(view.confirmation.props.open, false);
+  assert.equal(saves, 0);
+  harness
+    .find(view.confirmation, "AlertDialogContent")
+    .props.onCloseAutoFocus({ preventDefault() {} });
+  assert.equal(focuses, 1);
+  view.requestSave(() => saves++, trigger);
+  // Repeated trigger events cannot replace or execute the pending save.
+  view.requestSave(() => {
+    saves += 100;
+  }, trigger);
+  const confirm = harness.find(
+    harness.render().confirmation,
+    "AlertDialogAction",
+  ).props.onClick;
+  confirm();
+  confirm();
+  assert.equal(saves, 1);
+  assert.equal(harness.render().confirmation.props.open, false);
+});
+
+test("save waits for the shared lookup, then saves directly with no other agent; unavailable lookup stays advisory", () => {
+  const harness = saveConfirmationHarness({
+    index: undefined,
+    isChecking: true,
+  });
+  let saves = 0;
+  const save = () => saves++;
+  harness.render().requestSave(save, {});
+  assert.equal(saves, 0);
+  harness.setCheck({
+    index: indexSavedAgencies(
+      response([saved({ index_id: id(999) })], { [id(999)]: canonical }),
+    ),
+    isChecking: false,
+  });
+  harness.render().requestSave(save, {});
+  assert.equal(saves, 1);
+  assert.equal(harness.render().confirmation.props.open, false);
+  harness.setCheck({ index: undefined, isChecking: false });
+  harness.render().requestSave(save, {});
+  assert.equal(saves, 2);
+});

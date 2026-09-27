@@ -157,6 +157,69 @@ const server = http.createServer(async (req, res) => {
     let text = "";
     for await (const chunk of req) text += chunk;
     const body = text ? JSON.parse(text) : null;
+    if (url.pathname === "/get-writer-projects") {
+      return reply({
+        status: "success",
+        writer_projects: [
+          {
+            id: uuid(900),
+            project_name: "Agency Guard Review A",
+            genre: "fantasy",
+            subgenres: ["contemporary-fantasy"],
+            format: "novel",
+            target_audience: "adult",
+            themes: ["friendship", "courage", "identity"],
+            comps: [{ title: "The Night Circus", author: "Erin Morgenstern" }],
+            non_fiction: false,
+            updated_at: "2026-09-27T12:00:00Z",
+          },
+        ],
+      });
+    }
+    if (url.pathname === "/get-traits") {
+      return reply({
+        status: "success",
+        traits: {
+          genre: ["fantasy"],
+          subgenre: ["contemporary-fantasy"],
+          format: ["novel"],
+          theme: ["friendship", "courage", "identity"],
+        },
+      });
+    }
+    if (["/get-agents-free", "/get-agents-paid"].includes(url.pathname)) {
+      return reply({
+        status: "success",
+        total_agents: 2,
+        next_cursor: null,
+        writer_project_id: uuid(900),
+        matches: [
+          {
+            agent_id: uuid(106),
+            name: "Jordan Oak",
+            agency: "Oak Literary Agency",
+            website: "https://oak.example",
+          },
+          {
+            agent_id: uuid(107),
+            name: "Morgan Pine",
+            agency: "Pine Literary Agency",
+            website: "https://pine.example",
+          },
+        ].map((agent, index) => ({
+          ...agent,
+          id: agent.agent_id,
+          genres: "fantasy",
+          favorites: "Stories about friendship",
+          bio: "Local review agent for testing the save confirmation.",
+          submission_req: "Query letter and sample pages",
+          score: 90 - index,
+          normalized_score: 90 - index,
+          status: "open",
+          country_code: "US",
+        })),
+      });
+    }
     if (url.pathname === "/get-agent-agency-identities") {
       return reply({
         status: "success",
@@ -167,6 +230,7 @@ const server = http.createServer(async (req, res) => {
             uuid(101),
             uuid(102),
             uuid(105),
+            uuid(106),
           ].includes(agent_id)
             ? {
                 agency_id: agent_id === uuid(105) ? uuid(801) : uuid(800),
@@ -307,6 +371,7 @@ server.listen(dataPort, "127.0.0.1", () => {
         WQH_PROD_API_URL: local,
         WQH_TRAITS_API_URL: local,
         QUERY_SAFETY_AGENCY_HISTORY_ENABLED: "true",
+        WQH_HISTORY_API_KEY: "local-review-only",
       },
     },
   );

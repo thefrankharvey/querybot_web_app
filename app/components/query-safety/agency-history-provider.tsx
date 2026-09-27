@@ -20,7 +20,12 @@ import {
 } from "@/app/utils/query-safety/agency-guard";
 
 export const AGENCY_MATCHES_KEY = "saved-agency-matches";
-const Context = createContext<SavedAgencyIndex | undefined>(undefined);
+const Context = createContext<{
+  index?: SavedAgencyIndex;
+  isChecking: boolean;
+}>({
+  isChecking: false,
+});
 export function AgencyHistoryProvider({ children }: { children: ReactNode }) {
   const { user } = useUser();
   const userId = user?.id;
@@ -48,15 +53,17 @@ export function AgencyHistoryProvider({ children }: { children: ReactNode }) {
   const savedRevision = useMemo(
     () =>
       JSON.stringify(
-        agentsList?.map((row) => [
-          row.id,
-          row.index_id,
-          row.dashboard_project_id,
-          row.project_name,
-          row.name,
-          row.agency,
-          row.agency_url,
-        ]).sort((a, b) => (a[0] ?? "").localeCompare(b[0] ?? "")),
+        agentsList
+          ?.map((row) => [
+            row.id,
+            row.index_id,
+            row.dashboard_project_id,
+            row.project_name,
+            row.name,
+            row.agency,
+            row.agency_url,
+          ])
+          .sort((a, b) => (a[0] ?? "").localeCompare(b[0] ?? "")),
       ),
     [agentsList],
   );
@@ -101,8 +108,22 @@ export function AgencyHistoryProvider({ children }: { children: ReactNode }) {
         : undefined,
     [userId, query.data, query.isError],
   );
-  return <Context.Provider value={index}>{children}</Context.Provider>;
+  const value = useMemo(
+    () => ({
+      index,
+      isChecking:
+        !!userId &&
+        !query.isError &&
+        (agentsList === undefined || query.isPending),
+    }),
+    [index, userId, agentsList, query.isError, query.isPending],
+  );
+  return <Context.Provider value={value}>{children}</Context.Provider>;
 }
 export function useSavedAgencyIndex() {
+  return useContext(Context).index;
+}
+
+export function useSavedAgencyCheck() {
   return useContext(Context);
 }

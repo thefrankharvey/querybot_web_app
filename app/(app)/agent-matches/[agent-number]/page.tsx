@@ -1,5 +1,6 @@
 "use client";
 
+import { useAgencySaveConfirmation } from "@/app/components/query-safety/agency-save-confirmation";
 import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
 
 import { useParams } from "next/navigation";
@@ -42,6 +43,11 @@ const AgentProfile = () => {
 
   const { agentsList, saveAgent, savingAgentId } = useProfileContext();
   const isSaving = savingAgentId !== null;
+  const { requestSave, isChecking, confirmation } = useAgencySaveConfirmation({
+    indexId: agent?.agent_id,
+    agencyName: agent?.agency,
+    agencyUrl: agent?.website,
+  });
 
   useEffect(() => {
     if (matches.length > 0) {
@@ -110,6 +116,7 @@ const AgentProfile = () => {
 
   return (
     <div className="mx-auto flex w-full flex-col gap-4 p-4 md:w-[90%] pb-10 md:pb-82">
+      {confirmation}
       <div className="flex items-end justify-between">
         <Link
           href="/agent-matches"
@@ -128,8 +135,12 @@ const AgentProfile = () => {
         ) : (
           <Button
             className="text-sm"
-            onClick={handleSaveAgent}
-            disabled={isSaving}
+            onClick={(event) =>
+              requestSave(() => {
+                void handleSaveAgent();
+              }, event.currentTarget)
+            }
+            disabled={isSaving || isChecking}
           >
             <div className="flex items-center gap-2">
               {isSaving ? <Spinner className="text-white" /> : <Heart />}
@@ -144,7 +155,9 @@ const AgentProfile = () => {
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-1">
                 <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-                {(agentIndex < 6 || isSubscribed) && <DiscoveryAgencyGuard agent={agent} />}
+                {(agentIndex < 6 || isSubscribed) && (
+                  <DiscoveryAgencyGuard agent={agent} />
+                )}
               </div>
               {agent.status && agent.status !== "closed" && (
                 <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
