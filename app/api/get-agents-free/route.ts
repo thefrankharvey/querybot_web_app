@@ -14,6 +14,7 @@ export interface GetAgentsFreePayload {
   project_name?: string;
   writer_project_id?: string | null;
   genre?: string;
+  genres?: string[];
   subgenres?: string[];
   target_audience?: string;
   comps?: string[];
@@ -75,6 +76,7 @@ export async function POST(req: NextRequest) {
         projectName: jsonData.project_name,
       }),
       genre: jsonData.genre,
+      genres: Array.isArray(jsonData.genres) ? jsonData.genres : undefined,
       subgenres: Array.isArray(jsonData.subgenres)
         ? jsonData.subgenres
         : undefined,

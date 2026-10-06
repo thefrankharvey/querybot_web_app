@@ -8,11 +8,12 @@ import { Button } from "@/app/ui-primitives/button";
 import { useAgentMatches, FormData } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-import { validateQuery, formatComps } from "@/app/utils";
+import { validateQuery, formatComps, buildGenreSelections } from "@/app/utils";
 import Comps from "./components/comps";
 import Themes from "./components/themes";
 import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
+import AdditionalGenres from "./components/additional-genres";
 import Genre from "./components/genre";
 import Format from "./components/format";
 import ProjectName from "./components/project-name";
@@ -44,6 +45,7 @@ const SmartMatchWalkthrough = dynamic(
 export type FormState = {
   project_name: string;
   genre: string;
+  additional_genres: string[];
   subgenres: string[];
   format: string;
   target_audience: string;
@@ -93,6 +95,7 @@ const SmartMatch = () => {
   const [form, setForm] = useState<FormState>({
     project_name: "",
     genre: "",
+    additional_genres: [],
     subgenres: [],
     format: "",
     target_audience: "",
@@ -295,6 +298,7 @@ const SmartMatch = () => {
       save_project: existingProject ? submittedProject : undefined,
       project_name: submittedProjectName,
       genre: form.genre,
+      genres: buildGenreSelections(form.genre, form.additional_genres),
       subgenres: form.subgenres,
       format: form.format,
       target_audience: form.target_audience,
@@ -427,6 +431,11 @@ const SmartMatch = () => {
                 isWalkthroughGenreDropdownOpen={
                   activeWalkthroughStep === "genre-dropdown"
                 }
+                options={traitOptions.genre}
+                setForm={setForm}
+              />
+              <AdditionalGenres
+                form={form}
                 options={traitOptions.genre}
                 setForm={setForm}
               />

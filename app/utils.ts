@@ -15,6 +15,7 @@ export type QueryPayload = {
   project_name?: string | null;
   email: string;
   genre: string;
+  genres?: string[];
   subgenres: string[];
   format: string;
   target_audience: string;
@@ -24,6 +25,23 @@ export type QueryPayload = {
   synopsis?: string;
   manuscript?: string;
   enable_ai?: boolean; // TODO: add this back in when it's time
+};
+
+/**
+ * GSR-025/028: every selected genre, primary first, case-insensitively deduplicated.
+ * Returns undefined when there is no additional selection, so single-genre requests are unchanged.
+ */
+export const buildGenreSelections = (
+  primary: string,
+  additional: string[]
+): string[] | undefined => {
+  const first = primary.trim();
+  if (!first) return undefined;
+  const seen = new Set([first.toLowerCase()]);
+  const extra = additional
+    .map((g) => g.trim())
+    .filter((g) => g && !seen.has(g.toLowerCase()) && seen.add(g.toLowerCase()));
+  return extra.length ? [first, ...extra] : undefined;
 };
 
 export const formatComps = (comps: { title: string; author: string }[]) => {
