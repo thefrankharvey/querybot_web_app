@@ -6,6 +6,7 @@ export type RestoredSmartMatchComp = {
 export type RestoredSmartMatchForm = {
   project_name: string;
   genre: string;
+  additional_genres: string[];
   subgenres: string[];
   format: string;
   target_audience: string;
@@ -22,6 +23,7 @@ export type StoredWriterProject = {
   project_title?: unknown;
   title?: unknown;
   genre?: unknown;
+  genres?: unknown;
   subgenres?: unknown;
   format?: unknown;
   target_audience?: unknown;
@@ -191,12 +193,24 @@ export function selectMostRecentNamedWriterProject(
   );
 }
 
+// GSR-028: a saved multi-genre search stores every selection (primary first) as `genres`.
+function normalizeAdditionalGenres(genre: unknown, genres: unknown) {
+  const seen = new Set([normalizeSingleString(genre).toLocaleLowerCase()]);
+  return normalizeStringList(genres).filter((item) => {
+    const key = item.toLocaleLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 export function normalizeWriterProjectForSmartMatch(
   project: StoredWriterProject,
 ): RestoredSmartMatchForm {
   return {
     project_name: getStoredWriterProjectName(project),
     genre: normalizeSingleString(project.genre),
+    additional_genres: normalizeAdditionalGenres(project.genre, project.genres),
     subgenres: normalizeStringList(project.subgenres),
     format: normalizeSingleString(project.format),
     target_audience: getString(project.target_audience),
