@@ -9,7 +9,8 @@
     "lint": "next lint",
     "schedule:blogs": "node scripts/schedule-blog-posts.mjs",
     "test:slushwire": "node --test tests/slushwire-newsletter.test.mjs",
-    "typecheck:slushwire": "tsc -p tsconfig.slushwire.json --noEmit"
+    "typecheck:slushwire": "tsc -p tsconfig.slushwire.json --noEmit",
+    "dev:backend": "node scripts/dev-local-backend.mjs"
   },
   "dependencies": {
     "@clerk/backend": "^2.5.0",

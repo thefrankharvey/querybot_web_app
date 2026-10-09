@@ -51,3 +51,6 @@ next-env.d.ts
 app/blog/**/parsed.json
 app/blog/**/schema.json
 app/blog/**/source_output.md
+
+# Local backend database snapshots and exports
+/.local/

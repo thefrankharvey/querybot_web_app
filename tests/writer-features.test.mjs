@@ -271,6 +271,7 @@ function baseMocks(db, userId = "writer-a") {
     },
     "@/app/utils/project-dashboard-route": profile,
     "@/lib/wqh-history-auth": historyAuth(),
+    "@/lib/wqh-local-backend-auth": { getLocalVocabularyWriteHeaders: () => ({}) },
     "@/lib/config": {
       getWqhApiUrl: () => "https://api.example.test",
       getWqhApiEndpoint: (path) => `https://api.example.test/${path}`,

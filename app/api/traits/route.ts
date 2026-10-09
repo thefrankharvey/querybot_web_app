@@ -1,6 +1,7 @@
 import { auth } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 import { getWqhTraitsApiUrl } from "@/lib/config";
+import { getLocalVocabularyWriteHeaders } from "@/lib/wqh-local-backend-auth";
 import {
   isTraitType,
   isValidSanitizedTraitValue,
@@ -130,6 +131,7 @@ export async function POST(req: NextRequest) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        ...getLocalVocabularyWriteHeaders(externalUrl),
       },
       body: JSON.stringify({ type: rawType, value }),
       signal: controller.signal,
