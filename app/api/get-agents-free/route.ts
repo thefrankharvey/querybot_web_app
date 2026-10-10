@@ -85,6 +85,7 @@ export async function POST(req: NextRequest) {
           : undefined,
       writer_project_id: await resolveSmartMatchWriterProjectId({
         userId,
+        email,
         writerProjectId: jsonData.writer_project_id,
         projectName: jsonData.project_name,
       }),

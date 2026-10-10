@@ -36,6 +36,7 @@ test("vocabulary write token is restricted to explicit local development", () =>
     [enabled, "https://querybot-api.onrender.com/create-trait"],
     [enabled, "http://localhost.example.com/create-trait"],
     [enabled, "file://localhost/create-trait"],
+    [enabled, "http://user:password@localhost/create-trait"],
     [enabled, "invalid URL"],
   ]) {
     assert.equal(Object.keys(load("lib/wqh-local-backend-auth.ts", env).getLocalVocabularyWriteHeaders(endpoint)).length, 0);

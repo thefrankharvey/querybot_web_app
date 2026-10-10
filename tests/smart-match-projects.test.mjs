@@ -222,6 +222,10 @@ function createApi({
   legacyDashboardId = null,
   searchStatus = 200,
   searchMatches = [{ id: "agent-new" }],
+  baseUrl = "https://matching.example.test",
+  environment = {},
+  localProjects = projects,
+  historyPayload,
 } = {}) {
   const calls = [];
   const profileLinks = [];
@@ -253,12 +257,13 @@ function createApi({
     }),
   };
   const fetch = async (url, init) => {
-    calls.push({ url, init });
-    if (url.includes("/get-writer-projects?")) {
+    const address = String(url);
+    calls.push({ url: address, init });
+    if (address.includes("/get-writer-projects?")) {
       return Response.json(
-        {
+        historyPayload ?? {
           status: lookupStatus === 200 ? "success" : "error",
-          writer_projects: projects.map((project) => ({
+          writer_projects: localProjects.map((project) => ({
             id: project.writerProjectId,
             project_name: project.projectName,
           })),
@@ -274,8 +279,8 @@ function createApi({
     }, { status: searchStatus });
   };
   const config = {
-    getWqhApiUrl: () => "https://matching.example.test",
-    getWqhApiEndpoint: (path) => `https://matching.example.test/${path}`,
+    getWqhApiUrl: () => baseUrl,
+    getWqhApiEndpoint: (path) => `${baseUrl}/${path}`,
   };
   const historyAuth = {
     getWqhHistoryHeaders: () => ({ Authorization: "Bearer server-key" }),
@@ -288,6 +293,10 @@ function createApi({
       "@/app/api/supabase/server": store,
       "@/lib/config": config,
       "@/lib/wqh-history-auth": historyAuth,
+      "@/lib/wqh-local-backend-auth": loadModule(
+        "lib/wqh-local-backend-auth.ts", { "server-only": {} },
+        { process: { env: environment } },
+      ),
       "./smart-match-projects": projectUtils,
       "./smart-match-restore": loadModule("app/utils/smart-match-restore.ts"),
     },
@@ -772,3 +781,89 @@ test("a direct Smart Match success updates My Projects and stores its dashboard 
   assert.deepEqual(saved.saveFormData.themes, form.themes);
   assert.deepEqual(saved.saveFormData.comps, form.comps);
 });
+
+const localTesting = {
+  NODE_ENV: "development", WQH_LOCAL_BACKEND_TESTING: "true",
+};
+for (const tier of ["paid", "free"]) {
+  test(`${tier}: a hosted-only project starts a local copy without querying hosted dashboards`, async () => {
+    const api = createApi({ baseUrl: "http://127.0.0.1:10000", environment: localTesting,
+      localProjects: [] });
+    const response = await api.route(tier).POST(searchRequest({
+      writer_project_id: "hosted-only-project", email: "browser-injected@example.test",
+    }));
+    assert.equal(response.status, 200);
+    assert.equal(api.calls.length, 2);
+    assert.match(api.calls[0].url, /get-writer-projects/);
+    assert.equal(new URL(api.calls[0].url).searchParams.get("email"), "writer+test@example.test");
+    assert.equal(api.calls[0].init.headers.Authorization, "Bearer server-key");
+    assert.equal(api.calls[0].init.cache, "no-store");
+    const payload = JSON.parse(api.calls[1].init.body);
+    assert.equal(payload.writer_project_id, null);
+    assert.equal(payload.project_name, "Cool Finance");
+    assert.equal(payload.email, "writer+test@example.test");
+    assert.equal((await response.json()).writer_project_id, "created-project");
+  });
+
+  test(`${tier}: a name-only local search ignores a hosted project with that name`, async () => {
+    const api = createApi({ baseUrl: "http://localhost:10000", environment: localTesting,
+      localProjects: [] });
+    const response = await api.route(tier).POST(searchRequest());
+    assert.equal(response.status, 200);
+    assert.equal(api.calls.length, 2);
+    assert.equal(JSON.parse(api.calls[1].init.body).writer_project_id, null);
+  });
+
+  test(`${tier}: subsequent local searches preserve the owned local history ID`, async () => {
+    const api = createApi({ baseUrl: "http://127.0.0.1:10000", environment: localTesting,
+      localProjects: [{ projectName: "Cool Finance", writerProjectId: "local-book" }] });
+    const response = await api.route(tier).POST(searchRequest({ writer_project_id: "local-book" }));
+    assert.equal(response.status, 200);
+    assert.equal(JSON.parse(api.calls[1].init.body).writer_project_id, "local-book");
+    assert.equal((await response.json()).writer_project_id, "local-book");
+  });
+
+  test(`${tier}: a name-only local search reuses its unique local history`, async () => {
+    const api = createApi({ baseUrl: "http://127.0.0.1:10000", environment: localTesting,
+      localProjects: [{ projectName: "Cool Finance", writerProjectId: "local-book" }] });
+    const response = await api.route(tier).POST(searchRequest());
+    assert.equal(response.status, 200);
+    assert.equal(JSON.parse(api.calls[1].init.body).writer_project_id, "local-book");
+  });
+
+  test(`${tier}: ambiguous local history fails before creating or changing a project`, async () => {
+    const api = createApi({ baseUrl: "http://127.0.0.1:10000", environment: localTesting,
+      localProjects: [original, duplicate] });
+    const response = await api.route(tier).POST(searchRequest());
+    assert.equal(response.status, 409);
+    assert.equal(api.calls.length, 1);
+  });
+
+  test(`${tier}: unavailable or malformed local history cannot fall back to hosted IDs`, async () => {
+    for (const extra of [
+      { lookupStatus: 503 },
+      { historyPayload: { status: "success", writer_projects: [{ id: null }] } },
+      { historyPayload: { status: "success" } },
+    ]) {
+      const api = createApi({ baseUrl: "http://127.0.0.1:10000", environment: localTesting,
+        ...extra });
+      const response = await api.route(tier).POST(searchRequest({ writer_project_id: "hosted-only-project" }));
+      assert.equal(response.status, 502);
+      assert.equal(api.calls.length, 1);
+    }
+  });
+
+  test(`${tier}: local history translation requires development, the opt-in, and loopback`, async () => {
+    for (const extra of [
+      { baseUrl: "http://127.0.0.1:10000", environment: { ...localTesting, NODE_ENV: "production" } },
+      { baseUrl: "http://127.0.0.1:10000", environment: { ...localTesting, WQH_LOCAL_BACKEND_TESTING: "false" } },
+      { baseUrl: "https://matching.example.test", environment: localTesting },
+    ]) {
+      const api = createApi(extra);
+      const response = await api.route(tier).POST(searchRequest({ writer_project_id: "original-book" }));
+      assert.equal(response.status, 200);
+      assert.equal(api.calls.length, 1);
+      assert.equal(JSON.parse(api.calls[0].init.body).writer_project_id, "original-book");
+    }
+  });
+}
