@@ -1,5 +1,7 @@
 "use client";
 
+import { AgentSubmissionStatus } from "./agent-vocabulary-sections";
+
 import Link from "next/link";
 import {
   cn,
@@ -73,11 +75,7 @@ export const AgentCards = ({
             </TooltipComponent>
           </Skeleton>
           <Skeleton isLoading={isLoading} className="w-1/2 h-6">
-            {agent.status && agent.status !== "closed" ? (
-              <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
-                Open to Submissions
-              </span>
-            ) : null}
+            <AgentSubmissionStatus vocabulary={agent.vocabulary} />
           </Skeleton>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold cursor-pointer">

@@ -6,7 +6,6 @@ import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-ag
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import {
-  formatGenres,
   formatDisplayString,
   capitalizeFirstCharacter,
 } from "@/app/utils";
@@ -18,7 +17,7 @@ import { AgentSaveButton } from "@/app/components/agent-save-button";
 import type { SmartMatchProjectReference } from "@/app/utils/smart-match-projects";
 import AgentContactDetails from "@/app/components/agent-contact-details";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { normalizeAndDedup } from "@/app/utils/string-utils";
+import { AgentSubmissionStatus, AgentVocabularySections } from "@/app/components/agent-vocabulary-sections";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 // import TypeForm from "@/app/components/type-form";
 import { RemoveAgent } from "@/app/(app)/query-dashboard/components/remove-agent";
@@ -32,11 +31,13 @@ export default function AgentProfileDetails({
   hasFullAccess,
   project,
   backHref = "/agent-matches",
+  detailRefreshStatus,
 }: {
   agent: AgentMatch;
   hasFullAccess: boolean;
   project: SmartMatchProjectReference;
   backHref?: string;
+  detailRefreshStatus?: "loading" | "error";
 }) {
   const { agentsList, saveAgent, savingAgentId } = useProfileContext();
   const isSaving = savingAgentId !== null;
@@ -46,16 +47,6 @@ export default function AgentProfileDetails({
     agencyUrl: agent?.website,
   });
 
-  const genreMatches = [
-    ...(agent.match_hits?.direct.genres || []),
-    ...(agent.match_hits?.cluster.genres || []),
-  ];
-  const dedupedGenreMatches = normalizeAndDedup(genreMatches);
-  const themeMatches = [
-    ...(agent.match_hits?.direct.themes || []),
-    ...(agent.match_hits?.cluster.themes || []),
-  ];
-  const dedupedThemeMatches = normalizeAndDedup(themeMatches);
   const savedAgent = agentsList?.find(
     (savedMatch) =>
       savedMatch.index_id === agent.agent_id &&
@@ -134,11 +125,7 @@ export default function AgentProfileDetails({
                   <DiscoveryAgencyGuard agent={agent} />
                 )}
               </div>
-              {agent.status && agent.status !== "closed" && (
-                <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
-                  Open to Submissions
-                </span>
-              )}
+              <AgentSubmissionStatus vocabulary={agent.vocabulary} />
             </div>
             <div className="mt-8 flex flex-col items-start gap-1 md:mt-0 md:items-end">
               <TooltipComponent
@@ -167,48 +154,9 @@ export default function AgentProfileDetails({
             agent={agent}
             isSubscribed={hasFullAccess}
           />
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Matching Genres:</label>
-            <div className="flex flex-wrap gap-1">
-              {dedupedGenreMatches &&
-                dedupedGenreMatches.length > 0 &&
-                dedupedGenreMatches.map((genre: string) =>
-                  formatGenres(genre).map((genre: string) => (
-                    <div
-                      key={genre}
-                      className="surface-tag border-accent/18 bg-accent/10 px-2 py-1 text-sm text-accent"
-                    >
-                      {genre}
-                    </div>
-                  )),
-                )}
-            </div>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Matching Themes:</label>
-            <div className="flex flex-wrap gap-1">
-              {dedupedThemeMatches &&
-                dedupedThemeMatches.length > 0 &&
-                dedupedThemeMatches.map((theme: string) => (
-                  <div
-                    key={theme}
-                    className="surface-tag border-accent/18 bg-accent/10 px-2 py-1 text-sm text-accent"
-                  >
-                    {theme}
-                  </div>
-                ))}
-            </div>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">All Genres:</label>
-            <div className="flex flex-wrap gap-1">
-              {formatGenres(agent.genres).map((genre: string) => (
-                <div key={genre} className="surface-tag px-2 py-1 text-sm">
-                  {genre}
-                </div>
-              ))}
-            </div>
-          </div>
+          {detailRefreshStatus === "loading" && <p className="text-sm text-accent/72">Loading current agent details...</p>}
+          {detailRefreshStatus === "error" && <p role="status" className="text-sm text-accent/72">Could not refresh agent details. Showing the available search data.</p>}
+          <AgentVocabularySections vocabulary={agent.vocabulary} matches={agent.trait_matches} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Favorites:</label>
             <p className="text-base leading-relaxed text-accent/78">
@@ -224,14 +172,6 @@ export default function AgentProfileDetails({
                 ? capitalizeFirstCharacter(
                     formatDisplayString(agent.extra_interest),
                   )
-                : "Info Unavailable"}
-            </p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Negatives:</label>
-            <p className="text-base leading-relaxed text-accent/78">
-              {agent.negatives
-                ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
             </p>
           </div>

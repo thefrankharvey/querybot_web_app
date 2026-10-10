@@ -1,17 +1,14 @@
 "use client";
 
+import { AgentSubmissionStatus } from "@/app/components/agent-vocabulary-sections";
+
 import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
 
 import React from "react";
 import { useAgencySaveConfirmation } from "@/app/components/query-safety/agency-save-confirmation";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import Link from "next/link";
-import {
-  cn,
-  formatDisplayString,
-  formatGenres,
-  capitalizeFirstCharacter,
-} from "@/app/utils";
+import { cn } from "@/app/utils";
 import {
   AgentMatch,
   useAgentMatches,
@@ -21,7 +18,7 @@ import TooltipComponent from "@/app/components/tooltip";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Heart } from "lucide-react";
 import { AgentSaveButton } from "@/app/components/agent-save-button";
-import { normalizeAndDedup } from "@/app/utils/string-utils";
+import { matchingLabels } from "@/lib/agent-vocabulary";
 import { SaveAgentPayload } from "@/app/types";
 import { ALL_COUNTRY_FLAG_LABELS, DEFAULT_PROJECT_NAME } from "@/app/constants";
 import {
@@ -66,16 +63,8 @@ export const AgentMatchCard = ({
   const fitRating = getFitRatingFromScore(agent.normalized_score);
   const agentMatchSkeletonClass =
     "border-white/50 bg-[linear-gradient(135deg,rgba(245,249,250,0.92),rgba(224,233,236,0.86))] shadow-[inset_0_1px_0_rgba(255,255,255,0.72)]";
-  const genreMatches = [
-    ...(agent.match_hits?.direct.genres || []),
-    ...(agent.match_hits?.cluster.genres || []),
-  ];
-  const dedupedGenreMatches = normalizeAndDedup(genreMatches);
-  const themeMatches = [
-    ...(agent.match_hits?.direct.themes || []),
-    ...(agent.match_hits?.cluster.themes || []),
-  ];
-  const dedupedThemeMatches = normalizeAndDedup(themeMatches);
+  const dedupedGenreMatches = matchingLabels(agent.trait_matches, "genres");
+  const dedupedThemeMatches = matchingLabels(agent.trait_matches, "themes");
 
   const { writerProjectId } = useAgentMatches();
   const savedAgent = agentsList?.find(
@@ -196,11 +185,7 @@ export const AgentMatchCard = ({
             isLoading={isLoading}
             className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
           >
-            {agent.status && agent.status !== "closed" ? (
-              <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
-                Open to Submissions
-              </span>
-            ) : null}
+            <AgentSubmissionStatus vocabulary={agent.vocabulary} />
           </Skeleton>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold cursor-pointer">
@@ -249,99 +234,31 @@ export const AgentMatchCard = ({
               </p>
             </Skeleton>
           </div>
-          {dedupedGenreMatches.length > 0 ? (
-            <div className="flex flex-col gap-1">
-              <label className="text-sm font-semibold cursor-pointer">
-                Matching Genres:
-              </label>
-              <Skeleton
-                isLoading={isLoading}
-                className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
-              >
-                <div className="flex flex-wrap gap-1">
-                  {dedupedGenreMatches
-                    ? dedupedGenreMatches.map((genre: string) =>
-                        formatGenres(genre)
-                          .slice(0, 8)
-                          .map((genre: string) => (
-                            <div
-                              key={genre}
-                              className="surface-tag px-2 py-1 text-sm"
-                            >
-                              {genre}
-                            </div>
-                          )),
-                      )
-                    : "Info Unavailable"}
-                </div>
-              </Skeleton>
-            </div>
-          ) : (
-            <div className="flex flex-col gap-1">
-              <label className="text-sm font-semibold cursor-pointer">
-                Top Genres:
-              </label>
-              <Skeleton
-                isLoading={isLoading}
-                className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
-              >
-                <div className="flex flex-wrap gap-1">
-                  {agent.genres
-                    ? formatGenres(agent.genres)
-                        .slice(0, 5)
-                        .map((genre: string) => (
-                          <div
-                            key={genre}
-                            className="surface-tag px-2 py-1 text-sm"
-                          >
-                            {genre}
-                          </div>
-                        ))
-                    : "Info Unavailable"}
-                </div>
-              </Skeleton>
-            </div>
-          )}
-          {dedupedThemeMatches && dedupedThemeMatches.length > 0 ? (
+          <div className="flex flex-col gap-1">
+            <label className="text-sm font-semibold cursor-pointer">
+              Matching Genres:
+            </label>
+            <Skeleton isLoading={isLoading} className={cn("h-[60px] w-full", agentMatchSkeletonClass)}>
+              <div className="flex flex-wrap gap-1">
+                {dedupedGenreMatches.length > 0 ? dedupedGenreMatches.slice(0, 8).map((genre) => (
+                  <div key={genre} className="surface-tag px-2 py-1 text-sm">{genre}</div>
+                )) : <p className="text-sm text-accent/72">{agent.trait_matches ? "No matching genres." : "Matching information unavailable."}</p>}
+              </div>
+            </Skeleton>
+          </div>
+          {dedupedThemeMatches.length > 0 && (
             <div className="flex flex-col gap-1">
               <label className="text-sm font-semibold cursor-pointer">
                 Matching Themes:
               </label>
-              <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+              <Skeleton isLoading={isLoading} className={cn("h-[60px] w-full", agentMatchSkeletonClass)}>
                 <div className="flex flex-wrap gap-1">
-                  {dedupedThemeMatches
-                    ? dedupedThemeMatches.slice(0, 8).map((theme: string) => (
-                        <div
-                          key={theme}
-                          className="surface-tag px-2 py-1 text-sm"
-                        >
-                          {theme}
-                        </div>
-                      ))
-                    : "Info Unavailable"}
+                  {dedupedThemeMatches.slice(0, 8).map((theme) => (
+                    <div key={theme} className="surface-tag px-2 py-1 text-sm">{theme}</div>
+                  ))}
                 </div>
               </Skeleton>
             </div>
-          ) : (
-            agent.favorites && (
-              <div className="flex flex-col gap-1">
-                <label className="text-sm font-semibold cursor-pointer">
-                  Favorites:
-                </label>
-                <Skeleton
-                  isLoading={isLoading}
-                  className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
-                >
-                  <p className="line-clamp-3 text-sm text-accent/78">
-                    {agent.favorites
-                      ? capitalizeFirstCharacter(
-                          formatDisplayString(agent.favorites),
-                        )
-                      : "Info Unavailable"}
-                  </p>
-                </Skeleton>
-              </div>
-            )
           )}
         </div>
       </Link>

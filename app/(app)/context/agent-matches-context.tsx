@@ -50,7 +50,11 @@ export interface MatchHits {
   };
 }
 
+import type { AgentVocabulary, TraitMatches } from "@/lib/agent-vocabulary";
+
 export interface AgentMatch {
+  vocabulary?: AgentVocabulary | null;
+  trait_matches?: TraitMatches | null;
   country_code?: string;
   aala_member?: string;
   agency: string;
@@ -100,13 +104,14 @@ export interface FormData {
   non_fiction: boolean;
 }
 
+// Availability now uses canonical status. Discard results and pagination from the legacy filter.
 const QUERY_KEYS = {
-  agentMatches: ["agentMatches"] as const,
+  agentMatches: ["agentMatches-vocabulary-v1-submission-status-v2"] as const,
   formData: ["formData"] as const,
-  nextCursorCount: ["nextCursorCount"] as const,
-  currentCursor: ["currentCursor"] as const,
-  totalAgents: ["totalAgents"] as const,
-  spreadsheetUrl: ["spreadsheetUrl"] as const,
+  nextCursorCount: ["nextCursorCount-submission-status-v2"] as const,
+  currentCursor: ["currentCursor-submission-status-v2"] as const,
+  totalAgents: ["totalAgents-submission-status-v2"] as const,
+  spreadsheetUrl: ["spreadsheetUrl-submission-status-v2"] as const,
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
   projectName: ["projectName"] as const,
@@ -114,12 +119,12 @@ const QUERY_KEYS = {
 };
 
 const STORAGE_KEYS = {
-  agentMatches: "agent_matches",
+  agentMatches: "agent_matches_vocabulary_v1_submission_status_v2",
   formData: "query_form_data",
-  nextCursorCount: "future_request_count",
-  currentCursor: "current_cursor",
-  totalAgents: "total_agents",
-  spreadsheetUrl: "spreadsheet_url",
+  nextCursorCount: "future_request_count_submission_status_v2",
+  currentCursor: "current_cursor_submission_status_v2",
+  totalAgents: "total_agents_submission_status_v2",
+  spreadsheetUrl: "spreadsheet_url_submission_status_v2",
   statusFilter: "status_filter",
   countryFilter: "country_filter",
   projectName: "project_name",

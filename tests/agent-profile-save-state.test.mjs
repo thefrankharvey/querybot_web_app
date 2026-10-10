@@ -200,6 +200,7 @@ function profileHarness({ deleteSucceeds = true } = {}) {
     "@/app/components/tooltip": "tooltip",
     "@/app/components/star-rating": "rating",
     "@/app/components/agent-contact-details": "details",
+    "@/app/components/agent-vocabulary-sections": { AgentSubmissionStatus: "status", AgentVocabularySections: "vocabulary" },
     "@/app/utils": {
       formatGenres: (value) => [value],
       formatDisplayString: (value) => value,

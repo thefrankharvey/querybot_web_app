@@ -3,12 +3,12 @@
 import React, { useState } from "react";
 import type { AgentMatch } from "@/app/types";
 import { useFetchAgent } from "@/app/hooks/use-fetch-agent";
+import { AgentSubmissionStatus, AgentVocabularySections } from "@/app/components/agent-vocabulary-sections";
 import TooltipComponent from "@/app/components/tooltip";
 import StarRating from "@/app/components/star-rating";
 import AgentContactDetails from "@/app/components/agent-contact-details";
 import {
   formatDisplayString,
-  formatGenres,
   capitalizeFirstCharacter,
 } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
@@ -50,6 +50,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
     (removedRecord?.routeId === agentId ? removedRecord.agent : null);
   const { data, isLoading, error } = useFetchAgent(
     displayedRecord?.index_id ?? null,
+    displayedRecord?.writer_project_id,
   );
   const router = useRouter();
 
@@ -157,11 +158,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-              {agent.status && agent.status !== "closed" ? (
-                <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
-                  Open to Submissions
-                </span>
-              ) : null}
+              <AgentSubmissionStatus vocabulary={agent.vocabulary} />
             </div>
             <div className="text-xl font-semibold flex flex-col mt-8 md:mt-0">
               <label className="text-lg font-semibold">Match Score:</label>
@@ -177,16 +174,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
             </div>
           </div>
           <AgentContactDetails agent={agent} isSubscribed={true} />
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Genres:</label>
-            <div className="flex flex-wrap gap-1">
-              {formatGenres(agent.genres || "").map((genre: string) => (
-                <div key={genre} className="surface-tag px-2 py-1 text-sm">
-                  {genre}
-                </div>
-              ))}
-            </div>
-          </div>
+          <AgentVocabularySections vocabulary={agent.vocabulary} matches={agent.trait_matches} matchingContext={agent.matching_context} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Favorites:</label>
             <p className="text-base leading-relaxed text-accent/78">
@@ -202,14 +190,6 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
                 ? capitalizeFirstCharacter(
                     formatDisplayString(agent.extra_interest),
                   )
-                : "Info Unavailable"}
-            </p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Negatives:</label>
-            <p className="text-base leading-relaxed text-accent/78">
-              {agent.negatives
-                ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
             </p>
           </div>

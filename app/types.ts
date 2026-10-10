@@ -245,8 +245,14 @@ export interface UpdateAgentPayload {
   writer_project_id?: string | null;
 }
 
+import type { AgentVocabulary, TraitMatches, MatchingContext } from "@/lib/agent-vocabulary";
+
 export type FetchAgentResponse = {
   agent: {
+    agent_id?: string;
+    vocabulary?: AgentVocabulary | null;
+    trait_matches?: TraitMatches | null;
+    matching_context?: MatchingContext;
     id: string;
     name: string;
     email?: string;
