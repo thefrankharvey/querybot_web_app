@@ -43,7 +43,8 @@ No production data changes or deployments were performed for this feature.
   save, Cancel, and title-only/partial Smart Match restoration pass. Distinct
   My Project entries restore the selected profile. Mobile checked at 390 x 844,
   with no horizontal overflow in the profile or editor.
-- Production build: final verification pending.
+- Isolated production build of UI commit d606e70 passes. Backend implementation
+  is committed as 3ea3c4c6. The final verification commit changes documentation only.
 
 The local test UI runs at http://localhost:3002/home with the matching backend at
 http://127.0.0.1:10001. Application data stays in isolated local PostgreSQL;
