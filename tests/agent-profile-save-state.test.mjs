@@ -91,6 +91,7 @@ test("removing a saved agent cancels a stale list refresh before it can restore 
       }),
     },
     "@/app/utils/project-scope": scope,
+    "@/app/utils/saved-agent-limit": load("app/utils/saved-agent-limit.ts"),
     "@/app/utils/project-dashboard-summary": {
       buildProjectDashboardSummaries: () => [],
     },
@@ -117,6 +118,8 @@ function content(element) {
 }
 function findButton(element, label) {
   if (!element || typeof element !== "object") return null;
+  if (element.type === "save-control" && label === "Save Agent")
+    return { ...element, props: { ...element.props, onClick: element.props.onSave } };
   if (element.type === "button" && content(element) === label) return element;
   return [element.props?.children]
     .flat()
@@ -190,6 +193,9 @@ function profileHarness({ deleteSucceeds = true } = {}) {
     },
     "@/app/hooks/use-delete-agent": { useDeleteAgentMatch },
     "@/app/ui-primitives/button": { Button: "button" },
+    "@/app/components/agent-save-button": {
+      AgentSaveButton: "save-control",
+    },
     "@/app/ui-primitives/spinner": { Spinner: "spinner" },
     "@/app/components/tooltip": "tooltip",
     "@/app/components/star-rating": "rating",

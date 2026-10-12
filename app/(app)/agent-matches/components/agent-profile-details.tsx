@@ -3,7 +3,7 @@
 import { useAgencySaveConfirmation } from "@/app/components/query-safety/agency-save-confirmation";
 import { DiscoveryAgencyGuard } from "@/app/components/query-safety/discovery-agency-guard";
 
-import { ArrowLeft, Heart } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import {
   formatGenres,
@@ -14,10 +14,9 @@ import React from "react";
 import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import TooltipComponent from "@/app/components/tooltip";
-import { Spinner } from "@/app/ui-primitives/spinner";
+import { AgentSaveButton } from "@/app/components/agent-save-button";
 import type { SmartMatchProjectReference } from "@/app/utils/smart-match-projects";
 import AgentContactDetails from "@/app/components/agent-contact-details";
-import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
@@ -113,20 +112,16 @@ export default function AgentProfileDetails({
             buttonClassName="w-auto"
           />
         ) : (
-          <Button
-            className="text-sm"
-            onClick={(event) =>
+          <AgentSaveButton
+            agentId={agent.agent_id}
+            onSave={(event) =>
               requestSave(() => {
                 void handleSaveAgent();
               }, event.currentTarget)
             }
             disabled={isSaving || isChecking}
-          >
-            <div className="flex items-center gap-2">
-              {isSaving ? <Spinner className="text-white" /> : <Heart />}
-              <span>Save Agent</span>
-            </div>
-          </Button>
+            saving={isSaving}
+          />
         )}
       </div>
       <div className="glass-panel-strong p-4 py-8 md:p-16">

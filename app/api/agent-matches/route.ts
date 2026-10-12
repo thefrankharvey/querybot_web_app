@@ -1,8 +1,12 @@
 import { NextResponse } from "next/server";
-import { auth } from "@clerk/nextjs/server";
+import { auth, currentUser } from "@clerk/nextjs/server";
 import { createServerSupabase } from "../supabase/server";
 import { getProjectScope } from "@/app/utils/project-scope";
 import { AGENT_MATCHES_TABLE } from "@/app/constants";
+import {
+  FREE_SAVED_AGENT_LIMIT_MESSAGE,
+  wouldExceedSavedAgentLimit,
+} from "@/app/utils/saved-agent-limit";
 
 const CREATE_FIELDS = [
   "name",
@@ -85,6 +89,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  const user = await currentUser();
+  if (!user || user.id !== userId) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const body = await req.json();
 
   // Accept single or array payload
@@ -120,6 +129,25 @@ export async function POST(req: Request) {
   }
 
   const supabase = createServerSupabase();
+  if (user.publicMetadata?.isSubscribed !== true) {
+    // Recheck old tabs and saves made outside the shared UI control.
+    const { count, error: countError } = await supabase
+      .from(AGENT_MATCHES_TABLE)
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId);
+    if (countError || count === null) {
+      return NextResponse.json(
+        { error: "Unable to check saved agents. Please try again." },
+        { status: 503 },
+      );
+    }
+    if (wouldExceedSavedAgentLimit(false, count, insertPayloads.length)) {
+      return NextResponse.json(
+        { error: FREE_SAVED_AGENT_LIMIT_MESSAGE, code: "FREE_SAVED_AGENT_LIMIT" },
+        { status: 403 },
+      );
+    }
+  }
   const { data, error } = await supabase
     .from(AGENT_MATCHES_TABLE)
     .insert(

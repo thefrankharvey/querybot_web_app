@@ -290,6 +290,7 @@ test("shared profiles save and remove within the supplied project without curren
   let rows = [{ id: "other-row", index_id: "agent-a", project_name: "Current book", writer_project_id: "other-project" }];
   let saveClick, savedPayload, removedRow, contactAccess;
   const component = load("app/(app)/agent-matches/components/agent-profile-details.tsx", {
+    "@/app/components/agent-save-button": { AgentSaveButton: ({ onSave }) => { saveClick = onSave; return React.createElement("button", null, "Save Agent"); } },
     "next/link": ({ children, ...props }) => React.createElement("a", props, children),
     "@/app/utils": { formatGenres: (value) => value.split(","), formatDisplayString: (value) => value, capitalizeFirstCharacter: (value) => value },
     "@/app/utils/string-utils": { normalizeAndDedup: (values) => [...new Set(values)] },

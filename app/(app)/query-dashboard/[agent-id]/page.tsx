@@ -18,6 +18,7 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { AgentSaveButton } from "@/app/components/agent-save-button";
 
 interface QueryDashAgentProfileProps {
   params: Promise<{
@@ -129,18 +130,27 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
-        <Button
-          className="text-sm"
-          onClick={agentMatch ? handleDeleteAgentMatch : handleSaveAgent}
-          disabled={isDeleting || savingAgentId !== null}
-        >
-          <div className="flex items-center gap-2">
-            {(isDeleting || savingAgentId !== null) && (
-              <Spinner className="text-white" />
-            )}
-            <span>{agentMatch ? "Delete Agent" : "Save Agent"}</span>
-          </div>
-        </Button>
+        {agentMatch ? (
+          <Button
+            className="text-sm"
+            onClick={handleDeleteAgentMatch}
+            disabled={isDeleting || savingAgentId !== null}
+          >
+            <div className="flex items-center gap-2">
+              {(isDeleting || savingAgentId !== null) && (
+                <Spinner className="text-white" />
+              )}
+              <span>Delete Agent</span>
+            </div>
+          </Button>
+        ) : (
+          <AgentSaveButton
+            agentId={displayedRecord.index_id}
+            onSave={handleSaveAgent}
+            disabled={savingAgentId !== null}
+            saving={savingAgentId !== null}
+          />
+        )}
       </div>
       <div className="glass-panel-strong mx-auto max-w-[1000px] p-4 py-8 md:p-16">
         <div className="flex flex-col gap-8">

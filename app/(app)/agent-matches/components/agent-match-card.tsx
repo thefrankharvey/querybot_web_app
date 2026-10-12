@@ -20,8 +20,8 @@ import { Skeleton } from "@/app/ui-primitives/skeleton";
 import TooltipComponent from "@/app/components/tooltip";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Heart } from "lucide-react";
+import { AgentSaveButton } from "@/app/components/agent-save-button";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
-import { Spinner } from "@/app/ui-primitives/spinner";
 import { SaveAgentPayload } from "@/app/types";
 import { ALL_COUNTRY_FLAG_LABELS, DEFAULT_PROJECT_NAME } from "@/app/constants";
 import {
@@ -56,7 +56,7 @@ export const AgentMatchCard = ({
   href?: string;
   className?: string;
 }) => {
-  const { agentsList } = useProfileContext();
+  const { agentsList, isFreeSaveLimitReached } = useProfileContext();
   const { requestSave, isChecking, confirmation } = useAgencySaveConfirmation({
     indexId: agent.agent_id,
     agencyName: agent.agency,
@@ -139,7 +139,7 @@ export const AgentMatchCard = ({
               </div>
             </Skeleton>
             <div>
-              {!isSubscribed && isDisabled ? (
+              {!isSubscribed && isDisabled && !isFreeSaveLimitReached ? (
                 <TooltipComponent
                   className="w-full"
                   contentClass="text-center w-[250px]"
@@ -163,25 +163,15 @@ export const AgentMatchCard = ({
                   </span>
                 </TooltipComponent>
               ) : (
-                <TooltipComponent
-                  asChild
-                  className="inline-flex disabled:opacity-50"
-                  contentClass="text-left w-[200px]"
-                  content={`Save agent to your ${currentProjectName} dashboard`}
-                >
-                  <button
-                    type="button"
-                    aria-label={`Save ${agent.name}`}
-                    onClick={handleSaveClick}
-                    disabled={!!savingAgentId || isChecking}
-                  >
-                    {savingAgentId === agent.agent_id ? (
-                      <Spinner className="w-7 h-7 text-accent" />
-                    ) : (
-                      <Heart className="w-7 h-7 text-accent" />
-                    )}
-                  </button>
-                </TooltipComponent>
+                <AgentSaveButton
+                  agentId={agent.agent_id}
+                  iconOnly
+                  label={`Save ${agent.name}`}
+                  description={`Save agent to your ${currentProjectName} dashboard`}
+                  onSave={handleSaveClick}
+                  disabled={!!savingAgentId || isChecking}
+                  saving={savingAgentId === agent.agent_id}
+                />
               )}
             </div>
           </div>

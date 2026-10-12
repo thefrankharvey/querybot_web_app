@@ -19,6 +19,10 @@ import {
 } from "@/app/types";
 import { toast } from "sonner";
 import { getProjectScope, isSameProjectScope } from "@/app/utils/project-scope";
+import {
+  FREE_SAVED_AGENT_LIMIT_MESSAGE,
+  wouldExceedSavedAgentLimit,
+} from "@/app/utils/saved-agent-limit";
 
 import {
   buildProjectDashboardSummaries,
@@ -46,6 +50,8 @@ interface ProfileContextType {
   ) => Promise<SaveAgentResponse | null>;
   savingAgentId: string | null;
   isSavingAll: boolean;
+  isFreeSaveLimitReached: boolean;
+  limitRejectedAgentId: string | null;
 }
 
 const ProfileContext = createContext<ProfileContextType | null>(null);
@@ -57,8 +63,36 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const queryClient = useQueryClient();
   const [savingAgentId, setSavingAgentId] = useState<string | null>(null);
   const [isSavingAll, setIsSavingAll] = useState(false);
+  const [limitRejectedAgentId, setLimitRejectedAgentId] = useState<string | null>(
+    null,
+  );
+  const saveInFlight = useRef(false);
 
   const agentsList = data?.agent_matches;
+  const isSubscribed = user?.publicMetadata?.isSubscribed === true;
+  const isFreeSaveLimitReached = wouldExceedSavedAgentLimit(
+    isSubscribed,
+    agentsList?.length ?? 0,
+  );
+  const canSave = (additionalCount: number) => {
+    // Read the latest count even when a caller holds a callback from an older render.
+    const current = queryClient.getQueryData<{ agent_matches: AgentMatch[] }>([
+      "agent-matches",
+      user?.id,
+    ]);
+    if (!current || saveInFlight.current) return false;
+    if (
+      wouldExceedSavedAgentLimit(
+        isSubscribed,
+        current.agent_matches.length,
+        additionalCount,
+      )
+    ) {
+      toast.info(FREE_SAVED_AGENT_LIMIT_MESSAGE);
+      return false;
+    }
+    return true;
+  };
   const projects = useMemo(() => data?.projects ?? [], [data?.projects]);
   const projectSummaries = useMemo(
     () => buildProjectDashboardSummaries(agentsList, projects),
@@ -193,7 +227,10 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const saveAgent = async (
     payload: SaveAgentPayload,
   ): Promise<SaveAgentResponse | null> => {
+    if (!canSave(1)) return null;
+    saveInFlight.current = true;
     setSavingAgentId(payload.index_id ?? null);
+    setLimitRejectedAgentId(null);
     try {
       const response = await fetch("/api/agent-matches", {
         method: "POST",
@@ -205,6 +242,11 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       if (!response.ok) {
         const errorData = await response.json();
+        if (errorData.code === "FREE_SAVED_AGENT_LIMIT") {
+          setLimitRejectedAgentId(payload.index_id ?? null);
+          await refetch();
+          return null;
+        }
         throw new Error(errorData.error || "Failed to save agent");
       }
 
@@ -233,6 +275,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       return null;
     } finally {
+      saveInFlight.current = false;
       setSavingAgentId(null);
     }
   };
@@ -265,6 +308,8 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
       return null;
     }
 
+    if (!canSave(newAgents.length)) return null;
+    saveInFlight.current = true;
     setIsSavingAll(true);
     try {
       const response = await fetch("/api/agent-matches", {
@@ -277,6 +322,11 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       if (!response.ok) {
         const errorData = await response.json();
+        if (errorData.code === "FREE_SAVED_AGENT_LIMIT") {
+          toast.info(FREE_SAVED_AGENT_LIMIT_MESSAGE);
+          await refetch();
+          return null;
+        }
         throw new Error(errorData.error || "Failed to save agents");
       }
 
@@ -314,6 +364,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       return null;
     } finally {
+      saveInFlight.current = false;
       setIsSavingAll(false);
     }
   };
@@ -336,6 +387,8 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     saveAllAgents,
     savingAgentId,
     isSavingAll,
+    isFreeSaveLimitReached,
+    limitRejectedAgentId,
   };
 
   return (
