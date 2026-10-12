@@ -59,7 +59,8 @@ rather than repeating dashboard widgets. The editor reuses existing components.
 Custom genre, format, subgenre, and theme actions are inline plus buttons at the
 end of their dropdowns, matching the Smart Match interaction. Each button has an
 accessible name and toggles the custom input. The editor omits the incomplete
-profile hint, repeated themes label, and saved-agent reassurance sentence.
+profile hint and repeated themes label. Both viewing and editing states omit the
+saved-agent reassurance sentence.
 
 Existing tokens are retained: accent teal (approximately `#1c4a4e`), background
 (`#f0f1eb`), manuscript panel (`#ffffff`), muted body text (`#737373`), and borders
