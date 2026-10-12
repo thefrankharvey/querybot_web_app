@@ -8,6 +8,7 @@ import {
 } from "@/app/(app)/query-dashboard/components/kanban-config";
 import { type ProjectDashboardSummary } from "@/app/utils/project-dashboard-summary";
 import AnimatedCount from "./animated-count";
+import { CreateProjectCard } from "./create-project-card";
 
 export interface ProjectDashboardOverviewProps {
   projectSummaries: ProjectDashboardSummary[];
@@ -30,8 +31,6 @@ const ACTIVITY_DATE_FORMATTER = new Intl.DateTimeFormat("en", {
 export default function ProjectDashboardOverview({
   projectSummaries,
 }: ProjectDashboardOverviewProps) {
-  if (projectSummaries.length === 0) return null;
-
   return (
     <section
       className="mt-8 flex w-full flex-col gap-4"
@@ -47,6 +46,7 @@ export default function ProjectDashboardOverview({
       </div>
 
       <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <CreateProjectCard />
         {projectSummaries.map((summary) => (
           <ProjectDashboardCard key={summary.href} summary={summary} />
         ))}

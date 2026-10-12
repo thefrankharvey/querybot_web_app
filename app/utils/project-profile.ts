@@ -23,7 +23,7 @@ export function toProjectProfile(
   ) {
     const values = project.comps as string[];
     form.comps = Array.from(
-      { length: Math.min(5, Math.ceil(values.length / 2)) },
+      { length: Math.max(1, Math.min(5, Math.ceil(values.length / 2))) },
       (_, index) => ({
         title: values[index * 2]?.trim() ?? "",
         author: values[index * 2 + 1]?.trim() ?? "",
@@ -51,4 +51,17 @@ export function profileTraits(form: RestoredSmartMatchForm) {
       .filter((comp) => comp.title.trim() || comp.author.trim())
       .flatMap((comp) => [comp.title.trim(), comp.author.trim()]),
   };
+}
+
+// A saved title and the default Fiction choice do not make a manuscript profile.
+export function hasProjectProfileTraits(form: RestoredSmartMatchForm) {
+  return Boolean(
+    form.genre.trim() ||
+      form.format.trim() ||
+      form.target_audience.trim() ||
+      form.non_fiction ||
+      form.subgenres.length ||
+      form.themes.length ||
+      form.comps.some((comp) => comp.title.trim() || comp.author.trim()),
+  );
 }

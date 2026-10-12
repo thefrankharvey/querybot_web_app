@@ -11,7 +11,6 @@ import {
   FieldSet,
   FieldLegend,
   FieldLabel,
-  FieldError,
 } from "@/app/ui-primitives/field";
 import { RadioGroup, RadioGroupItem } from "@/app/ui-primitives/radio-group";
 import {
@@ -33,32 +32,22 @@ export function ProjectProfileEditor({
   saving,
   onSave,
   onCancel,
+  saveLabel = "Save changes",
 }: {
   form: RestoredSmartMatchForm;
   setForm: React.Dispatch<React.SetStateAction<RestoredSmartMatchForm>>;
   saving: boolean;
   onSave: () => Promise<void>;
   onCancel: () => void;
+  saveLabel?: string;
 }) {
   const { traitOptions, createOrSelectTrait, traitsError } =
     useManuscriptTraits();
   const [addingTrait, setAddingTrait] = useState(false);
-  const [compErrors, setCompErrors] = useState<Record<number, string>>({});
 
   function submit(event: FormEvent) {
     event.preventDefault();
     if (saving || addingTrait) return;
-    const errors: Record<number, string> = {};
-    form.comps.forEach((comp, index) => {
-      if (comp.author.trim() && !comp.title.trim())
-        errors[index] = "Add a title for this author, or remove the book.";
-    });
-    setCompErrors(errors);
-    const first = Object.keys(errors)[0];
-    if (first !== undefined) {
-      document.getElementById(`profile-comp-title-${first}`)?.focus();
-      return;
-    }
     void onSave();
   }
 
@@ -214,12 +203,7 @@ export function ProjectProfileEditor({
               <div key={index} className="flex items-start gap-3">
                 <div className="grid min-w-0 flex-1 grid-cols-1 gap-4 sm:grid-cols-2">
                   {(["title", "author"] as const).map((key) => (
-                    <Field
-                      key={key}
-                      data-invalid={
-                        key === "title" && Boolean(compErrors[index])
-                      }
-                    >
+                    <Field key={key}>
                       <FieldLabel htmlFor={`profile-comp-${key}-${index}`}>
                         {key === "title" ? "Title" : "Author"} {index + 1}
                       </FieldLabel>
@@ -229,14 +213,6 @@ export function ProjectProfileEditor({
                         autoComplete="off"
                         maxLength={500}
                         value={comp[key]}
-                        aria-invalid={
-                          key === "title" && Boolean(compErrors[index])
-                        }
-                        aria-describedby={
-                          key === "title" && compErrors[index]
-                            ? `profile-comp-error-${index}`
-                            : undefined
-                        }
                         onChange={(event) =>
                           setForm((previous) => ({
                             ...previous,
@@ -248,11 +224,6 @@ export function ProjectProfileEditor({
                           }))
                         }
                       />
-                      {key === "title" && compErrors[index] && (
-                        <FieldError id={`profile-comp-error-${index}`}>
-                          {compErrors[index]}
-                        </FieldError>
-                      )}
                     </Field>
                   ))}
                 </div>
@@ -263,7 +234,6 @@ export function ProjectProfileEditor({
                   className="mt-7"
                   aria-label={`Remove comparable book ${index + 1}`}
                   onClick={() => {
-                    setCompErrors({});
                     setForm((previous) => ({
                       ...previous,
                       comps: previous.comps.filter((_, i) => i !== index),
@@ -303,7 +273,7 @@ export function ProjectProfileEditor({
       <div className="flex flex-wrap items-center gap-3">
         <Button type="submit" disabled={saving || addingTrait}>
           {saving && <Spinner data-icon="inline-start" />}{" "}
-          {saving ? "Saving…" : "Save changes"}
+          {saving ? "Saving…" : saveLabel}
         </Button>
         <Button
           type="button"

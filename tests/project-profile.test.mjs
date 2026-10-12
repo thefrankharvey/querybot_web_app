@@ -333,14 +333,14 @@ function renderProfile(query) {
 test("an empty legacy profile gives a project-scoped Smart Match action instead of default Fiction details", () => {
   const html = renderProfile({ data: profiles.toProjectProfile(null, project.project_name) });
   assert.match(html, /Your project profile is currently empty/);
-  assert.match(html, /Run a Smart Match search for this project/);
+  assert.match(html, /Smart Match search for this project/);
   assert.match(html, new RegExp(`href="/smart-match\\?project=${dashboardId}"`));
-  assert.match(html, /Edit traits/);
+  assert.match(html, /Create Profile/);
   assert.doesNotMatch(html, /Saved manuscript traits|Project traits could not load/);
 });
 
 test("saved Smart Match profiles display their traits and genuine load failures remain errors", () => {
-  const populated = renderProfile({ data: profiles.toProjectProfile({ id: writerId, revision: "a".repeat(64) }, "Book") });
+  const populated = renderProfile({ data: profiles.toProjectProfile({ id: writerId, revision: "a".repeat(64), genre: "fantasy" }, "Book") });
   assert.match(populated, /Saved manuscript traits/);
   assert.doesNotMatch(populated, /currently empty/);
   const unavailable = renderProfile({ isError: true, error: new Error("Service temporarily unavailable") });
@@ -449,4 +449,19 @@ test("a deduplicated saved search cannot link two separate dashboards", async ()
   await assert.rejects(api.linkLegacySearchProfile("own-user", dashboardId, writerId), (error) => error.status === 409);
   assert.equal(old.writer_project_id, null);
   assert.equal(writes.length, 0);
+});
+
+
+test("a saved title-only profile still offers Create Profile and minimal traits render as a profile", () => {
+  const blank = profiles.toProjectProfile({ id: writerId, revision: "a".repeat(64) }, "My Project");
+  assert.equal(profiles.hasProjectProfileTraits(blank.form), false);
+  const html = renderProfile({ data: blank });
+  assert.match(html, /Your project profile is currently empty/);
+  assert.match(html, /Create Profile/);
+  assert.doesNotMatch(html, /Saved manuscript traits/);
+  for (const traits of [{ genre: "fantasy" }, { themes: ["hope"] }, { non_fiction: true }, { comps: ["", "An author"] }]) {
+    const partial = profiles.toProjectProfile({ id: writerId, revision: "a".repeat(64), ...traits }, "My Project");
+    assert.equal(profiles.hasProjectProfileTraits(partial.form), true);
+    assert.match(renderProfile({ data: partial }), /Saved manuscript traits/);
+  }
 });

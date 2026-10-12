@@ -76,9 +76,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         old
           ? {
               ...old,
-              projects: old.projects.map((item) =>
-                item.id === project.id ? project : item,
-              ),
+              projects: old.projects.some((item) => item.id === project.id)
+                ? old.projects.map((item) => item.id === project.id ? project : item)
+                : [...old.projects, project],
               agent_matches: old.agent_matches.map((agent) =>
                 agent.dashboard_project_id === project.id
                   ? { ...agent, project_name: project.project_name }

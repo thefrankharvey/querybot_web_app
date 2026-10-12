@@ -68,6 +68,7 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects
     "@/app/(app)/query-dashboard/components/kanban-config": columns,
     "@/app/utils/project-dashboard-summary": summaries,
     "./animated-count": ({ value }) => value,
+    "./create-project-card": { CreateProjectCard: () => React.createElement("button", null, "Create project") },
   }).default;
   const Home = load("app/(app)/home/page.tsx", {
     // Render the settled Home state without running browser or payment effects.
@@ -98,10 +99,12 @@ for (const isSubscribed of [false, true]) {
 test("Home keeps free onboarding and subscribed guidance when no agents are saved", () => {
   const free = renderHome({ agentsList: [] });
   assert.match(free, /Free account getting started/);
-  assert.doesNotMatch(free, /My Projects/);
+  assert.match(free, /Create project/);
+  assert.match(free, /My Projects/);
   const paid = renderHome({ isSubscribed: true, agentsList: [] });
   assert.match(paid, /Try Smart Match/);
-  assert.doesNotMatch(paid, /My Projects/);
+  assert.match(paid, /Create project/);
+  assert.match(paid, /My Projects/);
 });
 
 test("Home waits for saved agents to load before showing project cards", () => {

@@ -23,6 +23,7 @@ import {
 import { Alert, AlertTitle, AlertDescription } from "@/app/ui-primitives/alert";
 import {
   profileTraits,
+  hasProjectProfileTraits,
   type ProjectProfile,
 } from "@/app/utils/project-profile";
 import type { DashboardProject } from "@/app/types";
@@ -51,6 +52,9 @@ export function ProjectProfileClient({
       return body.profile as ProjectProfile;
     },
   });
+  const isEmpty = query.data
+    ? !hasProjectProfileTraits(query.data.form)
+    : false;
   const [draft, setDraft] = useState<RestoredSmartMatchForm | null>(null);
   const [revision, setRevision] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
@@ -137,16 +141,24 @@ export function ProjectProfileClient({
             id="project-profile-heading"
             className="font-serif text-2xl font-semibold text-accent"
           >
-            {draft ? "Edit project traits" : "Project profile"}
+            {draft
+              ? isEmpty
+                ? "Create project profile"
+                : "Edit project traits"
+              : "Project profile"}
           </h2>
           <p className="text-sm leading-relaxed text-muted-foreground">
             These traits will be used the next time you run Smart Match.
           </p>
         </div>
         {!draft && query.data && (
-          <Button variant="outline" size="sm" onClick={edit}>
+          <Button
+            variant={isEmpty ? "default" : "outline"}
+            size="sm"
+            onClick={edit}
+          >
             <Pencil data-icon="inline-start" aria-hidden="true" />
-            Edit traits
+            {isEmpty ? "Create Profile" : "Edit traits"}
           </Button>
         )}
       </div>
@@ -180,6 +192,7 @@ export function ProjectProfileClient({
             )
           }
           saving={saving}
+          saveLabel={isEmpty ? "Save profile" : "Save changes"}
           onSave={save}
           onCancel={() => {
             if (
@@ -207,7 +220,7 @@ export function ProjectProfileClient({
         </Alert>
       ) : query.data ? (
         <>
-          {query.data.revision ? (
+          {!isEmpty ? (
             <ProjectProfileDetails profile={query.data} />
           ) : (
             <Empty aria-labelledby="empty-profile-title">
@@ -219,12 +232,12 @@ export function ProjectProfileClient({
                   Your project profile is currently empty
                 </EmptyTitle>
                 <EmptyDescription>
-                  Run a Smart Match search for this project to populate its
-                  traits, or select Edit traits to add them yourself.
+                  Select Create Profile to add your manuscript details, or run a
+                  Smart Match search for this project to populate its traits.
                 </EmptyDescription>
               </EmptyHeader>
               <EmptyContent>
-                <Button asChild>
+                <Button asChild variant="outline">
                   <Link
                     href={`/smart-match?project=${encodeURIComponent(project.id)}`}
                   >

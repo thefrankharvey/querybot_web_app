@@ -37,7 +37,9 @@ const ProjectName = ({
     matchingProjects.find(
       (project) =>
         selectedProject &&
-        project.writerProjectId === selectedProject.writerProjectId,
+        (selectedProject.dashboardProjectId
+          ? project.dashboardProjectId === selectedProject.dashboardProjectId
+          : project.writerProjectId === selectedProject.writerProjectId),
     ) ?? (matchingProjects.length === 1 ? matchingProjects[0] : null);
 
   const handleChange = (projectName: string) => {
