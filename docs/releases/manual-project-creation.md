@@ -142,3 +142,8 @@ existing migrations in real PostgreSQL through PGlite. The backend's 137
 PostgreSQL history/profile tests pass. Application-scoped TypeScript,
 changed-file ESLint, and diff checks pass. Matching HTTP responses in these tests
 are deterministic fixtures; no hosted Smart Match search was submitted.
+
+The isolated UI production build of implementation commit d79a6ae passes.
+The build used local backend and dashboard services. The verification follow-up
+changes this release report only; neither feature branch has been merged,
+pushed, or deployed.
