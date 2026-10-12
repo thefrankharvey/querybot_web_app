@@ -361,9 +361,11 @@ function legacyLinkService({ rows = [], failRead = false, failWrite = false, noW
           select() { return this; },
           eq(key, value) { filters.push([key, value]); return this; },
           is(key, value) { filters.push([key, value]); return this; },
+          neq(key, value) { filters.push([key, value, false]); return this; },
+          limit() { return this; },
           update(value) { update = value; return this; },
           async maybeSingle() {
-            const row = rows.find((row) => filters.every(([key, value]) => row[key] === value));
+            const row = rows.find((row) => filters.every(([key, value, equals = true]) => (row[key] === value) === equals));
             if (update) {
               writes.push({ filters, update });
               if (failWrite) return { data: null, error: {} };
@@ -437,5 +439,14 @@ test("failed project reads, failed links, and missing search IDs remain actionab
   await assert.rejects(badWrite.linkLegacySearchProfile("own-user", dashboardId, writerId), (error) => error.status === 503);
   const { api, writes } = legacyLinkService();
   await assert.rejects(api.linkLegacySearchProfile("own-user", dashboardId, undefined), (error) => error.status === 502);
+  assert.equal(writes.length, 0);
+});
+
+
+test("a deduplicated saved search cannot link two separate dashboards", async () => {
+  const old = legacyRow();
+  const { api, writes } = legacyLinkService({ rows: [old, { ...legacyRow(), id: "another-dashboard", writer_project_id: writerId }] });
+  await assert.rejects(api.linkLegacySearchProfile("own-user", dashboardId, writerId), (error) => error.status === 409);
+  assert.equal(old.writer_project_id, null);
   assert.equal(writes.length, 0);
 });

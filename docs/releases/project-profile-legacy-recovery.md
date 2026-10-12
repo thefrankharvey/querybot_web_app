@@ -31,7 +31,8 @@ unlinked dashboard attaches the returned search through the existing
 `dashboard_projects.writer_project_id` field. Both free and paid routes support
 this, including a successful search with zero matches. Failed searches and
 pagination do not attach anything. The conditional update cannot replace another
-request's profile link. Same-search link retries are idempotent; other concurrent
+request's profile link. A deduplicated search already linked to another dashboard is rejected.
+Same-search link retries are idempotent; other concurrent
 links require reloading. Saved-agent rows and query progress are not rewritten.
 
 Direct Smart Match project links wait for authentication and project choices.
@@ -44,7 +45,7 @@ Home's implementation and project destinations remain unchanged.
 
 ## Verification
 
-- 113 UI tests passed, including actual component rendering for empty, populated,
+- 114 UI tests passed, including actual component rendering for empty, populated,
   and failed profile loads, ownership checks, legacy-link races, free/paid search
   wiring, and preservation of the latest profile ID with a cached picker.
 - Changed-file ESLint, app-scoped TypeScript, and `git diff --check` passed.

@@ -72,6 +72,28 @@ export async function linkLegacySearchProfile(
     );
   }
   const store = createServerSupabase();
+  // Content deduplication can return an older search. Do not share one profile
+  // between distinct dashboards, even if their historical names were the same.
+  const existing = await store
+    .from("dashboard_projects")
+    .select("id")
+    .eq("user_id", userId)
+    .eq("writer_project_id", writerProjectId)
+    .neq("id", dashboardId)
+    .limit(1)
+    .maybeSingle();
+  if (existing.error) {
+    throw new SmartMatchProjectError(
+      "Unable to check the saved search's project. Please try again.",
+      503,
+    );
+  }
+  if (existing.data) {
+    throw new SmartMatchProjectError(
+      "This saved search already belongs to another project. Select that project to use its profile.",
+      409,
+    );
+  }
   const { data, error } = await store
     .from("dashboard_projects")
     .update({ writer_project_id: writerProjectId })
