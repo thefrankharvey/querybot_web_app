@@ -40,7 +40,8 @@ Project views and Table/Board share the same `SegmentedControl` presentation,
 including the rounded track, 44px targets, and animated selection pill. Table/Board
 uses Radix Toggle Group for single selection and keyboard focus. Both controls
 sit in one header row from the desktop breakpoint and stack, left aligned, on
-mobile. The display control appears only on the dashboard; its selection is
+mobile, where each fills the project column. The display control appears only
+on the dashboard; its selection is
 retained when visiting the profile.
 The title, view navigation, dashboard table, and profile panel share the full
 available project column and the same left edge. Table/board selection is retained
@@ -113,8 +114,11 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   navigation and no Table/Board control. Returning to the dashboard retains Board
   selection. Clicking the selected option leaves it selected; ArrowLeft moves
   focus to Table and Space selects it. No document overflow at these widths or
-  the browser's restored 319px viewport. The 101 tests, app-scoped TypeScript,
-  changed-file ESLint, and diff checks pass after the toggle change.
+  the browser's restored 319px viewport. The mobile width refinement was checked
+  at that viewport: both controls match the 287px project column. Desktop controls
+  retain their 330px and 200px widths on the same row. The 101 tests, app-scoped
+  TypeScript, changed-file ESLint, and diff checks pass after the toggle change;
+  lint and diff checks also pass after the CSS-only mobile width refinement.
 - An unsaved title edit survived view navigation, confirming that the header
   stays mounted. Renaming from the profile persisted on the dashboard; the sample
   title was restored afterward. Table/Board selection survived a round trip to

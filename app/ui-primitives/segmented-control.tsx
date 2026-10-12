@@ -17,7 +17,7 @@ export function SegmentedControl({
       data-slot="segmented-control"
       data-active-index={activeIndex}
       className={cn(
-        "relative isolate grid w-full max-w-[330px] grid-cols-2 rounded-full bg-accent/5 p-1 before:pointer-events-none before:absolute before:inset-y-1 before:left-1 before:w-[calc((100%_-_0.5rem)/2)] before:rounded-full before:bg-accent before:shadow-sm before:transition-transform before:duration-200 before:ease-in-out before:content-[''] data-[active-index=1]:before:translate-x-full motion-reduce:before:transition-none",
+        "relative isolate grid w-full grid-cols-2 rounded-full bg-accent/5 p-1 before:pointer-events-none before:absolute before:inset-y-1 before:left-1 before:w-[calc((100%_-_0.5rem)/2)] before:rounded-full before:bg-accent before:shadow-sm before:transition-transform before:duration-200 before:ease-in-out before:content-[''] data-[active-index=1]:before:translate-x-full motion-reduce:before:transition-none",
         className,
       )}
       {...props}

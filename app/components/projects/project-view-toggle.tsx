@@ -11,7 +11,11 @@ export function ProjectViewToggle({ projectId }: { projectId: string }) {
   const pathname = usePathname();
   const profileActive = pathname.endsWith("/profile");
   return (
-    <SegmentedControl activeIndex={profileActive ? 1 : 0} asChild>
+    <SegmentedControl
+      activeIndex={profileActive ? 1 : 0}
+      className="md:max-w-[330px]"
+      asChild
+    >
       <nav aria-label="Project views">
         {[
           { view: "dashboard", label: "Query dashboard" },
