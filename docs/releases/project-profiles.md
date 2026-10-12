@@ -37,6 +37,10 @@ column and the same left edge in both viewing and editing states. The page keeps
 the existing app sidebar on desktop and the existing menu on mobile.
 The profile uses one reading panel with sections and comparable-book typography,
 rather than repeating dashboard widgets. The editor reuses existing components.
+Custom genre, format, subgenre, and theme actions are inline plus buttons at the
+end of their dropdowns, matching the Smart Match interaction. Each button has an
+accessible name and toggles the custom input. The editor omits the incomplete
+profile hint, repeated themes label, and saved-agent reassurance sentence.
 
 Existing tokens are retained: accent teal (approximately `#1c4a4e`), background
 (`#f0f1eb`), manuscript panel (`#ffffff`), muted body text (`#737373`), and borders
@@ -76,8 +80,9 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   synthetic session and in-memory API fixtures. It checks read/edit, failed-save
   retention, saving, canceling, link/Back guards, validation focus, and mobile
   overflow. The production authentication/context implementations are unchanged.
-- Desktop and mobile screenshots include the existing app navigation. Both
-  viewing and editing states were checked at 390, 768, 1440, and 1920 pixels for
+- Desktop and mobile screenshots include the existing app navigation.
+  Inline custom-trait actions were checked for toggling, selection, and mobile
+  overflow using only in-memory fixture data. Viewing and editing states were checked at 390, 768, 1440, and 1920 pixels for
   heading/navigation/panel alignment and horizontal overflow. The isolated
   preview imports the actual sidebar and mobile-menu components, with synthetic
   session fixtures confined to its separate test bundle.

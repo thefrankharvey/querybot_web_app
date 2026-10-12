@@ -188,7 +188,8 @@ export function ProjectProfileEditor({
           <FieldGroup>
             <ProjectTraitField
               type="theme"
-              label="Themes in your manuscript"
+              label="Themes"
+              hideLabel
               value={form.themes}
               multiple
               options={traitOptions.theme}
@@ -312,9 +313,6 @@ export function ProjectProfileEditor({
         >
           Cancel
         </Button>
-        <p className="text-sm text-muted-foreground">
-          You can save an incomplete profile.
-        </p>
       </div>
     </form>
   );

@@ -142,7 +142,8 @@ export function ProjectProfileClient({
               </h2>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 These traits will be used the next time you run Smart Match.
-                Your saved agents and query progress stay with this project.
+                {!draft &&
+                  " Your saved agents and query progress stay with this project."}
               </p>
             </div>
             {!draft && query.data && (

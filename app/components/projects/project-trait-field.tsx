@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { Minus, Plus } from "lucide-react";
+import { cn } from "@/app/utils";
 import Combobox from "@/app/ui-primitives/combobox";
 import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
 import { Button } from "@/app/ui-primitives/button";
@@ -16,6 +18,7 @@ import type { CreateOrSelectTrait } from "@/app/hooks/use-manuscript-traits";
 export function ProjectTraitField({
   type,
   label,
+  hideLabel,
   options,
   value,
   multiple,
@@ -25,6 +28,7 @@ export function ProjectTraitField({
 }: {
   type: TraitType;
   label: string;
+  hideLabel?: boolean;
   options: TraitOption[];
   value: string | string[];
   multiple?: boolean;
@@ -62,30 +66,51 @@ export function ProjectTraitField({
 
   return (
     <Field data-invalid={Boolean(error)}>
-      <FieldLabel htmlFor={id}>{label}</FieldLabel>
-      {multiple ? (
-        <InfiniteMultiSelect
-          id={id}
-          options={merged}
-          optionTitle={label.toLowerCase()}
-          triggerClassName="w-full md:w-full"
-          contentClassName="max-w-[calc(100vw-2rem)]"
-          value={values}
-          handleChange={onChange}
-        />
-      ) : (
-        <Combobox
-          id={id}
-          options={merged}
-          optionTitle={label.toLowerCase()}
-          triggerClassName="w-full md:w-full"
-          contentClassName="max-w-[calc(100vw-2rem)]"
-          value={typeof value === "string" ? value : ""}
-          handleChange={onChange}
-        />
-      )}
-      {isAdding ? (
-        <Field>
+      <FieldLabel htmlFor={id} className={cn(hideLabel && "sr-only")}>
+        {label}
+      </FieldLabel>
+      <div className="flex min-w-0 items-start gap-2">
+        {multiple ? (
+          <InfiniteMultiSelect
+            id={id}
+            options={merged}
+            optionTitle={label.toLowerCase()}
+            triggerClassName="min-w-0 w-auto md:w-auto"
+            contentClassName="max-w-[calc(100vw-2rem)]"
+            value={values}
+            handleChange={onChange}
+          />
+        ) : (
+          <Combobox
+            id={id}
+            options={merged}
+            optionTitle={label.toLowerCase()}
+            triggerClassName="min-w-0 w-auto md:w-auto"
+            contentClassName="max-w-[calc(100vw-2rem)]"
+            value={typeof value === "string" ? value : ""}
+            handleChange={onChange}
+          />
+        )}
+        <Button
+          type="button"
+          size="icon"
+          aria-label={isAdding ? `Close custom ${type}` : `Add custom ${type}`}
+          aria-expanded={isAdding}
+          aria-controls={`${id}-custom-field`}
+          onClick={() => {
+            setIsAdding((current) => !current);
+            setError("");
+          }}
+        >
+          {isAdding ? (
+            <Minus data-icon="inline-start" aria-hidden="true" />
+          ) : (
+            <Plus data-icon="inline-start" aria-hidden="true" />
+          )}
+        </Button>
+      </div>
+      {isAdding && (
+        <Field id={`${id}-custom-field`}>
           <FieldLabel htmlFor={`${id}-custom`}>Custom {type}</FieldLabel>
           <Input
             id={`${id}-custom`}
@@ -119,16 +144,6 @@ export function ProjectTraitField({
             </Button>
           </div>
         </Field>
-      ) : (
-        <Button
-          type="button"
-          variant="link"
-          size="sm"
-          className="self-start px-0"
-          onClick={() => setIsAdding(true)}
-        >
-          Add a custom {type}
-        </Button>
       )}
       {error && <FieldError id={`${id}-error`}>{error}</FieldError>}
     </Field>
