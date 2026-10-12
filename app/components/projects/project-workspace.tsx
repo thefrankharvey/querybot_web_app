@@ -1,7 +1,6 @@
 "use client";
 
 import { Suspense, type ReactNode } from "react";
-import { usePathname } from "next/navigation";
 import {
   QueryDashProvider,
   useQueryDashContext,
@@ -10,19 +9,11 @@ import { ProjectDashboardTitle } from "@/app/(app)/query-dashboard/components/pr
 import { ProjectDashboardLoading } from "@/app/(app)/query-dashboard/components/project-dashboard-loading";
 import { ProjectPageHeader } from "./project-page-header";
 import type { DashboardProject } from "@/app/types";
-import { cn } from "@/app/utils";
 
 function ProjectWorkspaceContent({ children }: { children: ReactNode }) {
-  const pathname = usePathname();
   const { dashboardProjectId, activeProjectName } = useQueryDashContext();
-  const isProfile = pathname.endsWith("/profile");
   return (
-    <div
-      className={cn(
-        "project-workspace ambient-page flex h-full min-h-0 w-full flex-col gap-5 px-4 pt-4 md:pt-6",
-        isProfile ? "pb-[200px] md:pb-60" : "pb-4",
-      )}
-    >
+    <div className="project-workspace ambient-page flex h-full min-h-0 w-full flex-col gap-5 px-4 pb-[200px] pt-4 md:pb-60 md:pt-6">
       <ProjectPageHeader
         className="px-0 pt-0"
         projectId={dashboardProjectId}

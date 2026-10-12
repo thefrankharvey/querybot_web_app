@@ -38,9 +38,9 @@ links, while only the page content fades in over 180ms. Reduced motion disables
 both animations. Native links, browser history, and unsaved-trait guards remain.
 The title, view navigation, dashboard table, and profile panel share the full
 available project column and the same left edge. Table/board selection is retained
-when switching views. Below the profile, the page reserves 200px on mobile and
-240px on desktop before the footer, in both viewing and editing states. The page keeps
-the existing app sidebar on desktop and the existing menu on mobile.
+when switching views. Both project views reserve 200px on mobile and 240px on
+desktop before the footer, including the profile editor and dashboard table/board.
+The page keeps the existing app sidebar on desktop and the existing menu on mobile.
 The profile uses one reading panel with sections and comparable-book typography,
 rather than repeating dashboard widgets. The editor reuses existing components.
 Custom genre, format, subgenre, and theme actions are inline plus buttons at the
@@ -99,6 +99,9 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   profile and editor each have 240px before the footer. At 390px, the profile and
   table measure 358px, with 200px before the profile footer and no horizontal
   document overflow. Existing sidebar/mobile navigation remains in place.
+- The matching dashboard spacing was verified in the running app: table and board
+  each leave 240px before the footer at 1280px and 200px at 390px. Both remain
+  within the viewport width; the profile retains the same mobile spacing.
 - An unsaved title edit survived view navigation, confirming that the header
   stays mounted. Renaming from the profile persisted on the dashboard; the sample
   title was restored afterward. Table/Board selection survived a round trip to
