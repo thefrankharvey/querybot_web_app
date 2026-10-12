@@ -21,6 +21,8 @@ const buttonVariants = cva(
           "border border-accent bg-accent text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)] hover:-translate-y-0.5 hover:bg-[#163b3e]",
         ghost:
           "text-accent hover:bg-white/68 hover:text-accent",
+        unavailable:
+          "cursor-not-allowed border border-accent/12 bg-accent/8 text-accent/75 shadow-none [background-image:radial-gradient(circle,color-mix(in_oklab,var(--accent)_12%,transparent)_0.5px,transparent_0.5px)] [background-size:3px_3px]",
         link: "text-accent underline-offset-4 hover:underline",
       },
       size: {

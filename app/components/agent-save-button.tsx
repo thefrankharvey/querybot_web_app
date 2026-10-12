@@ -65,7 +65,13 @@ export function AgentSaveButton({
           <PopoverTrigger asChild>
             <Button
               type="button"
-              variant={iconOnly ? "ghost" : "default"}
+              variant={
+                isFreeSaveLimitReached
+                  ? "unavailable"
+                  : iconOnly
+                    ? "ghost"
+                    : "default"
+              }
               size={iconOnly ? "icon" : "default"}
               aria-label={label}
               aria-disabled={isFreeSaveLimitReached || undefined}
