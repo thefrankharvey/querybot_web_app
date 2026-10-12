@@ -39,11 +39,8 @@ export default function HomeAgentRecommendations() {
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div className="min-w-0">
           <h2 id="home-agent-recommendations-title" className="break-words font-serif text-2xl font-semibold leading-tight text-accent md:text-[30px]">
-            {project ? `Agents for ${project.projectName}` : "Agent recommendations"}
+            {project ? `Top 3 Agents for ${project.projectName}` : "Agent recommendations"}
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-accent/70">
-            Open to queries and matched to your latest project.
-          </p>
         </div>
       </div>
 

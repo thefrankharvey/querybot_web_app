@@ -262,7 +262,7 @@ test("home reuses Smart Match cards with stable links and the recommendation pro
   const { html, cards } = renderSection({ data: { project, country: "GB", isSubscribed: false, matches: [{ agent_id: "a", name: "Agent A" }, { agent_id: "saved", name: "Already saved" }] }, refetch: () => { refetched = true; } }, {
     agentsList: [{ index_id: "saved" }], saveAgent: async (payload) => { savedPayload = payload; return { created: [{}] }; },
   });
-  assert.match(html, /Agents for My book/);
+  assert.match(html, /Top 3 Agents for My book/);
   assert.doesNotMatch(html, /United Kingdom|United States|All countries/);
   assert.doesNotMatch(html, /Already saved/);
   assert.equal(cards[0].href, "/agent-matches/recommendations/a?project=search-a");
