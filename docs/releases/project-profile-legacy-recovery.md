@@ -57,4 +57,6 @@ Home's implementation and project destinations remain unchanged.
   The profile returned the saved genre, comparable book, and revision. Matching
   response handling itself is covered by route fixtures; no hosted search was
   submitted and no hosted project data was copied.
-- Production build: pending final isolated build.
+- The isolated production build of implementation commit `e5701db` passed
+  (`next build`, exit code 0). The build used isolated local service settings
+  and did not interrupt the review UI on port 3002.
