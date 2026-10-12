@@ -79,6 +79,7 @@ export interface AgentMatch {
 }
 
 export interface FormData {
+  expected_profile_revision?: string | null;
   save_project?: SmartMatchProjectReference;
   writer_project_id?: string | null;
   project_name?: string;

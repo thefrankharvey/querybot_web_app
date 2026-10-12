@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
 import { toast } from "sonner";
@@ -29,6 +29,7 @@ import {
   type SmartMatchProjectReference,
 } from "@/app/utils/smart-match-projects";
 import type { RestoredSmartMatchForm } from "@/app/utils/smart-match-restore";
+import type { ProjectProfile } from "@/app/utils/project-profile";
 import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
 import { AgentSearchProgress } from "../components/agent-search-progress";
 import { PreviousAgentMatchesButton } from "../components/previous-agent-matches-button";
@@ -82,6 +83,10 @@ const SmartMatch = () => {
     saveWriterProjectId,
   } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
+  const [profileRevision, setProfileRevision] = useState<string | null>(null);
+  const [isLoadingProjectTraits, setIsLoadingProjectTraits] = useState(false);
+  const [projectTraitsError, setProjectTraitsError] = useState(false);
+  const projectRequest = useRef(0);
   const [isRestoringPreviousSearch, setIsRestoringPreviousSearch] =
     useState(false);
   const [selectedProjectReference, setSelectedProjectReference] =
@@ -106,6 +111,29 @@ const SmartMatch = () => {
     [projectSummaries],
   );
 
+  const selectProject = useCallback(async (project: SmartMatchProjectReference | null) => {
+    const requestId = ++projectRequest.current;
+    setSelectedProjectReference(project);
+    setProfileRevision(null);
+    setProjectTraitsError(false);
+    if (!project?.dashboardProjectId) { setIsLoadingProjectTraits(false); return; }
+    setIsLoadingProjectTraits(true);
+    setApiMessage("");
+    try {
+      const response = await fetch(`/api/dashboard-projects/${project.dashboardProjectId}/profile`, { cache: "no-store" });
+      const body = await response.json() as { profile?: ProjectProfile; error?: string };
+      if (!response.ok || !body.profile) throw new Error(body.error || "Unable to load this project's traits.");
+      if (requestId !== projectRequest.current) return;
+      setForm(body.profile.form);
+      setProfileRevision(body.profile.revision);
+      setSelectedProjectReference({ ...project, writerProjectId: body.profile.writerProjectId ?? project.writerProjectId });
+    } catch (error) {
+      if (requestId !== projectRequest.current) return;
+      setProjectTraitsError(true);
+      setApiMessage(error instanceof Error ? error.message : "Unable to load this project's traits. Select the project again to retry.");
+    } finally { if (requestId === projectRequest.current) setIsLoadingProjectTraits(false); }
+  }, []);
+
   const hasSelectedRequestedProject = useRef(false);
   useEffect(() => {
     if (isLoadingSavedProjects || hasSelectedRequestedProject.current) return;
@@ -118,13 +146,9 @@ const SmartMatch = () => {
       (option) => option.dashboardProjectId === projectId,
     );
     if (project) {
-      setSelectedProjectReference(project);
-      setForm((previous) => ({
-        ...previous,
-        project_name: project.projectName,
-      }));
+      void selectProject(project);
     }
-  }, [isLoadingSavedProjects, projectOptions]);
+  }, [isLoadingSavedProjects, projectOptions, selectProject]);
 
   const getWriterProjectIdFromResponse = (data: unknown) => {
     if (!data || typeof data !== "object") return null;
@@ -149,7 +173,7 @@ const SmartMatch = () => {
       if (!getAgentsResp.ok) {
         const errorData = await getAgentsResp.json().catch(() => null);
         const message =
-          errorData?.error || "An API error occurred. Please try again.";
+          errorData?.error || errorData?.message || "An API error occurred. Please try again.";
         setApiMessage(message);
         throw new Error(message);
       }
@@ -230,11 +254,16 @@ const SmartMatch = () => {
           restoredWriterProjectId &&
           project.writerProjectId === restoredWriterProjectId,
       );
-      setForm({
-        ...data.form,
-        project_name: existing?.projectName ?? data.form.project_name,
-      });
-      setSelectedProjectReference(existing ?? null);
+      if (existing) {
+        await selectProject(existing);
+      } else {
+        ++projectRequest.current;
+        setIsLoadingProjectTraits(false);
+        setProjectTraitsError(false);
+        setProfileRevision(null);
+        setForm(data.form);
+        setSelectedProjectReference(null);
+      }
       toast.success("Previous Smart Match search restored.");
 
       window.requestAnimationFrame(() => {
@@ -255,6 +284,10 @@ const SmartMatch = () => {
     e.preventDefault();
 
     setApiMessage("");
+    if (isLoadingProjectTraits || projectTraitsError) {
+      setApiMessage(isLoadingProjectTraits ? "Please wait for this project's saved traits to load." : "Select this project again to load its saved traits before searching.");
+      return;
+    }
     if (isLoadingSavedProjects || projectsError) {
       setApiMessage(
         "Please wait for your existing projects to load, or try loading them again.",
@@ -292,6 +325,7 @@ const SmartMatch = () => {
     const payload = {
       email: user?.primaryEmailAddress?.emailAddress || "",
       writer_project_id: submittedWriterProjectId,
+      expected_profile_revision: selectedProjectReference?.dashboardProjectId === submittedProject.dashboardProjectId ? profileRevision : null,
       save_project: existingProject ? submittedProject : undefined,
       project_name: submittedProjectName,
       genre: form.genre,
@@ -397,14 +431,15 @@ const SmartMatch = () => {
             </div>
           </div>
           <form id="smart-match-form" onSubmit={handleSubmit}>
-            <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
+            <fieldset disabled={isLoadingProjectTraits} className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
+              {isLoadingProjectTraits && <p role="status" className="text-sm text-accent">Loading saved project traits…</p>}
               <FictionButtonToggle form={form} setForm={setForm} />
               <ProjectName
                 form={form}
                 setForm={setForm}
                 projects={projectOptions}
                 selectedProject={selectedProjectReference}
-                onProjectSelect={setSelectedProjectReference}
+                onProjectSelect={(project) => { void selectProject(project); }}
               />
               {projectsError && (
                 <div
@@ -469,7 +504,7 @@ const SmartMatch = () => {
                   Search for Agents
                 </Button>
               </div>
-            </div>
+            </fieldset>
           </form>
         </>
       )}

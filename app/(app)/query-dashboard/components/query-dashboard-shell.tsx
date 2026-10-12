@@ -3,7 +3,8 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Confetti from "react-confetti";
-import { Columns3, LayoutDashboard, Table2 } from "lucide-react";
+import { Columns3, Table2 } from "lucide-react";
+import { ProjectPageHeader } from "@/app/components/projects/project-page-header";
 
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
@@ -88,9 +89,12 @@ function QueryDashboardContent() {
   }, [dashboardView]);
 
   if (hasLoadError) return (
-    <div role="alert" className="flex flex-col items-start gap-3 p-4">
-      <p>Unable to load your saved records. Please try again.</p>
-      <Button type="button" variant="outline" onClick={() => window.location.reload()}>Reload dashboard</Button>
+    <div className="flex flex-col gap-5 py-4 md:py-6">
+      <ProjectPageHeader projectId={dashboardProjectId ?? undefined} title={activeProjectName || "Project"} />
+      <div role="alert" className="flex flex-col items-start gap-3 p-4">
+        <p>Unable to load your saved records. Please try again.</p>
+        <Button type="button" variant="outline" onClick={() => window.location.reload()}>Reload dashboard</Button>
+      </div>
     </div>
   );
   if (isLoading) return <ProjectDashboardLoading />;
@@ -107,17 +111,10 @@ function QueryDashboardContent() {
         </div>
       )}
       {!isLoading ? (
-        <div
-          className={cn(
-            "flex flex-col gap-3 px-4 md:flex-row md:items-center md:justify-between",
-            isEmpty && "pt-4 md:pt-0",
-          )}
-        >
-          <h1 className="flex min-w-0 items-center gap-2 font-serif text-xl font-semibold leading-tight text-accent md:text-[32px]">
-            <LayoutDashboard className="hidden size-10 shrink-0 md:block" />
-            <ProjectDashboardTitle projectName={activeProjectName ?? ""} />
-          </h1>
-          <ButtonGroup className="shrink-0">
+        <ProjectPageHeader
+          projectId={dashboardProjectId ?? undefined}
+          title={<ProjectDashboardTitle projectName={activeProjectName ?? ""} />}
+          actions={<ButtonGroup className="shrink-0">
             <Button
               aria-pressed={dashboardView === "table"}
               size="sm"
@@ -138,8 +135,8 @@ function QueryDashboardContent() {
               <Columns3 data-icon="inline-start" />
               Board
             </Button>
-          </ButtonGroup>
-        </div>
+          </ButtonGroup>}
+        />
       ) : null}
       {isEmpty && (
         <div
