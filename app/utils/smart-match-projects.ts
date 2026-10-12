@@ -69,6 +69,26 @@ export function resolveSmartMatchProject(
   const matches = projects.filter(
     (project) => nameKey(project.projectName) === key,
   );
+  // The profile request can return a newly attached search before the cached
+  // project picker refreshes. Keep the selected dashboard and its latest ID.
+  const selectedDashboard = selectedProject?.dashboardProjectId
+    ? matches.find(
+        (project) =>
+          project.dashboardProjectId === selectedProject.dashboardProjectId,
+      )
+    : undefined;
+  if (
+    selectedDashboard &&
+    selectedProject &&
+    nameKey(selectedProject.projectName) === key
+  ) {
+    return {
+      dashboardProjectId: selectedDashboard.dashboardProjectId,
+      projectName: selectedDashboard.projectName,
+      writerProjectId:
+        selectedProject.writerProjectId ?? selectedDashboard.writerProjectId,
+    };
+  }
   if (
     selectedProject &&
     nameKey(selectedProject.projectName) === key &&

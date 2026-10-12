@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { Pencil } from "lucide-react";
+import { BookOpen, Pencil, ScanSearch } from "lucide-react";
 import { toast } from "sonner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
@@ -11,6 +12,14 @@ import { ProjectProfileDetails } from "@/app/components/projects/project-profile
 import { ProjectProfileEditor } from "@/app/components/projects/project-profile-editor";
 import { Button } from "@/app/ui-primitives/button";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
+import {
+  Empty,
+  EmptyContent,
+  EmptyDescription,
+  EmptyHeader,
+  EmptyMedia,
+  EmptyTitle,
+} from "@/app/ui-primitives/empty";
 import { Alert, AlertTitle, AlertDescription } from "@/app/ui-primitives/alert";
 import {
   profileTraits,
@@ -33,6 +42,7 @@ export function ProjectProfileClient({
     queryKey,
     enabled: Boolean(user?.id),
     retry: 1,
+    staleTime: 0,
     queryFn: async () => {
       const response = await fetch(url, { cache: "no-store" });
       const body = await response.json();
@@ -197,13 +207,34 @@ export function ProjectProfileClient({
         </Alert>
       ) : query.data ? (
         <>
-          {!query.data.revision && (
-            <p role="status" className="text-sm text-muted-foreground">
-              This project does not have saved traits yet. Select Edit traits to
-              add them.
-            </p>
+          {query.data.revision ? (
+            <ProjectProfileDetails profile={query.data} />
+          ) : (
+            <Empty aria-labelledby="empty-profile-title">
+              <EmptyHeader>
+                <EmptyMedia variant="icon">
+                  <BookOpen aria-hidden="true" />
+                </EmptyMedia>
+                <EmptyTitle id="empty-profile-title">
+                  Your project profile is currently empty
+                </EmptyTitle>
+                <EmptyDescription>
+                  Run a Smart Match search for this project to populate its
+                  traits, or select Edit traits to add them yourself.
+                </EmptyDescription>
+              </EmptyHeader>
+              <EmptyContent>
+                <Button asChild>
+                  <Link
+                    href={`/smart-match?project=${encodeURIComponent(project.id)}`}
+                  >
+                    <ScanSearch data-icon="inline-start" aria-hidden="true" />
+                    Run Smart Match
+                  </Link>
+                </Button>
+              </EmptyContent>
+            </Empty>
           )}
-          <ProjectProfileDetails profile={query.data} />
           {query.data.updatedAt && (
             <p className="pt-2 text-xs text-muted-foreground">
               Last saved{" "}

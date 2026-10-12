@@ -219,8 +219,12 @@ function createApi({
   projects = [original],
   userId = "writer",
   lookupStatus = 200,
+  legacyDashboardId = null,
+  searchStatus = 200,
+  searchMatches = [{ id: "agent-new" }],
 } = {}) {
   const calls = [];
+  const profileLinks = [];
   const store = {
     createServerSupabase: () => ({
       from: (table) => {
@@ -263,10 +267,10 @@ function createApi({
     }
     const payload = JSON.parse(init.body);
     return Response.json({
-      matches: [{ id: "agent-new" }],
+      matches: searchMatches,
       writer_project_id: payload.writer_project_id || "created-project",
       task_id: "sheet-task",
-    });
+    }, { status: searchStatus });
   };
   const config = {
     getWqhApiUrl: () => "https://matching.example.test",
@@ -292,6 +296,10 @@ function createApi({
     "@/lib/config": config,
     "@/lib/wqh-history-auth": historyAuth,
     "@/app/utils/smart-match-projects.server": server,
+    "@/app/utils/smart-match-profile-link.server": {
+      getLegacySearchProject: async (input) => { profileLinks.push({ input }); return legacyDashboardId; },
+      linkLegacySearchProfile: async (...args) => { profileLinks.push({ linked: args }); },
+    },
     "@clerk/nextjs/server": {
       auth: async () => ({ userId }),
       currentUser: async () => ({
@@ -305,6 +313,7 @@ function createApi({
   };
   return {
     calls,
+    profileLinks,
     route: (tier) =>
       loadModule(`app/api/get-agents-${tier}/route.ts`, modules, { fetch }),
     projectsRoute: () =>
@@ -312,9 +321,9 @@ function createApi({
   };
 }
 
-function searchRequest(payload = {}) {
+function searchRequest(payload = {}, lastIndex = "21") {
   return new Request(
-    "https://app.example.test/api/get-agents-paid?last_index=21&status=open",
+    `https://app.example.test/api/get-agents-paid?last_index=${lastIndex}&status=open`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -519,4 +528,34 @@ test("search-only names and restored searches are not added to project choices",
     JSON.parse(JSON.stringify(buildSmartMatchProjectOptions([], [original]))),
     [],
   );
+});
+
+for (const tier of ["free", "paid"]) {
+  test(`${tier}: successful selected legacy searches populate the profile even with no agent matches`, async () => {
+    const api = createApi({ legacyDashboardId: "legacy-dashboard", searchMatches: [] });
+    const selection = { dashboardProjectId: "legacy-dashboard", writerProjectId: null };
+    const response = await api.route(tier).POST(searchRequest({ save_project: selection }, "0"));
+    assert.equal(response.status, 200);
+    assert.deepEqual(api.profileLinks[0].input.selection, selection);
+    assert.equal(api.profileLinks[0].input.userId, "writer");
+    assert.equal(api.profileLinks[0].input.lastIndex, "0");
+    assert.deepEqual(api.profileLinks[1].linked, ["writer", "legacy-dashboard", "original-book"]);
+  });
+  test(`${tier}: failed searches cannot link a legacy profile`, async () => {
+    const api = createApi({ legacyDashboardId: "legacy-dashboard", searchStatus: 503 });
+    const response = await api.route(tier).POST(searchRequest());
+    assert.equal(response.status, 503);
+    assert.equal(api.profileLinks.length, 1);
+  });
+}
+
+
+test("a freshly loaded profile keeps its linked search ID while the project picker is still cached", () => {
+  const cached = { projectName: "Old project", dashboardProjectId: "same-dashboard", writerProjectId: null };
+  const loaded = { ...cached, writerProjectId: "new-saved-search" };
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(resolveSmartMatchProject("Old project", loaded, [cached]))),
+    loaded,
+  );
+  assert.equal(resolveSmartMatchProject("Different project", loaded, [cached]).writerProjectId, null);
 });

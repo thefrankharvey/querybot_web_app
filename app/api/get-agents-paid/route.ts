@@ -7,6 +7,10 @@ import {
   resolveSmartMatchWriterProjectId,
   SmartMatchProjectError,
 } from "@/app/utils/smart-match-projects.server";
+import {
+  getLegacySearchProject,
+  linkLegacySearchProfile,
+} from "@/app/utils/smart-match-profile-link.server";
 
 // Define the structure of the payload
 export interface GetAgentsPaidPayload {
@@ -63,6 +67,13 @@ export async function POST(req: NextRequest) {
     const status = url.searchParams.get("status") || "";
     const country_code = url.searchParams.get("country_code") || "";
     const jsonData = await req.json();
+    const legacyDashboardId = await getLegacySearchProject({
+      userId,
+      selection: jsonData.save_project,
+      writerProjectId: jsonData.writer_project_id,
+      projectName: jsonData.project_name,
+      lastIndex: last_index,
+    });
 
     const payload: GetAgentsPaidPayload = {
       email,
@@ -76,7 +87,10 @@ export async function POST(req: NextRequest) {
         projectName: jsonData.project_name,
       }),
       genre: jsonData.genre,
-      expected_profile_revision: typeof jsonData.expected_profile_revision === "string" ? jsonData.expected_profile_revision : undefined,
+      expected_profile_revision:
+        typeof jsonData.expected_profile_revision === "string"
+          ? jsonData.expected_profile_revision
+          : undefined,
       subgenres: Array.isArray(jsonData.subgenres)
         ? jsonData.subgenres
         : undefined,
@@ -111,6 +125,13 @@ export async function POST(req: NextRequest) {
     );
 
     const data = await externalRes.json();
+    if (externalRes.ok && legacyDashboardId && Array.isArray(data?.matches)) {
+      await linkLegacySearchProfile(
+        userId,
+        legacyDashboardId,
+        data.writer_project_id,
+      );
+    }
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
     if (error instanceof SmartMatchProjectError) {

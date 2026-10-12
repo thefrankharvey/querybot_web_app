@@ -16,7 +16,7 @@ agent is saved. This change adds no Home recommendations or manual project flow.
 ## Profile behavior
 
 Project profile shows fiction/nonfiction, genre, subgenres, format, audience,
-themes, and comparable books. It uses the linked Smart Match's original traits.
+themes, and comparable books. It uses the linked Smart Match's latest saved traits.
 Edit traits opens a page editor with explicit Save changes and Cancel actions.
 Incomplete profiles can be saved. The existing trait catalogue, normalization,
 and custom-trait API are reused, with historical custom values preserved.
@@ -82,10 +82,12 @@ are ignored. The existing server-only history credential authenticates Flask cal
 
 The user approved the `profile_only` column and confirmed the production target:
 Write Query Hook (`gjlsblvieeabdloajcbm`), main Production, `public.writer_projects`.
-**Production application remains deferred until local testing is complete.** The
-column distinguishes legacy metadata from actual search history. Apply the
-migration before deploying the backend, then release this UI. No shared or
-Supabase database changes were applied during implementation or this UI refinement.
+The approved migration was applied on October 12, 2026, after confirming the
+running Render backend uses that exact Supabase project. Only
+`public.writer_projects.profile_only` was added; `forms` was untouched. This
+resolved the production history/profile failures caused by the missing column.
+See [legacy profile recovery](project-profile-legacy-recovery.md) for the follow-up
+empty state and search-link repair. No additional migration is required.
 
 For legacy dashboards without a writer-project link, the metadata save uses the
 dashboard's UUID and subsequently attaches it through the existing

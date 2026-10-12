@@ -136,19 +136,32 @@ const SmartMatch = () => {
 
   const hasSelectedRequestedProject = useRef(false);
   useEffect(() => {
-    if (isLoadingSavedProjects || hasSelectedRequestedProject.current) return;
+    if (
+      isLoading ||
+      !user?.id ||
+      isLoadingSavedProjects ||
+      projectsError ||
+      hasSelectedRequestedProject.current
+    ) return;
     const projectId = new URLSearchParams(window.location.search).get(
       "project",
     );
     if (!projectId) return;
-    hasSelectedRequestedProject.current = true;
     const project = projectOptions.find(
       (option) => option.dashboardProjectId === projectId,
     );
     if (project) {
+      hasSelectedRequestedProject.current = true;
       void selectProject(project);
     }
-  }, [isLoadingSavedProjects, projectOptions, selectProject]);
+  }, [
+    isLoading,
+    user?.id,
+    isLoadingSavedProjects,
+    projectsError,
+    projectOptions,
+    selectProject,
+  ]);
 
   const getWriterProjectIdFromResponse = (data: unknown) => {
     if (!data || typeof data !== "object") return null;
@@ -311,8 +324,10 @@ const SmartMatch = () => {
     } = submittedProject;
     const existingProject = projectOptions.find(
       (project) =>
-        project.projectName === submittedProjectName &&
-        project.writerProjectId === submittedWriterProjectId,
+        submittedProject.dashboardProjectId
+          ? project.dashboardProjectId === submittedProject.dashboardProjectId
+          : project.projectName === submittedProjectName &&
+            project.writerProjectId === submittedWriterProjectId,
     );
 
     if (!submittedProjectName) {

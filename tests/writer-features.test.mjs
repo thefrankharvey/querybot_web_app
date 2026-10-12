@@ -244,6 +244,10 @@ function baseMocks(db, userId = "writer-a") {
       resolveSmartMatchWriterProjectId: async ({ writerProjectId }) => writerProjectId ?? null,
       SmartMatchProjectError: class extends Error {},
     },
+    "@/app/utils/smart-match-profile-link.server": {
+      getLegacySearchProject: async () => null,
+      linkLegacySearchProfile: () => assert.fail("no legacy project was selected"),
+    },
     "@/app/utils/project-dashboard-route": profile,
     "@/lib/wqh-history-auth": historyAuth(),
     "@/lib/config": {

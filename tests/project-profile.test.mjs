@@ -23,7 +23,9 @@ function compile(path, modules = {}, globals = {}) {
       module: ts.ModuleKind.CommonJS,
       target: ts.ScriptTarget.ES2022,
       esModuleInterop: true,
+      jsx: ts.JsxEmit.ReactJSX,
     },
+    fileName: filename,
   }).outputText;
   const compiled = { exports: {} };
   vm.runInNewContext(
@@ -300,4 +302,140 @@ test("existing Home project destinations still point to the query dashboard", ()
     "utf8",
   );
   assert.match(home, /href=\{summary.href\}/);
+});
+
+function renderProfile(query) {
+  const React = require("react");
+  const { renderToStaticMarkup } = require("react-dom/server");
+  const utils = { cn: (...values) => values.filter(Boolean).join(" ") };
+  const { ProjectProfileClient } = compile(
+    "app/(app)/projects/[projectId]/profile/project-profile-client.tsx",
+    {
+      "next/link": { __esModule: true, default: ({ children, ...props }) => React.createElement("a", props, children) },
+      "@tanstack/react-query": { useQuery: () => query, useQueryClient: () => ({}) },
+      "@/app/hooks/use-clerk-user": { useClerkUser: () => ({ user: { id: "own-user" } }) },
+      "@/app/(app)/context/profile-context": { useProfileContext: () => ({ refetch() {} }) },
+      "@/app/hooks/use-unsaved-project-changes": { useUnsavedProjectChanges() {} },
+      "@/app/components/projects/project-profile-details": {
+        ProjectProfileDetails: () => React.createElement("div", null, "Saved manuscript traits"),
+      },
+      "@/app/components/projects/project-profile-editor": { ProjectProfileEditor: () => null },
+      "@/app/ui-primitives/button": compile("app/ui-primitives/button.tsx", { "@/app/utils": utils }),
+      "@/app/ui-primitives/skeleton": compile("app/ui-primitives/skeleton.tsx", { "../utils": utils }),
+      "@/app/ui-primitives/alert": compile("app/ui-primitives/alert.tsx", { "@/app/utils": utils }),
+      "@/app/ui-primitives/empty": compile("app/ui-primitives/empty.tsx", { "@/app/utils": utils }),
+      "@/app/utils/project-profile": profiles,
+    },
+  );
+  return renderToStaticMarkup(React.createElement(ProjectProfileClient, { project }));
+}
+
+test("an empty legacy profile gives a project-scoped Smart Match action instead of default Fiction details", () => {
+  const html = renderProfile({ data: profiles.toProjectProfile(null, project.project_name) });
+  assert.match(html, /Your project profile is currently empty/);
+  assert.match(html, /Run a Smart Match search for this project/);
+  assert.match(html, new RegExp(`href="/smart-match\\?project=${dashboardId}"`));
+  assert.match(html, /Edit traits/);
+  assert.doesNotMatch(html, /Saved manuscript traits|Project traits could not load/);
+});
+
+test("saved Smart Match profiles display their traits and genuine load failures remain errors", () => {
+  const populated = renderProfile({ data: profiles.toProjectProfile({ id: writerId, revision: "a".repeat(64) }, "Book") });
+  assert.match(populated, /Saved manuscript traits/);
+  assert.doesNotMatch(populated, /currently empty/);
+  const unavailable = renderProfile({ isError: true, error: new Error("Service temporarily unavailable") });
+  assert.match(unavailable, /Project traits could not load/);
+  assert.match(unavailable, /Service temporarily unavailable/);
+  assert.doesNotMatch(unavailable, /currently empty/);
+});
+
+function legacyLinkService({ rows = [], failRead = false, failWrite = false, noWrite = false } = {}) {
+  const writes = [];
+  const server = {
+    createServerSupabase: () => ({
+      from(table) {
+        assert.equal(table, "dashboard_projects");
+        const filters = [];
+        let update = null;
+        return {
+          select() { return this; },
+          eq(key, value) { filters.push([key, value]); return this; },
+          is(key, value) { filters.push([key, value]); return this; },
+          update(value) { update = value; return this; },
+          async maybeSingle() {
+            const row = rows.find((row) => filters.every(([key, value]) => row[key] === value));
+            if (update) {
+              writes.push({ filters, update });
+              if (failWrite) return { data: null, error: {} };
+              if (noWrite) return { data: null, error: null };
+              if (row) Object.assign(row, update);
+            } else if (failRead) return { data: null, error: {} };
+            return { data: row ?? null, error: null };
+          },
+        };
+      },
+    }),
+  };
+  class SmartMatchProjectError extends Error {
+    constructor(message, status) { super(message); this.status = status; }
+  }
+  return {
+    writes,
+    api: compile("app/utils/smart-match-profile-link.server.ts", {
+      "server-only": {},
+      "@/app/api/supabase/server": server,
+      "./project-dashboard-route": compile("app/utils/project-dashboard-route.ts"),
+      "./smart-match-projects.server": { SmartMatchProjectError },
+    }),
+  };
+}
+const legacyRow = () => ({ ...project, user_id: "own-user", writer_project_id: null });
+const legacySearch = (extra = {}) => ({
+  userId: "own-user", selection: { dashboardProjectId: dashboardId, writerProjectId: null },
+  writerProjectId: null, projectName: project.project_name, lastIndex: "0", ...extra,
+});
+
+test("only an explicitly selected owned legacy dashboard can attach a newly submitted search", async () => {
+  const row = legacyRow();
+  const { api, writes } = legacyLinkService({ rows: [row] });
+  assert.equal(await api.getLegacySearchProject(legacySearch()), dashboardId);
+  assert.equal(writes.length, 0);
+  await api.linkLegacySearchProfile("own-user", dashboardId, writerId);
+  assert.equal(row.writer_project_id, writerId);
+  assert.deepEqual(plain(writes[0].filters), [["id", dashboardId], ["user_id", "own-user"], ["writer_project_id", null]]);
+  await assert.rejects(api.getLegacySearchProject(legacySearch()), (error) => error.status === 409);
+});
+
+test("a title alone, pagination, an explicit backend ID, or an invalid dashboard ID cannot create a legacy link", async () => {
+  const { api, writes } = legacyLinkService({ failRead: true });
+  for (const extra of [
+    { selection: undefined }, { lastIndex: "21" }, { writerProjectId: writerId },
+    { selection: { dashboardProjectId: "bad-id", writerProjectId: null } },
+    { selection: { dashboardProjectId: dashboardId, writerProjectId: writerId } },
+  ]) assert.equal(await api.getLegacySearchProject(legacySearch(extra)), null);
+  assert.equal(writes.length, 0);
+});
+
+test("legacy search selection rejects another account and a stale project title", async () => {
+  const { api } = legacyLinkService({ rows: [legacyRow()] });
+  await assert.rejects(api.getLegacySearchProject(legacySearch({ userId: "other-user" })), (error) => error.status === 404);
+  await assert.rejects(api.getLegacySearchProject(legacySearch({ projectName: "Changed title" })), (error) => error.status === 409);
+});
+
+test("legacy links preserve a newer profile and accept only an idempotent same-search retry", async () => {
+  for (const [linkedId, succeeds] of [[writerId, true], [dashboardId, false]]) {
+    const { api } = legacyLinkService({ rows: [{ ...legacyRow(), writer_project_id: linkedId }] });
+    if (succeeds) await api.linkLegacySearchProfile("own-user", dashboardId, writerId);
+    else await assert.rejects(api.linkLegacySearchProfile("own-user", dashboardId, writerId), (error) => error.status === 409);
+  }
+});
+
+test("failed project reads, failed links, and missing search IDs remain actionable failures", async () => {
+  const badRead = legacyLinkService({ failRead: true }).api;
+  await assert.rejects(badRead.getLegacySearchProject(legacySearch()), (error) => error.status === 503);
+  const badWrite = legacyLinkService({ failWrite: true }).api;
+  await assert.rejects(badWrite.linkLegacySearchProfile("own-user", dashboardId, writerId), (error) => error.status === 503);
+  const { api, writes } = legacyLinkService();
+  await assert.rejects(api.linkLegacySearchProfile("own-user", dashboardId, undefined), (error) => error.status === 502);
+  assert.equal(writes.length, 0);
 });
