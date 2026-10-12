@@ -7,16 +7,7 @@ import { toast } from "sonner";
 import { Button } from "@/app/ui-primitives/button";
 import { Input } from "@/app/ui-primitives/input";
 import { cn } from "@/app/utils";
-import {
-  AlertDialog,
-  AlertDialogTrigger,
-  AlertDialogContent,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogCancel,
-} from "@/app/ui-primitives/alert-dialog";
+import { DeleteProjectButton } from "./delete-project-button";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useQueryDashContext } from "../context/query-dash-context";
@@ -26,17 +17,12 @@ export function ProjectDashboardTitle({
 }: {
   projectName: string;
 }) {
-  const {
-    dashboardProjectId,
-    activeWriterProjectId,
-    deleteActiveProject,
-    isDeletingProject,
-  } = useQueryDashContext();
+  const { dashboardProjectId, activeWriterProjectId, isDeletingProject } =
+    useQueryDashContext();
   const { updateProject } = useProfileContext();
   const matches = useAgentMatches();
   const router = useRouter();
   const [isEditing, setIsEditing] = useState(false);
-  const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
   const [name, setName] = useState(projectName);
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState("");
@@ -170,7 +156,9 @@ export function ProjectDashboardTitle({
             aria-hidden={!isEditing}
             aria-busy={isSaving}
             aria-invalid={Boolean(error)}
-            aria-describedby={error ? "project-name-error" : "project-name-help"}
+            aria-describedby={
+              error ? "project-name-error" : "project-name-help"
+            }
           />
         )}
       </span>
@@ -217,57 +205,24 @@ export function ProjectDashboardTitle({
               <Check />
             </span>
           </Button>
-          <AlertDialog
-            open={isConfirmingDelete}
-            onOpenChange={(open) => {
-              if (!isDeletingProject && !isEditing) setIsConfirmingDelete(open);
-            }}
-          >
-            <AlertDialogTrigger asChild>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="hover:bg-accent/10 focus-visible:bg-accent/10 motion-reduce:transition-none"
-                aria-label={isEditing ? "Cancel rename" : "Delete project"}
-                title={isEditing ? "Cancel rename" : "Delete project"}
-                disabled={isSaving || isDeletingProject}
-                onClick={(event) => {
-                  if (isEditing) {
-                    event.preventDefault();
-                    finishEditing();
-                  }
-                }}
-              >
-                <X />
-              </Button>
-            </AlertDialogTrigger>
-            <AlertDialogContent>
-              <AlertDialogHeader>
-                <AlertDialogTitle>Delete this project?</AlertDialogTitle>
-                <AlertDialogDescription>
-                  Are you sure you want to delete &quot;{projectName}&quot; and
-                  all agents associated with it? This cannot be undone.
-                </AlertDialogDescription>
-              </AlertDialogHeader>
-              <AlertDialogFooter>
-                <AlertDialogCancel disabled={isDeletingProject}>
-                  Cancel
-                </AlertDialogCancel>
-                <Button
-                  variant="destructive"
-                  disabled={isDeletingProject}
-                  onClick={async () => {
-                    if (await deleteActiveProject())
-                      setIsConfirmingDelete(false);
-                  }}
-                >
-                  {isDeletingProject
-                    ? "Deleting..."
-                    : "Delete project and agents"}
-                </Button>
-              </AlertDialogFooter>
-            </AlertDialogContent>
-          </AlertDialog>
+          {isEditing ? (
+            <Button
+              variant="ghost"
+              size="icon"
+              aria-label="Cancel rename"
+              title="Cancel rename"
+              disabled={isSaving || isDeletingProject}
+              onClick={finishEditing}
+            >
+              <X aria-hidden="true" />
+            </Button>
+          ) : (
+            <DeleteProjectButton
+              projectName={projectName}
+              iconOnly
+              disabled={isSaving}
+            />
+          )}
           {error && (
             <span
               id="project-name-error"

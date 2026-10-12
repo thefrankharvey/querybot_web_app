@@ -6,8 +6,11 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
+import { useQueryClient } from "@tanstack/react-query";
+import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import { useUser } from "@clerk/nextjs";
 import { arrayMove } from "@dnd-kit/sortable";
 import { useRouter } from "next/navigation";
@@ -301,8 +304,19 @@ export function QueryDashProvider({
 }) {
   const { user } = useUser();
   const userId = user?.id;
-  const { agentsList, addAgent, removeAgents, isLoading, isError, refetch, projects, forgetProject } =
-    useProfileContext();
+  const queryClient = useQueryClient();
+  const matches = useAgentMatches();
+  const deleteInFlight = useRef(false);
+  const {
+    agentsList,
+    addAgent,
+    removeAgents,
+    isLoading,
+    isError,
+    refetch,
+    projects,
+    forgetProject,
+  } = useProfileContext();
   const router = useRouter();
   const currentProject = projects.find(
     (project) => project.id === dashboardProjectId,
@@ -771,11 +785,18 @@ export function QueryDashProvider({
         };
       }
     },
-    [activeProjectName, activeWriterProjectId, dashboardProjectId, refetch, removeAgents],
+    [
+      activeProjectName,
+      activeWriterProjectId,
+      dashboardProjectId,
+      refetch,
+      removeAgents,
+    ],
   );
 
   const deleteActiveProject = useCallback(async () => {
-    if (!dashboardProjectId) return false;
+    if (!dashboardProjectId || deleteInFlight.current) return false;
+    deleteInFlight.current = true;
     setIsDeletingProject(true);
     try {
       const response = await fetch(
@@ -791,8 +812,22 @@ export function QueryDashProvider({
           (card) => card.dashboardProjectId !== dashboardProjectId,
         ),
       );
+      await queryClient.cancelQueries({
+        queryKey: ["project-profile", userId, dashboardProjectId],
+      });
+      queryClient.removeQueries({
+        queryKey: ["project-profile", userId, dashboardProjectId],
+      });
+      const savedProject = matches.formData?.save_project;
+      if (
+        savedProject?.dashboardProjectId === dashboardProjectId ||
+        (activeWriterProjectId &&
+          matches.writerProjectId === activeWriterProjectId)
+      ) {
+        await matches.resetForNewSearch({ clearForm: true });
+      }
       await forgetProject(dashboardProjectId);
-      toast.success("Project and its saved agents deleted.");
+      toast.success("Project, saved agents, and traits deleted.");
       router.replace("/home");
       return true;
     } catch (error) {
@@ -801,9 +836,18 @@ export function QueryDashProvider({
       );
       return false;
     } finally {
+      deleteInFlight.current = false;
       setIsDeletingProject(false);
     }
-  }, [dashboardProjectId, forgetProject, router]);
+  }, [
+    dashboardProjectId,
+    activeWriterProjectId,
+    forgetProject,
+    matches,
+    queryClient,
+    router,
+    userId,
+  ]);
 
   const setNotes = useCallback(
     (cardId: string, notes: string) => {
@@ -864,7 +908,10 @@ export function QueryDashProvider({
       isLoading: !isError && (isLoading || isHydratingFromServer),
       hasLoadError: !!isError && !agentsList,
       isEmpty:
-        !isError && !isLoading && !isHydratingFromServer && visibleCards.length === 0,
+        !isError &&
+        !isLoading &&
+        !isHydratingFromServer &&
+        visibleCards.length === 0,
       offerMadeCelebrationNonce,
       dashboardProjectId,
       activeProjectName,

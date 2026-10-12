@@ -15,7 +15,10 @@ import {
   useQueryClient,
 } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { getSmartMatchSaveProjectId, type SmartMatchProjectReference } from "@/app/utils/smart-match-projects";
+import {
+  getSmartMatchSaveProjectId,
+  type SmartMatchProjectReference,
+} from "@/app/utils/smart-match-projects";
 
 import {
   startSheetPolling,
@@ -465,7 +468,9 @@ const useAgentData = () => {
     saveSpreadsheetUrlMutation.mutate(null);
   };
 
-  const resetForNewSearch = async () => {
+  const resetForNewSearch = async ({
+    clearForm = false,
+  }: { clearForm?: boolean } = {}) => {
     stopSheetPolling();
 
     // 1) cancel anything in flight
@@ -479,8 +484,10 @@ const useAgentData = () => {
     removeKey(STORAGE_KEYS.spreadsheetUrl);
     removeKey(STORAGE_KEYS.projectName);
     saveWriterProjectId(null);
-    // keep or clear formData depending on your UX:
-    // removeKey(STORAGE_KEYS.formData);
+    if (clearForm) {
+      removeKey(STORAGE_KEYS.formData);
+      queryClient.setQueryData<FormData | null>(QUERY_KEYS.formData, null);
+    }
 
     // You likely want to reset status filter on a brand new search
     // removeKey(STORAGE_KEYS.statusFilter);
@@ -525,7 +532,11 @@ const useAgentData = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...formData, writer_project_id: formData.writer_project_id?.trim() || writerProjectId }),
+        body: JSON.stringify({
+          ...formData,
+          writer_project_id:
+            formData.writer_project_id?.trim() || writerProjectId,
+        }),
       });
 
       if (!response.ok) {
@@ -551,7 +562,9 @@ const useAgentData = () => {
         data.writer_project_id?.trim() ||
         formData.writer_project_id ||
         writerProjectId;
-      saveWriterProjectId(getSmartMatchSaveProjectId(formData, refreshedProjectId));
+      saveWriterProjectId(
+        getSmartMatchSaveProjectId(formData, refreshedProjectId),
+      );
       saveFormDataMutation.mutate({
         ...formData,
         writer_project_id: refreshedProjectId,
@@ -666,7 +679,9 @@ interface MatchesContextType {
   startSpreadsheetPolling: (taskId: string) => void;
   stopSpreadsheetPolling: () => void;
   resetSpreadsheet: () => void;
-  resetForNewSearch: () => Promise<void> | void;
+  resetForNewSearch: (options?: {
+    clearForm?: boolean;
+  }) => Promise<void> | void;
   refreshPreviousAgentMatches: (isSubscribed: boolean) => Promise<boolean>;
   completePreviousSearchRefresh: () => void;
 

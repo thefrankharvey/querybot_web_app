@@ -501,6 +501,7 @@ test("direct dashboard loads wait for Clerk and rehydrate when the account resol
           },
         ];
       },
+      useRef: () => ({ current: false }),
       useCallback: (callback) => callback,
       useMemo: (callback) => callback(),
       useEffect: (callback, deps) => {
@@ -514,6 +515,8 @@ test("direct dashboard loads wait for Clerk and rehydrate when the account resol
       },
     },
     "@clerk/nextjs": { useUser: () => ({ user }) },
+    "@tanstack/react-query": { useQueryClient: () => ({}) },
+    "@/app/(app)/context/agent-matches-context": { useAgentMatches: () => ({}) },
     "next/navigation": { useRouter: () => ({ push() {} }) },
     "@/app/(app)/context/profile-context": {
       useProfileContext: () => ({

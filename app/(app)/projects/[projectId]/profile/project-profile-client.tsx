@@ -1,5 +1,7 @@
 "use client";
 
+import { DeleteProjectButton } from "@/app/(app)/query-dashboard/components/delete-project-button";
+
 import { useState } from "react";
 import Link from "next/link";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
@@ -151,15 +153,20 @@ export function ProjectProfileClient({
             These traits will be used the next time you run Smart Match.
           </p>
         </div>
-        {!draft && query.data && (
-          <Button
-            variant={isEmpty ? "default" : "outline"}
-            size="sm"
-            onClick={edit}
-          >
-            <Pencil data-icon="inline-start" aria-hidden="true" />
-            {isEmpty ? "Create Profile" : "Edit traits"}
-          </Button>
+        {!draft && (
+          <div className="flex flex-wrap items-center gap-2">
+            {query.data && (
+              <Button
+                variant={isEmpty ? "default" : "outline"}
+                size="sm"
+                onClick={edit}
+              >
+                <Pencil data-icon="inline-start" aria-hidden="true" />
+                {isEmpty ? "Create Profile" : "Edit traits"}
+              </Button>
+            )}
+            <DeleteProjectButton projectName={project.project_name} />
+          </div>
         )}
       </div>
       {saveError && (

@@ -320,6 +320,9 @@ function renderProfile(query) {
         ProjectProfileDetails: () => React.createElement("div", null, "Saved manuscript traits"),
       },
       "@/app/components/projects/project-profile-editor": { ProjectProfileEditor: () => null },
+      "@/app/(app)/query-dashboard/components/delete-project-button": {
+        DeleteProjectButton: () => React.createElement("button", null, "Delete project"),
+      },
       "@/app/ui-primitives/button": compile("app/ui-primitives/button.tsx", { "@/app/utils": utils }),
       "@/app/ui-primitives/skeleton": compile("app/ui-primitives/skeleton.tsx", { "../utils": utils }),
       "@/app/ui-primitives/alert": compile("app/ui-primitives/alert.tsx", { "@/app/utils": utils }),
@@ -464,4 +467,69 @@ test("a saved title-only profile still offers Create Profile and minimal traits 
     assert.equal(profiles.hasProjectProfileTraits(partial.form), true);
     assert.match(renderProfile({ data: partial }), /Saved manuscript traits/);
   }
+});
+
+test("writer profile deletion uses the owned ID and server credential and fails closed", async () => {
+  const calls = [];
+  const api = service(async (url, options) => {
+    calls.push({ url: String(url), options });
+    return Response.json({ status: "success", deleted: true });
+  });
+  await api.deleteWriterProfile(project, "signed-in@example.test");
+  await api.deleteWriterProfile(
+    { ...project, writer_project_id: null },
+    "signed-in@example.test",
+  );
+  assert.equal(
+    calls[0].url,
+    `https://backend.example.test/writer-projects/${writerId}`,
+  );
+  assert.equal(
+    calls[1].url,
+    `https://backend.example.test/writer-projects/${dashboardId}`,
+  );
+  assert.equal(calls[0].options.method, "DELETE");
+  assert.equal(calls[0].options.cache, "no-store");
+  assert.equal(
+    calls[0].options.headers.Authorization,
+    "Bearer server-only-test-key",
+  );
+  assert.deepEqual(JSON.parse(calls[0].options.body), {
+    email: "signed-in@example.test",
+  });
+  for (const status of [404, 405, 503]) {
+    await assert.rejects(
+      service(async () =>
+        Response.json({ status: "error" }, { status }),
+      ).deleteWriterProfile(project, "writer@example.test"),
+    );
+  }
+  await assert.rejects(
+    service(async () =>
+      Response.json({ status: "success" }),
+    ).deleteWriterProfile(project, "writer@example.test"),
+  );
+  await assert.rejects(
+    service(() => {
+      throw new Error("must not fetch");
+    }, null).deleteWriterProfile(project, "writer@example.test"),
+    (error) => error.status === 503,
+  );
+});
+
+test("both empty and populated profiles offer Delete project beside their profile action", () => {
+  const empty = renderProfile({
+    data: profiles.toProjectProfile(null, "My Project"),
+  });
+  const saved = renderProfile({
+    data: profiles.toProjectProfile(
+      { id: writerId, revision: "a".repeat(64), genre: "fantasy" },
+      "Book",
+    ),
+  });
+  assert.match(
+    empty,
+    /Create Profile<\/button><button>Delete project<\/button>/,
+  );
+  assert.match(saved, /Edit traits<\/button><button>Delete project<\/button>/);
 });

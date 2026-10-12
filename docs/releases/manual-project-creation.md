@@ -56,3 +56,45 @@ Previews: [Home](../previews/manual-project/home.jpg),
 [empty profile](../previews/manual-project/empty-profile.jpg),
 [mobile profile](../previews/manual-project/empty-profile-mobile.jpg),
 [mobile editor](../previews/manual-project/editor-mobile.jpg).
+
+
+## Project deletion
+
+Project profile now has a Delete project button beside Edit traits or Create
+Profile. It reuses the same accessible confirmation dialog as the title's delete
+icon. The dialog names the project and explains removal of saved agents, traits,
+Smart Match history, notes, and query progress. Cancel receives initial focus;
+both actions are disabled while deletion runs, and a failure leaves the dialog
+open for retry. The layout was checked on desktop and at 390 x 844.
+
+The Next.js DELETE route verifies the signed-in Clerk user and owned dashboard,
+then calls the authenticated backend DELETE /writer-projects/<id> with the
+server-derived account email. The backend erases manuscript traits, title, and
+archived matches in one transaction. It retains a deleted ID and account link
+with no title or traits to prevent stale saves from recreating the project.
+Repeated deletes are safe, including legacy dashboards with no writer profile.
+
+After upstream deletion, the existing delete_dashboard_project RPC removes the
+owned dashboard and all of its saved-agent rows, including notes and query
+statuses. If the upstream call fails, saved-agent deletion does not start. If the
+RPC fails after upstream deletion, the dashboard remains available and the UI
+asks the user to retry to finish. These are separate databases, so deletion across
+both services is recoverable rather than one shared database transaction.
+
+Match archival locks the active writer project before inserting history. Deletion
+uses the same row lock, so a worker either finishes before deletion removes its
+matches or skips the deleted project. The deleted content hash is replaced so a
+new search with the same inputs creates a new project instead of reviving it.
+The UI removes the project/profile caches and clears a matching cached Smart
+Match form/results before returning to Home.
+
+No database schema, migration, RPC, or policy changes are required. Deploy the
+backend before the UI so the new DELETE endpoint is available. No production
+records were deleted during verification.
+
+Verification: 125 UI tests and 137 real PostgreSQL backend tests pass. Tests cover
+ownership isolation, complete trait/history erasure, rollback, repeated deletion,
+late profile saves/searches, and concurrent match archival. Changed-file ESLint,
+application-scoped TypeScript, and diff checks pass. Browser checks cover the
+profile action, confirmation copy, initial Cancel focus, cancellation, and mobile
+layout; destructive confirmation is exercised through isolated integration tests.

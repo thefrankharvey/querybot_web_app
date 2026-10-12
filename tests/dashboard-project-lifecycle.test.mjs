@@ -67,8 +67,47 @@ async function setup() {
     )
   ).rows[0];
   let userId = "u1";
+  let profileError = null;
+  const deletedProfiles = [];
+  class ProjectProfileError extends Error {
+    constructor(message, status) {
+      super(message);
+      this.status = status;
+    }
+  }
   const api = load("app/api/dashboard-projects/[projectId]/route.ts", {
-    "@clerk/nextjs/server": { auth: async () => ({ userId }) },
+    "@clerk/nextjs/server": {
+      auth: async () => ({ userId }),
+      currentUser: async () =>
+        userId
+          ? {
+              id: userId,
+              primaryEmailAddress: { emailAddress: `${userId}@example.test` },
+            }
+          : null,
+    },
+    "@/lib/wqh-history-auth": {
+      getWriterEmail: (user) => user.primaryEmailAddress.emailAddress,
+    },
+    "@/app/utils/project-dashboard-data": {
+      getDashboardProject: async (id) =>
+        (
+          await db.query(
+            "select * from dashboard_projects where id=$1 and user_id=$2",
+            [id, userId],
+          )
+        ).rows[0] ?? null,
+    },
+    "@/app/utils/project-profile.server": {
+      ProjectProfileError,
+      deleteWriterProfile: async (project, email) => {
+        if (profileError) throw new ProjectProfileError(profileError, 503);
+        deletedProfiles.push({
+          id: project.writer_project_id ?? project.id,
+          email,
+        });
+      },
+    },
     "next/server": {
       NextResponse: { json: (body, init) => Response.json(body, init) },
     },
@@ -101,6 +140,10 @@ async function setup() {
     db,
     project,
     api,
+    deletedProfiles,
+    failProfile: (error) => {
+      profileError = error;
+    },
     signIn: (id) => {
       userId = id;
     },
@@ -212,7 +255,7 @@ test("rename works with and without agents, keeps URL, and stale saves use the c
 });
 
 test("explicit deletion removes the project and its agents, with account and ID isolation", async () => {
-  const { db, project, api, signIn } = await setup();
+  const { db, project, api, signIn, deletedProfiles } = await setup();
   try {
     signIn(null);
     assert.equal(
@@ -254,6 +297,9 @@ test("explicit deletion removes the project and its agents, with account and ID 
       (await api.DELETE(req("DELETE"), ctx(project.id))).status,
       200,
     );
+    assert.deepEqual(deletedProfiles, [
+      { id: project.id, email: "u1@example.test" },
+    ]);
     assert.equal(
       (
         await db.query("select * from dashboard_projects where id=$1", [
@@ -336,7 +382,7 @@ test("project deletion rolls back both row and project deletion when a saved row
       create trigger fail_delete before delete on agent_matches for each row execute function fail_delete();`);
     assert.equal(
       (await api.DELETE(req("DELETE"), ctx(project.id))).status,
-      500,
+      503,
     );
     assert.equal(
       (
@@ -354,6 +400,70 @@ test("project deletion rolls back both row and project deletion when a saved row
         )
       ).rows.length,
       2,
+    );
+  } finally {
+    await db.close();
+  }
+});
+
+test("upstream trait deletion must succeed before saved agents are removed", async () => {
+  const { db, project, api, failProfile } = await setup();
+  try {
+    failProfile("Profile service unavailable");
+    const failed = await api.DELETE(req("DELETE"), ctx(project.id));
+    assert.equal(failed.status, 503);
+    assert.equal(
+      (
+        await db.query(
+          "select count(*)::int count from agent_matches where dashboard_project_id=$1",
+          [project.id],
+        )
+      ).rows[0].count,
+      2,
+    );
+    assert.equal(
+      (
+        await db.query("select id from dashboard_projects where id=$1", [
+          project.id,
+        ])
+      ).rows.length,
+      1,
+    );
+    failProfile(null);
+    assert.equal(
+      (await api.DELETE(req("DELETE"), ctx(project.id))).status,
+      200,
+    );
+  } finally {
+    await db.close();
+  }
+});
+
+test("retry finishes deleting saved agents after the upstream deletion has completed", async () => {
+  const { db, project, api, deletedProfiles } = await setup();
+  try {
+    await db.exec(`create function fail_delete() returns trigger language plpgsql as $$
+      begin raise exception 'Simulated failure'; end; $$;
+      create trigger fail_delete before delete on agent_matches for each row execute function fail_delete();`);
+    const failed = await api.DELETE(req("DELETE"), ctx(project.id));
+    assert.equal(failed.status, 503);
+    assert.match(
+      (await failed.json()).error,
+      /Try Delete project again to finish/,
+    );
+    await db.exec("drop trigger fail_delete on agent_matches");
+    assert.equal(
+      (await api.DELETE(req("DELETE"), ctx(project.id))).status,
+      200,
+    );
+    assert.equal(deletedProfiles.length, 2);
+    assert.equal(
+      (
+        await db.query("select id from dashboard_projects where id=$1", [
+          project.id,
+        ])
+      ).rows.length,
+      0,
     );
   } finally {
     await db.close();

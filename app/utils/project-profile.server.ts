@@ -90,3 +90,41 @@ export async function requestWriterProfile(
   }
   return toProjectProfile(body.writer_project, project.project_name);
 }
+
+export async function deleteWriterProfile(
+  project: ProfileDashboard,
+  email: string,
+) {
+  const headers = getWqhHistoryHeaders();
+  if (!headers)
+    throw new ProjectProfileError(
+      "Project deletion service is not configured.",
+      503,
+    );
+  const id = project.writer_project_id ?? project.id;
+  let response: Response;
+  try {
+    response = await fetch(
+      `${getWqhApiUrl().replace(/\/$/, "")}/writer-projects/${encodeURIComponent(id)}`,
+      {
+        method: "DELETE",
+        cache: "no-store",
+        signal: AbortSignal.timeout(15000),
+        headers: { ...headers, "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      },
+    );
+  } catch {
+    throw new ProjectProfileError(
+      "Unable to reach project deletion. Please try again.",
+      503,
+    );
+  }
+  const body = await response.json().catch(() => null);
+  if (!response.ok || body?.status !== "success" || body?.deleted !== true) {
+    throw new ProjectProfileError(
+      "Unable to delete project traits and search history. Please try again.",
+      response.status === 404 ? 404 : 503,
+    );
+  }
+}
