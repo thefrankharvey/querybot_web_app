@@ -146,13 +146,11 @@ export function QueryDashboardContent({
           role="status"
         >
           <p>No saved agents yet. Your project is ready when you are.</p>
-          <Button asChild variant="outline" size="sm">
-            <Link
-              href={`/smart-match?project=${encodeURIComponent(dashboardProjectId ?? "")}`}
-            >
-              Find agents for this project
-            </Link>
-          </Button>
+          {!dashboardProjectId && (
+            <Button asChild variant="outline" size="sm">
+              <Link href="/smart-match">Find agents</Link>
+            </Button>
+          )}
         </div>
       )}
       {dashboardView === "table" ? (

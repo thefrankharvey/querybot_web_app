@@ -39,10 +39,16 @@ both animations. Native links, browser history, and unsaved-trait guards remain.
 Project views and Table/Board share the same `SegmentedControl` presentation,
 including the rounded track, 44px targets, and animated selection pill. Table/Board
 uses Radix Toggle Group for single selection and keyboard focus. Both controls
-sit in one header row from the desktop breakpoint and stack, left aligned, on
-mobile, where each fills the project column. The display control appears only
-on the dashboard; its selection is
-retained when visiting the profile.
+sit in one header row at 1024px and wider and stack, left aligned, below that
+breakpoint, where each fills the project column. The display control appears only
+on the dashboard; its selection is retained when visiting the profile.
+A single Find agents link sits immediately right of the project view toggle on
+desktop and below it on smaller screens. It matches the controls' 52px outer
+height and 14px label text. The old action below the profile details and the
+project dashboard's duplicate empty-state action are removed. The header link
+opens `/smart-match?project=<dashboard-uuid>`, where the existing authenticated,
+uncached profile request loads the latest saved traits. Unsaved edits continue
+to use the existing navigation guard.
 The title, view navigation, dashboard table, and profile panel share the full
 available project column and the same left edge. Table/board selection is retained
 when switching views. Both project views reserve 200px on mobile and 240px on
@@ -109,16 +115,22 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
 - The matching dashboard spacing was verified in the running app: table and board
   each leave 240px before the footer at 1280px and 200px at 390px. Both remain
   within the viewport width; the profile retains the same mobile spacing.
-- The matching toggles share the same 52px outer height and vertical position at
-  1280px and 768px. At 390px they stack with a 12px gap. The profile has one view
-  navigation and no Table/Board control. Returning to the dashboard retains Board
-  selection. Clicking the selected option leaves it selected; ArrowLeft moves
-  focus to Table and Space selects it. No document overflow at these widths or
-  the browser's restored 319px viewport. The mobile width refinement was checked
-  at that viewport: both controls match the 287px project column. Desktop controls
-  retain their 330px and 200px widths on the same row. The 101 tests, app-scoped
-  TypeScript, changed-file ESLint, and diff checks pass after the toggle change;
-  lint and diff checks also pass after the CSS-only mobile width refinement.
+- The project toggle, Find agents link, and display toggle share the same 52px
+  outer height and vertical position at 1024px and 1408px. Find agents sits 12px
+  right of the project toggle and uses 14px text. At 390px all three fill the
+  358px project column and stack with 12px gaps. No document overflow at these
+  widths. The profile has one header search link, no duplicate lower action, and
+  no Table/Board control.
+- Returning to the dashboard retains Board selection. Clicking the selected
+  option leaves it selected; ArrowLeft moves focus to Table and Space selects it.
+- A comparable-book title was changed and saved through the real local profile
+  editor. Following the header link loaded that new title in Smart Match,
+  alongside the saved genre, subgenres, format, audience, themes, and other book
+  fields. The sample title was restored, and another visit loaded the restored
+  value. No search was submitted, and all project writes remained local.
+- The 101 tests, app-scoped TypeScript, changed-file ESLint, and diff checks pass
+  for the header action move. Lint and diff checks also pass after the final
+  action order and label correction.
 - An unsaved title edit survived view navigation, confirming that the header
   stays mounted. Renaming from the profile persisted on the dashboard; the sample
   title was restored afterward. Table/Board selection survived a round trip to
@@ -140,3 +152,7 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   The updated toggle layout is shown on
   [desktop](../previews/project-profile/matching-project-toggles-desktop.jpg) and
   [mobile](../previews/project-profile/matching-project-toggles-mobile.jpg).
+
+The latest search-action placement is shown on
+[desktop](../previews/project-profile/project-find-agents-desktop.jpg) and
+[mobile](../previews/project-profile/project-find-agents-mobile.jpg).

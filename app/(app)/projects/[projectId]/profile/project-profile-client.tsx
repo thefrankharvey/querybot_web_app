@@ -1,9 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { Pencil, ScanSearch } from "lucide-react";
+import { Pencil } from "lucide-react";
 import { toast } from "sonner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
@@ -207,22 +206,14 @@ export function ProjectProfileClient({
             </p>
           )}
           <ProjectProfileDetails profile={query.data} />
-          <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
-            <Button asChild variant="outline">
-              <Link href={`/smart-match?project=${project.id}`}>
-                <ScanSearch data-icon="inline-start" aria-hidden="true" />
-                Find agents for this project
-              </Link>
-            </Button>
-            {query.data.updatedAt && (
-              <p className="text-xs text-muted-foreground">
-                Last saved{" "}
-                {new Intl.DateTimeFormat(undefined, {
-                  dateStyle: "medium",
-                }).format(new Date(query.data.updatedAt))}
-              </p>
-            )}
-          </div>
+          {query.data.updatedAt && (
+            <p className="pt-2 text-xs text-muted-foreground">
+              Last saved{" "}
+              {new Intl.DateTimeFormat(undefined, {
+                dateStyle: "medium",
+              }).format(new Date(query.data.updatedAt))}
+            </p>
+          )}
         </>
       ) : (
         <div

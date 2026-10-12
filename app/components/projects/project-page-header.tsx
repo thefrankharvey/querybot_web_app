@@ -1,7 +1,9 @@
 "use client";
 
 import { ProjectViewToggle } from "./project-view-toggle";
-import { BookOpen } from "lucide-react";
+import { BookOpen, ScanSearch } from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/app/ui-primitives/button";
 import type { ReactNode } from "react";
 import { cn } from "@/app/utils";
 
@@ -30,9 +32,30 @@ export function ProjectPageHeader({
         />
         {title}
       </h1>
-      <div className="flex flex-col items-start gap-3 md:flex-row md:items-center md:justify-between">
-        {projectId && <ProjectViewToggle projectId={projectId} />}
-        {actions}
+      <div className="flex w-full flex-col items-stretch gap-3 lg:flex-row lg:items-center">
+        {projectId && (
+          <>
+            <ProjectViewToggle projectId={projectId} />
+            <Button
+              asChild
+              variant="outline"
+              size="sm"
+              className="h-[52px] w-full lg:w-auto"
+            >
+              <Link
+                href={`/smart-match?project=${encodeURIComponent(projectId)}`}
+              >
+                <ScanSearch data-icon="inline-start" aria-hidden="true" />
+                Find agents
+              </Link>
+            </Button>
+          </>
+        )}
+        {actions && (
+          <div className="w-full lg:ml-auto lg:w-auto lg:shrink-0">
+            {actions}
+          </div>
+        )}
       </div>
     </header>
   );

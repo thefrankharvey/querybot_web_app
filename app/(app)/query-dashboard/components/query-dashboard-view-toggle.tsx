@@ -23,7 +23,7 @@ export function QueryDashboardViewToggle() {
     >
       <SegmentedControl
         activeIndex={dashboardView === "board" ? 1 : 0}
-        className="md:w-[200px] md:shrink-0"
+        className="lg:w-[200px] lg:shrink-0"
       >
         <ToggleGroup.Item value="table" asChild>
           <SegmentedControlItem

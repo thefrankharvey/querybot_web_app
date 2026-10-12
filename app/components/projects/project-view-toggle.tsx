@@ -13,7 +13,7 @@ export function ProjectViewToggle({ projectId }: { projectId: string }) {
   return (
     <SegmentedControl
       activeIndex={profileActive ? 1 : 0}
-      className="md:max-w-[330px]"
+      className="lg:max-w-[330px]"
       asChild
     >
       <nav aria-label="Project views">
