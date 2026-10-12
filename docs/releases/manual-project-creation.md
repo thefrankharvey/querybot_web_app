@@ -105,3 +105,40 @@ follow-up contains documentation and synthetic screenshots only.
 
 Deletion previews: [desktop confirmation](../previews/manual-project/delete-confirmation.jpg)
 and [mobile confirmation](../previews/manual-project/delete-mobile.jpg).
+
+
+## Projects from Smart Match results
+
+A first-page free or paid Smart Match search creates a dashboard project only
+when it succeeds and returns at least one match. The user does not need to save
+an agent. Zero-match and failed searches do not create dashboard projects.
+Manual creation from Home remains available without running a search.
+
+The search backend already saves the title and submitted manuscript traits before
+returning its writer project ID. The UI server now attaches a dashboard to that
+saved profile, then updates My Projects and the cached search's dashboard scope.
+The first saved agent therefore goes into the same project. Refreshing previous
+results follows the same rule when it returns matches.
+
+Selected projects retain their existing dashboard ID and current title. A saved
+writer ID identifies an existing project even when its title has changed.
+Retries and concurrent successful searches use the same stable writer UUID and
+the existing user/scope unique constraint, so they do not create duplicate
+projects. An interrupted manual profile link can recover by its exact shared
+UUID. Deleted, foreign, or mismatched selected dashboards cannot create a
+replacement. If dashboard persistence fails, the request reports a retryable
+error instead of pretending that project creation succeeded.
+
+Existing projects survive zero-match searches. The existing backend search
+history flow and selected legacy-profile linking remain in place. Historical
+searches without a dashboard do not appear in the project picker until a new
+search returns matches. This change requires no new backend code, migration,
+column, RPC, or policy.
+
+Verification: 147 UI tests pass, including free/paid positive-match creation,
+zero-match exclusion, unchanged existing projects, cache updates, first-agent
+scope, ownership isolation, retry recovery, and concurrent creation using the
+existing migrations in real PostgreSQL through PGlite. The backend's 137
+PostgreSQL history/profile tests pass. Application-scoped TypeScript,
+changed-file ESLint, and diff checks pass. Matching HTTP responses in these tests
+are deterministic fixtures; no hosted Smart Match search was submitted.

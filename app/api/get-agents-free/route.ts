@@ -12,6 +12,8 @@ import {
   linkLegacySearchProfile,
 } from "@/app/utils/smart-match-profile-link.server";
 
+import { ensureSmartMatchDashboardProject } from "@/app/utils/smart-match-dashboard.server";
+
 // Define the structure of the payload
 export interface GetAgentsFreePayload {
   email: string;
@@ -125,12 +127,27 @@ export async function POST(req: NextRequest) {
     );
 
     const data = await externalRes.json();
+    let dashboardProject;
     if (externalRes.ok && legacyDashboardId && Array.isArray(data?.matches)) {
       await linkLegacySearchProfile(
         userId,
         legacyDashboardId,
         data.writer_project_id,
       );
+    }
+    if (
+      externalRes.ok &&
+      last_index === "0" &&
+      Array.isArray(data?.matches) &&
+      data.matches.length > 0
+    ) {
+      dashboardProject = await ensureSmartMatchDashboardProject({
+        userId,
+        writerProjectId: data.writer_project_id,
+        projectName: payload.project_name,
+        dashboardProjectId:
+          legacyDashboardId ?? jsonData.save_project?.dashboardProjectId,
+      });
     }
 
     const sanitizedData =
@@ -142,7 +159,12 @@ export async function POST(req: NextRequest) {
           )
         : data;
 
-    return NextResponse.json(sanitizedData, { status: externalRes.status });
+    return NextResponse.json(
+      dashboardProject
+        ? { ...sanitizedData, dashboard_project: dashboardProject }
+        : sanitizedData,
+      { status: externalRes.status },
+    );
   } catch (error) {
     if (error instanceof SmartMatchProjectError) {
       return NextResponse.json(

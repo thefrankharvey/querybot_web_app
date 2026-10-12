@@ -15,8 +15,11 @@ import {
   useQueryClient,
 } from "@tanstack/react-query";
 import { toast } from "sonner";
+import type { DashboardProject } from "@/app/types";
+import { useProfileContext } from "./profile-context";
 import {
   getSmartMatchSaveProjectId,
+  getSmartMatchSearchForm,
   type SmartMatchProjectReference,
 } from "@/app/utils/smart-match-projects";
 
@@ -156,6 +159,7 @@ export type PreviousSearchStatus = "idle" | "pending" | "success";
 
 interface AgentSearchApiResponse extends AgentExportApiResponse {
   writer_project_id?: string | null;
+  dashboard_project?: DashboardProject;
   matches?: AgentMatch[];
   next_cursor?: number | null;
   total_agents?: number;
@@ -163,6 +167,7 @@ interface AgentSearchApiResponse extends AgentExportApiResponse {
 }
 
 const useAgentData = () => {
+  const { updateProject, refetch: refetchProjects } = useProfileContext();
   const queryClient = useQueryClient();
 
   const [sheetTaskId, setSheetTaskId] = useState<string | null>(null);
@@ -548,7 +553,7 @@ const useAgentData = () => {
         throw new Error("Query response did not include agent matches");
       }
 
-      const savedProjectName = projectName;
+      const savedProjectName = data.dashboard_project?.project_name ?? projectName;
       const totalAgents =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -562,13 +567,19 @@ const useAgentData = () => {
         data.writer_project_id?.trim() ||
         formData.writer_project_id ||
         writerProjectId;
-      saveWriterProjectId(
-        getSmartMatchSaveProjectId(formData, refreshedProjectId),
+      const savedForm = getSmartMatchSearchForm(
+        formData,
+        refreshedProjectId,
+        data.dashboard_project,
       );
-      saveFormDataMutation.mutate({
-        ...formData,
-        writer_project_id: refreshedProjectId,
-      });
+      saveWriterProjectId(
+        getSmartMatchSaveProjectId(savedForm, refreshedProjectId),
+      );
+      saveFormDataMutation.mutate(savedForm);
+      if (data.dashboard_project) {
+        await updateProject(data.dashboard_project);
+        void refetchProjects();
+      }
       saveMatchesMutation.mutate(data.matches);
       saveTotalAgentsMutation.mutate(totalAgents);
       saveStatusFilterMutation.mutate("all");

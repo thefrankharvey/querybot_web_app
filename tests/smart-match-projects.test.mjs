@@ -225,6 +225,7 @@ function createApi({
 } = {}) {
   const calls = [];
   const profileLinks = [];
+  const dashboardProjects = [];
   const store = {
     createServerSupabase: () => ({
       from: (table) => {
@@ -296,6 +297,12 @@ function createApi({
     "@/lib/config": config,
     "@/lib/wqh-history-auth": historyAuth,
     "@/app/utils/smart-match-projects.server": server,
+    "@/app/utils/smart-match-dashboard.server": {
+      ensureSmartMatchDashboardProject: async (input) => {
+        dashboardProjects.push(input);
+        return { id: input.dashboardProjectId ?? "searched-dashboard", project_name: input.projectName, writer_project_id: input.writerProjectId };
+      },
+    },
     "@/app/utils/smart-match-profile-link.server": {
       getLegacySearchProject: async (input) => { profileLinks.push({ input }); return legacyDashboardId; },
       linkLegacySearchProfile: async (...args) => { profileLinks.push({ linked: args }); },
@@ -314,6 +321,7 @@ function createApi({
   return {
     calls,
     profileLinks,
+    dashboardProjects,
     route: (tier) =>
       loadModule(`app/api/get-agents-${tier}/route.ts`, modules, { fetch }),
     projectsRoute: () =>
@@ -417,9 +425,11 @@ test("project choices require authentication", async () => {
   assert.equal(api.calls.length, 0);
 });
 
-for (const storedId of [null, "original-book", "legacy-dashboard"]) {
+for (const storedId of [null, "original-book", "legacy-dashboard", "search-created"]) {
   test(`previous results retain the resolved project for subsequent saves (stored ID: ${storedId})`, async () => {
     const legacy = storedId === "legacy-dashboard";
+    const dashboard = storedId === "search-created" ? { id: "search-dashboard", project_name: "Canonical book", writer_project_id: "original-book" } : undefined;
+    const updatedProjects = [];
     const formData = {
       project_name: "Cool Finance",
       writer_project_id: null,
@@ -481,6 +491,7 @@ for (const storedId of [null, "original-book", "legacy-dashboard"]) {
           stopSheetPolling() {},
         },
         "@/app/utils/smart-match-projects": projectUtils,
+        "./profile-context": { useProfileContext: () => ({ updateProject: async (project) => updatedProjects.push(project), refetch: async () => ({}) }) },
         "../workers/agent-export-contract": loadModule(
           "app/(app)/workers/agent-export-contract.ts",
         ),
@@ -498,6 +509,7 @@ for (const storedId of [null, "original-book", "legacy-dashboard"]) {
           return Response.json({
             matches: [{ id: "agent-new" }],
             writer_project_id: "original-book",
+            ...(dashboard ? { dashboard_project: dashboard } : {}),
           });
         },
       },
@@ -510,6 +522,11 @@ for (const storedId of [null, "original-book", "legacy-dashboard"]) {
     assert.equal(submitted.writer_project_id, legacy ? null : storedId);
     assert.equal(cache.get("writerProjectId"), legacy ? null : "original-book");
     assert.equal(cache.get("formData").writer_project_id, "original-book");
+    if (dashboard) {
+      assert.equal(updatedProjects.length, 1);
+      assert.equal(cache.get("formData").save_project.dashboardProjectId, dashboard.id);
+      assert.equal(cache.get("formData").project_name, dashboard.project_name);
+    }
     assert.equal(
       JSON.parse(storage.get("query_form_data")).writer_project_id,
       "original-book",
@@ -523,7 +540,7 @@ for (const storedId of [null, "original-book", "legacy-dashboard"]) {
   });
 }
 
-test("search-only names and restored searches are not added to project choices", () => {
+test("historical searches without persisted dashboards stay out of the picker until searched again", () => {
   assert.deepEqual(
     JSON.parse(JSON.stringify(buildSmartMatchProjectOptions([], [original]))),
     [],
@@ -558,4 +575,200 @@ test("a freshly loaded profile keeps its linked search ID while the project pick
     loaded,
   );
   assert.equal(resolveSmartMatchProject("Different project", loaded, [cached]).writerProjectId, null);
+});
+
+
+for (const tier of ["free", "paid"]) {
+  test(`${tier}: first searches with matches create a project before any agent is saved`, async () => {
+    const api = createApi();
+    const response = await api
+      .route(tier)
+      .POST(searchRequest({ project_name: "Brand new book" }, "0"));
+    assert.equal(response.status, 200);
+    assert.equal(api.dashboardProjects.length, 1);
+    assert.equal(api.dashboardProjects[0].userId, "writer");
+    assert.equal(api.dashboardProjects[0].writerProjectId, "created-project");
+    const body = await response.json();
+    assert.deepEqual(body.dashboard_project, {
+      id: "searched-dashboard",
+      project_name: "Brand new book",
+      writer_project_id: "created-project",
+    });
+    assert.deepEqual(body.matches, [{ id: "agent-new" }]);
+  });
+  test(`${tier}: zero-match searches do not create projects`, async () => {
+    const api = createApi({ searchMatches: [] });
+    const response = await api
+      .route(tier)
+      .POST(searchRequest({ project_name: "Brand new book" }, "0"));
+    assert.equal(response.status, 200);
+    assert.equal(api.dashboardProjects.length, 0);
+    const body = await response.json();
+    assert.deepEqual(body.matches, []);
+    assert.equal(body.dashboard_project, undefined);
+  });
+  test(`${tier}: failed and paginated searches do not create projects`, async () => {
+    const failed = createApi({ searchStatus: 503 });
+    await failed.route(tier).POST(searchRequest({}, "0"));
+    assert.equal(failed.dashboardProjects.length, 0);
+    const paginated = createApi();
+    await paginated.route(tier).POST(searchRequest({}, "21"));
+    assert.equal(paginated.dashboardProjects.length, 0);
+  });
+}
+
+test("search result scope preserves entered traits and targets the new dashboard for the first saved agent", () => {
+  const form = {
+    genre: "fantasy",
+    themes: ["hope"],
+    project_name: "My book",
+    writer_project_id: null,
+  };
+  const saved = projectUtils.getSmartMatchSearchForm(form, "writer-uuid", {
+    id: "dashboard-uuid",
+    project_name: "My book",
+    writer_project_id: "writer-uuid",
+  });
+  assert.equal(saved.genre, form.genre);
+  assert.deepEqual(saved.themes, form.themes);
+  assert.equal(saved.save_project.dashboardProjectId, "dashboard-uuid");
+  assert.equal(getSmartMatchSaveProjectId(saved, "writer-uuid"), "writer-uuid");
+});
+
+test("a direct Smart Match success updates My Projects and stores its dashboard scope before agent saves", async () => {
+  const React = require("react");
+  const saved = {};
+  const updated = [];
+  let mutation;
+  const project = {
+    id: "new-dashboard",
+    project_name: "New manuscript",
+    writer_project_id: "new-writer",
+  };
+  const response = {
+    matches: [{ id: "matched-agent" }],
+    total_agents: 1,
+    writer_project_id: project.writer_project_id,
+    dashboard_project: project,
+  };
+  const context = Object.fromEntries(
+    [
+      "saveMatches",
+      "saveFormData",
+      "saveNextCursor",
+      "handleAgentExportResponse",
+      "saveStatusFilter",
+      "saveCountryFilter",
+      "saveTotalAgents",
+      "saveProjectName",
+      "saveWriterProjectId",
+    ].map((key) => [
+      key,
+      (value) => {
+        saved[key] = value;
+      },
+    ]),
+  );
+  const childMocks = Object.fromEntries(
+    [
+      "comps",
+      "themes",
+      "target-audience",
+      "subgenres",
+      "genre",
+      "format",
+      "project-name",
+      "fiction-button-toggle",
+      "explanation-block",
+    ].map((name) => [
+      `./components/${name}`,
+      { __esModule: true, default: name },
+    ]),
+  );
+  let posted;
+  const Page = loadModule(
+    "app/(app)/smart-match/page.tsx",
+    {
+      ...childMocks,
+      react: {
+        ...React,
+        useState: (initial) => [initial, () => {}],
+        useRef: (value) => ({ current: value }),
+        useEffect() {},
+        useMemo: (calculate) => calculate(),
+        useCallback: (callback) => callback,
+      },
+      "next/dynamic": { __esModule: true, default: () => "walkthrough" },
+      "next/navigation": { useRouter: () => ({ push() {} }) },
+      "@tanstack/react-query": {
+        useMutation: (options) => {
+          mutation = options;
+          return { isPending: false, isSuccess: false };
+        },
+      },
+      "@/app/hooks/use-clerk-user": {
+        useClerkUser: () => ({
+          isSubscribed: false,
+          user: { id: "owner" },
+          isLoading: false,
+        }),
+      },
+      "../context/profile-context": {
+        useProfileContext: () => ({
+          projectSummaries: [],
+          updateProject: async (value) => updated.push(value),
+          refetch: async () => ({}),
+        }),
+      },
+      "../context/agent-matches-context": {
+        useAgentMatches: () => ({
+          ...context,
+          resetForNewSearch: async () => {},
+        }),
+      },
+      "@/app/utils/smart-match-projects": projectUtils,
+      "@/app/utils": {
+        validateQuery: () => ({ isValid: true }),
+        formatComps: (comps) => comps,
+      },
+      "./hooks/use-smart-match-traits": {
+        useSmartMatchTraits: () => ({
+          traitOptions: {},
+          createOrSelectTrait() {},
+        }),
+      },
+      "@/app/ui-primitives/button": { Button: "button" },
+      "@/app/ui-primitives/spinner": { Spinner: "spinner" },
+      "../components/agent-search-progress": {
+        AgentSearchProgress: "progress",
+      },
+      "../components/previous-agent-matches-button": {
+        PreviousAgentMatchesButton: "previous-search",
+      },
+      sonner: { toast: {} },
+    },
+    {
+      fetch: async (url, options) => {
+        posted = { url, body: JSON.parse(options.body) };
+        return Response.json(response);
+      },
+    },
+  ).default;
+  Page();
+  const form = {
+    project_name: project.project_name,
+    genre: "fantasy",
+    themes: ["hope", "family", "loss"],
+    comps: ["Title", "Author"],
+  };
+  await mutation.onSuccess(await mutation.mutationFn(form), form);
+  assert.equal(posted.url, "/api/get-agents-free?last_index=0");
+  assert.deepEqual(posted.body, form);
+  assert.equal(updated.length, 1);
+  assert.equal(updated[0].id, project.id);
+  assert.equal(saved.saveWriterProjectId, project.writer_project_id);
+  assert.equal(saved.saveProjectName, project.project_name);
+  assert.equal(saved.saveFormData.save_project.dashboardProjectId, project.id);
+  assert.deepEqual(saved.saveFormData.themes, form.themes);
+  assert.deepEqual(saved.saveFormData.comps, form.comps);
 });

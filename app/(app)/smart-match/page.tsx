@@ -26,6 +26,7 @@ import {
   buildSmartMatchProjectOptions,
   resolveSmartMatchProject,
   getSmartMatchSaveProjectId,
+  getSmartMatchSearchForm,
   type SmartMatchProjectReference,
 } from "@/app/utils/smart-match-projects";
 import type { RestoredSmartMatchForm } from "@/app/utils/smart-match-restore";
@@ -66,6 +67,7 @@ const SmartMatch = () => {
     useSmartMatchTraits();
   const {
     projectSummaries,
+    updateProject,
     isLoading: isLoadingSavedProjects,
     isError: projectsError,
     refetch,
@@ -195,7 +197,7 @@ const SmartMatch = () => {
       return getAgentsData;
     },
 
-    onSuccess: (data, submittedFormData) => {
+    onSuccess: async (data, submittedFormData) => {
       const totalAgents =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -206,16 +208,20 @@ const SmartMatch = () => {
       const returnedWriterProjectId = getWriterProjectIdFromResponse(data);
 
       if (returnedWriterProjectId) {
-        saveWriterProjectId(
-          getSmartMatchSaveProjectId(
-            submittedFormData,
-            returnedWriterProjectId,
-          ),
+        const savedForm = getSmartMatchSearchForm(
+          submittedFormData,
+          returnedWriterProjectId,
+          data.dashboard_project,
         );
-        saveFormData({
-          ...submittedFormData,
-          writer_project_id: returnedWriterProjectId,
-        });
+        saveWriterProjectId(
+          getSmartMatchSaveProjectId(savedForm, returnedWriterProjectId),
+        );
+        saveFormData(savedForm);
+        if (data.dashboard_project) {
+          saveProjectName(data.dashboard_project.project_name);
+          await updateProject(data.dashboard_project);
+          void refetch();
+        }
       }
 
       if (isSubscribed) handleAgentExportResponse(data);

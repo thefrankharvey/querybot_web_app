@@ -17,7 +17,7 @@ export function buildSmartMatchProjectOptions(
 ): SmartMatchProjectOption[] {
   const projects = new Map<string, SmartMatchProjectOption>();
 
-  // Only persisted dashboards are choices; searches alone never create one.
+  // The picker uses persisted dashboards, including projects created by searches.
   for (const project of savedProjects) {
     const key = project.dashboardProjectId
       ? `dashboard:${project.dashboardProjectId}`
@@ -137,4 +137,35 @@ export function getSmartMatchSaveProjectId(
   return form.save_project
     ? form.save_project.writerProjectId
     : searchWriterProjectId;
+}
+
+export function getSmartMatchSearchForm<
+  T extends {
+    project_name?: string;
+    writer_project_id?: string | null;
+    save_project?: SmartMatchProjectReference;
+  },
+>(
+  form: T,
+  writerProjectId: string | null,
+  project?: {
+    id: string;
+    project_name: string;
+    writer_project_id: string | null;
+  },
+) {
+  return {
+    ...form,
+    writer_project_id: writerProjectId,
+    ...(project
+      ? {
+          project_name: project.project_name,
+          save_project: {
+            dashboardProjectId: project.id,
+            projectName: project.project_name,
+            writerProjectId: project.writer_project_id,
+          },
+        }
+      : {}),
+  };
 }

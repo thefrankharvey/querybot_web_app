@@ -247,6 +247,7 @@ function baseMocks(db, userId = "writer-a") {
       resolveSmartMatchWriterProjectId: async ({ writerProjectId }) => writerProjectId ?? null,
       SmartMatchProjectError: class extends Error {},
     },
+    "@/app/utils/smart-match-dashboard.server": { ensureSmartMatchDashboardProject: async () => assert.fail("invalid or failed search must not create a project") },
     "@/app/utils/smart-match-profile-link.server": {
       getLegacySearchProject: async () => null,
       linkLegacySearchProfile: () => assert.fail("no legacy project was selected"),
