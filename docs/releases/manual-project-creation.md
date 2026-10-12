@@ -98,3 +98,10 @@ late profile saves/searches, and concurrent match archival. Changed-file ESLint,
 application-scoped TypeScript, and diff checks pass. Browser checks cover the
 profile action, confirmation copy, initial Cancel focus, cancellation, and mobile
 layout; destructive confirmation is exercised through isolated integration tests.
+
+The isolated production build of UI implementation commit de114c2 passes. The
+backend deletion implementation is committed as 0f39f319. The verification
+follow-up contains documentation and synthetic screenshots only.
+
+Deletion previews: [desktop confirmation](../previews/manual-project/delete-confirmation.jpg)
+and [mobile confirmation](../previews/manual-project/delete-mobile.jpg).
