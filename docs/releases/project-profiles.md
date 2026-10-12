@@ -36,6 +36,12 @@ A shared project layout keeps the editable dashboard title and a single view
 navigation mounted across both routes. Its selection pill moves between the two
 links, while only the page content fades in over 180ms. Reduced motion disables
 both animations. Native links, browser history, and unsaved-trait guards remain.
+Project views and Table/Board share the same `SegmentedControl` presentation,
+including the rounded track, 44px targets, and animated selection pill. Table/Board
+uses Radix Toggle Group for single selection and keyboard focus. Both controls
+sit in one header row from the desktop breakpoint and stack, left aligned, on
+mobile. The display control appears only on the dashboard; its selection is
+retained when visiting the profile.
 The title, view navigation, dashboard table, and profile panel share the full
 available project column and the same left edge. Table/board selection is retained
 when switching views. Both project views reserve 200px on mobile and 240px on
@@ -102,6 +108,13 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
 - The matching dashboard spacing was verified in the running app: table and board
   each leave 240px before the footer at 1280px and 200px at 390px. Both remain
   within the viewport width; the profile retains the same mobile spacing.
+- The matching toggles share the same 52px outer height and vertical position at
+  1280px and 768px. At 390px they stack with a 12px gap. The profile has one view
+  navigation and no Table/Board control. Returning to the dashboard retains Board
+  selection. Clicking the selected option leaves it selected; ArrowLeft moves
+  focus to Table and Space selects it. No document overflow at these widths or
+  the browser's restored 319px viewport. The 101 tests, app-scoped TypeScript,
+  changed-file ESLint, and diff checks pass after the toggle change.
 - An unsaved title edit survived view navigation, confirming that the header
   stays mounted. Renaming from the profile persisted on the dashboard; the sample
   title was restored afterward. Table/Board selection survived a round trip to
@@ -120,3 +133,6 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   [mobile editor](../previews/project-profile/shared-project-editor-mobile.jpg),
   [query dashboard](../previews/project-profile/shared-query-dashboard-desktop.jpg),
   and [footer spacing](../previews/project-profile/shared-project-footer-desktop.jpg).
+  The updated toggle layout is shown on
+  [desktop](../previews/project-profile/matching-project-toggles-desktop.jpg) and
+  [mobile](../previews/project-profile/matching-project-toggles-mobile.jpg).

@@ -3,12 +3,10 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Confetti from "react-confetti";
-import { Columns3, Table2 } from "lucide-react";
 import { ProjectPageHeader } from "@/app/components/projects/project-page-header";
 
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
-import { ButtonGroup } from "@/app/ui-primitives/button-group";
 import { cn } from "@/app/utils";
 
 import {
@@ -18,6 +16,7 @@ import {
 import { ProjectDashboardLoading } from "./project-dashboard-loading";
 import { ProjectDashboardTitle } from "./project-dashboard-title";
 import { QueryDashboardTable } from "./query-dashboard-table";
+import { QueryDashboardViewToggle } from "./query-dashboard-view-toggle";
 
 const KanbanBoard = dynamic(
   () => import("./kanban-board").then((module) => module.KanbanBoard),
@@ -37,7 +36,6 @@ export function QueryDashboardContent({
 }) {
   const {
     dashboardView,
-    setDashboardView,
     offerMadeCelebrationNonce,
     isEmpty,
     isLoading,
@@ -91,31 +89,6 @@ export function QueryDashboardContent({
     };
   }, [dashboardView]);
 
-  const viewControls = (
-    <ButtonGroup className="shrink-0">
-      <Button
-        aria-pressed={dashboardView === "table"}
-        size="sm"
-        type="button"
-        variant={dashboardView === "table" ? "solid" : "outline"}
-        onClick={() => setDashboardView("table")}
-      >
-        <Table2 data-icon="inline-start" />
-        Table
-      </Button>
-      <Button
-        aria-pressed={dashboardView === "board"}
-        size="sm"
-        type="button"
-        variant={dashboardView === "board" ? "solid" : "outline"}
-        onClick={() => setDashboardView("board")}
-      >
-        <Columns3 data-icon="inline-start" />
-        Board
-      </Button>
-    </ButtonGroup>
-  );
-
   if (hasLoadError)
     return (
       <div className="flex flex-col gap-5 py-4 md:py-6">
@@ -155,15 +128,13 @@ export function QueryDashboardContent({
           />
         </div>
       )}
-      {embedded ? (
-        <div className="flex shrink-0 justify-end">{viewControls}</div>
-      ) : (
+      {!embedded && (
         <ProjectPageHeader
           projectId={dashboardProjectId ?? undefined}
           title={
             <ProjectDashboardTitle projectName={activeProjectName ?? ""} />
           }
-          actions={viewControls}
+          actions={<QueryDashboardViewToggle />}
         />
       )}
       {isEmpty && (

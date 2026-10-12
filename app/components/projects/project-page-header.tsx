@@ -30,7 +30,7 @@ export function ProjectPageHeader({
         />
         {title}
       </h1>
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="flex flex-col items-start gap-3 md:flex-row md:items-center md:justify-between">
         {projectId && <ProjectViewToggle projectId={projectId} />}
         {actions}
       </div>
