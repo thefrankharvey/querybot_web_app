@@ -9,9 +9,11 @@ import {
 import { type ProjectDashboardSummary } from "@/app/utils/project-dashboard-summary";
 import AnimatedCount from "./animated-count";
 import { CreateProjectCard } from "./create-project-card";
+import { Skeleton } from "@/app/ui-primitives/skeleton";
 
 export interface ProjectDashboardOverviewProps {
   projectSummaries: ProjectDashboardSummary[];
+  isLoading?: boolean;
 }
 
 const STATUS_CHIP_LABELS: Record<QueryDashColumnId, string> = {
@@ -30,28 +32,72 @@ const ACTIVITY_DATE_FORMATTER = new Intl.DateTimeFormat("en", {
 
 export default function ProjectDashboardOverview({
   projectSummaries,
+  isLoading = false,
 }: ProjectDashboardOverviewProps) {
   return (
     <section
       className="mt-8 flex w-full flex-col gap-4"
-      aria-label="Project dashboards"
+      aria-label={isLoading ? undefined : "Project dashboards"}
+      aria-hidden={isLoading || undefined}
     >
       <div className="flex w-full items-center justify-between gap-3">
         <div className="min-w-0">
-          <h2 className="flex items-center gap-2 font-serif text-2xl font-semibold leading-tight text-accent md:text-[30px]">
-            <FolderOpen className="size-7 shrink-0" />
-            <span className="truncate">My Projects</span>
-          </h2>
+          {isLoading ? (
+            <Skeleton
+              variant="muted"
+              className="h-[30px] w-44 rounded-lg md:h-[37.5px]"
+            />
+          ) : (
+            <h2 className="flex items-center gap-2 font-serif text-2xl font-semibold leading-tight text-accent md:text-[30px]">
+              <FolderOpen className="size-7 shrink-0" />
+              <span className="truncate">My Projects</span>
+            </h2>
+          )}
         </div>
       </div>
 
-      <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
-        <CreateProjectCard />
-        {projectSummaries.map((summary) => (
-          <ProjectDashboardCard key={summary.href} summary={summary} />
-        ))}
+      <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
+        {isLoading ? (
+          [0, 1, 2].map((index) => (
+            <ProjectDashboardCardSkeleton key={index} />
+          ))
+        ) : (
+          <>
+            <CreateProjectCard />
+            {projectSummaries.map((summary) => (
+              <ProjectDashboardCard key={summary.href} summary={summary} />
+            ))}
+          </>
+        )}
       </div>
     </section>
+  );
+}
+
+function ProjectDashboardCardSkeleton() {
+  return (
+    <div
+      className="flex min-h-[177px] w-full min-w-0 flex-col justify-between rounded-[20px] border border-white/85 bg-white/88 p-4 shadow-[0_16px_36px_rgba(24,44,69,0.08)]"
+      data-loading-project-card
+    >
+      <div className="flex items-start justify-between gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-3">
+          <Skeleton variant="muted" className="h-5 w-4/5 rounded-md" />
+          <Skeleton variant="muted" className="h-3 w-3/5 rounded-md" />
+        </div>
+        <Skeleton variant="muted" className="size-11 shrink-0 rounded-full" />
+      </div>
+      <div className="mt-5 flex flex-col gap-3">
+        <div className="flex items-center justify-between gap-3">
+          <Skeleton variant="muted" className="h-3 w-24 rounded-md" />
+          <Skeleton variant="muted" className="size-7 rounded-md" />
+        </div>
+        <div className="flex gap-1.5">
+          <Skeleton variant="muted" className="h-8 w-20 rounded-full" />
+          <Skeleton variant="muted" className="h-8 w-16 rounded-full" />
+        </div>
+      </div>
+    </div>
   );
 }
 

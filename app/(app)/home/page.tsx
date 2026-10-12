@@ -2,7 +2,6 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "../context/profile-context";
@@ -11,6 +10,7 @@ import SubscriberEmpty from "./components/subscriber-empty";
 import ButtonBar from "./components/button-bar";
 import ProjectDashboardOverview from "./components/project-dashboard-overview";
 import HomeAgentRecommendations from "./components/home-agent-recommendations";
+import HomeProjectsSkeleton from "./components/home-projects-skeleton";
 
 const PAYMENT_PENDING_KEY = "payment_verification_pending";
 const RETRY_DELAYS_MS = [0, 1500, 3000, 4000] as const;
@@ -146,15 +146,17 @@ const HomePage = () => {
         </section>
 
         <div className="mt-3 min-h-[100vh] rounded-[24px]">
-          {isLoadingState ? (
-            <div className="flex min-h-[200px] flex-1 items-center justify-center">
-              <Spinner className="size-16" />
-            </div>
-          ) : isSubscribed || shouldShowStats ? (
+          {isLoadingState || isSubscribed || shouldShowStats ? (
             <div className="flex items-center justify-center mt-3 min-h-[350px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
               <div className="flex flex-1 flex-col items-center justify-center">
-                <SubscriberEmpty showSmartMatchPrompt={!shouldShowStats} />
-                <ProjectDashboardOverview projectSummaries={projectSummaries} />
+                {isLoadingState ? (
+                  <HomeProjectsSkeleton />
+                ) : (
+                  <>
+                    <SubscriberEmpty showSmartMatchPrompt={!shouldShowStats} />
+                    <ProjectDashboardOverview projectSummaries={projectSummaries} />
+                  </>
+                )}
               </div>
             </div>
           ) : (

@@ -57,6 +57,12 @@ function historyAuth(key = "test-server-credential") {
 function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects, isLoading = false } = {}) {
   const React = require("react");
   const { renderToStaticMarkup } = require("react-dom/server");
+  const skeleton = load("app/ui-primitives/skeleton.tsx", {
+    "../utils": { cn: (...values) => values.filter(Boolean).join(" ") },
+  });
+  const subscriber = load("app/(app)/home/components/subscriber-empty.tsx", {
+    "@/app/ui-primitives/skeleton": skeleton,
+  }).default;
   const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
   const summaries = load("app/utils/project-dashboard-summary.ts", {
     "@/app/(app)/query-dashboard/components/kanban-config": columns,
@@ -64,6 +70,7 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects
     "@/app/utils/project-scope": scope,
   });
   const overview = load("app/(app)/home/components/project-dashboard-overview.tsx", {
+    "@/app/ui-primitives/skeleton": skeleton,
     "next/link": ({ children, ...props }) => React.createElement("a", props, children),
     "@/app/(app)/query-dashboard/components/kanban-config": columns,
     "@/app/utils/project-dashboard-summary": summaries,
@@ -80,8 +87,12 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects
     "@/app/ui-primitives/spinner": { Spinner: () => React.createElement("div", { role: "status" }, "Loading") },
     "./components/button-bar": () => null,
     "./components/free-user": () => React.createElement("div", null, "Free account getting started"),
-    "./components/subscriber-empty": load("app/(app)/home/components/subscriber-empty.tsx").default,
+    "./components/subscriber-empty": subscriber,
     "./components/project-dashboard-overview": overview,
+    "./components/home-projects-skeleton": load("app/(app)/home/components/home-projects-skeleton.tsx", {
+      "./subscriber-empty": subscriber,
+      "./project-dashboard-overview": overview,
+    }).default,
     "./components/home-agent-recommendations": () => null,
   }).default;
   return renderToStaticMarkup(React.createElement(Home));
@@ -111,6 +122,11 @@ test("Home keeps free onboarding and subscribed guidance when no agents are save
 test("Home waits for saved agents to load before showing project cards", () => {
   const html = renderHome({ isLoading: true });
   assert.match(html, /role="status"/);
+  assert.match(html, /aria-label="Loading your projects"/);
+  assert.equal((html.match(/data-loading-project-card/g) || []).length, 3);
+  assert.match(html, /min-h-\[350px\]/);
+  assert.match(html, /lg:grid-cols-3/);
+  assert.doesNotMatch(html, /Create project|\/dashboard"/);
   assert.doesNotMatch(html, /My Projects|Free account getting started/);
 });
 
