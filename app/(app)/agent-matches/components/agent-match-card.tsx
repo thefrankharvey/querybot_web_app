@@ -39,6 +39,9 @@ export const AgentMatchCard = ({
   savingAgentId,
   tourTarget,
   projectName,
+  projectWriterId,
+  href,
+  className,
 }: {
   agent: AgentMatch;
   isSubscribed?: boolean;
@@ -49,6 +52,9 @@ export const AgentMatchCard = ({
   savingAgentId?: string | null;
   tourTarget?: string;
   projectName?: string;
+  projectWriterId?: string | null;
+  href?: string;
+  className?: string;
 }) => {
   const { agentsList } = useProfileContext();
   const { requestSave, isChecking, confirmation } = useAgencySaveConfirmation({
@@ -77,7 +83,7 @@ export const AgentMatchCard = ({
       a.index_id === agent.agent_id &&
       isSameProjectScope(
         { projectName: a.project_name, writerProjectId: a.writer_project_id },
-        { projectName, writerProjectId },
+        { projectName, writerProjectId: projectWriterId === undefined ? writerProjectId : projectWriterId },
       ),
   );
   const isAlreadySaved = Boolean(savedAgent);
@@ -112,11 +118,12 @@ export const AgentMatchCard = ({
         isDisabled
           ? "opacity-60"
           : "transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_72px_rgba(24,44,69,0.14)]",
+        className,
       )}
     >
       <Link
-        href={isDisabled ? "#" : `/agent-matches/${index}`}
-        className="block w-full h-full"
+        href={isDisabled ? "#" : href ?? `/agent-matches/${index}`}
+        className="block h-full w-full rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4"
       >
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">

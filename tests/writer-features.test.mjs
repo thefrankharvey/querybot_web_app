@@ -82,6 +82,7 @@ function renderHome({ isSubscribed = false, agentsList = fixtureRows(), projects
     "./components/free-user": () => React.createElement("div", null, "Free account getting started"),
     "./components/subscriber-empty": load("app/(app)/home/components/subscriber-empty.tsx").default,
     "./components/project-dashboard-overview": overview,
+    "./components/home-agent-recommendations": () => null,
   }).default;
   return renderToStaticMarkup(React.createElement(Home));
 }

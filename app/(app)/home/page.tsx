@@ -10,6 +10,7 @@ import FreeUser from "./components/free-user";
 import SubscriberEmpty from "./components/subscriber-empty";
 import ButtonBar from "./components/button-bar";
 import ProjectDashboardOverview from "./components/project-dashboard-overview";
+import HomeAgentRecommendations from "./components/home-agent-recommendations";
 
 const PAYMENT_PENDING_KEY = "payment_verification_pending";
 const RETRY_DELAYS_MS = [0, 1500, 3000, 4000] as const;
@@ -164,6 +165,7 @@ const HomePage = () => {
               </div>
             </div>
           )}
+          {!isLoading && !isVerifyingPayment && <HomeAgentRecommendations />}
         </div>
       </div>
       <HomeWalkthrough enabled={isDesktopViewport && !isLoadingState} />
