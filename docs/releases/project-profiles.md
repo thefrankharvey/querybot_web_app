@@ -32,8 +32,14 @@ edits from an older search form. Search ranking and filtering are unchanged.
 
 Frontend Design, shadcn, and Web Design Guidelines informed the implementation.
 The project title remains the primary heading, with navigation directly beneath.
-The title, project navigation, and profile panel share one width-constrained
-column and the same left edge in both viewing and editing states. The page keeps
+A shared project layout keeps the editable dashboard title and a single view
+navigation mounted across both routes. Its selection pill moves between the two
+links, while only the page content fades in over 180ms. Reduced motion disables
+both animations. Native links, browser history, and unsaved-trait guards remain.
+The title, view navigation, dashboard table, and profile panel share the full
+available project column and the same left edge. Table/board selection is retained
+when switching views. Below the profile, the page reserves 200px on mobile and
+240px on desktop before the footer, in both viewing and editing states. The page keeps
 the existing app sidebar on desktop and the existing menu on mobile.
 The profile uses one reading panel with sections and comparable-book typography,
 rather than repeating dashboard widgets. The editor reuses existing components.
@@ -57,10 +63,12 @@ Next.js `GET/PATCH /api/dashboard-projects/<uuid>/profile`. Next.js derives Cler
 identity and resolves the owned dashboard's backend ID. Browser identity overrides
 are ignored. The existing server-only history credential authenticates Flask calls.
 
-**The backend migration remains pending user approval.** It adds a `profile_only`
-flag to distinguish legacy metadata from actual search history. Apply the approved
+The user approved the `profile_only` column and confirmed the production target:
+Write Query Hook (`gjlsblvieeabdloajcbm`), main Production, `public.writer_projects`.
+**Production application remains deferred until local testing is complete.** The
+column distinguishes legacy metadata from actual search history. Apply the
 migration before deploying the backend, then release this UI. No shared or
-Supabase database changes were applied during implementation.
+Supabase database changes were applied during implementation or this UI refinement.
 
 For legacy dashboards without a writer-project link, the metadata save uses the
 dashboard's UUID and subsequently attaches it through the existing
@@ -80,14 +88,32 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   synthetic session and in-memory API fixtures. It checks read/edit, failed-save
   retention, saving, canceling, link/Back guards, validation focus, and mobile
   overflow. The production authentication/context implementations are unchanged.
-- Desktop and mobile screenshots include the existing app navigation.
-  Inline custom-trait actions were checked for toggling, selection, and mobile
-  overflow using only in-memory fixture data. Viewing and editing states were checked at 390, 768, 1440, and 1920 pixels for
-  heading/navigation/panel alignment and horizontal overflow. The isolated
-  preview imports the actual sidebar and mobile-menu components, with synthetic
-  session fixtures confined to its separate test bundle.
-- [Desktop profile](../previews/project-profile/desktop.png),
-  [desktop editor](../previews/project-profile/editor-desktop.png),
-  [mobile profile](../previews/project-profile/mobile.png), and
-  [mobile editor](../previews/project-profile/editor-mobile.png) were inspected.
-  Shared database writes and production deployment were not used for verification.
+- The shared-layout refinement was checked in the real running Next.js app with
+  normal Clerk development sign-in and isolated local PostgreSQL/PostgREST. The
+  backend runs from the independent profile branch; all dashboard and trait
+  records used here are synthetic. No hosted project data was copied.
+- All 101 frontend tests pass. The account-scoped route tests now exercise the
+  shared layout, which owns project resolution for both child views. App-scoped
+  TypeScript, changed-file ESLint, and `git diff --check` pass.
+- At 1280px, the profile, editor, and dashboard table measure 1010px wide. The
+  profile and editor each have 240px before the footer. At 390px, the profile and
+  table measure 358px, with 200px before the profile footer and no horizontal
+  document overflow. Existing sidebar/mobile navigation remains in place.
+- An unsaved title edit survived view navigation, confirming that the header
+  stays mounted. Renaming from the profile persisted on the dashboard; the sample
+  title was restored afterward. Table/Board selection survived a round trip to
+  the profile. Navigation from a dirty trait editor retained its draft.
+- The links retain native navigation and `aria-current`. The selection pill uses
+  a 200ms translate transition; the incoming content uses a 180ms opacity fade.
+  Both disable motion for `prefers-reduced-motion`, following the
+  [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines).
+  Shared chrome uses a persistent
+  [Next.js layout](https://nextjs.org/docs/app/api-reference/file-conventions/layout),
+  with the route content in a template.
+- Current previews use the running app and local sample records:
+  [desktop profile](../previews/project-profile/shared-project-profile-desktop.jpg),
+  [desktop editor](../previews/project-profile/shared-project-editor-desktop.jpg),
+  [mobile profile](../previews/project-profile/shared-project-profile-mobile.jpg),
+  [mobile editor](../previews/project-profile/shared-project-editor-mobile.jpg),
+  [query dashboard](../previews/project-profile/shared-query-dashboard-desktop.jpg),
+  and [footer spacing](../previews/project-profile/shared-project-footer-desktop.jpg).

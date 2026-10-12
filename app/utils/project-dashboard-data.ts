@@ -1,10 +1,11 @@
 import "server-only";
+import { cache } from "react";
 
 import { auth } from "@clerk/nextjs/server";
 import { createServerSupabase } from "@/app/api/supabase/server";
 import { isDashboardProjectId } from "@/app/utils/project-dashboard-route";
 
-export async function getDashboardProject(projectId: string) {
+export const getDashboardProject = cache(async (projectId: string) => {
   if (!isDashboardProjectId(projectId)) return null;
   const { userId } = await auth();
   if (!userId) return null;
@@ -22,4 +23,4 @@ export async function getDashboardProject(projectId: string) {
     project_name: string;
     writer_project_id: string | null;
   } | null;
-}
+});

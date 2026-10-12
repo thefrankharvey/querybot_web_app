@@ -30,10 +30,14 @@ const KanbanMobile = dynamic(
 
 const CONFETTI_DURATION_MS = 10000;
 
-type DashboardView = "table" | "board";
-
-function QueryDashboardContent() {
+export function QueryDashboardContent({
+  embedded = false,
+}: {
+  embedded?: boolean;
+}) {
   const {
+    dashboardView,
+    setDashboardView,
     offerMadeCelebrationNonce,
     isEmpty,
     isLoading,
@@ -42,7 +46,6 @@ function QueryDashboardContent() {
     dashboardProjectId,
   } = useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
-  const [dashboardView, setDashboardView] = useState<DashboardView>("table");
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -88,19 +91,61 @@ function QueryDashboardContent() {
     };
   }, [dashboardView]);
 
-  if (hasLoadError) return (
-    <div className="flex flex-col gap-5 py-4 md:py-6">
-      <ProjectPageHeader projectId={dashboardProjectId ?? undefined} title={activeProjectName || "Project"} />
-      <div role="alert" className="flex flex-col items-start gap-3 p-4">
-        <p>Unable to load your saved records. Please try again.</p>
-        <Button type="button" variant="outline" onClick={() => window.location.reload()}>Reload dashboard</Button>
-      </div>
-    </div>
+  const viewControls = (
+    <ButtonGroup className="shrink-0">
+      <Button
+        aria-pressed={dashboardView === "table"}
+        size="sm"
+        type="button"
+        variant={dashboardView === "table" ? "solid" : "outline"}
+        onClick={() => setDashboardView("table")}
+      >
+        <Table2 data-icon="inline-start" />
+        Table
+      </Button>
+      <Button
+        aria-pressed={dashboardView === "board"}
+        size="sm"
+        type="button"
+        variant={dashboardView === "board" ? "solid" : "outline"}
+        onClick={() => setDashboardView("board")}
+      >
+        <Columns3 data-icon="inline-start" />
+        Board
+      </Button>
+    </ButtonGroup>
   );
+
+  if (hasLoadError)
+    return (
+      <div className="flex flex-col gap-5 py-4 md:py-6">
+        {!embedded && (
+          <ProjectPageHeader
+            projectId={dashboardProjectId ?? undefined}
+            title={activeProjectName || "Project"}
+          />
+        )}
+        <div role="alert" className="flex flex-col items-start gap-3 p-4">
+          <p>Unable to load your saved records. Please try again.</p>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => window.location.reload()}
+          >
+            Reload dashboard
+          </Button>
+        </div>
+      </div>
+    );
   if (isLoading) return <ProjectDashboardLoading />;
 
   return (
-    <div className="query-dashboard-page ambient-page flex h-full min-h-0 flex-col py-0 md:py-6">
+    <div
+      className={cn(
+        "query-dashboard-page ambient-page flex h-full min-h-0 flex-col",
+        embedded ? "gap-4" : "py-0 md:py-6",
+      )}
+    >
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
           <Confetti
@@ -110,37 +155,23 @@ function QueryDashboardContent() {
           />
         </div>
       )}
-      {!isLoading ? (
+      {embedded ? (
+        <div className="flex shrink-0 justify-end">{viewControls}</div>
+      ) : (
         <ProjectPageHeader
           projectId={dashboardProjectId ?? undefined}
-          title={<ProjectDashboardTitle projectName={activeProjectName ?? ""} />}
-          actions={<ButtonGroup className="shrink-0">
-            <Button
-              aria-pressed={dashboardView === "table"}
-              size="sm"
-              type="button"
-              variant={dashboardView === "table" ? "solid" : "outline"}
-              onClick={() => setDashboardView("table")}
-            >
-              <Table2 data-icon="inline-start" />
-              Table
-            </Button>
-            <Button
-              aria-pressed={dashboardView === "board"}
-              size="sm"
-              type="button"
-              variant={dashboardView === "board" ? "solid" : "outline"}
-              onClick={() => setDashboardView("board")}
-            >
-              <Columns3 data-icon="inline-start" />
-              Board
-            </Button>
-          </ButtonGroup>}
+          title={
+            <ProjectDashboardTitle projectName={activeProjectName ?? ""} />
+          }
+          actions={viewControls}
         />
-      ) : null}
+      )}
       {isEmpty && (
         <div
-          className="flex flex-wrap items-center justify-between gap-3 px-4 pt-5"
+          className={cn(
+            "flex flex-wrap items-center justify-between gap-3",
+            !embedded && "px-4 pt-5",
+          )}
           role="status"
         >
           <p>No saved agents yet. Your project is ready when you are.</p>
@@ -154,18 +185,23 @@ function QueryDashboardContent() {
         </div>
       )}
       {dashboardView === "table" ? (
-        <div className="flex min-h-0 flex-1 flex-col px-4 pb-4 pt-4">
+        <div
+          className={cn(
+            "flex min-h-0 flex-1 flex-col",
+            !embedded && "px-4 pb-4 pt-4",
+          )}
+        >
           <QueryDashboardTable />
         </div>
       ) : (
         <>
-          <div className="hidden md:block">
+          <div className={cn("hidden md:block", embedded && "-mx-4")}>
             <KanbanBoard />
           </div>
           <div
             className={cn(
-              "flex min-h-0 flex-1 flex-col overflow-hidden pl-4 md:hidden",
-              isEmpty && "pl-0",
+              "flex min-h-0 flex-1 flex-col overflow-hidden md:hidden",
+              !embedded && !isEmpty && "pl-4",
             )}
           >
             <KanbanMobile />

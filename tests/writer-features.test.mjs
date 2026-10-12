@@ -630,24 +630,24 @@ test("choosing another project after restore replaces the selected project", () 
   assert.doesNotMatch(html, /value="name:cool finance" selected/);
 });
 
-function dashboardPage(getDashboardProject) {
-  return load("app/(app)/projects/[projectId]/dashboard/page.tsx", {
+function projectLayout(getDashboardProject) {
+  return load("app/(app)/projects/[projectId]/layout.tsx", {
     "next/navigation": { notFound: () => { throw new Error("NOT_FOUND"); } },
-    "@/app/(app)/query-dashboard/components/query-dashboard-shell": { QueryDashboardShell: () => null },
+    "@/app/components/projects/project-workspace": { ProjectWorkspace: () => null },
     "@/app/utils/project-dashboard-data": { getDashboardProject },
   }).default;
 }
 
-test("dashboard renders the persisted project ID and its saved-record scope", async () => {
-  const page = dashboardPage(async id => ({ id, project_name: "Cool Finance", writer_project_id: null }));
+test("shared project layout owns the persisted ID and saved-record scope", async () => {
+  const page = projectLayout(async id => ({ id, project_name: "Cool Finance", writer_project_id: null }));
   const result = await page({ params: Promise.resolve({ projectId: dashboardIds.old }) });
-  assert.equal(result.props.dashboardProjectId, dashboardIds.old);
-  assert.equal(result.props.projectName, "Cool Finance");
-  assert.equal(result.props.writerProjectId, null);
+  assert.equal(result.props.project.id, dashboardIds.old);
+  assert.equal(result.props.project.project_name, "Cool Finance");
+  assert.equal(result.props.project.writer_project_id, null);
 });
 
-test("dashboard has no name-route bypass or redirect", async () => {
-  const page = dashboardPage(async () => null);
+test("shared project layout rejects unknown projects and name-route bypasses", async () => {
+  const page = projectLayout(async () => null);
   for (const projectId of ["name:Cool Finance", "Cool Finance", dashboardIds.other]) {
     await assert.rejects(page({ params: Promise.resolve({ projectId }) }), /NOT_FOUND/);
   }

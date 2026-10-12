@@ -8,7 +8,6 @@ import { toast } from "sonner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useUnsavedProjectChanges } from "@/app/hooks/use-unsaved-project-changes";
-import { ProjectPageHeader } from "@/app/components/projects/project-page-header";
 import { ProjectProfileDetails } from "@/app/components/projects/project-profile-details";
 import { ProjectProfileEditor } from "@/app/components/projects/project-profile-editor";
 import { Button } from "@/app/ui-primitives/button";
@@ -119,135 +118,124 @@ export function ProjectProfileClient({
   }
 
   return (
-    <div className="ambient-page min-h-full px-4 pb-8 md:py-6">
-      <div className="mx-auto flex w-full max-w-4xl flex-col gap-7">
-        <ProjectPageHeader
-          className="px-0"
-          projectId={project.id}
-          title={
-            <span className="min-w-0 break-words">{project.project_name}</span>
+    <section
+      aria-labelledby="project-profile-heading"
+      className="flex w-full flex-col gap-8 rounded-3xl border border-panel-border bg-surface-strong p-5 shadow-sm md:p-8"
+    >
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div className="flex max-w-xl flex-col gap-2">
+          <h2
+            id="project-profile-heading"
+            className="font-serif text-2xl font-semibold text-accent"
+          >
+            {draft ? "Edit project traits" : "Project profile"}
+          </h2>
+          <p className="text-sm leading-relaxed text-muted-foreground">
+            These traits will be used the next time you run Smart Match.
+            {!draft &&
+              " Your saved agents and query progress stay with this project."}
+          </p>
+        </div>
+        {!draft && query.data && (
+          <Button variant="outline" size="sm" onClick={edit}>
+            <Pencil data-icon="inline-start" aria-hidden="true" />
+            Edit traits
+          </Button>
+        )}
+      </div>
+      {saveError && (
+        <Alert>
+          <AlertTitle>Traits could not be saved</AlertTitle>
+          <AlertDescription>{saveError}</AlertDescription>
+          {conflict && (
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="self-start"
+              onClick={() => void reloadSaved()}
+            >
+              Load saved traits
+            </Button>
+          )}
+        </Alert>
+      )}
+      {draft ? (
+        <ProjectProfileEditor
+          form={draft}
+          setForm={(update) =>
+            setDraft((current) =>
+              current
+                ? typeof update === "function"
+                  ? update(current)
+                  : update
+                : current,
+            )
           }
+          saving={saving}
+          onSave={save}
+          onCancel={() => {
+            if (
+              !dirty ||
+              window.confirm("Discard your unsaved project trait changes?")
+            ) {
+              setDraft(null);
+              setSaveError("");
+            }
+          }}
         />
-        <section
-          aria-labelledby="project-profile-heading"
-          className="flex w-full flex-col gap-8 rounded-3xl border border-panel-border bg-surface-strong p-5 shadow-sm md:p-8"
-        >
-          <div className="flex flex-wrap items-start justify-between gap-4">
-            <div className="flex max-w-xl flex-col gap-2">
-              <h2
-                id="project-profile-heading"
-                className="font-serif text-2xl font-semibold text-accent"
-              >
-                {draft ? "Edit project traits" : "Project profile"}
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                These traits will be used the next time you run Smart Match.
-                {!draft &&
-                  " Your saved agents and query progress stay with this project."}
+      ) : query.isError ? (
+        <Alert>
+          <AlertTitle>Project traits could not load</AlertTitle>
+          <AlertDescription>{query.error.message}</AlertDescription>
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            className="self-start"
+            onClick={() => void query.refetch()}
+          >
+            Try again
+          </Button>
+        </Alert>
+      ) : query.data ? (
+        <>
+          {!query.data.revision && (
+            <p role="status" className="text-sm text-muted-foreground">
+              This project does not have saved traits yet. Select Edit traits to
+              add them.
+            </p>
+          )}
+          <ProjectProfileDetails profile={query.data} />
+          <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
+            <Button asChild variant="outline">
+              <Link href={`/smart-match?project=${project.id}`}>
+                <ScanSearch data-icon="inline-start" aria-hidden="true" />
+                Find agents for this project
+              </Link>
+            </Button>
+            {query.data.updatedAt && (
+              <p className="text-xs text-muted-foreground">
+                Last saved{" "}
+                {new Intl.DateTimeFormat(undefined, {
+                  dateStyle: "medium",
+                }).format(new Date(query.data.updatedAt))}
               </p>
-            </div>
-            {!draft && query.data && (
-              <Button variant="outline" size="sm" onClick={edit}>
-                <Pencil data-icon="inline-start" aria-hidden="true" />
-                Edit traits
-              </Button>
             )}
           </div>
-          {saveError && (
-            <Alert>
-              <AlertTitle>Traits could not be saved</AlertTitle>
-              <AlertDescription>{saveError}</AlertDescription>
-              {conflict && (
-                <Button
-                  type="button"
-                  variant="outline"
-                  size="sm"
-                  className="self-start"
-                  onClick={() => void reloadSaved()}
-                >
-                  Load saved traits
-                </Button>
-              )}
-            </Alert>
-          )}
-          {draft ? (
-            <ProjectProfileEditor
-              form={draft}
-              setForm={(update) =>
-                setDraft((current) =>
-                  current
-                    ? typeof update === "function"
-                      ? update(current)
-                      : update
-                    : current,
-                )
-              }
-              saving={saving}
-              onSave={save}
-              onCancel={() => {
-                if (
-                  !dirty ||
-                  window.confirm("Discard your unsaved project trait changes?")
-                ) {
-                  setDraft(null);
-                  setSaveError("");
-                }
-              }}
-            />
-          ) : query.isError ? (
-            <Alert>
-              <AlertTitle>Project traits could not load</AlertTitle>
-              <AlertDescription>{query.error.message}</AlertDescription>
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                className="self-start"
-                onClick={() => void query.refetch()}
-              >
-                Try again
-              </Button>
-            </Alert>
-          ) : query.data ? (
-            <>
-              {!query.data.revision && (
-                <p role="status" className="text-sm text-muted-foreground">
-                  This project does not have saved traits yet. Select Edit
-                  traits to add them.
-                </p>
-              )}
-              <ProjectProfileDetails profile={query.data} />
-              <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
-                <Button asChild variant="outline">
-                  <Link href={`/smart-match?project=${project.id}`}>
-                    <ScanSearch data-icon="inline-start" aria-hidden="true" />
-                    Find agents for this project
-                  </Link>
-                </Button>
-                {query.data.updatedAt && (
-                  <p className="text-xs text-muted-foreground">
-                    Last saved{" "}
-                    {new Intl.DateTimeFormat(undefined, {
-                      dateStyle: "medium",
-                    }).format(new Date(query.data.updatedAt))}
-                  </p>
-                )}
-              </div>
-            </>
-          ) : (
-            <div
-              role="status"
-              aria-label="Loading project traits"
-              className="flex flex-col gap-6"
-            >
-              <Skeleton className="h-6 w-40" />
-              <Skeleton className="h-24 w-full" />
-              <Skeleton className="h-6 w-32" />
-              <Skeleton className="h-16 w-full" />
-            </div>
-          )}
-        </section>
-      </div>
-    </div>
+        </>
+      ) : (
+        <div
+          role="status"
+          aria-label="Loading project traits"
+          className="flex flex-col gap-6"
+        >
+          <Skeleton className="h-6 w-40" />
+          <Skeleton className="h-24 w-full" />
+          <Skeleton className="h-6 w-32" />
+          <Skeleton className="h-16 w-full" />
+        </div>
+      )}
+    </section>
   );
 }

@@ -60,7 +60,10 @@ type EditableCardUpdate = Partial<
   >
 >;
 
+export type DashboardView = "table" | "board";
+
 export interface QueryDashState {
+  dashboardView: DashboardView;
   cards: KanbanCardData[];
   visibleCards: KanbanCardData[];
   isLoading: boolean;
@@ -74,6 +77,7 @@ export interface QueryDashState {
 }
 
 export interface QueryDashActions {
+  setDashboardView: (view: DashboardView) => void;
   moveCard: (
     cardId: string,
     columnId: QueryDashColumnId,
@@ -312,6 +316,7 @@ export function QueryDashProvider({
   const activeProjectName = rawActiveProjectName
     ? normalizeProjectName(rawActiveProjectName)
     : null;
+  const [dashboardView, setDashboardView] = useState<DashboardView>("table");
   const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [isHydratingFromServer, setIsHydratingFromServer] = useState(true);
   const [offerMadeCelebrationNonce, setOfferMadeCelebrationNonce] = useState(0);
@@ -852,6 +857,8 @@ export function QueryDashProvider({
 
   const value = useMemo<QueryDashContextType>(
     () => ({
+      dashboardView,
+      setDashboardView,
       cards,
       visibleCards,
       isLoading: !isError && (isLoading || isHydratingFromServer),
@@ -878,6 +885,7 @@ export function QueryDashProvider({
       removeCardById,
     }),
     [
+      dashboardView,
       cards,
       visibleCards,
       isLoading,

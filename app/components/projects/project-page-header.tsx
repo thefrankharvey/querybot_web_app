@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { ProjectViewToggle } from "./project-view-toggle";
 import { BookOpen } from "lucide-react";
 import type { ReactNode } from "react";
 import { cn } from "@/app/utils";
@@ -17,7 +16,6 @@ export function ProjectPageHeader({
   actions?: ReactNode;
   className?: string;
 }) {
-  const pathname = usePathname();
   return (
     <header
       className={cn(
@@ -33,37 +31,7 @@ export function ProjectPageHeader({
         {title}
       </h1>
       <div className="flex flex-wrap items-center justify-between gap-3">
-        {projectId && (
-          <nav
-            aria-label="Project views"
-            className="flex gap-1 rounded-full bg-accent/5 p-1"
-          >
-            {[
-              {
-                href: `/projects/${projectId}/dashboard`,
-                label: "Query dashboard",
-              },
-              {
-                href: `/projects/${projectId}/profile`,
-                label: "Project profile",
-              },
-            ].map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                aria-current={pathname === href ? "page" : undefined}
-                className={cn(
-                  "rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2",
-                  pathname === href
-                    ? "bg-accent text-background shadow-sm"
-                    : "text-accent hover:bg-accent/10",
-                )}
-              >
-                {label}
-              </Link>
-            ))}
-          </nav>
-        )}
+        {projectId && <ProjectViewToggle projectId={projectId} />}
         {actions}
       </div>
     </header>
