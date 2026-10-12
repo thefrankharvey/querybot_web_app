@@ -1,5 +1,8 @@
 # Project profile and query dashboard
 
+See the [final review and rollout checks](project-profiles-final-review.md) for
+current merge readiness and production build results.
+
 The existing project destination now has Query dashboard and Project profile
 navigation. Home's layout, project summaries, and links are unchanged. Its project
 buttons and My Projects continue to open `/projects/<dashboard-uuid>/dashboard`.
