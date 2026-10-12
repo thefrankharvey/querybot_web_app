@@ -10,14 +10,21 @@ export function ProjectPageHeader({
   projectId,
   title,
   actions,
+  className,
 }: {
   projectId?: string;
   title: ReactNode;
   actions?: ReactNode;
+  className?: string;
 }) {
   const pathname = usePathname();
   return (
-    <header className="flex shrink-0 flex-col gap-5 px-4 pt-4 md:pt-0">
+    <header
+      className={cn(
+        "flex shrink-0 flex-col gap-5 px-4 pt-4 md:pt-0",
+        className,
+      )}
+    >
       <h1 className="flex min-w-0 items-center gap-2 font-serif text-2xl font-semibold leading-tight text-accent md:text-[32px]">
         <BookOpen
           className="hidden size-8 shrink-0 md:block"

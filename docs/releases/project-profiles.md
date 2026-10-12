@@ -32,6 +32,9 @@ edits from an older search form. Search ranking and filtering are unchanged.
 
 Frontend Design, shadcn, and Web Design Guidelines informed the implementation.
 The project title remains the primary heading, with navigation directly beneath.
+The title, project navigation, and profile panel share one width-constrained
+column and the same left edge in both viewing and editing states. The page keeps
+the existing app sidebar on desktop and the existing menu on mobile.
 The profile uses one reading panel with sections and comparable-book typography,
 rather than repeating dashboard widgets. The editor reuses existing components.
 
@@ -73,5 +76,13 @@ the owned dashboard whose link is empty; it does not change saved-agent rows.
   synthetic session and in-memory API fixtures. It checks read/edit, failed-save
   retention, saving, canceling, link/Back guards, validation focus, and mobile
   overflow. The production authentication/context implementations are unchanged.
-- Desktop and mobile screenshots were inspected. Shared database writes and
-  production deployment were not used for verification.
+- Desktop and mobile screenshots include the existing app navigation. Both
+  viewing and editing states were checked at 390, 768, 1440, and 1920 pixels for
+  heading/navigation/panel alignment and horizontal overflow. The isolated
+  preview imports the actual sidebar and mobile-menu components, with synthetic
+  session fixtures confined to its separate test bundle.
+- [Desktop profile](../previews/project-profile/desktop.png),
+  [desktop editor](../previews/project-profile/editor-desktop.png),
+  [mobile profile](../previews/project-profile/mobile.png), and
+  [mobile editor](../previews/project-profile/editor-mobile.png) were inspected.
+  Shared database writes and production deployment were not used for verification.

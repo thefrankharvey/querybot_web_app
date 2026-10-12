@@ -119,17 +119,18 @@ export function ProjectProfileClient({
   }
 
   return (
-    <div className="ambient-page flex min-h-full flex-col gap-7 py-0 pb-8 md:py-6">
-      <ProjectPageHeader
-        projectId={project.id}
-        title={
-          <span className="min-w-0 break-words">{project.project_name}</span>
-        }
-      />
-      <div className="px-4">
+    <div className="ambient-page min-h-full px-4 pb-8 md:py-6">
+      <div className="mx-auto flex w-full max-w-4xl flex-col gap-7">
+        <ProjectPageHeader
+          className="px-0"
+          projectId={project.id}
+          title={
+            <span className="min-w-0 break-words">{project.project_name}</span>
+          }
+        />
         <section
           aria-labelledby="project-profile-heading"
-          className="mx-auto flex w-full max-w-4xl flex-col gap-8 rounded-3xl border border-panel-border bg-surface-strong p-5 shadow-sm md:p-8"
+          className="flex w-full flex-col gap-8 rounded-3xl border border-panel-border bg-surface-strong p-5 shadow-sm md:p-8"
         >
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div className="flex max-w-xl flex-col gap-2">
