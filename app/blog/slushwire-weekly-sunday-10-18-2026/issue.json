@@ -2,21 +2,21 @@
  "bonus": [
   {
    "author": "",
-   "key": "query_shark_links:ba597f76-0446-4ab1-a4c9-7de5023b2561",
+   "key": "query_shark_links:30876adf-bbe8-4c40-b17b-660cf2c2ce76",
    "source": "query_shark_links",
-   "source_id": "ba597f76-0446-4ab1-a4c9-7de5023b2561",
+   "source_id": "30876adf-bbe8-4c40-b17b-660cf2c2ce76",
    "text": "",
-   "title": "Query Shark: August",
-   "url": "https://queryshark.blogspot.com/2008/08/"
+   "title": "Query Shark: June",
+   "url": "https://queryshark.blogspot.com/2008/06/"
   },
   {
    "author": "",
-   "key": "reddit_top_200_posts:56fb67a9-db74-4a6e-8a14-19f96749d66f",
+   "key": "reddit_top_200_posts:aaf53a56-456f-41d2-a9c4-e9410c8e5bd2",
    "source": "reddit_top_200_posts",
-   "source_id": "56fb67a9-db74-4a6e-8a14-19f96749d66f",
-   "text": "Before I even finished my book I knew that very few friends/family would read it. I was warned about this so I was prepared. But I didn't expect only my brother to read it (he's an avid reader who has read just about every book in existence). He'll literally read the most random…",
-   "title": "Reddit: I'm actually shocked by how many family and friends WILL NOT read your book!",
-   "url": "https://www.reddit.com/r/writing/comments/1mk6pl1"
+   "source_id": "aaf53a56-456f-41d2-a9c4-e9410c8e5bd2",
+   "text": "Spilling this here because I don't have many writer friends in real life. After sending right over 170 queries since November 2023, a fiction editor of a LARGE publisher, (one who almost always requires an agent to even consider your manuscript) personally reached out and asked m…",
+   "title": "Reddit: [Discussion] After 9 months of querying, I finally had a breakthrough. Don't give up.",
+   "url": "https://www.reddit.com/r/PubTips/comments/1f44yjn"
   }
  ],
  "channels": {
@@ -303,8 +303,8 @@
   "iso_week": 42,
   "iso_year": 2026,
   "issue_date": "2026-10-18",
-  "issue_id": "7f79ae7b-4bdf-4f57-8fbf-5539ae95dedc",
-  "revision": 2
+  "issue_id": "5c12eeb1-a966-486d-9c07-b1c8e5ee5ff2",
+  "revision": 3
  },
  "counts": {
   "bluesky": 19,
@@ -316,11 +316,11 @@
  },
  "mode": "final",
  "quote": {
-  "author": "Anais Nin",
-  "key": "author_quotes:457ae2eb-c00e-43ba-a279-9139130904ae",
+  "author": "Ernest Hemingway",
+  "key": "author_quotes:0313181a-cf1c-4669-9487-c5c7875c1426",
   "source": "author_quotes",
-  "source_id": "457ae2eb-c00e-43ba-a279-9139130904ae",
-  "text": "Truth is something which can't be told in a few words. Those who simplify the universe only reduce the expansion of its meaning",
+  "source_id": "0313181a-cf1c-4669-9487-c5c7875c1426",
+  "text": "I love sleep. My life has the tendency to fall apart when I'm awake, you know",
   "title": "",
   "url": ""
  },
