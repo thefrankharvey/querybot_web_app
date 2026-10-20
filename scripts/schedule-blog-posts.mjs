@@ -136,6 +136,9 @@ const posts = entries
     (e) =>
       e.isDirectory() &&
       !EXCLUDED.has(e.name) &&
+      // Newsletter URLs are already linked from sent emails. Never append an
+      // am/pm slot or reschedule these folders alongside the editorial queue.
+      !e.name.startsWith("slushwire-weekly-") &&
       !e.name.startsWith(".") &&
       !e.name.startsWith("_"),
   )
