@@ -2,21 +2,21 @@
  "bonus": [
   {
    "author": "",
-   "key": "query_shark_links:4fe2b34e-010b-4e86-8fc3-fabbdff07b2b",
+   "key": "query_shark_links:ba597f76-0446-4ab1-a4c9-7de5023b2561",
    "source": "query_shark_links",
-   "source_id": "4fe2b34e-010b-4e86-8fc3-fabbdff07b2b",
+   "source_id": "ba597f76-0446-4ab1-a4c9-7de5023b2561",
    "text": "",
-   "title": "Query Shark: January",
-   "url": "https://queryshark.blogspot.com/2019/01/"
+   "title": "Query Shark: August",
+   "url": "https://queryshark.blogspot.com/2008/08/"
   },
   {
    "author": "",
-   "key": "reddit_top_200_posts:7fa15dc5-fca5-4f78-b1f1-cf19717fb1cb",
+   "key": "reddit_top_200_posts:56fb67a9-db74-4a6e-8a14-19f96749d66f",
    "source": "reddit_top_200_posts",
-   "source_id": "7fa15dc5-fca5-4f78-b1f1-cf19717fb1cb",
-   "text": "",
-   "title": "Reddit: Talent and ink!",
-   "url": "https://www.reddit.com/r/writing/comments/6qerhi"
+   "source_id": "56fb67a9-db74-4a6e-8a14-19f96749d66f",
+   "text": "Before I even finished my book I knew that very few friends/family would read it. I was warned about this so I was prepared. But I didn't expect only my brother to read it (he's an avid reader who has read just about every book in existence). He'll literally read the most random…",
+   "title": "Reddit: I'm actually shocked by how many family and friends WILL NOT read your book!",
+   "url": "https://www.reddit.com/r/writing/comments/1mk6pl1"
   }
  ],
  "channels": {
@@ -303,8 +303,8 @@
   "iso_week": 42,
   "iso_year": 2026,
   "issue_date": "2026-10-18",
-  "issue_id": "46aaf8de-ed59-4ab9-b4b8-4dfefaf895ac",
-  "revision": 1
+  "issue_id": "7f79ae7b-4bdf-4f57-8fbf-5539ae95dedc",
+  "revision": 2
  },
  "counts": {
   "bluesky": 19,
@@ -316,11 +316,11 @@
  },
  "mode": "final",
  "quote": {
-  "author": "Hunter S Thompson",
-  "key": "author_quotes:bdc7fec5-8147-490d-bd15-92dc5699c134",
+  "author": "Anais Nin",
+  "key": "author_quotes:457ae2eb-c00e-43ba-a279-9139130904ae",
   "source": "author_quotes",
-  "source_id": "bdc7fec5-8147-490d-bd15-92dc5699c134",
-  "text": "All gamblers lose regularly, but they rarely discuss it in public. Losing is bad for the image, dude. Nobody buys Hot Tips from Losers. Remember that",
+  "source_id": "457ae2eb-c00e-43ba-a279-9139130904ae",
+  "text": "Truth is something which can't be told in a few words. Those who simplify the universe only reduce the expansion of its meaning",
   "title": "",
   "url": ""
  },
