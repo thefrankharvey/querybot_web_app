@@ -298,7 +298,7 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
         {subscribeHref && (
           <section className="sw-signup" aria-label="Subscribe">
             <h2>Get our free newsletter.</h2>
-            <p>SlushWire lands in your inbox {v2 ? 'every day' : 'every Sunday'}: agent openings, query critiques and publishing conversations.</p>
+            <p>SlushWire lands in your inbox {v2 ? 'most days' : 'every Sunday'}: agent openings, query critiques and publishing conversations.</p>
             <a className="sw-button" href={subscribeHref}>Subscribe to SlushWire</a>
           </section>
         )}
