@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": { "incremental": false },
-  "include": ["next-env.d.ts", "types.d.ts", "components/slushwire/**/*.tsx", "components/slushwire/**/*.ts", "app/blog/slushwire-weekly-*/**/*.tsx"],
+  "include": ["next-env.d.ts", "types.d.ts", "components/slushwire/**/*.tsx", "components/slushwire/**/*.ts", "app/blog/slushwire-*/**/*.tsx"],
   "exclude": ["node_modules"]
 }

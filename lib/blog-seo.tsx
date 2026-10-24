@@ -30,9 +30,9 @@ export type { PublishInfo };
  *
  *     app/blog/<clean-slug>-MM-DD-YYYY[-am|-pm]/page.tsx
  *
- * - `am` -> 10:00 America/New_York   (the morning slot)
+ * - `am` -> 15:00 America/New_York   (the afternoon slot)
  * - `pm` -> 18:00 America/New_York   (the evening slot)
- * - no slot marker -> defaults to the morning (10:00) slot
+ * - no slot marker -> defaults to the afternoon (15:00) slot
  *
  * A post is visible only once its computed publish instant is in the past.
  * Future-dated posts can sit in the repo and stay hidden until a build runs

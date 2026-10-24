@@ -131,6 +131,11 @@ try {
   fail(`cannot read ${BLOG_DIR}`);
 }
 
+/** All SlushWire newsletter folders (daily and legacy weekly) are owned by the pipeline. */
+function isNewsletterFolder(name) {
+  return name.startsWith("slushwire-");
+}
+
 const posts = entries
   .filter(
     (e) =>
@@ -138,7 +143,7 @@ const posts = entries
       !EXCLUDED.has(e.name) &&
       // Newsletter URLs are already linked from sent emails. Never append an
       // am/pm slot or reschedule these folders alongside the editorial queue.
-      !e.name.startsWith("slushwire-weekly-") &&
+      !isNewsletterFolder(e.name) &&
       !e.name.startsWith(".") &&
       !e.name.startsWith("_"),
   )

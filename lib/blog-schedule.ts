@@ -12,9 +12,11 @@
  *   pm -> 18:00 America/New_York   (6:00pm, evening slot)
  *   no slot marker -> afternoon (15:00)
  *
- * SlushWire newsletter issues (`slushwire-weekly-<weekday>-MM-DD-YYYY`) go live
- * at 00:00 America/New_York on their date: the weekly pipeline publishes the page
- * Sunday morning and only arms the Kit send after confirming it is live.
+ * SlushWire newsletter issues go live at 00:00 America/New_York on their date
+ * (the pipeline only arms the Kit send after confirming the page is live):
+ *
+ *     slushwire-<weekday>-MM-DD-YYYY         daily edition (weekday of send date)
+ *     slushwire-weekly-<weekday>-MM-DD-YYYY  legacy weekly edition
  */
 
 export const PUBLISH_TIMEZONE = "America/New_York";
@@ -24,7 +26,14 @@ const SLOT_TIMES = {
 } as const;
 
 /** Newsletter folders: emails link here, so these never take an am/pm slot. */
-export const NEWSLETTER_PREFIX = "slushwire-weekly-";
+export const NEWSLETTER_PREFIX = "slushwire-";
+const NEWSLETTER_SLUG_RE =
+  /^slushwire-(?:weekly-[a-z]+|monday|tuesday|wednesday|thursday|friday|saturday|sunday)-\d{2}-\d{2}-\d{4}$/;
+
+/** True for daily (`slushwire-friday-10-23-2026`) and legacy weekly newsletter slugs. */
+export function isNewsletterSlug(folderName: string): boolean {
+  return NEWSLETTER_SLUG_RE.test(folderName);
+}
 const NEWSLETTER_TIME = { hour: 0, minute: 0 } as const;
 
 /** Trailing `-MM-DD-YYYY` with an optional `-am`/`-pm` slot. */
@@ -93,7 +102,7 @@ export function parsePublishInfo(folderName: string): PublishInfo {
   const [, mm, dd, yyyy, slotRaw] = match;
   const slot = (slotRaw?.toLowerCase() as "am" | "pm" | undefined) ?? "am";
   const time =
-    folderName.startsWith(NEWSLETTER_PREFIX) && !slotRaw
+    isNewsletterSlug(folderName) && !slotRaw
       ? NEWSLETTER_TIME
       : SLOT_TIMES[slot];
   const publishAt = zonedWallTimeToUtc(
