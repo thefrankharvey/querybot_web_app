@@ -1,0 +1,679 @@
+{
+  "schema_version": 2,
+  "mode": "final",
+  "web": {
+    "links_bound": true,
+    "path": "/blog/slushwire-sunday-10-18-2026",
+    "slug": "slushwire-sunday-10-18-2026",
+    "url": "https://www.writequeryhook.com/blog/slushwire-sunday-10-18-2026"
+  },
+  "context": {
+    "issue_id": "5c12eeb1-a966-486d-9c07-b1c8e5ee5ff2",
+    "issue_date": "2026-10-18",
+    "send_date": "2026-10-18",
+    "coverage_start": "2026-10-16",
+    "coverage_end": "2026-10-18",
+    "environment": "test",
+    "revision": 1
+  },
+  "counts": {
+    "qt": 8,
+    "pm": 1,
+    "reddit": 3,
+    "qcrit": 12,
+    "bluesky": 7,
+    "unique_agents": 8
+  },
+  "channels": {
+    "email": {
+      "counts": {
+        "qt": 8,
+        "pm": 1,
+        "reddit": 3,
+        "qcrit": 12,
+        "bluesky": 7,
+        "unique_agents": 8
+      },
+      "slots": [
+        {
+          "day": "2026-10-16",
+          "ids": {
+            "bluesky": [
+              "bluesky:9e431684-2356-4d7f-8a00-957d776681c5",
+              "bluesky:2a45476e-8af8-4835-9396-e41a7875fd00",
+              "bluesky:707feb9c-9ac6-4593-b543-977425abc63b"
+            ],
+            "pm": [
+              "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6"
+            ],
+            "qcrit": [
+              "reddit:4cc255ca-faf6-4764-bf39-73b74311fbdb",
+              "reddit:d7a52ea6-73ea-4737-be13-788dcceae17f",
+              "reddit:ebc10f26-f0fe-4d8e-b6d4-cf95ed372cf9",
+              "reddit:48784e21-a2a8-4843-9fbb-03e98c3543bc"
+            ],
+            "qt": [
+              "agents:4c5447b1-18b0-47ee-917c-92895bd04921",
+              "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6",
+              "agents:d8b5f907-fd57-45cc-8648-c899dbd27022",
+              "agents:ea50a146-dd52-4ad7-bd93-ca21f044891e"
+            ],
+            "reddit": [
+              "reddit:81af0267-cbcd-48d9-aca9-dab23db14baa",
+              "reddit:f2c4ac5f-b678-4770-9f3f-1e24ee47f8ba"
+            ]
+          }
+        },
+        {
+          "day": "2026-10-17",
+          "ids": {
+            "bluesky": [
+              "bluesky:efc838d3-5b29-4ca6-9935-aa0ed2688f0d",
+              "bluesky:92e4ad34-be46-4a8b-9d81-abf02698edef"
+            ],
+            "pm": [],
+            "qcrit": [
+              "reddit:9bd47e62-d67d-4829-8291-48d6bba7ddf4",
+              "reddit:869555f9-4093-4d54-9c9d-698352f6d6e4",
+              "reddit:068212c1-3561-4730-ac75-64de7db1a83d",
+              "reddit:98532c75-8d0c-4ca4-b35a-7764c090c31f"
+            ],
+            "qt": [
+              "agents:3a03c529-360d-4583-998a-a6ed907b0187",
+              "agents:5bc27bc5-a672-4056-846f-de5950c57252",
+              "agents:9a59d86a-7901-4894-b8ba-6a8dbb7add18",
+              "agents:bacb8b75-5f82-482e-b1ed-890a9a77e362"
+            ],
+            "reddit": [
+              "reddit:1f77b724-b2ca-4f68-be98-1eb83a9aac36"
+            ]
+          }
+        },
+        {
+          "day": "2026-10-18",
+          "ids": {
+            "bluesky": [
+              "bluesky:09382361-2ca6-4f6a-bd5e-d21a1eb56293",
+              "bluesky:786dace9-3fda-4a5f-ac04-86054de866f0"
+            ],
+            "pm": [],
+            "qcrit": [
+              "reddit:17647dfb-58f0-4288-8776-863dd1cf88c0",
+              "reddit:70391949-6149-4bf6-9771-e4b5ed3df9db",
+              "reddit:a493e4f7-a482-48d0-9c90-390ba2a32d19",
+              "reddit:5ed0aba4-fc7b-4cf6-8ccf-afffa17ecd8e"
+            ],
+            "qt": [],
+            "reddit": []
+          }
+        }
+      ],
+      "omitted": 0
+    },
+    "full": {
+      "counts": {
+        "qt": 8,
+        "pm": 1,
+        "reddit": 3,
+        "qcrit": 12,
+        "bluesky": 7,
+        "unique_agents": 8
+      },
+      "slots": [
+        {
+          "day": "2026-10-16",
+          "ids": {
+            "bluesky": [
+              "bluesky:9e431684-2356-4d7f-8a00-957d776681c5",
+              "bluesky:2a45476e-8af8-4835-9396-e41a7875fd00",
+              "bluesky:707feb9c-9ac6-4593-b543-977425abc63b"
+            ],
+            "pm": [
+              "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6"
+            ],
+            "qcrit": [
+              "reddit:4cc255ca-faf6-4764-bf39-73b74311fbdb",
+              "reddit:d7a52ea6-73ea-4737-be13-788dcceae17f",
+              "reddit:ebc10f26-f0fe-4d8e-b6d4-cf95ed372cf9",
+              "reddit:48784e21-a2a8-4843-9fbb-03e98c3543bc"
+            ],
+            "qt": [
+              "agents:4c5447b1-18b0-47ee-917c-92895bd04921",
+              "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6",
+              "agents:d8b5f907-fd57-45cc-8648-c899dbd27022",
+              "agents:ea50a146-dd52-4ad7-bd93-ca21f044891e"
+            ],
+            "reddit": [
+              "reddit:81af0267-cbcd-48d9-aca9-dab23db14baa",
+              "reddit:f2c4ac5f-b678-4770-9f3f-1e24ee47f8ba"
+            ]
+          }
+        },
+        {
+          "day": "2026-10-17",
+          "ids": {
+            "bluesky": [
+              "bluesky:efc838d3-5b29-4ca6-9935-aa0ed2688f0d",
+              "bluesky:92e4ad34-be46-4a8b-9d81-abf02698edef"
+            ],
+            "pm": [],
+            "qcrit": [
+              "reddit:9bd47e62-d67d-4829-8291-48d6bba7ddf4",
+              "reddit:869555f9-4093-4d54-9c9d-698352f6d6e4",
+              "reddit:068212c1-3561-4730-ac75-64de7db1a83d",
+              "reddit:98532c75-8d0c-4ca4-b35a-7764c090c31f"
+            ],
+            "qt": [
+              "agents:3a03c529-360d-4583-998a-a6ed907b0187",
+              "agents:5bc27bc5-a672-4056-846f-de5950c57252",
+              "agents:9a59d86a-7901-4894-b8ba-6a8dbb7add18",
+              "agents:bacb8b75-5f82-482e-b1ed-890a9a77e362"
+            ],
+            "reddit": [
+              "reddit:1f77b724-b2ca-4f68-be98-1eb83a9aac36"
+            ]
+          }
+        },
+        {
+          "day": "2026-10-18",
+          "ids": {
+            "bluesky": [
+              "bluesky:09382361-2ca6-4f6a-bd5e-d21a1eb56293",
+              "bluesky:786dace9-3fda-4a5f-ac04-86054de866f0"
+            ],
+            "pm": [],
+            "qcrit": [
+              "reddit:17647dfb-58f0-4288-8776-863dd1cf88c0",
+              "reddit:70391949-6149-4bf6-9771-e4b5ed3df9db",
+              "reddit:a493e4f7-a482-48d0-9c90-390ba2a32d19",
+              "reddit:5ed0aba4-fc7b-4cf6-8ccf-afffa17ecd8e"
+            ],
+            "qt": [],
+            "reddit": []
+          }
+        }
+      ]
+    }
+  },
+  "records": {
+    "agents:3a03c529-360d-4583-998a-a6ed907b0187": {
+      "agency": "Greyhound Literary",
+      "body": "Genres: crime, thriller, speculative fiction, science fiction, fantasy, epic fantasy, literary fiction, historical fiction (light research), action adventure, commercia…",
+      "comments": 0,
+      "key": "agents:3a03c529-360d-4583-998a-a6ed907b0187",
+      "occurred_at": "2026-10-17T14:02:29.823317+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "3a03c529-360d-4583-998a-a6ed907b0187",
+      "status": "closed",
+      "title": "Alexander Cochran",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/8697"
+    },
+    "agents:4c5447b1-18b0-47ee-917c-92895bd04921": {
+      "agency": "Andrea Brown Literary Agency",
+      "body": "Genres: picture book, chapter book, juvenile nonfiction, middle grade fiction, middle grade nonfiction, graphic novel, multicultural fiction, multicultural nonfiction,…",
+      "comments": 0,
+      "key": "agents:4c5447b1-18b0-47ee-917c-92895bd04921",
+      "occurred_at": "2026-10-16T14:02:29.721284+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "4c5447b1-18b0-47ee-917c-92895bd04921",
+      "status": "closed",
+      "title": "Sally Kim",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/16690"
+    },
+    "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6": {
+      "agency": "The Lark Group",
+      "body": "Genres: general fiction, mystery, suspense thriller, commercial fiction, literary fiction, chick lit, crime fiction, family saga, historical fiction, romance, womens fi…",
+      "comments": 0,
+      "key": "agents:5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6",
+      "occurred_at": "2026-10-16T14:02:29.721284+00:00",
+      "pm": true,
+      "qt": true,
+      "source": "agents",
+      "source_id": "5318fe84-41b9-4fb3-bc87-dcbf1cf1f3f6",
+      "status": "closed",
+      "title": "Abby Saul",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/6144"
+    },
+    "agents:5bc27bc5-a672-4056-846f-de5950c57252": {
+      "agency": "Nancy Yost Literary Agency",
+      "body": "Genres: middle grade fiction, commercial fiction, contemporary fiction, crime fiction, family saga, historical fiction, humor fiction, lgbtq fiction, literary fiction,…",
+      "comments": 0,
+      "key": "agents:5bc27bc5-a672-4056-846f-de5950c57252",
+      "occurred_at": "2026-10-17T14:02:29.823317+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "5bc27bc5-a672-4056-846f-de5950c57252",
+      "status": "QueryManager Form",
+      "title": "Natanya Wheeler",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/1861"
+    },
+    "agents:9a59d86a-7901-4894-b8ba-6a8dbb7add18": {
+      "agency": "Movable Type Management",
+      "body": "Genres: bookclub, commercial, crime, domestic thriller, family saga, historical, horror, lgbtq, literary, mystery, psychological thriller, speculative, thriller, upmark…",
+      "comments": 0,
+      "key": "agents:9a59d86a-7901-4894-b8ba-6a8dbb7add18",
+      "occurred_at": "2026-10-17T14:02:29.823317+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "9a59d86a-7901-4894-b8ba-6a8dbb7add18",
+      "status": "closed",
+      "title": "Ginger Hutchinson",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/19931"
+    },
+    "agents:bacb8b75-5f82-482e-b1ed-890a9a77e362": {
+      "agency": "Brandt & Hochman Literary Agents, Inc.",
+      "body": "Genres: mystery, literary fiction, juvenile nonfiction, general fiction, narrative nonfiction, fiction: debut, fiction: mystery crime, fiction: thriller, fiction: gener…",
+      "comments": 0,
+      "key": "agents:bacb8b75-5f82-482e-b1ed-890a9a77e362",
+      "occurred_at": "2026-10-17T14:02:29.823317+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "bacb8b75-5f82-482e-b1ed-890a9a77e362",
+      "status": "closed",
+      "title": "Marianne Merola",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/500"
+    },
+    "agents:d8b5f907-fd57-45cc-8648-c899dbd27022": {
+      "agency": "Starling Literary + Media",
+      "body": "Genres: adult fiction, action adventure, childrens, commercial fiction, family saga, fantasy, graphic novel, historical fiction, horror, humor, lgbtq fiction, literary…",
+      "comments": 0,
+      "key": "agents:d8b5f907-fd57-45cc-8648-c899dbd27022",
+      "occurred_at": "2026-10-16T14:02:29.721284+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "d8b5f907-fd57-45cc-8648-c899dbd27022",
+      "status": "closed",
+      "title": "Taj Mccoy",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/14117"
+    },
+    "agents:ea50a146-dd52-4ad7-bd93-ca21f044891e": {
+      "agency": "Howard Morhaim Literary Agency",
+      "body": "Genres: bipoc literature, childrens, commercial, contemporary, family saga, fantasy, general, gothic, graphic novel, historical, horror, humor, lgbtq fiction and nonfic…",
+      "comments": 0,
+      "key": "agents:ea50a146-dd52-4ad7-bd93-ca21f044891e",
+      "occurred_at": "2026-10-16T14:02:29.721284+00:00",
+      "pm": false,
+      "qt": true,
+      "source": "agents",
+      "source_id": "ea50a146-dd52-4ad7-bd93-ca21f044891e",
+      "status": "closed",
+      "title": "Kate Mckean",
+      "upvotes": 0,
+      "url": "https://querytracker.net/agent/825"
+    },
+    "bluesky:09382361-2ca6-4f6a-bd5e-d21a1eb56293": {
+      "agency": "pbsubmissions.bsky.social",
+      "body": "When an agent says, \"I'd love to see more,\" what does it REALLY mean? Do you send mss similar to the one you already sent or one that's completely different? What if your other manuscripts aren't ready? Get the free training today: www.picturebooksubmi...",
+      "comments": 0,
+      "key": "bluesky:09382361-2ca6-4f6a-bd5e-d21a1eb56293",
+      "occurred_at": "2026-10-18T16:15:34+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "09382361-2ca6-4f6a-bd5e-d21a1eb56293",
+      "status": "",
+      "title": "#QueryTip",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/pbsubmissions.bsky.social/post/3my5yul5ger24"
+    },
+    "bluesky:2a45476e-8af8-4835-9396-e41a7875fd00": {
+      "agency": "writequeryhook.bsky.social",
+      "body": "Weekly wisdom from the Query Shark 📖🦈: https://queryshark.blogspot.com/2016/10/ original content not ours but by queryshark.blogspot.com",
+      "comments": 0,
+      "key": "bluesky:2a45476e-8af8-4835-9396-e41a7875fd00",
+      "occurred_at": "2026-10-16T20:32:02.084956+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "2a45476e-8af8-4835-9396-e41a7875fd00",
+      "status": "",
+      "title": "#pubtips",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/writequeryhook.bsky.social/post/3mxzgbchrnw2j"
+    },
+    "bluesky:707feb9c-9ac6-4593-b543-977425abc63b": {
+      "agency": "kirkrafferty.com",
+      "body": "Found this over on Threads. Yet another scam \"agency,\" Chapter House Literary. Querying writers, always research who you're submitting your work to.",
+      "comments": 0,
+      "key": "bluesky:707feb9c-9ac6-4593-b543-977425abc63b",
+      "occurred_at": "2026-10-16T13:59:25.566000+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "707feb9c-9ac6-4593-b543-977425abc63b",
+      "status": "",
+      "title": "#writingcommunity",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/kirkrafferty.com/post/3mxyqdb5n3k2c"
+    },
+    "bluesky:786dace9-3fda-4a5f-ac04-86054de866f0": {
+      "agency": "pbsubmissions.bsky.social",
+      "body": "We're critiquing TEN picture book pitches LIVE! Will yours be one of them? Join our FREE Pitch Party on 10/20 at 8pm ET. Learn what makes a great #pbpitch and get tips to apply to your submissions right away! Sign up now: picturebooksubmissio...",
+      "comments": 0,
+      "key": "bluesky:786dace9-3fda-4a5f-ac04-86054de866f0",
+      "occurred_at": "2026-10-18T14:01:17+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "786dace9-3fda-4a5f-ac04-86054de866f0",
+      "status": "",
+      "title": "#QueryTip",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/pbsubmissions.bsky.social/post/3my5rehfkpu26"
+    },
+    "bluesky:92e4ad34-be46-4a8b-9d81-abf02698edef": {
+      "agency": "writequeryhook.bsky.social",
+      "body": "👽 Throwback to this r/PubTips gem: [Discussion] Got an Agent! 50% Request Rate, Stats &amp; Lea... https://www.reddit.com/r/PubTips/comments/1lniev6",
+      "comments": 0,
+      "key": "bluesky:92e4ad34-be46-4a8b-9d81-abf02698edef",
+      "occurred_at": "2026-10-17T19:17:01.970121+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "92e4ad34-be46-4a8b-9d81-abf02698edef",
+      "status": "",
+      "title": "#pubtips",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/writequeryhook.bsky.social/post/3my3sk4gjs52r"
+    },
+    "bluesky:9e431684-2356-4d7f-8a00-957d776681c5": {
+      "agency": "pbsubmissions.bsky.social",
+      "body": "Is your #pbpitch doing its job? Come to our FREE Pitch Party for a chance to get a Pitch Critique! On 10/20, we'll: ✦ Critique 10 pitches from live attendees ✦ Reveal what makes a great #pbpitch ✦ Share tips to apply to your submissions now picturebooksubmissio...",
+      "comments": 0,
+      "key": "bluesky:9e431684-2356-4d7f-8a00-957d776681c5",
+      "occurred_at": "2026-10-16T22:53:52+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "9e431684-2356-4d7f-8a00-957d776681c5",
+      "status": "",
+      "title": "#QueryTip",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/pbsubmissions.bsky.social/post/3mxzo6xnska2h"
+    },
+    "bluesky:efc838d3-5b29-4ca6-9935-aa0ed2688f0d": {
+      "agency": "writequeryhook.bsky.social",
+      "body": "REMINDER to querying writers - STUDY Query Shark 📖🦈: https://queryshark.blogspot.com/2011/03/ original content not ours but by queryshark.blogspot.com",
+      "comments": 0,
+      "key": "bluesky:efc838d3-5b29-4ca6-9935-aa0ed2688f0d",
+      "occurred_at": "2026-10-17T20:32:02.187463+00:00",
+      "pm": false,
+      "qt": false,
+      "source": "bluesky",
+      "source_id": "efc838d3-5b29-4ca6-9935-aa0ed2688f0d",
+      "status": "",
+      "title": "#pubtips",
+      "upvotes": 0,
+      "url": "https://bsky.app/profile/writequeryhook.bsky.social/post/3my3wqa6lqt2q"
+    },
+    "reddit:068212c1-3561-4730-ac75-64de7db1a83d": {
+      "agency": "",
+      "body": "Dear \\[agent name\\] I am seeking representation for BLACK CAT INN, a 60,000 word standalone literary fiction novel. It is a character driven love story about a young woman named Addie, told through the eyes of the men who fall for her. \\[Personalised agent section.\\] Ray’s best f…",
+      "comments": 9,
+      "key": "reddit:068212c1-3561-4730-ac75-64de7db1a83d",
+      "occurred_at": "2026-10-17",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "068212c1-3561-4730-ac75-64de7db1a83d",
+      "status": "",
+      "title": "[QCrit] BLACK CAT INN adult litfic, 60k words - attempt #1",
+      "upvotes": 4,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x8cbhi"
+    },
+    "reddit:17647dfb-58f0-4288-8776-863dd1cf88c0": {
+      "agency": "",
+      "body": "Hi all! I know this isn't where it needs to be but I'm having trouble figuring out where to start. Any advice/comments would be very appreciated! Dear (Agent), I am thrilled to share with you THE LILITH WITCH*,* an Adult Romantic Fantasy for readers who need a break from slow bur…",
+      "comments": 11,
+      "key": "reddit:17647dfb-58f0-4288-8776-863dd1cf88c0",
+      "occurred_at": "2026-10-18",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "17647dfb-58f0-4288-8776-863dd1cf88c0",
+      "status": "",
+      "title": "[QCRIT] - LILITH WITCH, Adult Romantasy 80k Words (1st attempt)",
+      "upvotes": 6,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x9escn"
+    },
+    "reddit:1f77b724-b2ca-4f68-be98-1eb83a9aac36": {
+      "agency": "",
+      "body": "\\[PubQ\\] There is only one publisher in the city near me (Aus) and they are opening to accept unsolicited manuscripts shortly. I’ve completed three manuscripts and cant decide which is best to put forward. Could I make three separate submissions via submittable? Theres nothing in…",
+      "comments": 11,
+      "key": "reddit:1f77b724-b2ca-4f68-be98-1eb83a9aac36",
+      "occurred_at": "2026-10-17",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "1f77b724-b2ca-4f68-be98-1eb83a9aac36",
+      "status": "",
+      "title": "[PubQ] Can I submit multiple manuscripts?",
+      "upvotes": 1,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7woiu"
+    },
+    "reddit:48784e21-a2a8-4843-9fbb-03e98c3543bc": {
+      "agency": "",
+      "body": "Hey guys! Thanks in advance for your thoughts. I think the main thing I’m not sure on is comps. I’m trying to look for something to signal the warm, domestic tone of the book and combine that with either the alien or storm speculative elements. The aliens in my novel are insect-a…",
+      "comments": 6,
+      "key": "reddit:48784e21-a2a8-4843-9fbb-03e98c3543bc",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "48784e21-a2a8-4843-9fbb-03e98c3543bc",
+      "status": "",
+      "title": "[QCrit] Comin’ Up A Cloud, Young Adult, Speculative, 62k, First Attempt",
+      "upvotes": 5,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7mzhr"
+    },
+    "reddit:4cc255ca-faf6-4764-bf39-73b74311fbdb": {
+      "agency": "",
+      "body": "Dear \\[Agent name\\], In April 2024 I was visiting my parents’ recently renovated house in the south of France when I noticed a mandible in one of the tiles of the living-room floor. I am a dentist, so I immediately knew I was looking at something extraordinary. I took some photos…",
+      "comments": 8,
+      "key": "reddit:4cc255ca-faf6-4764-bf39-73b74311fbdb",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "4cc255ca-faf6-4764-bf39-73b74311fbdb",
+      "status": "",
+      "title": "[QCrit] Narrative nonfiction — THE JAW IN THE FLOOR (50k, first attempt)",
+      "upvotes": 7,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7h01y"
+    },
+    "reddit:5ed0aba4-fc7b-4cf6-8ccf-afffa17ecd8e": {
+      "agency": "",
+      "body": "Hi folks, Would love some feedback! I've heard the general advice for romance queries is to have three-paragraphs with 1) protagonist state-of-the world, 2) love interest, 3) conflict &amp; stakes. I don't know if this really does that, but I was struggling to introduce the world…",
+      "comments": 4,
+      "key": "reddit:5ed0aba4-fc7b-4cf6-8ccf-afffa17ecd8e",
+      "occurred_at": "2026-10-18",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "5ed0aba4-fc7b-4cf6-8ccf-afffa17ecd8e",
+      "status": "",
+      "title": "[QCrit] SOUL SEARCH - Adult, Speculative Romantic Comedy (85k) - Attempt 1",
+      "upvotes": 8,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x8p22q"
+    },
+    "reddit:70391949-6149-4bf6-9771-e4b5ed3df9db": {
+      "agency": "",
+      "body": "Dear \\[ \\], **MIXED SIGNALS** is a complete, 70,000-word YA romantic comedy told in dual POV, set in the sound booth of Cypress High School’s spring musical. It will appeal to fans of the band-kid setting of Kristy Boyce’s *Rolls and Rivalry* and the rivals-to-lovers banter of Al…",
+      "comments": 6,
+      "key": "reddit:70391949-6149-4bf6-9771-e4b5ed3df9db",
+      "occurred_at": "2026-10-18",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "70391949-6149-4bf6-9771-e4b5ed3df9db",
+      "status": "",
+      "title": "[QCRIT] - MIXED SIGNALS, YA Rom-Com 70k Words (1st attempt)",
+      "upvotes": 11,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x9aowp"
+    },
+    "reddit:81af0267-cbcd-48d9-aca9-dab23db14baa": {
+      "agency": "",
+      "body": "So I wrote my first sci-fi novel, and now I'm not sure what to do with it. I'm aware that sci-fi is typically a \"meatier\" genre, since it requires worldbuilding, and readers usually tolerate a higher word count, but Google suggests not exceeding 120k, since it significantly hinde…",
+      "comments": 73,
+      "key": "reddit:81af0267-cbcd-48d9-aca9-dab23db14baa",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "81af0267-cbcd-48d9-aca9-dab23db14baa",
+      "status": "",
+      "title": "Word count goes past 120k. Where do we go from here?",
+      "upvotes": 37,
+      "url": "https://www.reddit.com/r/writing/comments/1x7kjlw"
+    },
+    "reddit:869555f9-4093-4d54-9c9d-698352f6d6e4": {
+      "agency": "",
+      "body": "Stacy is the most beautiful girl in the world, and Rob is the luckiest kid alive. They’ve been best friends since they were seven, fell in love at thirteen, and shared a childhood of self-taught guitars and sailing Pacific harbors. A shared future together felt completely inevita…",
+      "comments": 16,
+      "key": "reddit:869555f9-4093-4d54-9c9d-698352f6d6e4",
+      "occurred_at": "2026-10-17",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "869555f9-4093-4d54-9c9d-698352f6d6e4",
+      "status": "",
+      "title": "[QCrit]  HOOKLESS, Adult Upmarket Fiction, 110k words (Sixth Attempt)",
+      "upvotes": 2,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x803kt"
+    },
+    "reddit:98532c75-8d0c-4ca4-b35a-7764c090c31f": {
+      "agency": "",
+      "body": "Dear Agent, Angela Dunley never felt intimacy until she drank a man’s blood. Working at a local gym, she spends her days surrounded by beautiful men she’s convinced would never be interested in a bigger woman like herself. At thirty-five and certain her body makes her unlovable,…",
+      "comments": 6,
+      "key": "reddit:98532c75-8d0c-4ca4-b35a-7764c090c31f",
+      "occurred_at": "2026-10-17",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "98532c75-8d0c-4ca4-b35a-7764c090c31f",
+      "status": "",
+      "title": "[QCrit] Adult Psychological Horror - ALL THAT PRETTY FLESH (70K/Second attempt)",
+      "upvotes": 6,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7w627"
+    },
+    "reddit:9bd47e62-d67d-4829-8291-48d6bba7ddf4": {
+      "agency": "",
+      "body": "Alright, after my last post about getting zero requests, I’m putting my query letter up for criticism one more time 🙈 I hope you will enjoy my adult, queer fantasy novel THEY WHO KNOW THE OAK, complete at 100,000 words. I believe it will appeal to fans of *Blood Over Bright Haven…",
+      "comments": 16,
+      "key": "reddit:9bd47e62-d67d-4829-8291-48d6bba7ddf4",
+      "occurred_at": "2026-10-17",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "9bd47e62-d67d-4829-8291-48d6bba7ddf4",
+      "status": "",
+      "title": "[QCrit] They Who Know The Oak, Adult Fantasy, 100K (3rd Attempt)",
+      "upvotes": 6,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x8bccq"
+    },
+    "reddit:a493e4f7-a482-48d0-9c90-390ba2a32d19": {
+      "agency": "",
+      "body": "I'm back with a modified title after receiving beta feedback that my original title (*Sweet Everythings*) could be misconstrued as a straight-up romance. My first 300 words haven't changed much from [my fifth attempt](https://www.reddit.com/r/PubTips/comments/1wwyo4i/qcrit_commer…",
+      "comments": 11,
+      "key": "reddit:a493e4f7-a482-48d0-9c90-390ba2a32d19",
+      "occurred_at": "2026-10-18",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "a493e4f7-a482-48d0-9c90-390ba2a32d19",
+      "status": "",
+      "title": "[QCrit] Commercial Contemporary Women's Fiction – SCREAMING SWEET EVERYTHINGS (83k words, Sixth Attempt)",
+      "upvotes": 5,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x9a6v9"
+    },
+    "reddit:d7a52ea6-73ea-4737-be13-788dcceae17f": {
+      "agency": "",
+      "body": "Hi all! Gearing up to query for the 1st time (unless I chicken out). All feedback is appreciated. Please, be brutally honest. Not sure whether to pitch this as New Adult or Adult. First 300 included for style, which I think leans quite NA? Dear \\[agent\\], A subverted take on grim…",
+      "comments": 10,
+      "key": "reddit:d7a52ea6-73ea-4737-be13-788dcceae17f",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "d7a52ea6-73ea-4737-be13-788dcceae17f",
+      "status": "",
+      "title": "[QCrit] BETTER AFTER, New Adult Spec Romance, 67k, 1st Attempt",
+      "upvotes": 3,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7kdpo"
+    },
+    "reddit:ebc10f26-f0fe-4d8e-b6d4-cf95ed372cf9": {
+      "agency": "",
+      "body": "Thank you in advance and I will try to return the favor to anyone who has an active query posted! Dear Agent, ONCE AND FUTURE FATE is an upper young adult fantasy complete at 92,000 words. It is a high adventure Arthurian retelling from Morgan's perspective. Seventeen-year-old Mo…",
+      "comments": 8,
+      "key": "reddit:ebc10f26-f0fe-4d8e-b6d4-cf95ed372cf9",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "ebc10f26-f0fe-4d8e-b6d4-cf95ed372cf9",
+      "status": "",
+      "title": "[qcrit] Once and Future Fate, YA Arthurian Fantasy, 92k, first attempt",
+      "upvotes": 4,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7q7uk"
+    },
+    "reddit:f2c4ac5f-b678-4770-9f3f-1e24ee47f8ba": {
+      "agency": "",
+      "body": "I know the convention is to nudge with offer and deadline, but I'm getting strong advice from a very reputable agent friend (long story) that it's totally fine to nudge and let everyone know a call is requested/scheduled. Then, if it turns into an offer, nudge again with deadline…",
+      "comments": 4,
+      "key": "reddit:f2c4ac5f-b678-4770-9f3f-1e24ee47f8ba",
+      "occurred_at": "2026-10-16",
+      "pm": false,
+      "qt": false,
+      "source": "reddit",
+      "source_id": "f2c4ac5f-b678-4770-9f3f-1e24ee47f8ba",
+      "status": "",
+      "title": "[PubQ] Nudging on call request - before actual offer?",
+      "upvotes": 2,
+      "url": "https://www.reddit.com/r/PubTips/comments/1x7druy"
+    }
+  },
+  "quote": {
+    "author": "Ernest Hemingway",
+    "key": "author_quotes:0313181a-cf1c-4669-9487-c5c7875c1426",
+    "source": "author_quotes",
+    "source_id": "0313181a-cf1c-4669-9487-c5c7875c1426",
+    "text": "I love sleep. My life has the tendency to fall apart when I'm awake, you know",
+    "title": "",
+    "url": ""
+  },
+  "bonus": [
+    {
+      "author": "",
+      "key": "query_shark_links:30876adf-bbe8-4c40-b17b-660cf2c2ce76",
+      "source": "query_shark_links",
+      "source_id": "30876adf-bbe8-4c40-b17b-660cf2c2ce76",
+      "text": "",
+      "title": "Query Shark: June",
+      "url": "https://queryshark.blogspot.com/2008/06/"
+    },
+    {
+      "author": "",
+      "key": "reddit_top_200_posts:aaf53a56-456f-41d2-a9c4-e9410c8e5bd2",
+      "source": "reddit_top_200_posts",
+      "source_id": "aaf53a56-456f-41d2-a9c4-e9410c8e5bd2",
+      "text": "Spilling this here because I don't have many writer friends in real life. After sending right over 170 queries since November 2023, a fiction editor of a LARGE publisher, (one who almost always requires an agent to even consider your manuscript) personally reached out and asked m…",
+      "title": "Reddit: [Discussion] After 9 months of querying, I finally had a breakthrough. Don't give up.",
+      "url": "https://www.reddit.com/r/PubTips/comments/1f44yjn"
+    }
+  ]
+}

@@ -60,3 +60,32 @@ test("regular posts keep the 15:00 / 18:00 slots", () => {
 test("drafts stay hidden", () => {
   assert.equal(s.isBlogPublished("slushwire-weekly-sunday-10-18-2026", { status: "draft" }, new Date("2026-10-19T00:00:00Z")), false);
 });
+
+function loadFormat() {
+  const filePath = resolve(root, "components/slushwire/format.ts");
+  const output = ts.transpileModule(readFileSync(filePath, "utf8"), {
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
+    fileName: filePath,
+  }).outputText;
+  const mod = { exports: {} };
+  vm.runInNewContext(output, { exports: mod.exports, module: mod });
+  return mod.exports;
+}
+
+test("coverage range formatting", () => {
+  const { formatCoverageRange: f } = loadFormat();
+  assert.equal(f("2026-10-23", "2026-10-23"), "Oct 23, 2026");
+  assert.equal(f("2026-10-21", "2026-10-23"), "Oct 21–23, 2026");
+  assert.equal(f("2026-10-30", "2026-11-01"), "Oct 30 – Nov 1, 2026");
+  assert.equal(f("2026-12-31", "2027-01-01"), "Dec 31, 2026 – Jan 1, 2027");
+});
+
+test("v2 fixture is internally consistent", () => {
+  const issue = JSON.parse(readFileSync(resolve(root, "tests/fixtures/slushwire-v2.json"), "utf8"));
+  assert.equal(issue.schema_version, 2);
+  assert.equal("iso_week" in issue.context, false);
+  const days = issue.channels.full.slots.map((x) => x.day);
+  assert.deepEqual(days, ["2026-10-16", "2026-10-17", "2026-10-18"]);
+  for (const slot of issue.channels.full.slots)
+    for (const keys of Object.values(slot.ids)) for (const k of keys) assert.ok(issue.records[k], k);
+});

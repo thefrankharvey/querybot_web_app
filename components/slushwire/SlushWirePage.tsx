@@ -2,7 +2,8 @@ import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { JsonLdScript, SITE_LOGO, SITE_NAME, absoluteUrl } from '@/lib/seo';
 import CopyButton from './CopyButton';
-import type { Category, Edition, Item, SlushWireIssue } from './types';
+import { formatCoverageRange } from './format';
+import type { Category, Channel, Edition, Item, SlushWireIssue } from './types';
 import './slushwire.css';
 
 // Same section order and labels as the email and the WordPress-era posts.
@@ -99,8 +100,9 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
   edition?: Edition;
   subscribeUrl?: string;
 }) {
-  const channel = issue.channels[edition];
-  if (issue.schema_version !== 1 || !channel) throw new Error('Unsupported SlushWire issue');
+  if (issue.schema_version !== 1 && issue.schema_version !== 2) throw new Error('Unsupported SlushWire issue');
+  const channel = (issue.channels as Record<string, Channel | undefined>)[edition];
+  if (!channel) throw new Error('Unsupported SlushWire issue');
   const record = (key: string) => {
     const item = issue.records[key];
     if (!item) throw new Error(`SlushWire selection references missing record: ${key}`);
@@ -108,16 +110,24 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
   };
   const picked = (category: Category) => channel.slots.flatMap(slot => slot.ids[category].map(record));
 
-  const { counts, context } = issue;
-  const title = `SlushWire Weekly #${context.iso_week} - ${longDate(context.issue_date)}`;
+  const { counts } = issue;
+  const v2 = issue.schema_version === 2;
+  const publishedDay = issue.schema_version === 2 ? issue.context.send_date : issue.context.issue_date;
+  const range = issue.schema_version === 2
+    ? formatCoverageRange(issue.context.coverage_start, issue.context.coverage_end) : '';
+  const title = issue.schema_version === 2
+    ? `SlushWire \u2013 ${range}`
+    : `SlushWire Weekly #${issue.context.iso_week} - ${longDate(issue.context.issue_date)}`;
+  const citationYear = issue.schema_version === 2 ? publishedDay.slice(0, 4) : issue.context.iso_year;
+  const { context } = issue;
   const url = issue.web.url;
   const subscribeHref = subscribeUrl ? publicLink(subscribeUrl) : undefined;
   const alerts = counts.qt + counts.pm + counts.reddit + counts.qcrit + counts.bluesky;
   const openAgents = picked('qt').filter(item => !isClosed(item));
   const description = `${openAgents.length} literary agents open to submissions + ${counts.qt + counts.pm - openAgents.length} more, `
     + `${counts.qcrit} query critiques, ${counts.reddit + counts.bluesky} writing posts. Intel for writers in the query trenches.`;
-  const shareText = `This week's SlushWire: ${openAgents.length} literary agents open to queries + query critiques & writing community updates`;
-  const citation = `Harvey, F. (${context.iso_year}). ${title}. ${SITE_NAME}. Retrieved from ${url}`;
+  const shareText = `${v2 ? "Today's" : "This week's"} SlushWire: ${openAgents.length} literary agents open to queries + query critiques & writing community updates`;
+  const citation = `Harvey, F. (${citationYear}). ${title}. ${SITE_NAME}. Retrieved from ${url}`;
 
   const top = (category: Category) => [...picked(category)].sort((a, b) => engagement(b) - engagement(a))[0];
   const takeaways = [
@@ -140,14 +150,14 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: title,
-    alternativeHeadline: `Week #${context.iso_week}: ${counts.qt} Submission Status Updates + ${counts.qcrit} Query Critiques`,
+    alternativeHeadline: `${v2 ? '' : `Week #${issue.context.iso_week}: `}${counts.qt} Submission Status Updates + ${counts.qcrit} Query Critiques`,
     description,
-    articleBody: `This week's SlushWire features ${openAgents.length} literary agents accepting new queries, `
+    articleBody: `${v2 ? 'This edition of' : "This week's"} SlushWire features ${openAgents.length} literary agents accepting new queries, `
       + `${counts.unique_agents} agent updates, ${counts.qcrit} query letter critiques from the community, `
       + `${counts.reddit} Reddit publishing discussions, and ${counts.bluesky} Bluesky writing community posts.`,
     url,
     image: absoluteUrl('/slushwire-weekly.png'),
-    datePublished: context.issue_date,
+    datePublished: publishedDay,
     inLanguage: 'en-US',
     articleSection: 'Publishing Industry',
     keywords: ['literary agents open to submissions', 'literary agents accepting queries', 'query letter critiques',
@@ -156,7 +166,7 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
     publisher: { '@type': 'Organization', name: SITE_NAME, logo: { '@type': 'ImageObject', url: SITE_LOGO } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     isAccessibleForFree: true,
-    isPartOf: { '@type': 'Periodical', name: 'SlushWire Weekly' },
+    isPartOf: { '@type': 'Periodical', name: v2 ? 'SlushWire' : 'SlushWire Weekly' },
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.sw-takeaways', '.sw-summary', 'h1'] },
   };
   const breadcrumbJsonLd = {
@@ -204,7 +214,7 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
         <header className="sw-header">
           <h1 itemProp="headline">{title}</h1>
           <p className="sw-meta">
-            <time itemProp="datePublished" dateTime={context.issue_date}>Published: {longDate(context.issue_date)}</time>{' '}
+            <time itemProp="datePublished" dateTime={publishedDay}>Published: {longDate(publishedDay)}</time>{' '}
             <span itemProp="author" itemScope itemType="https://schema.org/Organization">by <span itemProp="name">{SITE_NAME}</span></span>
           </p>
           {issue.quote && <p className="sw-quote">“{issue.quote.text}”<br />— {issue.quote.author}</p>}
@@ -222,13 +232,15 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
           <section className="sw-takeaways" aria-labelledby="sw-takeaways-heading">
             <h2 id="sw-takeaways-heading">Key Takeaways</h2>
             <ul>
-              <li><strong>{alerts} alerts</strong> sent to querying writers this week ({longDate(context.issue_date)})</li>
+              <li>{v2
+                ? <><strong>{alerts} alerts</strong> sent to querying writers in this edition ({range})</>
+                : <><strong>{alerts} alerts</strong> sent to querying writers this week ({longDate(context.issue_date)})</>}</li>
               {takeaways.map(t => <li key={t.label}><strong>{t.label}:</strong> {takeawayText(t.item)}</li>)}
             </ul>
           </section>
         )}
 
-        <section className="sw-summary" aria-label="Weekly summary">
+        <section className="sw-summary" aria-label={v2 ? 'Edition summary' : 'Weekly summary'}>
           <h2 className="sw-alerts">ALERTS: {alerts}</h2>
           <div className="sw-summary-row">
             {summary.map(s => (
@@ -273,7 +285,7 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
         )}
 
         <section className="sw-share" aria-label="Share this article">
-          <h3>Share this week&apos;s intel with fellow writers</h3>
+          <h3>{v2 ? "Share this edition's intel with fellow writers" : "Share this week's intel with fellow writers"}</h3>
           <div>
             <a className="sw-share-x" href={`https://twitter.com/intent/tweet?text=${share}&url=${link}&via=writequeryhook`} target="_blank" rel="noopener noreferrer" aria-label="Share on X (Twitter)">Post on X</a>
             <a className="sw-share-bsky" href={`https://bsky.app/intent/compose?text=${share}%20${link}`} target="_blank" rel="noopener noreferrer" aria-label="Share on Bluesky">Post on Bluesky</a>
@@ -286,14 +298,14 @@ export default function SlushWirePage({ issue, edition = 'full', subscribeUrl }:
         {subscribeHref && (
           <section className="sw-signup" aria-label="Subscribe">
             <h2>Get our free newsletter.</h2>
-            <p>SlushWire lands in your inbox every Sunday: agent openings, query critiques and publishing conversations.</p>
+            <p>SlushWire lands in your inbox {v2 ? 'every day' : 'every Sunday'}: agent openings, query critiques and publishing conversations.</p>
             <a className="sw-button" href={subscribeHref}>Subscribe to SlushWire</a>
           </section>
         )}
 
         <p className="sw-passiton">
           Love SlushWire?{' '}
-          <a href={`mailto:?subject=${encodeURIComponent('Check out SlushWire!')}&body=${encodeURIComponent(`Get free weekly publishing industry intel: ${url}`)}`}>
+          <a href={`mailto:?subject=${encodeURIComponent('Check out SlushWire!')}&body=${encodeURIComponent(`Get free ${v2 ? '' : 'weekly '}publishing industry intel: ${url}`)}`}>
             Pass it on to help a fellow writer
           </a>! Feedback: <a href="mailto:feedback@writequeryhook.com">feedback@writequeryhook.com</a>
         </p>

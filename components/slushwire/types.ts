@@ -27,14 +27,27 @@ export interface OptionalItem {
 }
 export interface Slot { day: string; ids: Record<Category, string[]> }
 export interface Channel { counts: Counts; slots: Slot[] }
-export interface SlushWireIssue {
-  schema_version: 1;
+interface SlushWireIssueBase {
   mode: 'preview' | 'final';
   web: { slug: string; path: string; url: string; links_bound: boolean };
-  context: { issue_id: string; issue_date: string; iso_week: number; iso_year: number; environment: string; revision: number };
   counts: Counts;
-  channels: { email: Channel; full: Channel; page?: Channel };
   records: Record<string, Item>;
   quote: OptionalItem | null;
   bonus: OptionalItem[];
 }
+/** Weekly edition (legacy pages). */
+export interface SlushWireIssueV1 extends SlushWireIssueBase {
+  schema_version: 1;
+  context: { issue_id: string; issue_date: string; iso_week: number; iso_year: number; environment: string; revision: number };
+  channels: { email: Channel; full: Channel; page?: Channel };
+}
+/** Daily edition: issue_date is the send date; coverage is the inclusive day range shown. */
+export interface SlushWireIssueV2 extends SlushWireIssueBase {
+  schema_version: 2;
+  context: {
+    issue_id: string; issue_date: string; send_date: string;
+    coverage_start: string; coverage_end: string; environment: string; revision: number;
+  };
+  channels: { email: Channel & { omitted: number }; full: Channel };
+}
+export type SlushWireIssue = SlushWireIssueV1 | SlushWireIssueV2;
