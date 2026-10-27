@@ -1,5 +1,7 @@
 "use client";
 
+import { resultSetQuery } from "@/lib/agent-search-v2";
+
 import { getSmartMatchSaveProjectId } from "@/app/utils/smart-match-projects";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 
@@ -9,6 +11,7 @@ import {
   AgentMatch,
 } from "../../context/agent-matches-context";
 import { useMutation } from "@tanstack/react-query";
+import { toast } from "sonner";
 import { QUERY_LIMIT } from "@/app/constants";
 import {
   Pagination,
@@ -108,7 +111,7 @@ export const AgentMatchesFull = ({
       const countryQuery = countryParam ? `&country_code=${countryParam}` : "";
 
       const res = await fetch(
-        `/api/get-agents-paid?last_index=${params.nextCursor}${statusQuery}${countryQuery}`,
+        `/api/get-agents-paid?last_index=${params.nextCursor}${statusQuery}${countryQuery}${resultSetQuery(params.formData.result_set_id, params.refreshExport)}`,
         {
           method: "POST",
           headers: {
@@ -119,7 +122,8 @@ export const AgentMatchesFull = ({
       );
 
       if (!res.ok) {
-        throw new Error(`Request failed: ${res.status}`);
+        const error = await res.json().catch(() => null);
+        throw new Error(res.status === 410 ? "Results expired. Run a new search." : error?.message ?? `Request failed: ${res.status}`);
       }
       const data = await res.json();
       return data;
@@ -132,6 +136,7 @@ export const AgentMatchesFull = ({
     },
 
     onSuccess: (data, params) => {
+      saveCurrentCursor(params.nextCursor);
       const nextTotal =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -150,6 +155,7 @@ export const AgentMatchesFull = ({
           saveFormData({
             ...formData,
             writer_project_id: data.writer_project_id,
+            result_set_id: data.result_set_id,
           });
       }
 
@@ -157,9 +163,7 @@ export const AgentMatchesFull = ({
         saveMatches(data.matches);
       }
 
-      if (data.next_cursor !== null) {
-        saveNextCursor(data.next_cursor);
-      }
+      saveNextCursor(typeof data.next_cursor === "number" ? data.next_cursor : -1);
 
       if (params.refreshExport) {
         handleAgentExportResponse(data);
@@ -167,6 +171,7 @@ export const AgentMatchesFull = ({
     },
     onError: (error, params) => {
       console.error(error);
+      toast.error(error.message);
       if (params.refreshExport) {
         failSpreadsheetExport(
           "The filtered results could not be prepared for Excel.",
@@ -176,8 +181,7 @@ export const AgentMatchesFull = ({
   });
 
   const handleNextPage = () => {
-    if (formData) {
-      saveCurrentCursor(nextCursor);
+    if (formData && nextCursor >= 0 && !queryMutation.isPending) {
       queryMutation.mutate({
         formData,
         nextCursor: nextCursor,
@@ -190,9 +194,8 @@ export const AgentMatchesFull = ({
   };
 
   const handlePreviousPage = () => {
-    if (formData) {
+    if (formData && currentCursor > 0 && !queryMutation.isPending) {
       const updatedCursor = currentCursor - QUERY_LIMIT;
-      saveCurrentCursor(updatedCursor);
       queryMutation.mutate({
         formData,
         nextCursor: updatedCursor,
@@ -304,11 +307,11 @@ export const AgentMatchesFull = ({
           <PaginationItem>
             <PaginationNext
               onClick={handleNextPage}
-              aria-disabled={matches.length < QUERY_LIMIT}
-              tabIndex={matches.length < QUERY_LIMIT ? -1 : 0}
+              aria-disabled={nextCursor < 0 || matches.length < QUERY_LIMIT}
+              tabIndex={nextCursor < 0 || matches.length < QUERY_LIMIT ? -1 : 0}
               style={{
-                pointerEvents: matches.length < QUERY_LIMIT ? "none" : "auto",
-                opacity: matches.length < QUERY_LIMIT ? 0.5 : 1,
+                pointerEvents: nextCursor < 0 || matches.length < QUERY_LIMIT ? "none" : "auto",
+                opacity: nextCursor < 0 || matches.length < QUERY_LIMIT ? 0.5 : 1,
               }}
             />
           </PaginationItem>

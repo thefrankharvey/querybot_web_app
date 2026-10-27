@@ -99,10 +99,9 @@ const SmartMatchBlock = () => {
           >
             {(() => {
               const mockData = displayCardMocks[index % displayCardMocks.length];
-              const openAgent = { ...match, status: "open" };
               return (
                 <DisplayAgentCards
-                  agent={openAgent}
+                  agent={match}
                   index={index}
                   id={`agent-${index}`}
                   isLoading={false}

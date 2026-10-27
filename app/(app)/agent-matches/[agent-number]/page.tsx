@@ -14,7 +14,7 @@ export default function AgentProfile() {
   const matchesContext = useAgentMatches();
   const index = Number(params["agent-number"]);
   const cachedAgent = matchesContext.matches[index];
-  const { data: details, isFetching: isRefreshingDetails, error: detailError } = useFetchAgent(cachedAgent?.agent_id ?? null);
+  const { data: details, isFetching: isRefreshingDetails, error: detailError } = useFetchAgent(cachedAgent?.ranking_version ? null : cachedAgent?.agent_id ?? null);
   const agent = cachedAgent ? {
     ...cachedAgent, ...details?.agent,
     score: cachedAgent.score, normalized_score: cachedAgent.normalized_score,

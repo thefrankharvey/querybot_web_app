@@ -17,7 +17,7 @@ function load(path, mocks = {}, globals = {}) {
   return loadedModule.exports;
 }
 const helpers = load("lib/agent-vocabulary.ts");
-const sections = load("app/components/agent-vocabulary-sections.tsx", { "@/lib/agent-vocabulary": helpers });
+const sections = load("app/components/agent-vocabulary-sections.tsx", { "@/lib/agent-vocabulary": helpers, "@/app/components/tooltip": ({ children }) => children });
 const trait = { trait_id: "sf", trait_type: "genre", canonical_value: "science-fiction", display_value: "Science Fiction" };
 const vocabulary = { version: 1, build_id: "build-one", workspace_id: "workspace-one", submission_status: null,
   trait_details: { genres: [trait], audiences: [{ ...trait, trait_id: "ya", display_value: "Young Adult" }] },
@@ -82,7 +82,7 @@ test("profiles display Themes only when there is more than one theme", () => {
   }
 });
 
-test("negatives are one deduplicated bubble list and one collapsed paragraph with complete exceptions", () => {
+test("negatives show deduplicated badges and visible wording with complete exceptions", () => {
   const exception = "No adult science fiction, but YA is welcome.";
   const second = "No fantasy, poetry, or short stories.";
   const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, {
@@ -100,22 +100,24 @@ test("negatives are one deduplicated bubble list and one collapsed paragraph wit
   assert.equal((negatives.match(/<span\b/g) ?? []).length, 2);
   assert.match(negatives, /data-conditional="true"/);
   assert.match(negatives, /title="Conditions apply\. No adult science fiction, but YA is welcome\."/);
-  assert.equal((negatives.match(/<details>/g) ?? []).length, 1);
-  assert.ok(!negatives.includes("<details open"));
-  assert.match(negatives, /<summary[^>]*>More details<\/summary><p[^>]*>No adult science fiction, but YA is welcome\. No fantasy, poetry, or short stories\.<\/p>/);
+  assert.ok(!negatives.includes("<details"));
+  assert.ok(!negatives.includes("No exclusions listed"));
+  assert.match(negatives, /<p[^>]*>No adult science fiction, but YA is welcome\. No fantasy, poetry, or short stories\.<\/p>/);
   for (const removed of ["Exclusions", "rounded-xl", "<ul", "<li", "Original preference statements", "Preference details"]) {
     assert.ok(!negatives.includes(removed), removed);
   }
 });
 
-test("a qualifier supplied separately from its negative clause stays in the expanded paragraph", () => {
+test("a refusal without badges shows its separate qualifier and no empty message", () => {
   const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, {
     vocabulary: { ...vocabulary, raw_negative_statements: [], negative_preferences: [],
       negative_clauses: [{ clause_id: "qualified", raw_value: "No fantasy.", qualifier_text: "Unless it is for young adults.", status: "qualified", effect: "refuse" }],
     },
   }));
-  assert.match(html, /<summary[^>]*>More details<\/summary><p[^>]*>No fantasy\. Unless it is for young adults\.<\/p>/);
+  assert.match(html, /<p[^>]*>No fantasy\. Unless it is for young adults\.<\/p>/);
   assert.ok(!html.includes(">Fantasy</span>"));
+  assert.ok(!html.includes("No exclusions listed"));
+  assert.ok(!html.includes("<details"));
 });
 
 test("statement paragraphs preserve independent wording and do not confuse substrings with complete fragments", () => {
@@ -169,7 +171,7 @@ test("ordinary detail reads need no history token, and failed authentication pre
 });
 
 
-function renderCard(traitMatches, overrides = {}) {
+function renderCard(traitMatches, overrides = {}, options = {}) {
   const wrapper = ({ children }) => React.createElement("div", null, children);
   const { AgentMatchCard } = load("app/(app)/agent-matches/components/agent-match-card.tsx", {
     "@/app/components/agent-vocabulary-sections": sections,
@@ -184,14 +186,15 @@ function renderCard(traitMatches, overrides = {}) {
     "@/app/(app)/context/profile-context": { useProfileContext: () => ({ agentsList: [] }) },
     "@/lib/agent-vocabulary": helpers,
     "@/app/ui-primitives/spinner": { Spinner: () => null },
+    "@/app/components/agent-save-button": { AgentSaveButton: () => React.createElement("button", null, "Save Agent") },
     "@/app/constants": { ALL_COUNTRY_FLAG_LABELS: {}, DEFAULT_PROJECT_NAME: "Untitled Project" },
-    "@/app/components/fit-rating-badge": { FitRatingBadge: () => null, getFitRatingFromScore: () => "Perfect Fit" },
+    "@/app/components/fit-rating-badge": load("app/components/fit-rating-badge.tsx", { "@/app/utils": { cn: (...values) => values.filter(Boolean).join(" ") } }),
   });
   return renderToStaticMarkup(React.createElement(AgentMatchCard, {
     agent: { id: "adam", agent_id: "adam", name: "Adam Gauntlett", agency: "Agency", normalized_score: 4.8,
       genres: "Commercial fiction, contemporary, historical fiction", favorites: "FAVORITES FALLBACK MUST NOT APPEAR",
       trait_matches: traitMatches, match_hits: { direct: { genres: ["legacy genre"] } }, ...overrides },
-    index: 0, id: "card-adam", isLoading: false, isSubscribed: true,
+    index: 0, id: "card-adam", isLoading: false, isSubscribed: true, ...options,
   }));
 }
 
@@ -267,4 +270,117 @@ test("card and profile share the canonical badge even when legacy status disagre
   const missing = renderCard(matches, { status: "Open" });
   assert.ok(missing.includes("Unknown Status"));
   assert.ok(!missing.includes("Open to Submissions"));
+});
+
+test("v2 result cards retain the original badges and free access limit", () => {
+  const agent = { ranking_version: "manuscript-fit-v2.1", fit_rating: "Core interests supported",
+    match_explanation: [{ kind: "explicit", explanation: "Seeks science fiction." }] };
+  const available = renderCard(matches, agent, { index: 5, isSubscribed: false });
+  assert.ok(available.includes("/agent-matches/5"));
+  assert.ok(available.includes("Perfect Fit"));
+  assert.ok(!available.includes("Core interests supported"));
+  assert.ok(!available.includes("Why this match"));
+  for (const index of [6, 8]) {
+    assert.ok(renderCard(matches, agent, { index, isSubscribed: false }).includes('href="#"'));
+  }
+  assert.ok(renderCard(matches, agent, { index: 8, isSubscribed: true }).includes("/agent-matches/8"));
+});
+
+
+test("saved raw refusal sentences stay visible without trait links and escape source markup", () => {
+  const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, {
+    vocabulary: { ...vocabulary, negative_preferences: [], negative_clauses: [],
+      raw_negative_statements: ["No fantasy unless it is humorous <script>source text</script>."] },
+  }));
+  assert.match(html, /No fantasy unless it is humorous &lt;script&gt;source text&lt;\/script&gt;\./);
+  assert.ok(!html.includes("<script>"));
+  assert.ok(!html.includes("No exclusions listed"));
+  assert.ok(!html.includes("<details"));
+});
+
+test("each separately saved qualifier stays attached to its own refusal", () => {
+  const paragraph = helpers.negativeStatementParagraph({ ...vocabulary,
+    raw_negative_statements: ["No fantasy.", "No horror."], negative_preferences: [],
+    negative_clauses: [
+      { clause_id: "fantasy", raw_value: "No fantasy.", qualifier_text: "Unless it is humorous.", status: "qualified", effect: "refusal" },
+      { clause_id: "horror", raw_value: "No horror.", qualifier_text: "Unless it is humorous.", status: "qualified", effect: "refusal" },
+    ],
+  });
+  assert.equal(paragraph, "No fantasy. Unless it is humorous. No horror. Unless it is humorous.");
+});
+
+test("reviewed submission instructions and context are not displayed as refusal statements", () => {
+  const currentVocabulary = { ...vocabulary, negative_preferences: [],
+    raw_negative_statements: ["Closed to submissions, do not send attachments", "NOT DEAD by Dana Stabenow", "No response means no offer."],
+    negative_clauses: [
+      { clause_id: "closed", raw_value: "Closed to submissions", status: "nontrait", effect: "refusal" },
+      { clause_id: "attachments", raw_value: "do not send attachments", status: "nontrait", effect: "nontrait" },
+      { clause_id: "title", raw_value: "NOT DEAD by Dana Stabenow", status: "nontrait", effect: "context" },
+      { clause_id: "response", raw_value: "No response means no offer.", qualifier_text: "unless requested", status: "nontrait", effect: "refusal" },
+    ],
+  };
+  assert.equal(helpers.negativeStatementParagraph(currentVocabulary), "");
+  const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, { vocabulary: currentVocabulary }));
+  assert.ok(html.includes("No exclusions listed"));
+  for (const text of currentVocabulary.raw_negative_statements) assert.ok(!html.includes(text));
+});
+
+test("complete mixed source wording and unclassified sentences survive reviewed context filtering", () => {
+  const source = "No adult fantasy, except YA fantasy; do not send attachments.";
+  const paragraph = helpers.negativeStatementParagraph({ ...vocabulary, negative_preferences: [],
+    raw_negative_statements: [source, "do not send attachments", "No royalty statements."],
+    negative_clauses: [
+      { clause_id: "refusal", raw_value: "No adult fantasy, except YA fantasy", status: "qualified", effect: "refusal" },
+      { clause_id: "instructions", raw_value: "do not send attachments", status: "nontrait", effect: "nontrait" },
+    ],
+  });
+  assert.equal(paragraph, `${source} No royalty statements.`);
+});
+
+test("the empty message requires both missing badges and missing refusal statements", () => {
+  for (const currentVocabulary of [undefined, { ...vocabulary, negative_preferences: [], raw_negative_statements: [], negative_clauses: [] }]) {
+    const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, { vocabulary: currentVocabulary }));
+    assert.ok(html.includes("No exclusions listed"));
+  }
+  const html = renderToStaticMarkup(React.createElement(sections.AgentVocabularySections, {
+    vocabulary: { ...vocabulary, raw_negative_statements: [], negative_clauses: [],
+      negative_preferences: [{ ...trait, raw_value: "", requires_exception_aware_matching: false }] },
+  }));
+  const section = html.match(/<section[^>]*aria-label="Not interested in">([\s\S]*?)<\/section>/)[1];
+  assert.ok(section.includes(">Science Fiction</span>"));
+  assert.ok(!section.includes("No exclusions listed"));
+});
+
+
+test("unknown availability explains missing confirmation and supports keyboard focus", () => {
+  const captured = [];
+  const statusComponent = load("app/components/agent-vocabulary-sections.tsx", {
+    "@/lib/agent-vocabulary": helpers,
+    "@/app/components/tooltip": ({ content, children }) => { captured.push(content); return children; },
+  });
+  for (const value of ["unknown", null, undefined]) {
+    const html = renderToStaticMarkup(React.createElement(statusComponent.AgentSubmissionStatus, {
+      vocabulary: { ...vocabulary, submission_status: value },
+    }));
+    assert.match(html, /Unknown Status/);
+    assert.match(html, /tabindex="0"/);
+    assert.equal(captured.at(-1), "Current submission availability is unconfirmed.");
+  }
+  for (const value of ["open", "closed"]) {
+    const count = captured.length;
+    const html = renderToStaticMarkup(React.createElement(statusComponent.AgentSubmissionStatus, {
+      vocabulary: { ...vocabulary, submission_status: value },
+    }));
+    assert.equal(captured.length, count);
+    assert.ok(!html.includes("Unknown Status"));
+    assert.ok(html.includes(value === "open" ? "Open to Submissions" : "Closed to Submissions"));
+  }
+});
+
+test("contact methods retain channel information without displaying availability as a method", () => {
+  for (const raw of ["Closed", "closed", "Unknown", "open", null, undefined, "Email, closed", "Email, Phone"]) {
+    assert.equal(helpers.submissionMethods(raw).length, 0);
+  }
+  assert.equal(helpers.submissionMethods("E-Mail, QueryManager Form").join(", "), "Email, QueryManager Form");
+  assert.equal(helpers.submissionMethods(" email , E-Mail,  Postal   Mail ").join(", "), "Email, Postal Mail");
 });

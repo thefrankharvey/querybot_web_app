@@ -1,3 +1,4 @@
+import { submissionMethods } from "@/lib/agent-vocabulary";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import TooltipComponent from "@/app/components/tooltip";
 import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
@@ -16,6 +17,7 @@ const AgentContactDetails = ({
     isSubscribed: boolean;
 }) => {
 
+    const methods = submissionMethods(agent.status);
     const countryCode = agent.location?.country_code || agent?.country_code;
 
     return (
@@ -46,12 +48,12 @@ const AgentContactDetails = ({
                 <>
                     <h2 className="text-lg font-bold mb-2">Contact</h2>
                     <div className="flex flex-col gap-4 mb-4">
-                        {agent.status && agent.status !== "closed" && (
+                        {methods.length > 0 && (
                             <div className="flex flex-col gap-1">
                                 <label className="font-semibold">
                                     Preferred Contact Method:
                                 </label>
-                                <span>{agent.status}</span>
+                                <span>{methods.join(", ")}</span>
                             </div>
                         )}
                         {agent.email && (

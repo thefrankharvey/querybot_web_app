@@ -216,7 +216,7 @@ const SmartMatch = () => {
         saveWriterProjectId(
           getSmartMatchSaveProjectId(savedForm, returnedWriterProjectId),
         );
-        saveFormData(savedForm);
+        saveFormData({ ...savedForm, result_set_id: data.result_set_id });
         if (data.dashboard_project) {
           saveProjectName(data.dashboard_project.project_name);
           await updateProject(data.dashboard_project);
@@ -228,7 +228,7 @@ const SmartMatch = () => {
 
       if (data.matches.length > 0) {
         saveMatches(data.matches);
-        saveNextCursor(data.next_cursor);
+        saveNextCursor(typeof data.next_cursor === "number" ? data.next_cursor : -1);
       } else {
         setApiMessage("No matches found");
       }

@@ -1,15 +1,27 @@
+import TooltipComponent from "@/app/components/tooltip";
 import {
-  TRAIT_GROUPS, TRAIT_GROUP_LABELS, negativeBubbles, sameVocabularyScope, statementParagraph,
+  TRAIT_GROUPS, TRAIT_GROUP_LABELS, negativeBubbles, negativeStatementParagraph, sameVocabularyScope, statementParagraph,
   type AgentVocabulary, type MatchingContext, type TraitMatches,
 } from "@/lib/agent-vocabulary";
 
 export function AgentSubmissionStatus({ vocabulary }: { vocabulary?: AgentVocabulary | null }) {
   const status = vocabulary?.submission_status;
-  return <span className={`w-fit rounded-full border px-3 py-1 text-xs font-semibold ${
-    status === "open" ? "border-accent bg-accent text-white" : "border-accent/20 bg-white text-accent"
-  }`}>
+  const isUnknown = status !== "open" && status !== "closed";
+  const badge = <span
+    tabIndex={isUnknown ? 0 : undefined}
+    className={`w-fit rounded-full border px-3 py-1 text-xs font-semibold ${
+      status === "open" ? "border-accent bg-accent text-white" : "border-accent/20 bg-white text-accent"
+    }${isUnknown ? " cursor-help" : ""}`}
+  >
     {status === "open" ? "Open to Submissions" : status === "closed" ? "Closed to Submissions" : "Unknown Status"}
   </span>;
+
+  return isUnknown ? <TooltipComponent
+    asChild
+    content="Current submission availability is unconfirmed."
+  >
+    {badge}
+  </TooltipComponent> : badge;
 }
 
 export function AgentVocabularySections({ vocabulary, matches }: {
@@ -23,12 +35,7 @@ export function AgentVocabularySections({ vocabulary, matches }: {
   const interestGroups = ["genres", "subgenres", "themes"] as const;
   const negatives = vocabulary ? negativeBubbles(vocabulary) : [];
   const interestStatement = statementParagraph(vocabulary?.raw_genre_statements ?? []);
-  const negativeStatement = statementParagraph([
-    ...(vocabulary?.raw_negative_statements ?? []),
-    ...(vocabulary?.negative_preferences?.map((preference) => preference.raw_value) ?? []),
-    ...(vocabulary?.negative_clauses?.flatMap((clause) =>
-      [clause.raw_value, ...(clause.qualifier_text ? [clause.qualifier_text] : [])]) ?? []),
-  ]);
+  const negativeStatement = negativeStatementParagraph(vocabulary);
 
   return <>
     {interestGroups.map((group) => {
@@ -62,11 +69,9 @@ export function AgentVocabularySections({ vocabulary, matches }: {
           data-conditional={negative.conditional ? "true" : undefined}
           title={negative.conditional ? `Conditions apply. ${negative.text}` : negative.text}
           className="surface-tag px-2 py-1 text-sm">{negative.label}</span>)}
-      </div> : <p className="text-sm text-accent/72">No exclusions listed.</p>}
-      {negativeStatement && <details>
-        <summary className="cursor-pointer text-lg font-semibold">More details</summary>
-        <p className="mt-3 text-base leading-relaxed text-accent/78">{negativeStatement}</p>
-      </details>}
+      </div> : null}
+      {negativeStatement && <p className="text-base leading-relaxed text-accent/78">{negativeStatement}</p>}
+      {!negatives.length && !negativeStatement && <p className="text-sm text-accent/72">No exclusions listed.</p>}
     </section>
   </>;
 }

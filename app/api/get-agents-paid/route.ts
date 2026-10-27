@@ -66,6 +66,8 @@ export async function POST(req: NextRequest) {
     // Get last_index, status, and country_code from URL parameters
     const url = new URL(req.url);
     const last_index = url.searchParams.get("last_index") || "0";
+    const resultSetId = url.searchParams.get("result_set_id");
+    const resultSetQuery = resultSetId ? `&result_set_id=${encodeURIComponent(resultSetId)}` : "";
     const status = url.searchParams.get("status") || "";
     const country_code = url.searchParams.get("country_code") || "";
     const jsonData = await req.json();
@@ -114,7 +116,7 @@ export async function POST(req: NextRequest) {
     const countryQuery = country_code ? `&country_code=${country_code}` : "";
 
     const externalRes = await fetch(
-      `${getWqhApiEndpoint("get-agents-paid")}?limit=21&last_index=${last_index}${statusQuery}${countryQuery}`,
+      `${getWqhApiEndpoint("get-agents-paid")}?limit=21&last_index=${last_index}${statusQuery}${countryQuery}${resultSetQuery}`,
       {
         method: "POST",
         headers: {
@@ -155,7 +157,7 @@ export async function POST(req: NextRequest) {
       dashboardProject
         ? { ...data, dashboard_project: dashboardProject }
         : data,
-      { status: externalRes.status },
+      { status: externalRes.status, headers: { "Cache-Control": "private, no-store" } },
     );
   } catch (error) {
     if (error instanceof SmartMatchProjectError) {

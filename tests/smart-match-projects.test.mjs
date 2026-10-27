@@ -867,3 +867,18 @@ for (const tier of ["paid", "free"]) {
     }
   });
 }
+
+for (const tier of ["paid", "free"]) {
+  test(`${tier}: proxy preserves frozen result tokens and prevents response caching`, async () => {
+    const api = createApi();
+    const initial = searchRequest();
+    const request = new Request(initial.url + "&result_set_id=frozen-token", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: await initial.text(),
+    });
+    const response = await api.route(tier).POST(request);
+    assert.equal(response.status, 200);
+    assert.equal(response.headers.get("Cache-Control"), "private, no-store");
+    const upstream = api.calls.find((call) => call.url?.includes(`/get-agents-${tier}?`));
+    assert.equal(new URL(upstream.url).searchParams.get("result_set_id"), "frozen-token");
+  });
+}

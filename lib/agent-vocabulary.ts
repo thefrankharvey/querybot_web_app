@@ -1,3 +1,14 @@
+export function submissionMethods(rawStatus?: string | null): string[] {
+  if (typeof rawStatus !== "string") return [];
+  const labels: Record<string, string> = {
+    "e-mail": "Email", email: "Email", "online form": "Online Form",
+    "querymanager form": "QueryManager Form", "postal mail": "Postal Mail", mail: "Postal Mail",
+  };
+  const parts = rawStatus.trim().toLowerCase().replace(/\s+/g, " ").split(",").map((part) => part.trim());
+  return parts.every((part) => Object.hasOwn(labels, part))
+    ? [...new Set(parts.map((part) => labels[part]))] : [];
+}
+
 export const TRAIT_GROUPS = ["genres", "subgenres", "themes", "formats", "audiences"] as const;
 export type TraitGroup = typeof TRAIT_GROUPS[number];
 export const TRAIT_GROUP_LABELS: Record<TraitGroup, string> = {
@@ -13,10 +24,10 @@ export interface TraitMatches {
   version: number;
   build_id: string;
   workspace_id: string;
-  basis: "reviewed_trait_overlap";
-  score_basis: "legacy_matcher";
+  basis: "reviewed_trait_overlap" | "structured_preference_evidence";
+  score_basis: "legacy_matcher" | "manuscript_fit_v2";
   groups: Partial<Record<TraitGroup, (ReviewedTrait & {
-    match_type: "direct" | "alias"; selected_values: string[];
+    match_type: "direct" | "alias" | "explicit" | "broader" | "conditional"; selected_values: string[];
   })[]>>;
 }
 export interface AgentVocabulary {
@@ -33,6 +44,7 @@ export interface AgentVocabulary {
   })[];
   negative_clauses?: {
     clause_id: string; raw_value: string; status: string; effect: string;
+    original_raw_value?: string | null;
     classification?: string | null; qualifier_text?: string | null;
   }[];
 }
@@ -98,4 +110,34 @@ export function negativeBubbles(vocabulary: AgentVocabulary) {
     text: statementParagraph(bubble.statements),
     conditional: bubble.conditional,
   }));
+}
+
+
+export function negativeStatementParagraph(vocabulary?: AgentVocabulary | null): string {
+  if (!vocabulary) return "";
+  const clauses = vocabulary.negative_clauses ?? [];
+  const isRefusal = (clause: typeof clauses[number]) => clause.status !== "nontrait"
+    && ["refusal", "refuse", "soft"].includes(clause.effect);
+  const refusalStatements = [
+    ...(vocabulary.negative_preferences?.map((preference) => preference.raw_value) ?? []),
+    ...clauses.filter(isRefusal).map((clause) =>
+      statementParagraph([clause.raw_value, clause.qualifier_text ?? ""])),
+  ];
+  const normalize = (value: string) => value.trim().replace(/\s+/g, " ").toLowerCase();
+  const phrasePattern = (value: string) => new RegExp(
+    `(?<![\\p{L}\\p{N}])${normalize(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}\\p{N}])`, "gu");
+  const ignoredStatements = clauses.filter((clause) => clause.status === "nontrait"
+    || ["nontrait", "context", "policy"].includes(clause.effect))
+    .flatMap((clause) => [clause.raw_value, clause.original_raw_value ?? ""])
+    .filter((value) => value.trim());
+  const rawStatements = (vocabulary.raw_negative_statements ?? []).filter((statement) => {
+    // Preserve complete source wording for refusals and unclassified statements.
+    // Omit text only when reviewed non-refusal clauses cover the whole statement.
+    const text = normalize(statement);
+    if (refusalStatements.some((refusal) => refusal.trim() && phrasePattern(refusal).test(text))) return true;
+    const remainder = ignoredStatements.reduce((remaining, ignored) =>
+      remaining.replace(phrasePattern(ignored), " "), text);
+    return /[\p{L}\p{N}]/u.test(remainder);
+  });
+  return statementParagraph([...rawStatements, ...refusalStatements]);
 }

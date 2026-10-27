@@ -131,6 +131,7 @@ export const AgentMatchesPaywall = ({
           saveFormData({
             ...formData,
             writer_project_id: data.writer_project_id,
+            result_set_id: data.result_set_id,
           });
       }
 
@@ -138,9 +139,7 @@ export const AgentMatchesPaywall = ({
         saveMatches(data.matches);
       }
 
-      if (data.next_cursor !== null) {
-        saveNextCursor(data.next_cursor);
-      }
+      saveNextCursor(typeof data.next_cursor === "number" ? data.next_cursor : -1);
     },
     onError: (error) => {
       console.error(error);

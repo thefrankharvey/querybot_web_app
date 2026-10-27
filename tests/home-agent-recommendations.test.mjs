@@ -285,11 +285,15 @@ test("shared profiles save and remove within the supplied project without curren
   const projectScope = load("app/utils/project-scope.ts", {
     "@/app/constants": { DEFAULT_PROJECT_NAME: "Untitled Project" },
   });
-  const agent = { agent_id: "agent-a", name: "Agent A", genres: "fantasy", normalized_score: 4, status: "open" };
+  const vocabularyHelpers = load("lib/agent-vocabulary.ts");
+  const vocabularySections = load("app/components/agent-vocabulary-sections.tsx", { "@/lib/agent-vocabulary": vocabularyHelpers, "@/app/components/tooltip": ({ children }) => children });
+  const agent = { agent_id: "agent-a", name: "Agent A", genres: "fantasy", normalized_score: 4, status: "open",
+    vocabulary: { submission_status: "closed", raw_negative_statements: ["No horror unless it is humorous."], trait_details: {} } };
   const project = { projectName: "Older book", writerProjectId: null, dashboardProjectId: "dashboard-a" };
   let rows = [{ id: "other-row", index_id: "agent-a", project_name: "Current book", writer_project_id: "other-project" }];
   let saveClick, savedPayload, removedRow, contactAccess;
   const component = load("app/(app)/agent-matches/components/agent-profile-details.tsx", {
+    "@/app/components/agent-vocabulary-sections": vocabularySections,
     "@/app/components/agent-save-button": { AgentSaveButton: ({ onSave }) => { saveClick = onSave; return React.createElement("button", null, "Save Agent"); } },
     "next/link": ({ children, ...props }) => React.createElement("a", props, children),
     "@/app/utils": { formatGenres: (value) => value.split(","), formatDisplayString: (value) => value, capitalizeFirstCharacter: (value) => value },
@@ -308,6 +312,9 @@ test("shared profiles save and remove within the supplied project without curren
   }).default;
   const render = (hasFullAccess) => renderToStaticMarkup(React.createElement(component, { agent, project, hasFullAccess, backHref: "/home" }));
   assert.match(render(false), /Save Agent/);
+  assert.match(render(false), /Closed to Submissions/);
+  assert.match(render(false), /No horror unless it is humorous\./);
+  assert.doesNotMatch(render(false), /No exclusions listed|Why this match/);
   assert.equal(contactAccess, false);
   saveClick({ currentTarget: {} });
   await new Promise((resolve) => setImmediate(resolve));
@@ -318,4 +325,39 @@ test("shared profiles save and remove within the supplied project without curren
   assert.match(render(true), /Remove Agent/);
   assert.equal(removedRow, "matching-row");
   assert.equal(contactAccess, true);
+});
+
+
+test("search profiles keep frozen v2 details and project scope after shared profile extraction", () => {
+  let profileProps, requestedAgentId;
+  let rankingVersion = "manuscript-fit-v2.19";
+  const cached = { agent_id: "agent-a", name: "Snapshot agent", normalized_score: 4.2,
+    score: 42, vocabulary: { build_id: "snapshot" }, trait_matches: { build_id: "snapshot" }, match_hits: { direct: {} } };
+  const component = load("app/(app)/agent-matches/[agent-number]/page.tsx", {
+    "next/link": ({ children, ...props }) => React.createElement("a", props, children),
+    "next/navigation": { useParams: () => ({ "agent-number": "0" }) },
+    "@/app/hooks/use-clerk-user": { useClerkUser: () => ({ isSubscribed: false, isLoading: false }) },
+    "@/app/(app)/context/agent-matches-context": { useAgentMatches: () => ({
+      matches: [{ ...cached, ranking_version: rankingVersion }], isLoading: false,
+      projectName: "Current book", writerProjectId: "writer-a", formData: { save_project: { dashboardProjectId: "dashboard-a" } },
+    }) },
+    "@/app/hooks/use-fetch-agent": { useFetchAgent: (id) => {
+      requestedAgentId = id;
+      return { data: id ? { agent: { name: "Current details", normalized_score: 0, score: 0, vocabulary: { build_id: "new" }, trait_matches: {} } } : undefined };
+    } },
+    "@/app/ui-primitives/spinner": { Spinner: () => null },
+    "../components/agent-profile-details": (props) => { profileProps = props; return null; },
+  }).default;
+  renderToStaticMarkup(React.createElement(component));
+  assert.equal(requestedAgentId, null);
+  assert.equal(profileProps.agent.vocabulary.build_id, "snapshot");
+  assert.equal(profileProps.agent.normalized_score, 4.2);
+  assert.deepEqual(plain(profileProps.project), { projectName: "Current book", writerProjectId: "writer-a", dashboardProjectId: "dashboard-a" });
+  rankingVersion = undefined;
+  renderToStaticMarkup(React.createElement(component));
+  assert.equal(requestedAgentId, "agent-a");
+  assert.equal(profileProps.agent.name, "Current details");
+  assert.equal(profileProps.agent.normalized_score, 4.2);
+  assert.equal(profileProps.agent.score, 42);
+  assert.equal(profileProps.agent.trait_matches, cached.trait_matches);
 });

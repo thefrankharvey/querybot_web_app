@@ -52,7 +52,9 @@ export interface MatchHits {
 
 import type { AgentVocabulary, TraitMatches } from "@/lib/agent-vocabulary";
 
-export interface AgentMatch {
+import type { SearchFitMetadata } from "@/lib/agent-search-v2";
+
+export interface AgentMatch extends SearchFitMetadata {
   vocabulary?: AgentVocabulary | null;
   trait_matches?: TraitMatches | null;
   country_code?: string;
@@ -89,6 +91,7 @@ export interface AgentMatch {
 }
 
 export interface FormData {
+  result_set_id?: string;
   expected_profile_revision?: string | null;
   save_project?: SmartMatchProjectReference;
   writer_project_id?: string | null;
@@ -106,12 +109,12 @@ export interface FormData {
 
 // Availability now uses canonical status. Discard results and pagination from the legacy filter.
 const QUERY_KEYS = {
-  agentMatches: ["agentMatches-vocabulary-v1-submission-status-v2"] as const,
+  agentMatches: ["agentMatches-vocabulary-v1-submission-status-v2-ranking-v2"] as const,
   formData: ["formData"] as const,
-  nextCursorCount: ["nextCursorCount-submission-status-v2"] as const,
-  currentCursor: ["currentCursor-submission-status-v2"] as const,
-  totalAgents: ["totalAgents-submission-status-v2"] as const,
-  spreadsheetUrl: ["spreadsheetUrl-submission-status-v2"] as const,
+  nextCursorCount: ["nextCursorCount-submission-status-v2-ranking-v2"] as const,
+  currentCursor: ["currentCursor-submission-status-v2-ranking-v2"] as const,
+  totalAgents: ["totalAgents-submission-status-v2-ranking-v2"] as const,
+  spreadsheetUrl: ["spreadsheetUrl-submission-status-v2-ranking-v2"] as const,
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
   projectName: ["projectName"] as const,
@@ -119,12 +122,12 @@ const QUERY_KEYS = {
 };
 
 const STORAGE_KEYS = {
-  agentMatches: "agent_matches_vocabulary_v1_submission_status_v2",
+  agentMatches: "agent_matches_vocabulary_v1_submission_status_v2-ranking-v2",
   formData: "query_form_data",
-  nextCursorCount: "future_request_count_submission_status_v2",
-  currentCursor: "current_cursor_submission_status_v2",
-  totalAgents: "total_agents_submission_status_v2",
-  spreadsheetUrl: "spreadsheet_url_submission_status_v2",
+  nextCursorCount: "future_request_count_submission_status_v2-ranking-v2",
+  currentCursor: "current_cursor_submission_status_v2-ranking-v2",
+  totalAgents: "total_agents_submission_status_v2-ranking-v2",
+  spreadsheetUrl: "spreadsheet_url_submission_status_v2-ranking-v2",
   statusFilter: "status_filter",
   countryFilter: "country_filter",
   projectName: "project_name",
@@ -166,6 +169,7 @@ interface AgentSearchApiResponse extends AgentExportApiResponse {
   writer_project_id?: string | null;
   dashboard_project?: DashboardProject;
   matches?: AgentMatch[];
+  result_set_id?: string;
   next_cursor?: number | null;
   total_agents?: number;
   total_available?: number;
@@ -580,7 +584,7 @@ const useAgentData = () => {
       saveWriterProjectId(
         getSmartMatchSaveProjectId(savedForm, refreshedProjectId),
       );
-      saveFormDataMutation.mutate(savedForm);
+      saveFormDataMutation.mutate({ ...savedForm, result_set_id: data.result_set_id });
       if (data.dashboard_project) {
         await updateProject(data.dashboard_project);
         void refetchProjects();
@@ -590,9 +594,7 @@ const useAgentData = () => {
       saveStatusFilterMutation.mutate("all");
       saveCountryFilterMutation.mutate("all");
 
-      if (typeof data.next_cursor === "number") {
-        saveNextCursorMutation.mutate(data.next_cursor);
-      }
+      saveNextCursorMutation.mutate(typeof data.next_cursor === "number" ? data.next_cursor : -1);
 
       if (savedProjectName) {
         saveProjectName(savedProjectName);
