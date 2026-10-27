@@ -98,6 +98,7 @@ export interface FormData {
   project_name?: string;
   email: string;
   genre: string;
+  genres?: string[];
   subgenres: string[];
   format: string;
   target_audience: string;

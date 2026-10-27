@@ -361,3 +361,12 @@ test("search profiles keep frozen v2 details and project scope after shared prof
   assert.equal(profileProps.agent.score, 42);
   assert.equal(profileProps.agent.trait_matches, cached.trait_matches);
 });
+
+test("home recommendations preserve all genres from a saved project", async () => {
+  const api = harness({ history: [{ ...latestProject, genres: ["fantasy", "romance"] }] });
+  assert.equal((await api.get()).status, 200);
+  const payload = JSON.parse(api.calls[1].options.body);
+  assert.deepEqual(payload.genres, ["fantasy", "romance"]);
+  assert.equal(payload.genre, "fantasy");
+  assert.equal(payload.recommendations_only, true);
+});

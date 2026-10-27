@@ -882,3 +882,15 @@ for (const tier of ["paid", "free"]) {
     assert.equal(new URL(upstream.url).searchParams.get("result_set_id"), "frozen-token");
   });
 }
+
+for (const tier of ["paid", "free"]) {
+  test(`${tier}: forwards every selected genre with the authenticated identity`, async () => {
+    const api = createApi();
+    const response = await api.route(tier).POST(searchRequest({ genre: "fantasy", genres: ["fantasy", "romance"], email: "forged@example.test" }));
+    assert.equal(response.status, 200);
+    const sent = JSON.parse(api.calls.find((call) => call.url?.includes(`/get-agents-${tier}`)).init.body);
+    assert.deepEqual(sent.genres, ["fantasy", "romance"]);
+    assert.equal(sent.genre, "fantasy");
+    assert.equal(sent.email, "writer+test@example.test");
+  });
+}

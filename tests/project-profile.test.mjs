@@ -533,3 +533,12 @@ test("both empty and populated profiles offer Delete project beside their profil
   );
   assert.match(saved, /Edit traits<\/button><button>Delete project<\/button>/);
 });
+
+test("restored multi-genre projects retain their selections and legacy projects keep their shape", () => {
+  for (const genres of [["fantasy", "romance"], JSON.stringify(["fantasy", "romance"])]) {
+    const profile = profiles.toProjectProfile({ genres }, "Saved book");
+    assert.deepEqual(plain(profile.form.genres), ["fantasy", "romance"]);
+    assert.equal(profile.form.genre, "fantasy");
+  }
+  assert.equal(profiles.toProjectProfile({ genre: "fantasy" }, "Old book").form.genres, undefined);
+});

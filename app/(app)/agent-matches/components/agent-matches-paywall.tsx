@@ -1,6 +1,5 @@
 import { getSmartMatchSaveProjectId } from "@/app/utils/smart-match-projects";
 import { isSameProjectScope } from "@/app/utils/project-scope";
-import { QUERY_LIMIT } from "@/app/constants";
 import { useMutation } from "@tanstack/react-query";
 import {
   useAgentMatches,
@@ -8,6 +7,7 @@ import {
   AgentMatch,
 } from "../../context/agent-matches-context";
 import { useRef } from "react";
+import { toast } from "sonner";
 import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
 import { SaveAgentPayload } from "@/app/types";
@@ -64,7 +64,6 @@ export const AgentMatchesPaywall = ({
   const { agentsList, saveAgent, saveAllAgents, savingAgentId, isSavingAll } =
     useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
-  const nextCursor = QUERY_LIMIT;
   const activeProjectName = projectName
     ? normalizeProjectName(projectName)
     : "";
@@ -107,12 +106,16 @@ export const AgentMatchesPaywall = ({
       );
 
       if (!res.ok) {
-        throw new Error(`Request failed: ${res.status}`);
+        const error = await res.json().catch(() => null);
+        throw new Error(error?.error ?? error?.message ?? `Request failed: ${res.status}`);
       }
 
       return res.json();
     },
-    onSuccess: (data) => {
+    onSuccess: (data, params) => {
+      saveCurrentCursor(0);
+      saveStatusFilter(params.status);
+      saveCountryFilter(params.country_code);
       const nextTotal =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -143,14 +146,12 @@ export const AgentMatchesPaywall = ({
     },
     onError: (error) => {
       console.error(error);
+      toast.error(error.message);
     },
   });
 
   const runFilterQuery = (status: string, country: string) => {
-    if (!formData) return;
-
-    saveCurrentCursor(0);
-    saveNextCursor(nextCursor);
+    if (!formData || queryMutation.isPending) return;
     queryMutation.mutate({
       formData,
       status,
@@ -160,12 +161,10 @@ export const AgentMatchesPaywall = ({
   };
 
   const handleStatusChange = (newStatus: string) => {
-    saveStatusFilter(newStatus);
     runFilterQuery(newStatus, countryFilter);
   };
 
   const handleCountryChange = (newCountry: string) => {
-    saveCountryFilter(newCountry);
     runFilterQuery(statusFilter, newCountry);
   };
 

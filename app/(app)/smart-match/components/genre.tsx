@@ -31,7 +31,7 @@ const Genre = ({
     try {
       const result = await createOrSelectTrait("genre", value);
 
-      setForm((prev) => ({ ...prev, genre: result.value }));
+      setForm((prev) => ({ ...prev, genre: result.value, genres: undefined }));
       setError("");
       setShowInput(false);
     } catch (addError) {
@@ -42,7 +42,7 @@ const Genre = ({
   };
 
   const handleSelectChange = (value: string) => {
-    setForm((prev) => ({ ...prev, genre: value }));
+    setForm((prev) => ({ ...prev, genre: value, genres: undefined }));
   };
 
   return (
@@ -79,6 +79,11 @@ const Genre = ({
           </Button>
         </TooltipComponent>
       </div>
+      {form.genres && form.genres.length > 1 && (
+        <p className="mt-2 text-sm text-muted-foreground">
+          Saved genres: {form.genres.join(", ")}. Choosing a genre replaces this selection.
+        </p>
+      )}
       <CustomInput
         showInput={showInput}
         setShowInput={setShowInput}

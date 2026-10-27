@@ -21,6 +21,7 @@ export interface GetAgentsPaidPayload {
   writer_project_id?: string | null;
   expected_profile_revision?: string;
   genre?: string;
+  genres?: string[];
   subgenres?: string[];
   target_audience?: string;
   comps?: string[];
@@ -92,6 +93,7 @@ export async function POST(req: NextRequest) {
         projectName: jsonData.project_name,
       }),
       genre: jsonData.genre,
+      genres: jsonData.genres,
       expected_profile_revision:
         typeof jsonData.expected_profile_revision === "string"
           ? jsonData.expected_profile_revision

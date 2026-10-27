@@ -6,6 +6,7 @@ export type RestoredSmartMatchComp = {
 export type RestoredSmartMatchForm = {
   project_name: string;
   genre: string;
+  genres?: string[];
   subgenres: string[];
   format: string;
   target_audience: string;
@@ -22,6 +23,7 @@ export type StoredWriterProject = {
   project_title?: unknown;
   title?: unknown;
   genre?: unknown;
+  genres?: unknown;
   subgenres?: unknown;
   format?: unknown;
   target_audience?: unknown;
@@ -194,9 +196,11 @@ export function selectMostRecentNamedWriterProject(
 export function normalizeWriterProjectForSmartMatch(
   project: StoredWriterProject,
 ): RestoredSmartMatchForm {
+  const genres = normalizeStringList(project.genres);
   return {
     project_name: getStoredWriterProjectName(project),
-    genre: normalizeSingleString(project.genre),
+    genre: normalizeSingleString(project.genre) || genres[0] || "",
+    ...(genres.length ? { genres } : {}),
     subgenres: normalizeStringList(project.subgenres),
     format: normalizeSingleString(project.format),
     target_audience: getString(project.target_audience),

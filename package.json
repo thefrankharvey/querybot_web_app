@@ -10,7 +10,8 @@
     "schedule:blogs": "node scripts/schedule-blog-posts.mjs",
     "test:slushwire": "node --test tests/slushwire-newsletter.test.mjs",
     "typecheck:slushwire": "tsc -p tsconfig.slushwire.json --noEmit",
-    "dev:backend": "node scripts/dev-local-backend.mjs"
+    "dev:backend": "node scripts/dev-local-backend.mjs",
+    "typecheck:app": "tsc -p tsconfig.app.json --noEmit --incremental false"
   },
   "dependencies": {
     "@clerk/backend": "^2.5.0",

@@ -46,6 +46,7 @@ const SmartMatchWalkthrough = dynamic(
 export type FormState = {
   project_name: string;
   genre: string;
+  genres?: string[];
   subgenres: string[];
   format: string;
   target_audience: string;
@@ -350,6 +351,7 @@ const SmartMatch = () => {
       save_project: existingProject ? submittedProject : undefined,
       project_name: submittedProjectName,
       genre: form.genre,
+      genres: form.genres,
       subgenres: form.subgenres,
       format: form.format,
       target_audience: form.target_audience,

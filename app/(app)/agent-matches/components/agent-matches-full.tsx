@@ -137,6 +137,8 @@ export const AgentMatchesFull = ({
 
     onSuccess: (data, params) => {
       saveCurrentCursor(params.nextCursor);
+      saveStatusFilter(params.status);
+      saveCountryFilter(params.country_code);
       const nextTotal =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -208,11 +210,8 @@ export const AgentMatchesFull = ({
   };
 
   const handleStatusChange = (newStatus: string) => {
-    saveStatusFilter(newStatus);
     // Reset pagination to page 1 and trigger new query
-    if (formData) {
-      saveCurrentCursor(0);
-      saveNextCursor(QUERY_LIMIT);
+    if (formData && !queryMutation.isPending) {
       queryMutation.mutate({
         formData,
         nextCursor: 0,
@@ -225,11 +224,8 @@ export const AgentMatchesFull = ({
   };
 
   const handleCountryChange = (newCountry: string) => {
-    saveCountryFilter(newCountry);
     // Reset pagination to page 1 and trigger new query
-    if (formData) {
-      saveCurrentCursor(0);
-      saveNextCursor(QUERY_LIMIT);
+    if (formData && !queryMutation.isPending) {
       queryMutation.mutate({
         formData,
         nextCursor: 0,

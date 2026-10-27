@@ -147,3 +147,36 @@ NEXT_PUBLIC_SITE_URL=https://yourdomain.com
 # On-demand ISR secret used by /api/revalidate
 REVALIDATE_SECRET=replace-with-a-random-string
 ```
+
+### Search integration verification (October 27, 2026)
+
+`feat/ui-search-improvements` is rebased onto main `a8218a4`. The paired backend
+is `query_bot_flask_app` branch `codex/legacy-agent-sync`, incorporating backend
+main `2b2d1332`. Production search activation remains a separate step.
+
+The integration preserves `genres` through search proxies, restored searches,
+and homepage recommendations. The single-genre selector shows saved multiple
+genres and clears that list when a replacement is chosen. Failed filter requests
+keep the displayed result snapshot, filters, and cursors intact.
+
+Verification: 231 UI tests, `npm run build`, changed-file ESLint, and
+`npm run typecheck:app` passed. Full-repository TypeScript checking still reports
+3,088 diagnostics in unchanged generated blog files and route types; the build
+already skips type/lint validation. `typecheck:app` explicitly excludes blog
+paths and checks the remaining application. It does not make the whole-repo
+TypeScript check green.
+
+For a real proxy-to-backend contract test, install UI dependencies and run from
+the paired backend with Python 3.11 requirements and local PostgreSQL binaries:
+
+```sh
+DB_URL=sqlite:///:memory: WQH_UI_CONTRACT_REPO=/absolute/path/to/querybot_web_app \
+  python -m pytest tests/agent_search_v2/test_ui_http_contract.py -q
+```
+
+That fixture invokes `tests/integration/search-backend.contract.mjs`, starts a
+loopback Flask server and disposable PostgreSQL, and verifies search, pagination,
+paid/free limits, exports, history, profiles, recommendations, and trait reads.
+It uses synthetic Clerk identity and dashboard storage. Hosted authentication,
+account saves, and preview deployment configuration still require a pre-cutover
+smoke test. See the backend's `app/docs/legacy_agent_sync.md` for the full record.
