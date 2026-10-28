@@ -45,12 +45,8 @@ if (typeof window !== "undefined") {
     callback?.("The Excel export status could not be checked.");
   };
 
-  // Clean up on page unload
-  if (typeof window !== "undefined") {
-    window.addEventListener("beforeunload", () => {
-      workerInstance?.terminate();
-    });
-  }
+  // Downloads can fire beforeunload without destroying the document. Keep the
+  // worker alive for later exports; the browser cleans it up with the document.
 }
 
 // Public API - export these functions
